@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-*
+
+# 数据文件（已在 HF 上）
+data/
+outputs/
+checkpoints/
+logs/
+
+# 训练相关（不包含）
+verl/
+agentfly/rewards/
+
+# 其他
+.DS_Store
+*.log
+*.pkl
+*.pth
+*.pt
+*.ckpt
+
+# 环境
+.env
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# 临时文件
+*.tmp
+*.bak
+*~
+

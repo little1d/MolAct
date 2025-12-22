@@ -1,0 +1,37 @@
+# Core dependencies
+multiprocess
+requests
+PyYAML
+timeout-decorator
+redis
+docker
+openai
+faiss-cpu
+termcolor
+tenacity
+nest-asyncio
+pytest
+pytest-asyncio
+bs4
+qwen_vl_utils
+onnxruntime
+mpmath
+
+# LLM and ML
+torch>=2.0.0
+transformers>=4.30.0
+vllm>=0.10.0
+
+# Chemistry tools
+rdkit-pypi
+deepchem
+
+# Data processing
+numpy
+pandas
+tqdm
+
+# Optional: for visualization and notebooks
+wandb
+jupyter
+ipython
