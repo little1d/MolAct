@@ -130,11 +130,14 @@ We evaluate on [ChemCoTBench](https://github.com/IDEA-XL/ChemCoTBench) for both 
 If you use MolAct in your research, please cite:
 
 ```bibtex
-@article{molact2024,
-  title={MolAct: Molecular Action Agents for Chemistry Tasks},
-  author={Your Name},
-  journal={Your Journal},
-  year={2024}
+@article{molact2025,
+  title={MolAct: An Agentic RL Framework for Molecular Editing and Property Optimization},
+  author={Zhuo Yang and Yeyun Chen and Jiaqing Xie and Ben Gao and Shuaike Shen and Wanhao Liu and Liujia Yang and Beilun Wang and Tianfan Fu and Yuqiang Li},
+  year={2025},
+  eprint={2512.20135},
+  archivePrefix={arXiv},
+  primaryClass={cs.AI},
+  url={https://arxiv.org/abs/2512.20135}
 }
 ```
 
