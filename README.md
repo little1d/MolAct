@@ -3,6 +3,7 @@
 # MolAct: An Agentic RL Framework for Molecular Editing and Property Optimization(Work in progress)
 
 [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Collection-blue)](https://huggingface.co/collections/little1d/molact)
+[![arXiv](https://img.shields.io/badge/arXiv-2512.20135-b31b1b.svg)](https://arxiv.org/abs/2512.20135)
 [![](https://raw.githubusercontent.com/SwanHubX/assets/main/badge2.svg)](https://swanlab.cn/)
 
 </div>
@@ -19,6 +20,7 @@ MolAct is an Agentic RL framework that trains LLMs to design molecules through a
 
 ## 📰 Latest News
 
+- **2025-12-24**: 📄 Our paper is now available on [arXiv](https://arxiv.org/abs/2512.20135)!
 - **2025-12-23**: 🎉 We released the inference code, training datasets, and pre-trained models for MolAct! You can now run inference with our pre-trained models on molecular editing and optimization tasks.
 
 ## 🚀 Quick Start
