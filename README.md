@@ -140,6 +140,16 @@ We evaluate on [ChemCoTBench](https://github.com/IDEA-XL/ChemCoTBench) for both 
 
 </div>
 
+## 🎬 Demo
+
+The following shows an example of model training on molecular editing task using Qwen-2.5-7B as the base model on 4 H200 hardware.
+
+<div align="center">
+
+<video src="assets/demo.mp4" controls width="800"></video>
+
+</div>
+
 ## 📝 Citation
 
 If you use MolAct in your research, please cite:
