@@ -1,0 +1,802 @@
+[
+    {
+        "id": "ded79570-8ef5-43d7-b486-32c8568c4a43",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Cn1c(SCC(=O)Nc2ccccc2)nc2ccccc2c1=O.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"2-(3-methyl-4-oxoquinazolin-2-yl)sulfanyl-N-phenylacetamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "46328796-1178-467f-a086-ffb5236756b9",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: NC(=O)c1cncnc1Nc1cccc(C(F)(F)F)c1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"4-[3-(trifluoromethyl)anilino]pyrimidine-5-carboxamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "e2277dff-b1d9-40f6-ae9e-3c8743db3960",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1ncc2nc(-c3ccc(F)cc3)c(=O)n(C)c2n1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"6-(4-fluorophenyl)-2-methoxy-8-methylpteridin-7-one\", \"type\": \"small\"}"
+    },
+    {
+        "id": "09bc7dd8-c98e-43ca-8930-aa7d06f0822e",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: c1cc(Nc2ccon2)nc(Nc2ccc(N3CCOCC3)cc2)n1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"2-N-(4-morpholin-4-ylphenyl)-4-N-(1,2-oxazol-3-yl)pyrimidine-2,4-diamine\", \"type\": \"small\"}"
+    },
+    {
+        "id": "74c71f10-e1e0-4bda-a7e0-94589663ae5e",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Cc1ccc(-c2csc3ncnc(NCCCC(=O)O)c23)cc1C.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"4-[[5-(3,4-dimethylphenyl)thieno[2,3-d]pyrimidin-4-yl]amino]butanoic acid\", \"type\": \"small\"}"
+    },
+    {
+        "id": "9c00552f-282b-4a71-bc30-d18e73c94531",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(Nc1cnccn1)c1ccccc1NCc1ccncc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"N-pyrazin-2-yl-2-(pyridin-4-ylmethylamino)benzamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "a8206d52-5d1a-4f0b-b422-aa99e6aafb1b",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=c1cc(-c2cccc(O)c2)oc2c1ccc1ccccc12.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"2-(3-hydroxyphenyl)benzo[h]chromen-4-one\", \"type\": \"small\"}"
+    },
+    {
+        "id": "809243d4-6c5e-451f-aed5-29fc86c79aec",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Nc1ccc(C(=O)C=Cc2ccc(-c3ccccc3)cc2)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"1-(4-aminophenyl)-3-(4-phenylphenyl)prop-2-en-1-one\", \"type\": \"small\"}"
+    },
+    {
+        "id": "8e86a6d7-2ffb-484a-92f2-95f7520645e2",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(CCCc1ccccc1)Nc1ccc(O)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"N-(4-hydroxyphenyl)-4-phenylbutanamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "301bfbb0-1df4-4270-9a6e-d7604f411dd7",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=c1cc(-c2ccccc2Cl)oc2c1ccc1ccccc12.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"2-(2-chlorophenyl)benzo[h]chromen-4-one\", \"type\": \"small\"}"
+    },
+    {
+        "id": "4c09d16b-b060-4026-bfe2-ed8b6dfe5879",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Cn1c(=O)c(-c2ccccc2)nc2cncnc21.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"8-methyl-6-phenylpteridin-7-one\", \"type\": \"small\"}"
+    },
+    {
+        "id": "6d80218d-85fd-41ad-893d-f65bf34ab7e0",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Cc1[nH]c(C=C2C(=O)Nc3ccccc32)c(C)c1Br.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"3-[(4-bromo-3,5-dimethyl-1H-pyrrol-2-yl)methylidene]-1H-indol-2-one\", \"type\": \"small\"}"
+    },
+    {
+        "id": "41de35e2-991f-4486-adb2-6d51b02f3aae",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: c1nc(N2CCCCC2)c2cc[nH]c2n1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"4-piperidin-1-yl-7H-pyrrolo[2,3-d]pyrimidine\", \"type\": \"small\"}"
+    },
+    {
+        "id": "92315d49-d9a3-4479-a344-7b540ee8e676",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Cn1c(=O)c(-c2c(Cl)cccc2Cl)cc2cnc(O)nc21.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"6-(2,6-dichlorophenyl)-8-methyl-1H-pyrido[2,3-d]pyrimidine-2,7-dione\", \"type\": \"small\"}"
+    },
+    {
+        "id": "f732206a-9dad-4bf0-8ea9-04aee33055a0",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Nc1nccc(-c2ccc3ccccc3c2)n1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"4-naphthalen-2-ylpyrimidin-2-amine\", \"type\": \"small\"}"
+    },
+    {
+        "id": "5bc9b1c9-eeb6-4957-9169-917871a1122a",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CC(C)n1cnc2c(Nc3cccc(Cl)c3)ncnc21.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"N-(3-chlorophenyl)-9-propan-2-ylpurin-6-amine\", \"type\": \"small\"}"
+    },
+    {
+        "id": "8f171d33-ae7c-4b5d-b793-691b1bef397c",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CCC(C)Nc1ncnc2cc(OC)c(OC)cc12.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"N-butan-2-yl-6,7-dimethoxyquinazolin-4-amine\", \"type\": \"small\"}"
+    },
+    {
+        "id": "06d27451-ced9-4ed7-a9b8-a72e75ec95a9",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: c1ccc(Nc2ccc(Oc3nccnc3C3CCOC3)cc2)nc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"N-[4-[3-(oxolan-3-yl)pyrazin-2-yl]oxyphenyl]pyridin-2-amine\", \"type\": \"small\"}"
+    },
+    {
+        "id": "9e877e59-bce5-47df-86f2-43ab0648833e",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=c1cc(N2CCOCC2)oc2c(OCc3ccccc3)cccc12.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"2-morpholin-4-yl-8-phenylmethoxychromen-4-one\", \"type\": \"small\"}"
+    },
+    {
+        "id": "56c89c69-e27e-4f14-865e-3e92e4212430",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1ccc(Nc2nccc(N3CCN(C)CC3)n2)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"N-(4-methoxyphenyl)-4-(4-methylpiperazin-1-yl)pyrimidin-2-amine\", \"type\": \"small\"}"
+    },
+    {
+        "id": "148c1a6a-732a-4162-b984-2804e4c119a8",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Nc1ccc(Nc2nc(-c3ccc(Cl)cc3)cs2)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"4-N-[4-(4-chlorophenyl)-1,3-thiazol-2-yl]benzene-1,4-diamine\", \"type\": \"small\"}"
+    },
+    {
+        "id": "31586d0a-f7ef-40ca-a652-6b0578a1ba82",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1cc2ncnc(Nc3ccc(N)cc3)c2cc1OC.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"4-N-(6,7-dimethoxyquinazolin-4-yl)benzene-1,4-diamine\", \"type\": \"small\"}"
+    },
+    {
+        "id": "2031148b-09b8-4dc0-93f3-e29f0a5a5ae9",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: NC(=O)c1cccc2c(NCc3cccc(F)c3)ncnc12.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"4-[(3-fluorophenyl)methylamino]quinazoline-8-carboxamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "9884ef26-46d5-448a-b175-cb5e0e95721c",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CC(C)n1cnc2c(NCc3ccccc3)nc(N)nc21.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"6-N-benzyl-9-propan-2-ylpurine-2,6-diamine\", \"type\": \"small\"}"
+    },
+    {
+        "id": "17ce183c-964c-4878-8229-2baf4dffe585",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1nc(NC(C)=O)cc(N)c1C#N.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"N-(4-amino-5-cyano-6-methoxypyridin-2-yl)acetamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "53b12a3b-540b-4e1b-abba-240048a04329",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CS(=O)(=O)Nc1ccc2ccc3ncc(Cl)cc3c(=O)c2c1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"N-(5-chloro-2-oxo-7-azatricyclo[9.4.0.03,8]pentadeca-1(11),3(8),4,6,9,12,14-heptaen-14-yl)methanesulfonamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "b66ea791-6ad3-4ba8-b741-98e8677e104f",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Nc1c(C(=O)c2cccc(C(O)CO)c2)cnn1-c1ccc(F)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"[5-amino-1-(4-fluorophenyl)pyrazol-4-yl]-[3-(1,2-dihydroxyethyl)phenyl]methanone\", \"type\": \"small\"}"
+    },
+    {
+        "id": "cf2874b5-1327-4d48-bd65-2b3270bc4c9e",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=c1cc(C2CCCCC2)oc2c1ccc1ccccc12.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"2-cyclohexylbenzo[h]chromen-4-one\", \"type\": \"small\"}"
+    },
+    {
+        "id": "4e5d51ac-4e9e-4d0b-a6f2-3e48ccc5647d",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: c1ccc(COc2ccc(OCCn3cnc4ccccc43)cc2)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"1-[2-(4-phenylmethoxyphenoxy)ethyl]benzimidazole\", \"type\": \"small\"}"
+    },
+    {
+        "id": "3777126a-a472-4e3b-be42-96d966b8a98c",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Cc1ncc2cc(-c3c(Cl)cccc3Cl)c(=O)n(C)c2n1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"6-(2,6-dichlorophenyl)-2,8-dimethylpyrido[2,3-d]pyrimidin-7-one\", \"type\": \"small\"}"
+    },
+    {
+        "id": "8f0ea67b-b0f5-4126-a11f-2e8ff70809fe",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: c1cnc(-c2c[nH]c3ncnc(N4CCOCC4)c23)cn1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"4-(5-pyrazin-2-yl-7H-pyrrolo[2,3-d]pyrimidin-4-yl)morpholine\", \"type\": \"small\"}"
+    },
+    {
+        "id": "20c0d45e-a970-46bc-b130-eb9a741e21cb",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Fc1ccc(-c2nc[nH]c2-c2ccncc2)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"4-[4-(4-fluorophenyl)-1H-imidazol-5-yl]pyridine\", \"type\": \"small\"}"
+    },
+    {
+        "id": "e92b3ba5-bfe4-4be6-99a1-64718e09fc80",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(O)CCSc1ccc2ccccc2n1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"3-quinolin-2-ylsulfanylpropanoic acid\", \"type\": \"small\"}"
+    },
+    {
+        "id": "318ca59e-8c2c-43b2-a25c-20909bdc459a",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(O)c1cnc2c(ccc3ccccc32)c1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"benzo[h]quinoline-3-carboxylic acid\", \"type\": \"small\"}"
+    },
+    {
+        "id": "0a596dc0-3f35-4e7c-8b75-6f788425a14b",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Cc1cc(C)n(-c2ccc(C(=O)Nc3sccc3C(N)=O)cc2)n1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"2-[[4-(3,5-dimethylpyrazol-1-yl)benzoyl]amino]thiophene-3-carboxamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "66411846-82e8-4af1-9f2d-38ca14c93c9b",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Cc1[nH]c2ccc(Cl)cc2c1-c1ccnc(N2CCCC2)n1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"5-chloro-2-methyl-3-(2-pyrrolidin-1-ylpyrimidin-4-yl)-1H-indole\", \"type\": \"small\"}"
+    },
+    {
+        "id": "22c167b2-4916-40b9-a025-3f2bae1a84cf",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CSc1nc(-c2ccc(F)cc2)c(-c2ccnc(OC(C)C)c2)[nH]1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"4-[5-(4-fluorophenyl)-2-methylsulfanyl-1H-imidazol-4-yl]-2-propan-2-yloxypyridine\", \"type\": \"small\"}"
+    },
+    {
+        "id": "242933aa-6103-4767-9f99-82c2b1ad8b75",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CCn1ncc(C2=NOC(C(=O)Nc3cccc(C(C)=O)c3)C2)c1C.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"N-(3-acetylphenyl)-3-(1-ethyl-5-methylpyrazol-4-yl)-4,5-dihydro-1,2-oxazole-5-carboxamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "af7d4c90-eb44-484d-bdda-874ab051e9e7",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=c1cc(C2CCCCC2)oc2c1ccc1ccccc12.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"2-cyclohexylbenzo[h]chromen-4-one\", \"type\": \"small\"}"
+    },
+    {
+        "id": "9ac188ab-9e09-4359-a6de-f56283da622e",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COC(=O)c1ccc(=O)n(Cc2ccc3c(c2)OCO3)c1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"methyl 1-(1,3-benzodioxol-5-ylmethyl)-6-oxopyridine-3-carboxylate\", \"type\": \"small\"}"
+    },
+    {
+        "id": "4b54cecd-f1a4-44eb-9d33-003e5d6ff9ac",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Cn1c(=O)c(Oc2ccc(F)cc2F)cc2cnc(N3CCCC(O)C3)nc21.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"6-(2,4-difluorophenoxy)-2-(3-hydroxypiperidin-1-yl)-8-methylpyrido[2,3-d]pyrimidin-7-one\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "a9f8de52-360e-4ff3-aeff-89ca54108762",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(Nc1ccc2c(c1)OCO2)C1CC(c2c(F)cccc2Cl)=NO1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"N-(1,3-benzodioxol-5-yl)-3-(2-chloro-6-fluorophenyl)-4,5-dihydro-1,2-oxazole-5-carboxamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "97eb6ece-c378-4fd1-9e96-5245a0195001",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Clc1ccccc1Nc1ccnc(Nc2ccc(N3CCOCC3)cc2)n1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"4-N-(2-chlorophenyl)-2-N-(4-morpholin-4-ylphenyl)pyrimidine-2,4-diamine\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "43f27396-812d-48e3-b04e-6a63e8ddcacb",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CSc1nc(-c2ccc(F)cc2)c(-c2ccnc(OCc3ccccc3)c2)[nH]1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"4-[5-(4-fluorophenyl)-2-methylsulfanyl-1H-imidazol-4-yl]-2-phenylmethoxypyridine\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "22e47021-e3a9-4036-b32f-0e32e54ada09",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CC(C)(C)c1cnc(CSc2cnc(NC(=O)c3ccccc3)s2)o1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"N-[5-[(5-tert-butyl-1,3-oxazol-2-yl)methylsulfanyl]-1,3-thiazol-2-yl]benzamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "2cbf8619-6bc0-4644-85c3-8247325a12e9",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1cc2ncnc(N3CCN(C(=O)Nc4ccccn4)CC3)c2cc1OC.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"4-(6,7-dimethoxyquinazolin-4-yl)-N-pyridin-2-ylpiperazine-1-carboxamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "fd0cdb61-9313-449c-872b-f766a6c45c61",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CCCC(=O)Nc1nc(NCc2ccc(OC)cc2)c2ncn(C(C)C)c2n1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"N-[6-[(4-methoxyphenyl)methylamino]-9-propan-2-ylpurin-2-yl]butanamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "678d52be-e84a-440d-b285-d232be94fa89",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1ccc(-n2c(=O)c(C)nc3cnc(N4CCNCC4)nc32)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"8-(4-methoxyphenyl)-6-methyl-2-piperazin-1-ylpteridin-7-one\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "d3be92f7-961a-44fe-9ab5-e5dbfad75d0f",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Cn1c(=O)c(Oc2ccc(F)cc2F)cc2cnc(N3CCC(O)C3)nc21.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"6-(2,4-difluorophenoxy)-2-(3-hydroxypyrrolidin-1-yl)-8-methylpyrido[2,3-d]pyrimidin-7-one\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "dd171668-234f-43bb-923f-5505b2c52abb",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1ccc(-n2c(=O)cnc3cnc(Oc4cccc(Cl)c4)nc32)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"2-(3-chlorophenoxy)-8-(4-methoxyphenyl)pteridin-7-one\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "8bfc90ba-8f94-44af-9164-6b21f971ccd9",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CCNCCC(=O)Nc1c(C)[nH]c(C=C2C(=O)Nc3ccc(F)cc32)c1C.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": null, \"type\": \"middle\"}"
+    },
+    {
+        "id": "c0a3c1e9-4954-4787-b818-477e4a631f42",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: NC1=NC(CF)(c2cc(Oc3ncccn3)ccc2F)CC(C(F)(F)F)O1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"4-(fluoromethyl)-4-(2-fluoro-5-pyrimidin-2-yloxyphenyl)-6-(trifluoromethyl)-5,6-dihydro-1,3-oxazin-2-amine\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "4e15e73d-0f60-4e8a-a098-cd02bacd8a78",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Oc1ccc(Nc2nc(-c3ccc(N4CCOCC4)cc3)cs2)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"4-[[4-(4-morpholin-4-ylphenyl)-1,3-thiazol-2-yl]amino]phenol\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "2b835002-faa6-4dc3-8db8-67f5bf7442ce",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=c1cnc2cnc(OCc3ccccc3)nc2n1Cc1ccc(F)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"8-[(4-fluorophenyl)methyl]-2-phenylmethoxypteridin-7-one\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "ed751ab4-5d22-4998-a677-ff3b11c731a5",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(CSc1nc2ccccc2c(=O)n1CCCO)NCc1ccccc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"N-benzyl-2-[3-(3-hydroxypropyl)-4-oxoquinazolin-2-yl]sulfanylacetamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "46dd9f5d-d669-4310-8429-8d24b11b8fe2",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CCC(C)(C)Nc1c(C#N)cnc2cnc(NCc3cccnc3)cc12.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"4-(2-methylbutan-2-ylamino)-6-(pyridin-3-ylmethylamino)-1,7-naphthyridine-3-carbonitrile\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "7eaae924-3555-4be8-8d96-f392944fbf8a",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C1SC(=Cc2ccc3cc(F)ccc3n2)C(=O)N1CCN1CCCCC1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": null, \"type\": \"middle\"}"
+    },
+    {
+        "id": "97005573-279e-4049-8531-8b06405ad117",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CC(C)n1cnc2c(Nc3cc(N)cc(Cl)c3)nc(NC3CCCNC3)nc21.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"6-N-(3-amino-5-chlorophenyl)-2-N-piperidin-3-yl-9-propan-2-ylpurine-2,6-diamine\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "18f56ab9-5588-4c90-882f-31171822ab40",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: NC(=O)c1cccc2c(NCc3cccc(Nc4nccs4)c3)ncnc12.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"4-[[3-(1,3-thiazol-2-ylamino)phenyl]methylamino]quinazoline-8-carboxamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "ab74e7f7-d52e-457a-b08d-db95a3e2d833",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1ccc(OC)c(C2=NOC(C(=O)Nc3cccc(C(C)=O)c3)C2)c1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"N-(3-acetylphenyl)-3-(2,5-dimethoxyphenyl)-4,5-dihydro-1,2-oxazole-5-carboxamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "90c2f466-309c-4534-9ece-0db56e99c20f",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CC1CC(C)CN(S(=O)(=O)c2ccc(C(=O)NCc3ccco3)cc2)C1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"4-(3,5-dimethylpiperidin-1-yl)sulfonyl-N-(furan-2-ylmethyl)benzamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "8934ff35-aaf4-4aa7-8527-6acba9d68ab5",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COC(=O)c1ccc(-c2ccc(C=C3SC(=O)NC3=O)o2)c(O)c1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"methyl 4-[5-[(2,4-dioxo-1,3-thiazolidin-5-ylidene)methyl]furan-2-yl]-3-hydroxybenzoate\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "4680f0d7-5c91-4572-8d74-4e3138176d21",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Cn1c(=O)c(Oc2ccc(F)cc2F)cc2cnc(N3CCC(O)C3)nc21.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"6-(2,4-difluorophenoxy)-2-(3-hydroxypyrrolidin-1-yl)-8-methylpyrido[2,3-d]pyrimidin-7-one\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "a32e02ad-b106-46ff-9f8d-4b796d681d87",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: N#Cc1cc2cnc(NCc3ccccc3)nc2n(C2CCCC2)c1=O.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"2-(benzylamino)-8-cyclopentyl-7-oxopyrido[2,3-d]pyrimidine-6-carbonitrile\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "6ed51674-8703-4d1a-b036-cd0ee5f07151",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CC(C)N(CCO)c1nc(Nc2cccc(Cl)c2)c2ncn(C(C)C)c2n1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"2-[[6-(3-chloroanilino)-9-propan-2-ylpurin-2-yl]-propan-2-ylamino]ethanol\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "b7a14da4-474e-44e6-a686-79870d20be70",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: NC(=O)c1cccc2c(NCc3cccc(Nc4ncccn4)c3)ncnc12.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"4-[[3-(pyrimidin-2-ylamino)phenyl]methylamino]quinazoline-8-carboxamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "09893df1-3985-4aa9-bec2-86697b657ae8",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CNc1cc(N(CCCN(C)C)C(=O)Nc2c(Cl)cccc2Cl)ncn1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"3-(2,6-dichlorophenyl)-1-[3-(dimethylamino)propyl]-1-[6-(methylamino)pyrimidin-4-yl]urea\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "d8387e42-048b-47f9-9775-0395df61fb53",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CCCCNC(=O)Cc1c(OC)ccc2cc(Br)ccc12.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"2-(6-bromo-2-methoxynaphthalen-1-yl)-N-butylacetamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "0d2a8f0d-3f90-49a8-af8c-733c5681f21b",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: C#Cc1cc(Oc2cnc(NCC(C)O)nc2N)c(C(C)C)cc1OC.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"1-[[4-amino-5-(5-ethynyl-4-methoxy-2-propan-2-ylphenoxy)pyrimidin-2-yl]amino]propan-2-ol\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "1598a668-6516-4a28-b714-617a7a9e4511",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: OC1CCCC(c2nccnc2Oc2ccc(Nc3ccccn3)cc2)C1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"3-[3-[4-(pyridin-2-ylamino)phenoxy]pyrazin-2-yl]cyclohexan-1-ol\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "5eb9907d-051a-41da-acc7-4adebb9b1726",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CC(C)C(CO)Nc1nc(NCc2ccccc2O)c2ncn(C(C)C)c2n1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"2-[[[2-[(1-hydroxy-3-methylbutan-2-yl)amino]-9-propan-2-ylpurin-6-yl]amino]methyl]phenol\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "a1a3357b-a17b-44f7-8159-0e0d060f1916",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Nc1n[nH]c2cccc(-c3ccc(NC(=O)Nc4cccc(F)c4)cc3)c12.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"1-[4-(3-amino-1H-indazol-4-yl)phenyl]-3-(3-fluorophenyl)urea\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "5f403d6f-d74d-4a2b-863b-084cf1889b0b",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CCN(CC)CCn1c(NC(=O)c2ccc(C)cc2)nc2ccccc21.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"N-[1-[2-(diethylamino)ethyl]benzimidazol-2-yl]-4-methylbenzamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "3c3152ce-a71d-42f5-b6a8-c207b50f029e",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CC(C)n1cnc2c(NCc3ccccc3)nc(I)nc21.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"N-benzyl-2-iodo-9-propan-2-ylpurin-6-amine\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "d057f919-3c9a-4b5c-a881-fbc4556b4a78",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1cc2ncnc(N(C)c3ccc(F)c(Cl)c3)c2cc1OC.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"N-(3-chloro-4-fluorophenyl)-6,7-dimethoxy-N-methylquinazolin-4-amine\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "bfb1d1d5-24e0-4c78-a66b-5e141fa2d696",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1cc2c(Nc3ccc4c(c3)OCO4)ncnc2c(OC)c1OC.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"N-(1,3-benzodioxol-5-yl)-6,7,8-trimethoxyquinazolin-4-amine\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "85d2b2e1-51bd-4a77-98e8-c08608eaa086",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Cn1c(=O)c(Oc2ccc(F)cc2F)cc2cnc(N3CCC(O)C3)nc21.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"6-(2,4-difluorophenoxy)-2-(3-hydroxypyrrolidin-1-yl)-8-methylpyrido[2,3-d]pyrimidin-7-one\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "b9f1731d-dd11-477c-8538-36cf29cdbfab",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: C=CCn1c(SCC(=O)NCc2ccco2)nc2sc(C)c(C)c2c1=O.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"2-(5,6-dimethyl-4-oxo-3-prop-2-enylthieno[2,3-d]pyrimidin-2-yl)sulfanyl-N-(furan-2-ylmethyl)acetamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "042cdfbe-c052-459a-ae9b-32fefcefae46",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1cc2ncnc(Nc3ccc(C(F)(F)F)cc3)c2c(OC)c1OC.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"5,6,7-trimethoxy-N-[4-(trifluoromethyl)phenyl]quinazolin-4-amine\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "603775cb-de93-427e-8707-782853eb5e4e",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: OC1CCC(Nc2nc(NCCc3ccccc3)ncc2-c2ccccn2)CC1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"4-[[2-(2-phenylethylamino)-5-pyridin-2-ylpyrimidin-4-yl]amino]cyclohexan-1-ol\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "2da554a8-a419-47be-bc37-25a544ae2ede",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CCOc1ccc(CC(=O)Nc2c(C(N)=O)oc3ccc(Br)cc23)cc1OCC.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"5-bromo-3-[[2-(3,4-diethoxyphenyl)acetyl]amino]-1-benzofuran-2-carboxamide\", \"type\": \"large\"}"
+    },
+    {
+        "id": "014b817b-75a4-40c5-956e-15ab7a240c6f",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CN(C)Cc1ccn2c(-c3ccnc(S(C)(=O)=O)n3)c(-c3ccc(F)cc3)nc2c1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"1-[2-(4-fluorophenyl)-3-(2-methylsulfonylpyrimidin-4-yl)imidazo[1,2-a]pyridin-7-yl]-N,N-dimethylmethanamine\", \"type\": \"large\"}"
+    },
+    {
+        "id": "e4dfa7f1-de95-4ccb-8a8b-3cab56dd9ad8",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COCCn1c(=O)c(-c2ccc(OC)cc2)nc2cnc(OCc3ccccc3)nc21.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"8-(2-methoxyethyl)-6-(4-methoxyphenyl)-2-phenylmethoxypteridin-7-one\", \"type\": \"large\"}"
+    },
+    {
+        "id": "fe31d662-856b-46f4-86e0-4f32e8b98943",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Cc1ncc(C(=O)Nc2cccc(C(C)Nc3ncnc4c(C(N)=O)cccc34)c2)s1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"N-[3-[1-[(8-carbamoylquinazolin-4-yl)amino]ethyl]phenyl]-2-methyl-1,3-thiazole-5-carboxamide\", \"type\": \"large\"}"
+    },
+    {
+        "id": "5abdbbe9-c21f-4640-a31e-c1c4ebc30de8",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: NC1=NC(CF)(c2cc(Oc3ncccc3F)ccc2F)CC(C(F)(F)F)O1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"4-[2-fluoro-5-(3-fluoropyridin-2-yl)oxyphenyl]-4-(fluoromethyl)-6-(trifluoromethyl)-5,6-dihydro-1,3-oxazin-2-amine\", \"type\": \"large\"}"
+    },
+    {
+        "id": "867d3306-382b-4dff-a7c7-72a0463e0507",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COCCNC1CCC(Nc2cc(-c3nc(NCC4CCOCC4)ccc3Cl)c(Cl)cn2)CC1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"4-N-[5-chloro-4-[3-chloro-6-(oxan-4-ylmethylamino)pyridin-2-yl]pyridin-2-yl]-1-N-(2-methoxyethyl)cyclohexane-1,4-diamine\", \"type\": \"large\"}"
+    },
+    {
+        "id": "f85de97b-1348-4187-8d9a-6de05b171dc0",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CC(C)n1cnc2c(NCc3ccc(-c4ccccc4)cc3)nc(N(CCO)CCO)nc21.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"2-[2-hydroxyethyl-[6-[(4-phenylphenyl)methylamino]-9-propan-2-ylpurin-2-yl]amino]ethanol\", \"type\": \"large\"}"
+    },
+    {
+        "id": "350c3a69-c894-4494-8e53-c3697f2ae98c",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1cc2ncnc(Nc3cc(Cl)ccc3Cl)c2cc1OCCCCCC(=O)NO.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"6-[4-(2,5-dichloroanilino)-7-methoxyquinazolin-6-yl]oxy-N-hydroxyhexanamide\", \"type\": \"large\"}"
+    },
+    {
+        "id": "391d0009-0bbc-4dd7-863e-cf4478a489da",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CS(=O)(=O)Nc1ccc(-c2cnc3cccc(Nc4ncccc4Cl)c3c2)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"N-[4-[5-[(3-chloropyridin-2-yl)amino]quinolin-3-yl]phenyl]methanesulfonamide\", \"type\": \"large\"}"
+    },
+    {
+        "id": "1a14424d-d865-416b-9c5c-208584535cdf",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1cc2ncnc(Nc3cccc(Br)c3)c2cc1OCCC(=O)NO.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"3-[4-(3-bromoanilino)-7-methoxyquinazolin-6-yl]oxy-N-hydroxypropanamide\", \"type\": \"large\"}"
+    },
+    {
+        "id": "89b87492-4888-434a-becd-7800a89c38ab",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CC(=O)NC(C)c1ccc(OC2CCN(c3ccnc(N4CCCC(F)(F)C4)n3)C2)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": null, \"type\": \"large\"}"
+    },
+    {
+        "id": "06727a45-a17b-4706-a2d8-e17a26e13f2d",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CC(C)C(CO)Nc1nc(NCc2cccc(I)c2)c2ncn(C(C)C)c2n1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"2-[[6-[(3-iodophenyl)methylamino]-9-propan-2-ylpurin-2-yl]amino]-3-methylbutan-1-ol\", \"type\": \"large\"}"
+    },
+    {
+        "id": "981349fe-2be2-4550-8cde-6d04a2a9799c",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1ccc(C=CC(=O)Nc2cc(-c3c(-c4ccc(F)cc4)nc(SC)n3C)ccn2)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"N-[4-[5-(4-fluorophenyl)-3-methyl-2-methylsulfanylimidazol-4-yl]pyridin-2-yl]-3-(4-methoxyphenyl)prop-2-enamide\", \"type\": \"large\"}"
+    },
+    {
+        "id": "33e97379-5ad5-4ad7-8adb-8261ecfe2383",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COC1CCCN(c2nccc(N3CCC(Oc4ccc(C(C)NC(C)=O)cc4)C3)n2)C1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": null, \"type\": \"large\"}"
+    },
+    {
+        "id": "8bd19445-65b4-4d8d-871c-2d4e67303179",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1cc2ncnc(N3CCN(C(=O)NCc4ccc(Br)cc4)CC3)c2cc1OC.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"N-[(4-bromophenyl)methyl]-4-(6,7-dimethoxyquinazolin-4-yl)piperazine-1-carboxamide\", \"type\": \"large\"}"
+    },
+    {
+        "id": "77f1d66c-2c90-4a78-bbca-28621655c499",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1ccc(NC(=O)Nc2ccc(N(C)c3ncnc4cc(OC)c(OC)cc34)cc2)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"1-[4-[(6,7-dimethoxyquinazolin-4-yl)-methylamino]phenyl]-3-(4-methoxyphenyl)urea\", \"type\": \"large\"}"
+    },
+    {
+        "id": "50d2635a-2bb3-4a00-a2e3-3b3bf9a58bbe",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CSc1nc(N)cc(-c2c(-c3ccc(F)cc3)ncn2CCCN2CCOCC2)n1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"6-[5-(4-fluorophenyl)-3-(3-morpholin-4-ylpropyl)imidazol-4-yl]-2-methylsulfanylpyrimidin-4-amine\", \"type\": \"large\"}"
+    },
+    {
+        "id": "0285b099-bf6e-44bf-a1f6-5d6da94d24b5",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CCOC(=O)Nc1ncc(Oc2cc(I)c(OC)cc2C(C)C)c(N)n1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"ethyl N-[4-amino-5-(5-iodo-4-methoxy-2-propan-2-ylphenoxy)pyrimidin-2-yl]carbamate\", \"type\": \"large\"}"
+    },
+    {
+        "id": "aceb3bf2-2bc1-4764-acb2-4609471642a1",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CCCONC(=O)c1ccccc1Sc1ccc2c(C=Cc3ccccn3)n[nH]c2c1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"N-propoxy-2-[[3-(2-pyridin-2-ylethenyl)-1H-indazol-6-yl]sulfanyl]benzamide\", \"type\": \"large\"}"
+    },
+    {
+        "id": "ade00b92-fa6b-4f12-b87a-3643b008a5c6",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the JNK3 property (c-Jun N-terminal kinase 3 inhibition) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CCOC(=O)CN1C(=O)SC(=Cc2ccc(-c3ccc(Cl)cc3Cl)o2)C1=O.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "jnk",
+        "meta": "{\"src_iupac\": \"ethyl 2-[5-[[5-(2,4-dichlorophenyl)furan-2-yl]methylidene]-2,4-dioxo-1,3-thiazolidin-3-yl]acetate\", \"type\": \"large\"}"
+    }
+]

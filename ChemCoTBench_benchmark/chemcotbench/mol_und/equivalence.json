@@ -1,0 +1,802 @@
+[
+    {
+        "id": "5af6751c-9441-43d9-89e1-1515cb29156a",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: CCc1ccc(OC(C)=O)c(C(=O)c2ccc(C)cc2)c1, Molecule B: c1c(ccc(c1)C(=O)c1cc(CC)ccc1OC(C)=O)C.",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "e77fa0a0-76ca-40c2-abe3-9ea92502f9b9",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: CCC(Oc1ccccc1)C(=O)Nc1nnc(S(=O)(=O)N2CCCC2)s1, Molecule B: O=S(N1CCCC1)(c1sc(nn1)NC(=O)C(CC)Oc1ccccc1)=O.",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "f8e8d68b-e962-46ed-9e6b-306e07fd6653",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: Nc1ccc(Nc2nc(-c3ccc(Cl)cc3)cs2)cc1, Molecule B: c1(-c2ccc(cc2)Cl)csc(n1)Nc1ccc(cc1)N.",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "c6b41bba-e06a-4fca-b84f-31345e8bd18f",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: CC1C2Cc3ccc(N)cc3C1(C)CCN2, Molecule B: C1NC2Cc3ccc(cc3C(C)(C2C)C1)N.",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "58dd73ef-847b-4321-ae47-f76e01847f87",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: Nc1ccc(-c2nnc(NC(=O)Nc3ccc(Cl)c(Cl)c3)s2)cc1, Molecule B: c1(c(Cl)cc(NC(Nc2nnc(s2)-c2ccc(N)cc2)=O)cc1)Cl.",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "dab103c7-0d86-4639-832c-522e02cb2033",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: Cc1c(NC(=O)c2ccc(S(=O)(=O)Nc3ccccc3F)cc2)c(=O)n(-c2ccccc2)n1C, Molecule B: c1cc(NS(c2ccc(C(=O)Nc3c(n(C)n(c3=O)-c3ccccc3)C)cc2)(=O)=O)c(F)cc1.",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "8023376b-d36b-4688-9bcb-ef6426cf9229",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: COc1cc2c(cc1OC)CC(N1CCOCC1)C2, Molecule B: COc1c(cc2c(CC(N3CCOCC3)C2)c1)OC.",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "628f08cc-f2c0-4837-8cf7-232bdfdabd9e",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: Cc1c(F)ccc(C(=O)Nc2cc(C(=O)O)ccc2N2CCN(C)CC2)c1Cl, Molecule B: c1(cc(ccc1N1CCN(C)CC1)C(O)=O)NC(=O)c1ccc(c(c1Cl)C)F.",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "65a2eea6-3c18-4850-8d89-f912bc9ffe63",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: CCC(CO)Oc1cc(NCc2ccccc2)c2ncn(C(C)C)c2c1, Molecule B: c1c(cc2c(c1NCc1ccccc1)ncn2C(C)C)OC(CC)CO.",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "fe338ed8-6419-4057-9246-7f3826f90f55",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: CCOC(=O)CC(NC(=O)C1CCCN1)C1OC2OC(C)(C)OC2C1OC, Molecule B: C1(C(NC(C2CCCN2)=O)CC(OCC)=O)OC2OC(OC2C1OC)(C)C.",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "080dcc82-3d1c-488c-a238-1060bbc28319",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: COc1cc2ncnc(N3CCN(C(=O)Nc4ccccn4)CC3)c2cc1OC, Molecule B: c1(NC(=O)N2CCN(CC2)c2ncnc3c2cc(c(c3)OC)OC)ncccc1.",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "a5401eab-cb45-47da-ad50-b437145d9a4a",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: CC1CN(c2c(F)c(N)c3c(=O)c(C(=O)O)cn(C4CC4)c3c2F)C(C)CN1, Molecule B: CC1NCC(N(c2c(F)c(N)c3c(=O)c(cn(C4CC4)c3c2F)C(O)=O)C1)C.",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "2cd04481-44b4-420f-a6dd-74f00c498a8e",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: CC(C(=O)NCc1ccc(C(F)(F)F)nc1OCc1ccc(F)cc1)c1ccc(NS(C)(=O)=O)c(F)c1, Molecule B: c1c(c(NS(=O)(=O)C)ccc1C(C)C(NCc1ccc(C(F)(F)F)nc1OCc1ccc(cc1)F)=O)F.",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "977b767f-2c16-412c-8239-9e6fa853389a",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: OC(CN1C2CCC1CC(c1ccccc1)C2)c1ccccc1, Molecule B: c1(C(O)CN2C3CCC2CC(C3)c2ccccc2)ccccc1.",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "674d1efa-7ea9-46de-b5e1-1c9613a6f297",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: O=C(Oc1ccccc1C(=O)Oc1ccccc1)c1cccnc1, Molecule B: n1cc(C(=O)Oc2ccccc2C(=O)Oc2ccccc2)ccc1.",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "dd026347-2a53-44b2-95fe-20274efab7cc",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: O=S(=O)(NCCCCCO)c1ccc(-c2ccc(O)cc2)cc1, Molecule B: O=S(NCCCCCO)(c1ccc(-c2ccc(cc2)O)cc1)=O.",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "a6c68653-ccf1-45da-9121-992a7d4631a4",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: O=c1cc(-c2ccccc2Cl)oc2c1ccc1ccccc12, Molecule B: c1(-c2c(Cl)cccc2)cc(=O)c2c(c3c(cc2)cccc3)o1.",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "7dccc968-b6e4-454a-aa77-c9eb339e1eed",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: NC(=O)OC(CCN1CCN(c2ccc([N+](=O)[O-])cc2)CC1)c1ccccc1, Molecule B: c1ccccc1C(CCN1CCN(c2ccc(cc2)[N+]([O-])=O)CC1)OC(=O)N.",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "b35cf36d-87fa-4454-b1d9-2a80864d09c3",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: O=C1NC(=O)C(=Cc2ccc(-c3cccc([N+](=O)[O-])c3)o2)S1, Molecule B: C1(SC(NC1=O)=O)=Cc1oc(-c2cccc([N+]([O-])=O)c2)cc1.",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "86b8d996-270e-4c0f-9f52-0035e995c333",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: CN(C)CCCn1c(N)c(-c2nc3ccccc3s2)c2nc(C#N)c(C#N)nc21, Molecule B: c1cccc2c1nc(s2)-c1c(N)n(CCCN(C)C)c2c1nc(C#N)c(n2)C#N.",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "6fd5e099-636c-4a35-8b1c-5085a4c69922",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: COc1cc(N)c(Cl)cc1C(=O)OCCN1CCC(C(N)=O)CC1, Molecule B: O=C(OCCN1CCC(C(=O)N)CC1)c1c(OC)cc(c(c1)Cl)N.",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "0beef73e-35cf-41ec-b1db-52afb618fc6a",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: CSc1c(CC(=O)Nc2ccc(F)cc2)n(Cc2ccccc2)c2ccccc12, Molecule B: c1(c(c2c(cccc2)n1Cc1ccccc1)SC)CC(Nc1ccc(F)cc1)=O.",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "8098e202-6a95-47d7-8a42-aa1c823718db",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: COc1cccc(C(=O)OCC(C)C2CCC3C(O)CCCC23C)c1, Molecule B: C1(C(COC(c2cc(ccc2)OC)=O)C)C2(C)CCCC(O)C2CC1.",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "bde0fd42-c876-4245-b99b-81dc5fe0216a",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: COc1cc(Cc2cnc(N)nc2N)cc(OC)c1OCc1ccc(C)cc1, Molecule B: c1(c(cc(cc1OC)Cc1c(N)nc(nc1)N)OC)OCc1ccc(cc1)C.",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "fcfed604-916f-4c98-a112-4516d8ca27be",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: Nc1ccnc(Nc2ccc(Oc3ccc(Cl)cc3)cc2)c1, Molecule B: c1nc(cc(c1)N)Nc1ccc(Oc2ccc(Cl)cc2)cc1.",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "6a30ad4c-e995-4f1c-8051-baf0101b70fe",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: CSc1nc2ccc3nc(NC(=O)c4ccco4)sc3c2s1, Molecule B: n1c2c(sc1SC)c1c(cc2)nc(s1)NC(=O)c1ccco1.",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "a5a7ff2d-4d28-491c-9078-bb4ae73cfacf",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: COc1cc2ncnc(N(C)c3ccc(F)c(Cl)c3)c2cc1OC, Molecule B: Clc1c(F)ccc(c1)N(c1ncnc2cc(OC)c(cc12)OC)C.",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "686492c0-912d-48ff-a587-f7401cb08872",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: CC(Nc1cccc(CN2CCOC2=O)c1)C(=O)NC(N)=O, Molecule B: O=C(N)NC(C(C)Nc1cc(ccc1)CN1CCOC1=O)=O.",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "5ce3bf46-ce00-4af1-94cf-9fc166766a9f",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: O=C(CSc1cccc[n+]1[O-])Nc1ccccc1Oc1ccccc1, Molecule B: c1ccc[n+](c1SCC(Nc1c(cccc1)Oc1ccccc1)=O)[O-].",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "f48243e0-21f1-48ab-a41e-d418d80bffb0",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: O=C(NCCCN1CCOCC1)c1ccc2c(=O)n(Cc3ccc(Cl)cc3)c(=O)[nH]c2c1, Molecule B: c1c(C(=O)NCCCN2CCOCC2)ccc2c(=O)n(c(=O)[nH]c21)Cc1ccc(Cl)cc1.",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "794029a0-18a1-4f9d-b973-b6427db1d633",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: Fc1ccc(-c2nc3cc[nH]cc-3n2)cc1, Molecule B: c1[nH]ccc2-c1nc(n2)-c1ccc(cc1)F.",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "02c31dfc-37b8-4366-9765-bc2201d1895e",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: COC(=O)CSc1nc(-c2ccc(F)cc2)c(-c2ccncc2)[nH]1, Molecule B: c1(-c2ccncc2)c(nc([nH]1)SCC(OC)=O)-c1ccc(cc1)F.",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "ea3fd442-cc10-48c4-9be1-bfcee87f6b3a",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: Cc1oc(=O)oc1COC(=O)C(C)(C)Oc1ccc(C(=O)c2ccc(Cl)cc2)cc1, Molecule B: c1c(ccc(c1)Cl)C(=O)c1ccc(OC(C(OCc2c(C)oc(o2)=O)=O)(C)C)cc1.",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "a06e757f-93e3-4f95-9abb-f88256ec97ed",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: COc1cc2ncnc(NC(C)C)c2cc1OC, Molecule B: c12cc(OC)c(OC)cc2c(NC(C)C)ncn1.",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "6bf66a6d-6514-4335-a1af-ae130206723c",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: O=C(C=Cc1ccco1)NC(Cc1ccccc1)C(=O)NC(Cc1ccccc1)C(=O)O, Molecule B: C(NC(Cc1ccccc1)C(=O)O)(=O)C(Cc1ccccc1)NC(=O)C=Cc1occc1.",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "05f86a80-1bea-423e-97e5-c3e89e695bea",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: CCCCCSc1nc(O)c2cnn(-c3ccc(F)cc3)c2n1, Molecule B: Oc1nc(nc2n(ncc12)-c1ccc(cc1)F)SCCCCC.",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "104b93ba-5cbc-45a6-b09b-a8b2c9d68a74",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: COc1ccc(CC2NCCc3c2[nH]c2ccc(SC)cc32)cc1OC, Molecule B: c1c(OC)c(OC)ccc1CC1NCCc2c3c([nH]c21)ccc(SC)c3.",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "b70a8495-4cd8-4594-81e8-3d4ed090c90d",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: COc1cc2c(cc1OC)-c1cc(Nc3c(Cl)cccc3Cl)nc(=O)n1CC2, Molecule B: c1(cccc(c1Nc1nc(n2c(-c3cc(OC)c(cc3CC2)OC)c1)=O)Cl)Cl.",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "fc2a02da-fe59-4114-8cc8-898e3acbb109",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: CN(CCCNc1ccnc2cc(Cl)ccc12)C(=O)c1ccccc1, Molecule B: C(N(C(c1ccccc1)=O)C)CCNc1ccnc2cc(ccc12)Cl.",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "b21cbaf8-0d2f-4f5d-b853-5d2b561940f7",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: CCOC(=O)CN1C(=O)SC(=Cc2ccc(-c3ccc(Cl)cc3Cl)o2)C1=O, Molecule B: Clc1cc(ccc1-c1oc(C=C2SC(N(C2=O)CC(OCC)=O)=O)cc1)Cl.",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "70e09e79-3b05-45b9-8cb1-6ac5707289f1",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: CC(NC(=O)C1CCN(Cc2cccc(NC(=O)c3ccc(Cl)cc3)c2)CC1)C1CCCCC1, Molecule B: C1CCCC(C1)C(C)NC(C1CCN(Cc2cc(ccc2)NC(c2ccc(Cl)cc2)=O)CC1)=O.",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "d081788e-05c2-4cc4-a7e2-4dfe05e9ddc0",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: O=C(NC(Cc1ccccc1)c1nc2ccccc2[nH]1)c1cccc([N+](=O)[O-])c1, Molecule B: C(C(c1nc2c([nH]1)cccc2)NC(=O)c1cc(ccc1)[N+]([O-])=O)c1ccccc1.",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "7946d17b-14a7-409e-9c67-d9810d55ce46",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: CSc1nc(-c2ccc(F)cc2)c(-c2ccnc(OC(C)C)c2)[nH]1, Molecule B: n1ccc(-c2[nH]c(SC)nc2-c2ccc(cc2)F)cc1OC(C)C.",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "9d776288-744e-4bce-9247-f8a80b7ba4d1",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: CCn1ncc(C2=NOC(C(=O)Nc3cccc(C(C)=O)c3)C2)c1C, Molecule B: O1C(C(=O)Nc2cc(C(=O)C)ccc2)CC(c2c(n(CC)nc2)C)=N1.",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "b94c29a7-092c-4f46-95a5-b600a3ebd258",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: CNCc1cc(C(=O)N2CCCN(C3CC3)CC2)ccc1Oc1ccccc1C#N, Molecule B: N1(C(=O)c2cc(c(Oc3c(cccc3)C#N)cc2)CNC)CCCN(C2CC2)CC1.",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "03932038-4a88-4910-84ee-363e01b923cf",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: COc1ccc(S(=O)(=O)N2CCC3(CC2)CC(=O)c2ccccc2O3)cc1OC, Molecule B: C1(c2ccccc2OC2(C1)CCN(S(=O)(c1ccc(OC)c(c1)OC)=O)CC2)=O.",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "d2f5e96e-6c3c-42e2-9be7-6b101d7edab3",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: Cc1cc(C)cc(NC(=O)Nc2ccc(NS(N)(=O)=O)cc2)c1, Molecule B: O=C(Nc1ccc(cc1)NS(N)(=O)=O)Nc1cc(C)cc(c1)C.",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "3145227c-7f72-40b3-b391-961931d4f85c",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: Nc1cccc(-n2nncc2-c2ccccc2)c1, Molecule B: c1ccccc1-c1cnnn1-c1cc(N)ccc1.",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "80b20311-7199-401e-aa42-1a03ca18ba39",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: CN1C(=O)C(Cc2ccc(-c3ccccc3[N+](=O)[O-])cc2)NC(=O)c2cc(Cl)ccc21, Molecule B: c1(c(cccc1)-c1ccc(CC2NC(c3cc(Cl)ccc3N(C2=O)C)=O)cc1)[N+]([O-])=O.",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "c0d0675e-455f-49d3-befc-e159146a84b1",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: COc1cc(C=C(C#N)c2ccccn2)ccc1OCc1ccccc1Cl, Molecule B: c1ccc(Cl)c(COc2c(cc(cc2)C=C(c2ccccn2)C#N)OC)c1.",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "0d2ba4c1-de84-409f-ae3c-b59c453284e1",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: COc1ccc(CC2NCCc3c2[nH]c2ccc(SC)cc32)cc1OC, Molecule B: N1C(Cc2ccc(O)c(c2)OC)c2c(CC1)c1c([nH]2)ccc(SC)c1.",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "2c2951cc-3aea-4fef-aeee-1f4dc4390dda",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: CN(C)S(=O)(=O)CCc1ccc(NC(=O)c2ncc(C#N)[nH]2)c(C2=CCCCC2)c1, Molecule B: c1c(C2=CCCCC2)c(NCc2[nH]c(cn2)C#N)ccc1CCS(=O)(=O)N(C)C.",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "f6d2a0af-2a2d-4c6b-8da9-25b26dbe6e46",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: Cc1cc(NC(=O)CN2C(=O)NC(C)(c3ccccc3)C2=O)no1, Molecule B: O=C1NC(C)(C2=C=C=CC=C2)C(N1CC(Nc1noc(c1)C)=O)=O.",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "ec211e71-ff44-4692-a17a-521ea03e2b37",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: O=C(Nc1ccccc1C(=O)N1CCOCC1)c1ccc(CSc2ccccc2)cc1, Molecule B: c1cccc(SCc2ccc(C(=O)Nc3ccccc3CN3CCOCC3)cc2)c1.",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "bcb60f7d-c935-4766-b4f5-48192df855f1",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: CCC(C)(C)Nc1c(C#N)cnc2cnc(NCc3cccnc3)cc12, Molecule B: C(C)(CC)Nc1c2c(cnc(c2)NCc2cnccc2)ncc1C#N.",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "0acf8e00-e3cc-459e-88e7-c7972931694b",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: COc1cc2ncnc(N3CCN(C(=O)NCc4ccc(Br)cc4)CC3)c2cc1OC, Molecule B: N1(CCN(CC1)CNCc1ccc(Br)cc1)c1ncnc2cc(c(cc12)OC)OC.",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "c9e97bb5-5a4b-4a41-ac9d-7908a7f4fa2d",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: Cn1nc(C(N)=O)c2c1-c1nc(NCc3ccccc3)ncc1CC2, Molecule B: Cn1nc(c2CCc3cnc(NCc4ccccc4)nc3-c12)CN.",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "7833812a-5415-44b9-bc51-1a3ca465f2ee",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: CCC(C)Nc1ncnc2cc(OC)c(OC)cc12, Molecule B: n1cnc(NC(C)CC)c2cc(c(cc12)OS)OC.",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "4be523d6-34b2-4a74-bdc1-57bcf3cc8307",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: CCCCCSc1nc(O)c2cnn(-c3ccc(F)cc3)c2n1, Molecule B: C(CSc1nc(c2c(n(-c3ccccc3)nc2)n1)O)CCC.",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "96ca3c39-f31c-4168-a15a-2f8013412c73",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: c1ccc(COc2ccc(OCCn3cnc4ccccc43)cc2)cc1, Molecule B: c1c(COc2ccc(OCCn3c4=C=C=CC=c4nc3)cc2)cccc1.",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "85625804-0887-4002-9f48-47c6da316def",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: O=C(O)CCSc1ccc2ccccc2n1, Molecule B: C(=O)CCSc1ccc2ccccc2n1.",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "05db48b7-1bf0-4a5b-9a96-e8873d5cd63c",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: COc1ccc(NC(=O)Nc2ccc(N(C)c3ncnc4cc(OC)c(OC)cc34)cc2)cc1, Molecule B: c1c(ccc(c1)OC)NC(Nc1ccc(cc1)N(c1ncnc2cc(OC)c(ON)cc12)C)=O.",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "746ec522-80d0-45a4-ad41-a8cea777155f",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: NC(=O)c1c(NC(=O)Nc2ccc(Cl)cc2)sc2c1CCCC2, Molecule B: c12c(sc(NCNc3ccc(cc3)Cl)c2C(=O)N)CCCC1.",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "6d629076-9b60-4717-b730-5368eda45fc4",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: O=C(O)c1ccc(S(=O)(=O)N(Cc2ccccc2)Cc2ccc(O)cc2)cc1, Molecule B: c1ccccc1CN(Cc1ccc(cc1)O)S(=O)c1ccc(C(O)=O)cc1.",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "91a1e0ef-fe81-4c98-b3a8-6637394a1503",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: O=c1cc(-c2ccccc2Cl)oc2c1ccc1ccccc12, Molecule B: c12c(ccc3c2oc(cc3=O)-c2c(cccc2)N)cccc1.",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "c8f65b56-c0eb-4b06-8146-861168c0061e",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: CSc1ncc(C(=O)Nc2ccc(C)c(Cl)c2)c(-c2ccccc2)n1, Molecule B: c1ccc(-c2nc(S)ncc2C(=O)Nc2ccc(C)c(c2)Cl)cc1.",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "cbde089d-197e-4f61-a82b-489774a25468",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: CCC(c1ccc(O)cc1)C(CCI)c1ccc(O)cc1, Molecule B: c1(ccc(O)cc1)C(C(c1ccc(cc1)O)CC)C=CI.",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "8f6cd631-0150-4725-8eec-280715b09c06",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: COc1ccc(-n2c(=O)cnc3cnc(Oc4cccc(Cl)c4)nc32)cc1, Molecule B: c1cccc(c1)Oc1ncc2ncc(=O)n(c2n1)-c1ccc(cc1)OC.",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "b9127fd2-81fd-4ec4-af29-017e7c41d5d6",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: CC(C)n1cnc2c(Nc3cccc(Cl)c3)ncnc21, Molecule B: n1cnc(c2c1n(CC)cn2)Nc1cc(Cl)ccc1.",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "971303e7-1a93-4319-8a99-e9d88a03905a",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: CCN(CC)CCCNC1c2cc(OC)ccc2OCc2ncccc21, Molecule B: c12COc3c(C(NCCCN(C)CC)c2cccn1)cc(OC)cc3.",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "af26ab36-a68d-466d-805d-61d21300e227",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: NC(CCC(=O)O)C(=O)Nc1ccc(Cl)cc1C(=O)c1ccc[nH]1, Molecule B: N(c1ccc(Cl)cc1C(=O)c1ccc[nH]1)CC(CCC(O)=O)N.",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "1bde7557-ecad-4004-8fff-69fc0fd38e9f",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: COc1cc(N)c(Cl)cc1C(=O)NC1CCN(CC2CCN(C(=S)C(C)C)CC2)CC1OC, Molecule B: C(NC1CCN(CC2CCN(CN2)C(=S)C(C)C)CC1OC)(=O)c1c(cc(c(c1)Cl)N)OC.",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "6516c73a-9366-4122-8815-386bc70b4bdd",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: CCN1CCN(c2c(F)cc3c(=O)c(C(=O)O)cn(C4CC4)c3c2OC)CC1, Molecule B: Oc1c2n(C3CC3)cc(c(c2cc(c1N1CCN(CC)CC1)F)=O)C(O)=O.",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "1eb7dbf9-95e5-43cc-8b4f-9138e7823c38",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: Cc1c(-c2ccc(Cl)cc2)nsc1NC(=O)C1CC1C, Molecule B: c1cc(ccc1Cl)-c1c(C)c(NC(C2CC2)=O)sn1.",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "67f0e4dc-2303-4a14-b19f-a12e75ebd4ab",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: Cn1c(=O)c(Oc2ccc(F)cc2F)cc2cnc(N3CCCC(O)C3)nc21, Molecule B: c1nc(N2CC(CC=C2)O)nc2n(C)c(=O)c(Oc3ccc(cc3F)F)cc12.",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "ebe043bf-6690-4aeb-9e8f-be6f08118479",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: COc1ccc(-c2nnc(SCC#N)o2)cc1, Molecule B: O(c1ccc(cc1)-c1oc(nn1)SCCN)C.",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "ee5d263b-4302-4a26-a8dc-8e193a7f66a1",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: Cc1cc(C#N)cc(C(=O)c2c(C(C)C)c(=O)[nH]c(=O)n2Cc2cc(N)nc(F)c2F)c1, Molecule B: O=C(c1cc(cc(C#N)c1)C)c1n(c([nH]c(=O)c1CC)=O)Cc1cc(N)nc(c1F)F.",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "ba6ead0f-c276-408e-8c31-7fdc7367cc5c",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: CCS(=O)(=O)NC1CCC(Nc2cc(-c3cccc(NCc4cccc(F)c4)n3)c(Cl)cn2)CC1, Molecule B: C(c1cc(ccc1)F)Nc1nc(ccc1)-c1nc(ncc1Cl)NC1CCC(CC1)NS(=O)(=O)CC.",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "fbaa1b75-6d1f-46b0-ae74-61c01c9ac6cc",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: Cc1nc(C#Cc2cnc(SC(C)(C)C)nc2)cs1, Molecule B: s1cc(C#Cc2cnc(nc2)OC(C)(C)C)nc1C.",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "4a7f9eae-2a0d-4c6d-ba0b-159269c0754d",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: COc1ccc(-c2nc(NCC(=O)N3CCCCC3)sc2-c2ccc(OC)cc2)cc1, Molecule B: s1c(c(nc1NCC(N1CCCCC1)=O)-c1ccc(cc1)O)-c1ccc(OC)cc1.",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "9493a730-31b0-4bb6-8bf4-00f061df4151",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: O=C1c2ccccc2C(=O)N1CCOC(=S)Nc1ccc(F)cc1F, Molecule B: S=C(NC1C(F)=CS(=CC=1)F)OCCN1C(=O)c2c(cccc2)C1=O.",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "e74db43f-5f2c-4f5e-bf02-167e57467c3f",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: CS(=O)(=O)c1cccc(C(=O)NCc2cccc(-c3cccc(CN4CCNCC4)c3)c2)c1, Molecule B: C1NCCN(Cc2cccc(-c3cc(CNC(c4cccc([SH](=O)=O)c4)=O)ccc3)c2)C1.",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "9ed6b87f-af4e-4577-a499-4ca9ebd5b78b",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: CCc1ccc(OC(C)=O)c(C(=O)c2ccc(C)cc2)c1, Molecule B: c1(ccc(CC)cc1C(c1ccc(cc1)C)=O)OC=O.",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "902ed0a8-7771-4ff1-b0e1-9d20e351649e",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: O=C(O)CCCC1C2CCCN3CCCC(CN1CCO)C23, Molecule B: C(CO)N1CC2C3C(CCCN3CCC2)C1NCCC(=O)O.",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "0a064e9c-39ca-40f8-b1ca-96a8b5f2cc36",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: NC(=O)c1cccc2c(NCc3cccc(Nc4ncccn4)c3)ncnc12, Molecule B: n1c(nccc1)Nc1cccc(c1)CNC1=S2C=CC=C(C2=NC=N1)C(N)=O.",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "cf666446-f9c2-4d28-8884-ee193556c7fc",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: COc1ccc(S(=O)(=O)Nc2ccc(-n3cccc3)cc2)cc1, Molecule B: O(C)c1ccc(S(=O)Nc2ccc(-n3cccc3)cc2)cc1.",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "9391d1a6-b53f-4ef1-9014-798efd81f761",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: c1ccc(-c2cc(NCc3cccnc3)n3nccc3n2)cc1, Molecule B: c1c(cccc1)-c1cc(n2c(ccn2)n1)NCC1C=C=C=NC=1.",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "0ffe2b9f-d8c2-4c07-954f-b361ca4b7575",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: Cc1ccc(-c2csc3ncnc(Nc4ccc(C(=O)O)cc4)c23)cc1, Molecule B: c1(c2c(Nc3ccc(cc3)CO)ncnc2sc1)-c1ccc(cc1)C.",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "ee64de2d-a86b-4b22-92f8-8fb7ba1819e2",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: C=CCn1c(=O)c2[nH]c(Cc3ccc(N)cc3)nc2n(CCCC)c1=O, Molecule B: c1(n(c(c2c(n1CCCC)nc([nH]2)Cc1ccc(N)cc1)=O)CN=C)=O.",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "c073807e-e49f-455f-9adb-7bd6887772d2",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: CON(C)C(NC(C)=O)C(=O)NCc1ccccc1, Molecule B: N(C(C(NCc1ccccc1)=O)NC(=O)C)(NC)C.",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "1c729605-5bb5-473d-84eb-528a92f0b0fa",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: O=C(Nc1ccc(Cl)cc1)Nc1ccc(C(F)(F)F)cc1Cl, Molecule B: c1c(ccc(NCNc2ccc(cc2)Cl)c1Cl)C(F)(F)F.",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "3b508f92-209a-4d2b-94a1-1acde6b4aa30",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: Cn1c(=O)c(-c2ccccc2)nc2cncnc21, Molecule B: n1(C)c(c(nc2c1nccc2)-c1ccccc1)=O.",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "adf790b2-1f6a-4496-9091-173a44f37bbc",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: CN=C(NC#N)NCCn1nc(-c2ccccc2)ccc1=O, Molecule B: c1(ccccc1)-c1ccc(n(n1)CCNC(=N)NC#N)=O.",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "8ab9c6b6-c3f6-4ed9-8f32-a4c87862ee65",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: CCC(C)CNc1ncc(C#Cc2ccc(CC(C)NC(C)=O)cc2)cn1, Molecule B: c1(cnc(nc1)NCC(C)CC)C#Cc1ccc(cc1)CC(C)NC(=O)F.",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "219fb9e1-68db-44cc-bf77-4b8a362084bf",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: COc1ccc(C=CC(=O)Nc2cc(-c3c(-c4ccc(F)cc4)nc(SC)n3C)ccn2)cc1, Molecule B: c1(-c2c(-c3ccc(F)cc3)nc(SC)n2C)cc(NCC=Cc2ccc(cc2)OC)ncc1.",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "793929bf-8441-49e1-9c25-bee01e813a28",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: CC(C)n1cnc2c(NCc3ccc(-c4ccccc4)cc3)nc(N(CCO)CCO)nc21, Molecule B: C(N(c1nc(c2ncn(c2n1)CC)NCc1ccc(-c2ccccc2)cc1)CCO)CO.",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "5c9aa213-4156-4a9a-81e4-de78607541ad",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: CCN(CC)CCNC(=O)c1cc(Cl)c(N)cc1O, Molecule B: N(C(c1c(cc(c(c1)Cl)N)O)=O)CCN(C)CC.",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "b4d7c2ca-2d41-41b5-9159-c5cfb4fcef73",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: CC(C)c1ccccc1OCCN1CCC(NS(=O)(=O)c2ccccc2)CC1, Molecule B: c1cc(S(NC2CCN(CCOc3c(C(C)C)cccc3)CN2)(=O)=O)ccc1.",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "ea79919c-6423-4f94-a54a-3df35904758d",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: CCc1cc(OC)cc2nc(-c3cccnc3N3CCC(C(=O)O)CC3)oc(=O)c12, Molecule B: c1c(c2c(nc(-c3c(nccc3)N3CCC(CC3)C(O)=O)oc2=O)cc1O)CC.",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    },
+    {
+        "id": "03fdf712-a637-4624-ad97-78f8a00309c1",
+        "query": "You are a chemical assistent. Given two molecule SMILES, Please Determine whether these two Molecules are the same. Input: Molecule A SMILES string, Molecule B SMILES string. Output: yes / no. \nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nMolecule A: CN1CCN(CC(=O)N(C)c2ccc(Sc3ccccc3)cc2)CC1, Molecule B: C(N1CCNCC1)C(N(c1ccc(cc1)Sc1ccccc1)C)=O.",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "equivalence",
+        "meta": "{}"
+    }
+]

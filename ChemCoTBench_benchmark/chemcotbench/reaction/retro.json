@@ -1,0 +1,802 @@
+[
+    {
+        "id": "33b17efa-9c5c-473f-b6e7-364b5cde46a2",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: COc1cc2ncc3c(N)nc(-c4cncc(OC[C@@H]5CN5P(=O)(c5ccccc5)c5ccccc5)c4)cc3c2cc1OC\nReagents: CCN(C(C)C)C(C)C.CO\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "COc1cc2ncc3c(N)nc(-c4cncc(OC[C@@H]5CN5)c4)cc3c2cc1OCO=P(Cl)(c1ccccc1)c1ccccc1",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Phosphonamide Schotten-Baumann\", \"reagents\": [\"CCN(C(C)C)C(C)C\", \"CO\"], \"products\": [\"COc1cc2ncc3c(N)nc(-c4cncc(OC[C@@H]5CN5P(=O)(c5ccccc5)c5ccccc5)c4)cc3c2cc1OC\"]}"
+    },
+    {
+        "id": "6057426c-0870-4aec-b510-fd52a62ebfc6",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: CCc1nc(OCCO)c2cc(NC3(C#N)CCC3)cc(F)c2n1\nReagents: O=S(O[Na])O[Na].O=S(=O)(O[Na])O[Na].Cl[Zn]Cl.C1CCOC1\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "CCc1nc(OCCO)c2cc(N)cc(F)c2n1C[Si](C)(C)C#NO=C1CCC1",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Strecker ketone reaction\", \"reagents\": [\"O=S(O[Na])O[Na]\", \"O=S(=O)(O[Na])O[Na]\", \"Cl[Zn]Cl\", \"C1CCOC1\"], \"products\": [\"CCc1nc(OCCO)c2cc(NC3(C#N)CCC3)cc(F)c2n1\"]}"
+    },
+    {
+        "id": "dca0a750-72d8-41c5-b9b6-49a2d4a375bc",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: Cc1cnc(C(Cl)c2ccn3c(C(F)(F)F)nnc3c2C)cc1CO[Si](C)(C)C(C)(C)C\nReagents: CC(C)(C)c1cccc(C(C)(C)C)n1.ClCCl\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "Cc1cnc(C(O)c2ccn3c(C(F)(F)F)nnc3c2C)cc1CO[Si](C)(C)C(C)(C)CO=S(Cl)Cl",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Darzens chlorination\", \"reagents\": [\"CC(C)(C)c1cccc(C(C)(C)C)n1\", \"ClCCl\"], \"products\": [\"Cc1cnc(C(Cl)c2ccn3c(C(F)(F)F)nnc3c2C)cc1CO[Si](C)(C)C(C)(C)C\"]}"
+    },
+    {
+        "id": "d3871e0a-4f9a-418e-8c9d-0bca06818077",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: CC(C)(Cl)C(=O)Nc1ccc(Br)c(C(F)(F)F)c1\nReagents: O=P(O)(O)O.O.O\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "CC(C)(Cl)C(=NO)c1ccc(Br)c(C(F)(F)F)c1",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Acyclic Beckmann rearrangement\", \"reagents\": [\"O=P(O)(O)O\", \"O\", \"O\"], \"products\": [\"CC(C)(Cl)C(=O)Nc1ccc(Br)c(C(F)(F)F)c1\"]}"
+    },
+    {
+        "id": "1a0fe673-67b7-470e-96c3-ec9e187f3481",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: CCOC(=O)c1c(Cl)cc(CC)n(-c2ccc(OC)cc2)c1=O\nReagents: CC#N\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "CCOC(=O)c1c(O)cc(CC)n(-c2ccc(OC)cc2)c1=OO=P(Cl)(Cl)Cl",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Hydroxy to chloro\", \"reagents\": [\"CC#N\"], \"products\": [\"CCOC(=O)c1c(Cl)cc(CC)n(-c2ccc(OC)cc2)c1=O\"]}"
+    },
+    {
+        "id": "a9267b81-60ce-42ee-a78a-da8c36e836e1",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: COc1cc2c(=O)cc(C=NO)[nH]c2c2ncccc12\nReagents: O\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "ClCOc1cc2c(=O)cc(C=O)[nH]c2c2ncccc12NO",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Oxo to hydroxyimino\", \"reagents\": [\"O\"], \"products\": [\"COc1cc2c(=O)cc(C=NO)[nH]c2c2ncccc12\"]}"
+    },
+    {
+        "id": "d93d1107-2380-4edd-80f1-367137c70312",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: COc1ccc(-c2cc(C3CCNCC3)oc2-c2ccc(OC)cc2)cc1\nReagents: O=S(=O)(O)O.O=C(O)O[Na]\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "COc1ccc(C(=O)C(CC(=O)C2CCN(C(=O)OCc3ccccc3)CC2)c2ccc(OC)cc2)cc1",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Paal-Knorr furan synthesis\", \"reagents\": [\"O=S(=O)(O)O\", \"O=C(O)O[Na]\"], \"products\": [\"COc1ccc(-c2cc(C3CCNCC3)oc2-c2ccc(OC)cc2)cc1\"]}"
+    },
+    {
+        "id": "757b25f0-51a8-4ec4-b282-ae49c381e431",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: CCC[C@@H](NC(=O)OC(C)(C)C)C(=O)Sc1ccc(C)cc1\nReagents: C(=NC1CCCCC1)=NC1CCCCC1.On1nnc2ccccc21.CCOC(C)=O\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "CCC[C@@H](NC(=O)OC(C)(C)C)C(=O)OCc1ccc(S)cc1",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Carboxylic acid + thiol condensation\", \"reagents\": [\"C(=NC1CCCCC1)=NC1CCCCC1\", \"On1nnc2ccccc21\", \"CCOC(C)=O\"], \"products\": [\"CCC[C@@H](NC(=O)OC(C)(C)C)C(=O)Sc1ccc(C)cc1\"]}"
+    },
+    {
+        "id": "324d2fdc-16f7-4e86-9437-aa0cd7694fb2",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: C=Cc1cc(OC)c(Cc2ccc(-n3cccn3)cc2)cc1C(=O)OC\nReagents: Cl[Pd](Cl)(P(c1ccccc1)(c1ccccc1)c1ccccc1)P(c1ccccc1)(c1ccccc1)c1ccccc1.CN(C)C=O.F[K].[Li]Cl\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "COC(=O)c1cc(Cc2ccc(-n3cccn3)cc2)c(OC)cc1OS(=O)(=O)C(F)(F)FC=C[Sn](CCCC)(CCCC)CCCC",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Triflyloxy Stille reaction\", \"reagents\": [\"Cl[Pd](Cl)(P(c1ccccc1)(c1ccccc1)c1ccccc1)P(c1ccccc1)(c1ccccc1)c1ccccc1\", \"CN(C)C=O\", \"F[K]\", \"[Li]Cl\"], \"products\": [\"C=Cc1cc(OC)c(Cc2ccc(-n3cccn3)cc2)cc1C(=O)OC\"]}"
+    },
+    {
+        "id": "ef14937b-9d55-4bd2-a39b-0744283d8e6b",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: CC(C)OC(=O)c1ccc2c(c1)CC[C@H]1C2=NN(c2ccc(C#N)c(Cl)c2)[C@H]1C1CCCC1\nReagents: \n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "CC(C)ON#Cc1ccc(N2N=C3c4ccc(C(=O)O)cc4CC[C@@H]3[C@@H]2C2CCCC2)cc1Cl",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Esterification\", \"reagents\": [\"\"], \"products\": [\"CC(C)OC(=O)c1ccc2c(c1)CC[C@H]1C2=NN(c2ccc(C#N)c(Cl)c2)[C@H]1C1CCCC1\"]}"
+    },
+    {
+        "id": "ddc4c73b-58c5-4992-82fa-80bb109a6a8c",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: COC1COc2nc3c(ccn3COCC[Si](C)(C)C)cc2N(S(=O)(=O)c2ccc(C)cc2)C1\nReagents: c1ccc(P(c2ccccc2)c2ccccc2)cc1.CCOC(=O)/N=N/C(=O)OCC.C1CCOC1.ClCCl.N#N\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "COC(CO)COc1nc2c(ccn2COCC[Si](C)(C)C)cc1NS(=O)(=O)c1ccc(C)cc1",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Mitsunobu sulfonamide reaction\", \"reagents\": [\"c1ccc(P(c2ccccc2)c2ccccc2)cc1\", \"CCOC(=O)/N=N/C(=O)OCC\", \"C1CCOC1\", \"ClCCl\", \"N#N\"], \"products\": [\"COC1COc2nc3c(ccn3COCC[Si](C)(C)C)cc2N(S(=O)(=O)c2ccc(C)cc2)C1\"]}"
+    },
+    {
+        "id": "f4098eb7-2975-4e14-a6d9-1db30f04dbc5",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: O=S(O)c1ccc(C2CC(O)(c3ccc(OCc4c(-c5c(Cl)cccc5Cl)noc4C4CC4)cc3Cl)C2)cc1\nReagents: CO.CO[Na]\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "COC(=O)CCS(=O)(=O)c1ccc(C2CC(O)(c3ccc(OCc4c(-c5c(Cl)cccc5Cl)noc4C4CC4)cc3Cl)C2)cc1",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Julia olefination\", \"reagents\": [\"CO\", \"CO[Na]\"], \"products\": [\"O=S(O)c1ccc(C2CC(O)(c3ccc(OCc4c(-c5c(Cl)cccc5Cl)noc4C4CC4)cc3Cl)C2)cc1\"]}"
+    },
+    {
+        "id": "38032d18-9931-4659-8d00-feeacf4d180f",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: CC(C)(C)OC(=O)/N=C(/c1ccccc1F)C(F)(F)F\nReagents: O=P(c1ccccc1)(c1ccccc1)c1ccccc1.Cc1ccccc1.CCCCCC\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "CC(C)(C)OC(=O)N=P(c1ccccc1)(c1ccccc1)c1ccccc1O=C(c1ccccc1F)C(F)(F)F",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Aza-Wittig reaction\", \"reagents\": [\"O=P(c1ccccc1)(c1ccccc1)c1ccccc1\", \"Cc1ccccc1\", \"CCCCCC\"], \"products\": [\"CC(C)(C)OC(=O)/N=C(/c1ccccc1F)C(F)(F)F\"]}"
+    },
+    {
+        "id": "7558301f-f8b9-47c0-a5dd-e52a48194156",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: COc1nnccc1COS(C)(=O)=O\nReagents: CCN(C(C)C)C(C)C.ClCCl\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "COc1nnccc1COCS(=O)(=O)Cl",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Sulfonic ester Schotten-Baumann\", \"reagents\": [\"CCN(C(C)C)C(C)C\", \"ClCCl\"], \"products\": [\"COc1nnccc1COS(C)(=O)=O\"]}"
+    },
+    {
+        "id": "95f3c430-c781-4142-8629-572cc58076f4",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: CC(C)(CCCc1ccccc1)NC(=O)CCl\nReagents: CC(=O)O.O=S(=O)(O)O.ClCCl\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "CC(C)(O)CCCc1ccccc1N#CCCl",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Alcohol Ritter reaction\", \"reagents\": [\"CC(=O)O\", \"O=S(=O)(O)O\", \"ClCCl\"], \"products\": [\"CC(C)(CCCc1ccccc1)NC(=O)CCl\"]}"
+    },
+    {
+        "id": "3939848c-1b73-4404-897a-faef5f48d857",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: CC(=O)Nc1cc(C(=O)O)cc(-n2c(C)ccc2-c2cc(Br)ccc2OCc2ccc(F)cc2)c1\nReagents: CCOC(C)=O.Cc1ccc(S(=O)(=O)O)cc1.CN1CCCC1=O\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "CC(=O)CCC(=O)c1cc(Br)ccc1OCc1ccc(F)cc1CC(=O)Nc1cc(N)cc(C(=O)O)c1",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Paal-Knorr pyrrole synthesis\", \"reagents\": [\"CCOC(C)=O\", \"Cc1ccc(S(=O)(=O)O)cc1\", \"CN1CCCC1=O\"], \"products\": [\"CC(=O)Nc1cc(C(=O)O)cc(-n2c(C)ccc2-c2cc(Br)ccc2OCc2ccc(F)cc2)c1\"]}"
+    },
+    {
+        "id": "8a01aca2-f0d1-4dc9-9ebd-9f23b8ee10db",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: CCOC(=O)Cn1nc(C(F)(F)F)c2c1C1CC1C2\nReagents: \n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "CCOC(=O)CBrFC(F)(F)c1n[nH]c2c1CC1CC21",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Bromo N-alkylation\", \"reagents\": [\"\"], \"products\": [\"CCOC(=O)Cn1nc(C(F)(F)F)c2c1C1CC1C2\"]}"
+    },
+    {
+        "id": "e253b702-0d84-47ed-8ccf-12f9bcff0018",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: Clc1ccc(OC2CN(c3ccnc(Cl)n3)C2)c(Cl)c1\nReagents: CC(C)O\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "Clc1ccnc(Cl)n1Clc1ccc(OC2CNC2)c(Cl)c1",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Chloro N-arylation\", \"reagents\": [\"CC(C)O\"], \"products\": [\"Clc1ccc(OC2CN(c3ccnc(Cl)n3)C2)c(Cl)c1\"]}"
+    },
+    {
+        "id": "be38ad13-4a7f-4158-990c-906d1084e857",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: COc1c(C=O)cc(S(=O)(=O)NC(=O)Cc2ccccc2)cc1-c1cccc(NC(N)=O)c1\nReagents: \n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "COc1c(C=O)cc(S(N)(=O)=O)cc1-c1cccc(NC(N)=O)c1O=C(Cl)Cc1ccccc1",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Carbonylsulfonamide Schotten-Baumann\", \"reagents\": [\"\"], \"products\": [\"COc1c(C=O)cc(S(=O)(=O)NC(=O)Cc2ccccc2)cc1-c1cccc(NC(N)=O)c1\"]}"
+    },
+    {
+        "id": "d185a6d4-76b7-4135-9a52-e61037def70f",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: C#C[C@H]1CC[C@@H](C)N1C(=O)OC(C)(C)C\nReagents: COP(=O)(OC)C(=[N+]=[N-])C(C)=O.O=C(O[K])O[K].CO\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "C[C@@H]1CC[C@H](C=O)N1C(=O)OC(C)(C)C",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Seyferth-Gilbert-Bestmann aldehyde homologation\", \"reagents\": [\"COP(=O)(OC)C(=[N+]=[N-])C(C)=O\", \"O=C(O[K])O[K]\", \"CO\"], \"products\": [\"C#C[C@H]1CC[C@@H](C)N1C(=O)OC(C)(C)C\"]}"
+    },
+    {
+        "id": "ddc42ae4-f2b9-4a51-8ade-20f7d7a87527",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: CC1(C)OB(C2=CCC3(CC2)OCCO3)OC1(C)C\nReagents: C1=CC([Fe]C2(P(c3ccccc3)c3ccccc3)C=CC=C2)(P(c2ccccc2)c2ccccc2)C=C1.C1COCCO1.CC(=O)O[K].Cl[Pd]Cl.[Na]Br\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "CC1(C)OB(B2OC(C)(C)C(C)(C)O2)OC1(C)CO=S(=O)(OC1=CCC2(CC1)OCCO2)C(F)(F)F",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Triflyloxy Miyaura boration\", \"reagents\": [\"C1=CC([Fe]C2(P(c3ccccc3)c3ccccc3)C=CC=C2)(P(c2ccccc2)c2ccccc2)C=C1\", \"C1COCCO1\", \"CC(=O)O[K]\", \"Cl[Pd]Cl\", \"[Na]Br\"], \"products\": [\"CC1(C)OB(C2=CCC3(CC2)OCCO3)OC1(C)C\"]}"
+    },
+    {
+        "id": "273e8008-d886-4a55-b5c1-bc9dce165742",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: CCC1(N2C(=O)C(O)(CC(=O)c3ccc(N)cc3)c3ccccc32)CNc2ccccc21\nReagents: CCOC(C)=O.C1CCCCC1.CCCCC\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "CCC1(N2C(=O)C(=O)c3ccccc32)CNc2ccccc21CC(=O)c1ccc(N)cc1",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Aldol addition\", \"reagents\": [\"CCOC(C)=O\", \"C1CCCCC1\", \"CCCCC\"], \"products\": [\"CCC1(N2C(=O)C(O)(CC(=O)c3ccc(N)cc3)c3ccccc32)CNc2ccccc21\"]}"
+    },
+    {
+        "id": "4585944e-92d8-4d30-8f1d-9d977918e1b3",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: OC(c1ccccc1)(c1ccccc1)C12CC[N+](CCCOc3cccc(F)c3)(CC1)CC2.[Br-]\nReagents: CC#N\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "OC(c1ccccc1)(c1ccccc1)C12CCN(CC1)CC2Fc1cccc(OCCCBr)c1",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Bromo Menshutkin reaction\", \"reagents\": [\"CC#N\"], \"products\": [\"OC(c1ccccc1)(c1ccccc1)C12CC[N+](CCCOc3cccc(F)c3)(CC1)CC2\", \"[Br-]\"]}"
+    },
+    {
+        "id": "4056a9bb-91f7-45e2-94d6-5bda9f7a5e78",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: CCc1cnc(OCc2cn(-c3cc(C)cc(C)c3)nn2)nc1\nReagents: \n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "Cc1cc(C)cc(-n2cc(CO)nn2)c1CCc1cnc(Cl)nc1",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"SNAr ether synthesis\", \"reagents\": [\"\"], \"products\": [\"CCc1cnc(OCc2cn(-c3cc(C)cc(C)c3)nn2)nc1\"]}"
+    },
+    {
+        "id": "bcfd24c4-1b07-4d54-8c2c-329ff1c512e6",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: CCOCCN1CCc2c(Br)cccc2C1=O\nReagents: O.O.CCOCC.CS(C)=O.O[K]\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "CCIO=C1c2cccc(Br)c2CCN1CCO",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Williamson ether synthesis\", \"reagents\": [\"O\", \"O\", \"CCOCC\", \"CS(C)=O\", \"O[K]\"], \"products\": [\"CCOCCN1CCc2c(Br)cccc2C1=O\"]}"
+    },
+    {
+        "id": "15749713-ab8e-437b-b809-deb6f4f06af3",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: COc1cc2c(cc1OCc1ccccc1)CCNC2/C=C/c1cccc(S(C)(=O)=O)c1\nReagents: [Li]N([Si](C)(C)C)[Si](C)(C)C.C1CCOC1\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "COc1cc2c(cc1OCc1ccccc1)CCN(C(=O)OC(C)(C)C)C2CS(=O)(=O)c1nnnn1-c1ccccc1CS(=O)(=O)c1cccc(C=O)c1",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Julia-Kocienski olefination\", \"reagents\": [\"[Li]N([Si](C)(C)C)[Si](C)(C)C\", \"C1CCOC1\"], \"products\": [\"COc1cc2c(cc1OCc1ccccc1)CCNC2/C=C/c1cccc(S(C)(=O)=O)c1\"]}"
+    },
+    {
+        "id": "7e072ac3-93be-493f-ad3c-68784ab07ea4",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: C=C(c1nn(CC2CC(F)(F)C2)c(C(=O)OCC)c1C)C(F)(F)S(=O)(=O)c1ccccc1\nReagents: O.Cc1ccccc1\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "CCOC(=O)c1c(C)c(C(C)(O)C(F)(F)S(=O)(=O)c2ccccc2)nn1CC1CC(F)(F)C1",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Alcohol elimination\", \"reagents\": [\"O\", \"Cc1ccccc1\"], \"products\": [\"C=C(c1nn(CC2CC(F)(F)C2)c(C(=O)OCC)c1C)C(F)(F)S(=O)(=O)c1ccccc1\"]}"
+    },
+    {
+        "id": "1cd458b4-7511-4f90-afdb-63b7d7b67019",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: CCC(=O)C(=Cc1cc(Cl)cc(Cl)c1)C(=O)C(F)(F)F\nReagents: CC(=O)C(=Cc1cc(Cl)cc(Cl)c1)C(C)=O\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "CCC(=O)CC(=O)C(F)(F)FO=Cc1cc(Cl)cc(Cl)c1",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Claisen-Schmidt condensation\", \"reagents\": [\"CC(=O)C(=Cc1cc(Cl)cc(Cl)c1)C(C)=O\"], \"products\": [\"CCC(=O)C(=Cc1cc(Cl)cc(Cl)c1)C(=O)C(F)(F)F\"]}"
+    },
+    {
+        "id": "76ae23f5-e4b5-4040-9482-4d27f7824617",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: CSc1cc(-c2ccc(C(F)(F)F)cc2)ccc1C#N\nReagents: CN(C)C=O.O\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "N#Cc1ccc(-c2ccc(C(F)(F)F)cc2)cc1FCS[Na]",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Fluoro thioether synthesis\", \"reagents\": [\"CN(C)C=O\", \"O\"], \"products\": [\"CSc1cc(-c2ccc(C(F)(F)F)cc2)ccc1C#N\"]}"
+    },
+    {
+        "id": "0677ef33-bb7b-454f-8d8c-7f6b07b2da2d",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: CC(C)(C)OC(=O)N1CCN(C2C(=O)CCOc3ccccc32)CC1\nReagents: CCN(CC)CC.O=C(Cl)C(=O)Cl.CS(C)(=O)=O.ClCCl.O\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "CC(C)(C)OC(=O)N1CCN([C@@H]2c3ccccc3OCC[C@H]2O)CC1",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Ketone Swern oxidation\", \"reagents\": [\"CCN(CC)CC\", \"O=C(Cl)C(=O)Cl\", \"CS(C)(=O)=O\", \"ClCCl\", \"O\"], \"products\": [\"CC(C)(C)OC(=O)N1CCN(C2C(=O)CCOc3ccccc32)CC1\"]}"
+    },
+    {
+        "id": "ddfe744f-328c-4e59-8015-e00aa1ad7b66",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: CC1CCC(c2ccc3[nH]c(=O)ccc3c2)NC1\nReagents: O.[Na+].CO.[BH4-]\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "CC1CCC(c2ccc3[nH]c(=O)ccc3c2)=NC1",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Secondary ketimine reduction\", \"reagents\": [\"O\", \"[Na+]\", \"CO\", \"[BH4-]\"], \"products\": [\"CC1CCC(c2ccc3[nH]c(=O)ccc3c2)NC1\"]}"
+    },
+    {
+        "id": "b5b2503c-ac0f-4c49-99e0-aae0348df6ed",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: O=c1nc(C#Cc2ccccc2)cc[nH]1\nReagents: c1ccc(P(c2ccccc2)(c2ccccc2)[Pd](P(c2ccccc2)(c2ccccc2)c2ccccc2)(P(c2ccccc2)(c2ccccc2)c2ccccc2)P(c2ccccc2)(c2ccccc2)c2ccccc2)cc1.CN(C)C=O.N#N.[Cu]I\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "CC(C)c1cc(C(C)C)c(S(=O)(=O)Oc2ccn(C(c3ccccc3)(c3ccccc3)c3ccccc3)c(=O)n2)c(C(C)C)c1CCCC[Sn](C#Cc1ccccc1)(CCCC)CCCC",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Sulfoxy Stille reaction\", \"reagents\": [\"c1ccc(P(c2ccccc2)(c2ccccc2)[Pd](P(c2ccccc2)(c2ccccc2)c2ccccc2)(P(c2ccccc2)(c2ccccc2)c2ccccc2)P(c2ccccc2)(c2ccccc2)c2ccccc2)cc1\", \"CN(C)C=O\", \"N#N\", \"[Cu]I\"], \"products\": [\"O=c1nc(C#Cc2ccccc2)cc[nH]1\"]}"
+    },
+    {
+        "id": "e1e57e4e-823f-4998-b1ac-3090e41b03f3",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: CON(C)C(=O)c1nc2n(n1)[C@H](C1CC1)C[C@@H]2F\nReagents: CCN=C=NCCCN(C)C.On1nnc2ccccc21.CCN(C(C)C)C(C)C.ClCCl.Cl\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "O=C(O)c1nc2n(n1)[C@H](C1CC1)C[C@@H]2FCNOCCl",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Weinreb amide synthesis\", \"reagents\": [\"CCN=C=NCCCN(C)C\", \"On1nnc2ccccc21\", \"CCN(C(C)C)C(C)C\", \"ClCCl\", \"Cl\"], \"products\": [\"CON(C)C(=O)c1nc2n(n1)[C@H](C1CC1)C[C@@H]2F\"]}"
+    },
+    {
+        "id": "754a08d8-7cd3-4062-89e0-13b6a2f0d0fe",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: C[C@H](CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)N=C=O\nReagents: Cc1ccccc1.N#N\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "C[C@H](CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)C(=O)N=[N+]=[N-]",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Curtius rearrangement\", \"reagents\": [\"Cc1ccccc1\", \"N#N\"], \"products\": [\"C[C@H](CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C)N=C=O\"]}"
+    },
+    {
+        "id": "d4a5acae-d4d6-40fc-885f-255434669fd0",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: CC1(NC(=O)c2cccc(Nc3ccc(C(=O)N=C4NCCN4)cc3C3CC3)c2Cl)CC1\nReagents: CCN(C(C)C)C(C)C.CN(C)C=O\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "CC1(NC(=O)c2cccc(Nc3ccc(C(=O)O)cc3C3CC3)c2Cl)CC1N=C1NCCN1Br",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Carboxylic acid + imine condensation\", \"reagents\": [\"CCN(C(C)C)C(C)C\", \"CN(C)C=O\"], \"products\": [\"CC1(NC(=O)c2cccc(Nc3ccc(C(=O)N=C4NCCN4)cc3C3CC3)c2Cl)CC1\"]}"
+    },
+    {
+        "id": "946102f3-94f3-40ee-b175-4e92036d498b",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: COC(=O)c1nnsc1CO[Si](C(C)C)(C(C)C)C(C)C\nReagents: Cc1cccc(C)n1.ClCCl\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "CC(C)[Si](OS(=O)(=O)C(F)(F)F)(C(C)C)C(C)CCOC(=O)c1nnsc1CO",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"O-TIPS protection\", \"reagents\": [\"Cc1cccc(C)n1\", \"ClCCl\"], \"products\": [\"COC(=O)c1nnsc1CO[Si](C(C)C)(C(C)C)C(C)C\"]}"
+    },
+    {
+        "id": "d0bbfde5-4208-41f9-b58e-1a95addb8c08",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: Cc1cc2nn(CC(C)(C#N)NC(=S)c3ccc(C(F)(F)F)cc3)nc2cc1Cl\nReagents: CCCCCCC.CCOC(C)=O\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "Cc1cc2nn(CC(C)(N)C#N)nc2cc1ClFC(F)(F)c1ccc(C(=S)Cl)cc1",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Thioamide Schotten-Baumann\", \"reagents\": [\"CCCCCCC\", \"CCOC(C)=O\"], \"products\": [\"Cc1cc2nn(CC(C)(C#N)NC(=S)c3ccc(C(F)(F)F)cc3)nc2cc1Cl\"]}"
+    },
+    {
+        "id": "4732103a-d65e-4b32-8288-d7dfa6629114",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: Cc1cccc(Cn2nc(C)c3c([N+](=O)[O-])cccc32)n1\nReagents: Cc1ccccc1P(c1ccccc1C)c1ccccc1C.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.CCN(CC)CC.CN(C)C=O.N#N.[Pd].[Pd]\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "Cc1cccc(Cn2nc(I)c3c([N+](=O)[O-])cccc32)n1C[Sn](C)(C)C",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Iodo Stille reaction\", \"reagents\": [\"Cc1ccccc1P(c1ccccc1C)c1ccccc1C\", \"O=C(/C=C/c1ccccc1)/C=C/c1ccccc1\", \"O=C(/C=C/c1ccccc1)/C=C/c1ccccc1\", \"O=C(/C=C/c1ccccc1)/C=C/c1ccccc1\", \"CCN(CC)CC\", \"CN(C)C=O\", \"N#N\", \"[Pd]\", \"[Pd]\"], \"products\": [\"Cc1cccc(Cn2nc(C)c3c([N+](=O)[O-])cccc32)n1\"]}"
+    },
+    {
+        "id": "70a5ab1e-cbf5-45fd-a328-ae79d89fe318",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: CC(C)C(O)(Cn1cncn1)c1ccc(Oc2ccc(Cl)cc2)cc1Cl\nReagents: CCCC.ClCCl.[Mg]Br\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "CC(C)[Mg]ClO=C(Cn1cncn1)c1ccc(Oc2ccc(Cl)cc2)cc1Cl",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Chloro Grignard reaction\", \"reagents\": [\"CCCC\", \"ClCCl\", \"[Mg]Br\"], \"products\": [\"CC(C)C(O)(Cn1cncn1)c1ccc(Oc2ccc(Cl)cc2)cc1Cl\"]}"
+    },
+    {
+        "id": "b94f85f8-d2d6-442a-a59b-0e64a8d7e84b",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: CN(C)CC1OCCc2c1sc1ccccc21\nReagents: O.O.O=CO\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "C=ONCC1OCCc2c1sc1ccccc21",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Eschweiler-Clarke methylation\", \"reagents\": [\"O\", \"O\", \"O=CO\"], \"products\": [\"CN(C)CC1OCCc2c1sc1ccccc21\"]}"
+    },
+    {
+        "id": "aedd72cb-581c-4af1-a5ce-8e8943532f92",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: O=C(C1CCCCC1)C1CCN(S(=O)(=O)c2ccccc2)CC1\nReagents: CCOCC.N#N.C1CCOC1\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "CCOC(=O)C1CCN(S(=O)(=O)c2ccccc2)CC1Br[Mg]C1CCCCC1",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Grignard ester substitution\", \"reagents\": [\"CCOCC\", \"N#N\", \"C1CCOC1\"], \"products\": [\"O=C(C1CCCCC1)C1CCN(S(=O)(=O)c2ccccc2)CC1\"]}"
+    },
+    {
+        "id": "615497ad-0b5b-48aa-bd78-ba0dbee01ffb",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: CCC(=O)N[C@@H]1Cc2ccccc2N(OC)C1=O\nReagents: O.O=C(O[Na])O[Na].O=C(O)O[Na]\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "CCC(=O)OC(=O)CCCON1C(=O)[C@H](N)Cc2ccccc21",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Carboxylic anhydride + amine reaction\", \"reagents\": [\"O\", \"O=C(O[Na])O[Na]\", \"O=C(O)O[Na]\"], \"products\": [\"CCC(=O)N[C@@H]1Cc2ccccc2N(OC)C1=O\"]}"
+    },
+    {
+        "id": "2878faf8-f302-444b-a3a4-2cae6cd20b6f",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: COC(=O)c1cc(Br)c(Br)o1\nReagents: COC(=O)c1cc(Br)co1.O=S(=O)(O)O.C1CCOC1\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "COO=C(O)c1cc(Br)c(Br)o1",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Fischer-Speier esterification\", \"reagents\": [\"COC(=O)c1cc(Br)co1\", \"O=S(=O)(O)O\", \"C1CCOC1\"], \"products\": [\"COC(=O)c1cc(Br)c(Br)o1\"]}"
+    },
+    {
+        "id": "1f79a602-6224-4ab5-b70e-baddaa6b32cc",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: C=C(COC(C)=O)CC(O)CC[C@@H](C)[C@H]1CCC2C(O[Si](C)(C)C)CCC[C@@]21C\nReagents: CCN(CC)CC.ClCCl\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "C[C@H](CCC=O)[C@H]1CCC2C(O[Si](C)(C)C)CCC[C@@]21CC=C(COC(C)=O)C[Si](C)(C)C",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Aldehyde Hosomi-Sakurai reaction\", \"reagents\": [\"CCN(CC)CC\", \"ClCCl\"], \"products\": [\"C=C(COC(C)=O)CC(O)CC[C@@H](C)[C@H]1CCC2C(O[Si](C)(C)C)CCC[C@@]21C\"]}"
+    },
+    {
+        "id": "22b5279e-4557-41d9-96b1-6ee7654f3c57",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: CC1(C)Oc2ccc(C#N)cc2[C@@H](c2cccc[n+]2[O-])[C@H]1O\nReagents: CC#N\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "CC1(C)Oc2ccc(C#N)cc2[C@@H](c2ccccn2)[C@H]1O",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Nitrogen oxidation\", \"reagents\": [\"CC#N\"], \"products\": [\"CC1(C)Oc2ccc(C#N)cc2[C@@H](c2cccc[n+]2[O-])[C@H]1O\"]}"
+    },
+    {
+        "id": "469d523c-eec6-49f3-ac2d-b14e56f83b75",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: C=CC(c1cccc(OC)c1)C(C)C(=O)N(C)C\nReagents: O.Cc1ccccc1C\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "COc1cccc(/C=C/CO)c1CCC(OC)(OC)N(C)C",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Eschenmoser-Claisen rearrangement\", \"reagents\": [\"O\", \"Cc1ccccc1C\"], \"products\": [\"C=CC(c1cccc(OC)c1)C(C)C(=O)N(C)C\"]}"
+    },
+    {
+        "id": "69ddac61-c805-4368-b6b7-5d4cd1d10b54",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: Cc1cccc(-n2nc(C)cc2O)n1\nReagents: CCOC(C)=O.CC(=O)O\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "CCOC(=O)CC(C)=OCc1cccc(NN)n1",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Knorr pyrazole synthesis\", \"reagents\": [\"CCOC(C)=O\", \"CC(=O)O\"], \"products\": [\"Cc1cccc(-n2nc(C)cc2O)n1\"]}"
+    },
+    {
+        "id": "e9a0e4eb-2746-4fd6-8ecc-20dc021a7370",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: CCCCCCCCCCCCCCCCCCOC[C@H](CO)Oc1cccc(OC)n1\nReagents: CCOC(C)=O.C1CCOC1\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "CCCCCCCCCCCCCCCCCCOC[C@H](CO[Si](C(C)C)(C(C)C)C(C)C)Oc1cccc(OC)n1",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"O-TIPS deprotection\", \"reagents\": [\"CCOC(C)=O\", \"C1CCOC1\"], \"products\": [\"CCCCCCCCCCCCCCCCCCOC[C@H](CO)Oc1cccc(OC)n1\"]}"
+    },
+    {
+        "id": "3c8eebd9-f6f0-48b0-a3f4-b7dce94d30ee",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: CCOC(=O)C(C)(C)CCC[P+](c1ccccc1)(c1ccccc1)c1ccccc1.[Br-]\nReagents: Cc1ccccc1\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "c1ccc(P(c2ccccc2)c2ccccc2)cc1CCOC(=O)C(C)(C)CCCBr",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Phosphorus Menshutkin reaction\", \"reagents\": [\"Cc1ccccc1\"], \"products\": [\"CCOC(=O)C(C)(C)CCC[P+](c1ccccc1)(c1ccccc1)c1ccccc1\", \"[Br-]\"]}"
+    },
+    {
+        "id": "f997c98f-e820-45a5-b0cd-659b734dbeea",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: CCc1nc(-c2ccc(Cl)cc2Cl)c(CC)nc1N[C@@H]1CN(C(=O)OCc2ccccc2)C[C@@H]1OC(=O)c1ccc([N+](=O)[O-])cc1\nReagents: c1ccc(P(c2ccccc2)c2ccccc2)cc1.CC(C)(C)OC(=O)N=NC(=O)OC(C)(C)C.O=C(O)O[Na].C1CCOC1\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "CCc1nc(-c2ccc(Cl)cc2Cl)c(CC)nc1N[C@@H]1CN(C(=O)OCc2ccccc2)C[C@H]1OO=C(O)c1ccc([N+](=O)[O-])cc1",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Mitsunobu ester synthesis\", \"reagents\": [\"c1ccc(P(c2ccccc2)c2ccccc2)cc1\", \"CC(C)(C)OC(=O)N=NC(=O)OC(C)(C)C\", \"O=C(O)O[Na]\", \"C1CCOC1\"], \"products\": [\"CCc1nc(-c2ccc(Cl)cc2Cl)c(CC)nc1N[C@@H]1CN(C(=O)OCc2ccccc2)C[C@@H]1OC(=O)c1ccc([N+](=O)[O-])cc1\"]}"
+    },
+    {
+        "id": "c1772fbe-c7db-428a-bcf4-bf0bd1913d3b",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: C=CC[n+]1sc(Cl)c(Cl)c1Cl.O=S(=O)([O-])C(F)(F)F\nReagents: ClC(Cl)(Cl)Cl\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "C=CCOS(=O)(=O)C(F)(F)FClc1nsc(Cl)c1Cl",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Triflyloxy Menshutkin reaction\", \"reagents\": [\"ClC(Cl)(Cl)Cl\"], \"products\": [\"C=CC[n+]1sc(Cl)c(Cl)c1Cl\", \"O=S(=O)([O-])C(F)(F)F\"]}"
+    },
+    {
+        "id": "bc0646b3-b817-4b64-b0d3-6ed379e3cebd",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: CN(C)S(=O)(=O)N1CC12[C@@H]1CC[C@H]2Cc2ccc(-c3cc(-c4ccc(F)cc4)n(C)n3)cc2C1\nReagents: CS(C)=O.N#N.[NaH]\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "[I-]CN(C)S(=O)(=O)/N=C1\\[C@@H]2CC[C@H]1Cc1ccc(-c3cc(-c4ccc(F)cc4)n(C)n3)cc1C2C[S+](C)(C)=O",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Johnson-Corey-Chaykovsky aziridine synthesis\", \"reagents\": [\"CS(C)=O\", \"N#N\", \"[NaH]\"], \"products\": [\"CN(C)S(=O)(=O)N1CC12[C@@H]1CC[C@H]2Cc2ccc(-c3cc(-c4ccc(F)cc4)n(C)n3)cc2C1\"]}"
+    },
+    {
+        "id": "4b9bccab-eda7-4ff3-bb0e-755f266bde77",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: Cc1cc2c(cc1Cl)c(-c1ccccc1)o[n+]2C(C)(C)C.F[B-](F)(F)F\nReagents: CCOCC.C[N+](=O)[O-]\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "Cc1cc2noc(-c3ccccc3)c2cc1ClCC(C)(C)OF[B-](F)(F)F[H+]",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Aromatic Menshutkin reaction\", \"reagents\": [\"CCOCC\", \"C[N+](=O)[O-]\"], \"products\": [\"Cc1cc2c(cc1Cl)c(-c1ccccc1)o[n+]2C(C)(C)C\", \"F[B-](F)(F)F\"]}"
+    },
+    {
+        "id": "71f33775-a0b0-469c-9795-c34606669523",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: COc1ccc(C(Nc2ccccc2)C(=O)O)cn1\nReagents: CC#N\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "OCOc1ccc(B(O)O)cn1Nc1ccccc1O=CC(=O)O",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Petasis reaction\", \"reagents\": [\"CC#N\"], \"products\": [\"COc1ccc(C(Nc2ccccc2)C(=O)O)cn1\"]}"
+    },
+    {
+        "id": "d30048f9-1cdb-4887-afc0-6a8995eb2272",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: CCOC(=O)c1c(C)[nH]c(C=C2C(=O)Nc3ccc(S(=O)(=O)NC)cc32)c1CCCN(C)C\nReagents: \n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "CCOC(=O)c1c(C)[nH]c(C=O)c1CCCN(C)CCNS(=O)(=O)c1ccc2c(c1)CC(=O)N2",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Knoevenagel condensation\", \"reagents\": [\"\"], \"products\": [\"CCOC(=O)c1c(C)[nH]c(C=C2C(=O)Nc3ccc(S(=O)(=O)NC)cc32)c1CCCN(C)C\"]}"
+    },
+    {
+        "id": "343b2b0e-50b2-4d41-ac33-c1c78892e9cb",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: CS(=O)(=O)N1CCc2c(c(-c3ccc(C(F)(F)F)cc3)nn2C[C@@H](O)CO)C1\nReagents: O=C(O[Cs])O[Cs].CN(C)C=O\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "CS(=O)(=O)N1CCc2[nH]nc(-c3ccc(C(F)(F)F)cc3)c2C1CC(C)(C)[Si](C)(C)OC[C@H]1CO1",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Epoxide + amine coupling\", \"reagents\": [\"O=C(O[Cs])O[Cs]\", \"CN(C)C=O\"], \"products\": [\"CS(=O)(=O)N1CCc2c(c(-c3ccc(C(F)(F)F)cc3)nn2C[C@@H](O)CO)C1\"]}"
+    },
+    {
+        "id": "ce5bb5d3-89b4-4521-92c8-a6dbcf941de9",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: COc1ccc(NC(=O)C(C)(C)C)nn1\nReagents: c1ccc(P(c2ccccc2)c2ccc3ccccc3c2-c2c(P(c3ccccc3)c3ccccc3)ccc3ccccc23)cc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(O[Cs])O[Cs].C1COCCO1.[Pd].[Pd]\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "COc1ccc(Cl)nn1CC(C)(C)C(N)=O",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Chloro Buchwald-Hartwig amination\", \"reagents\": [\"c1ccc(P(c2ccccc2)c2ccc3ccccc3c2-c2c(P(c3ccccc3)c3ccccc3)ccc3ccccc23)cc1\", \"O=C(/C=C/c1ccccc1)/C=C/c1ccccc1\", \"O=C(/C=C/c1ccccc1)/C=C/c1ccccc1\", \"O=C(/C=C/c1ccccc1)/C=C/c1ccccc1\", \"O=C(O[Cs])O[Cs]\", \"C1COCCO1\", \"[Pd]\", \"[Pd]\"], \"products\": [\"COc1ccc(NC(=O)C(C)(C)C)nn1\"]}"
+    },
+    {
+        "id": "c1762bdb-8cb6-4ac7-b1ce-69f1ce8dbee3",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: NC(c1ccc(CC(F)(F)F)cc1)c1ccc(CC(F)(F)F)cc1\nReagents: [Na+].[BH4-]\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "N=C(c1ccc(CC(F)(F)F)cc1)c1ccc(CC(F)(F)F)cc1",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Primary ketimine reduction\", \"reagents\": [\"[Na+]\", \"[BH4-]\"], \"products\": [\"NC(c1ccc(CC(F)(F)F)cc1)c1ccc(CC(F)(F)F)cc1\"]}"
+    },
+    {
+        "id": "61ed54c4-354a-4f11-8d52-e967f6a89ca5",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: Cc1ccc(S(=O)(=O)N[C@@H](Cc2ccc([N+](=O)[O-])cc2)C(=O)O)cc1\nReagents: \n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "Cc1ccc(S(=O)(=O)Cl)cc1N[C@@H](Cc1ccc([N+](=O)[O-])cc1)C(=O)O",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Sulfonamide Schotten-Baumann\", \"reagents\": [\"\"], \"products\": [\"Cc1ccc(S(=O)(=O)N[C@@H](Cc2ccc([N+](=O)[O-])cc2)C(=O)O)cc1\"]}"
+    },
+    {
+        "id": "ad5e50bb-4466-4f96-b9d0-d2a7cb1abc43",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: CC1CC1c1nc2ccc(-n3ccc(OCc4ccc(F)cc4)cc3=O)cc2n1C\nReagents: CN(C)C(On1nnc2cccnc21)=[N+](C)C.CCN(C(C)C)C(C)C.F[P-](F)(F)(F)(F)F.CN(C)C=O\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "CNc1cc(-n2ccc(OCc3ccc(F)cc3)cc2=O)ccc1NCC1CC1C(=O)O",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Phillips benzimidazole condensation\", \"reagents\": [\"CN(C)C(On1nnc2cccnc21)=[N+](C)C\", \"CCN(C(C)C)C(C)C\", \"F[P-](F)(F)(F)(F)F\", \"CN(C)C=O\"], \"products\": [\"CC1CC1c1nc2ccc(-n3ccc(OCc4ccc(F)cc4)cc3=O)cc2n1C\"]}"
+    },
+    {
+        "id": "0b346ec5-7fff-43f9-a225-4e9bd4816e62",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: COCCOCCOCCNC(=O)N1CCN(Cc2ccc(-c3cc4nccc(Oc5ccc(NC(=O)NC6CC6)cc5F)c4s3)nc2)CC1\nReagents: [NH4+].[Cl-].CN1CCCC1=O\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "COCCOCCOCCNO=C(Nc1ccc(Oc2ccnc3cc(-c4ccc(CN5CCN(C(=O)Oc6ccc([N+](=O)[O-])cc6)CC5)cn4)sc23)c(F)c1)NC1CC1",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Carbamate + amine reaction\", \"reagents\": [\"[NH4+]\", \"[Cl-]\", \"CN1CCCC1=O\"], \"products\": [\"COCCOCCOCCNC(=O)N1CCN(Cc2ccc(-c3cc4nccc(Oc5ccc(NC(=O)NC6CC6)cc5F)c4s3)nc2)CC1\"]}"
+    },
+    {
+        "id": "ad4f8268-56e6-4509-9d38-c68c3f2ac300",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: COc1ccc2c(c1)cc(COC(C)=O)n2Cc1ccc(C(C)(C)C)cc1\nReagents: \n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "COc1ccc2c(c1)cc(CO)n2Cc1ccc(C(C)(C)C)cc1CC(=O)Cl",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Ester Schotten-Baumann\", \"reagents\": [\"\"], \"products\": [\"COc1ccc2c(c1)cc(COC(C)=O)n2Cc1ccc(C(C)(C)C)cc1\"]}"
+    },
+    {
+        "id": "104d0867-b9ff-4d0f-a3bb-2ff80bccfd96",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: COc1cc(-c2cccc3cc([C@H](C)Nc4nc(N)ncc4C(=O)N4CCC4)n(-c4ccccc4)c(=O)c23)ccn1\nReagents: \n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "ClCOc1cc(-c2cccc3cc([C@H](C)Nc4nc(N)ncc4C(=O)N(C)C)n(-c4ccccc4)c(=O)c23)ccn1C1CNC1",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Transamidation\", \"reagents\": [\"\"], \"products\": [\"COc1cc(-c2cccc3cc([C@H](C)Nc4nc(N)ncc4C(=O)N4CCC4)n(-c4ccccc4)c(=O)c23)ccn1\"]}"
+    },
+    {
+        "id": "8c6efa9f-a0d6-4a66-8fa3-c5501be432b8",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: O=Cc1cc2cc(Cl)ccc2s1\nReagents: O=C1CCC(=O)N1Cl.Cc1ccccc1.CCN(CC)CC.CCOCC.CSC\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "OCc1cc2cc(Cl)ccc2s1",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Aldehyde Corey-Kim oxidation\", \"reagents\": [\"O=C1CCC(=O)N1Cl\", \"Cc1ccccc1\", \"CCN(CC)CC\", \"CCOCC\", \"CSC\"], \"products\": [\"O=Cc1cc2cc(Cl)ccc2s1\"]}"
+    },
+    {
+        "id": "4d187c02-9cfd-4934-b490-da3f21954fe6",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: COC(=O)c1cc(C(C)Br)c2nc(N3CCOCC3)cc(=O)n2c1\nReagents: CCOC(C)=O.ClCCCl\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "COC(=O)c1cc(C(C)O)c2nc(N3CCOCC3)cc(=O)n2c1BrP(Br)Br",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Hydroxy to bromo\", \"reagents\": [\"CCOC(C)=O\", \"ClCCCl\"], \"products\": [\"COC(=O)c1cc(C(C)Br)c2nc(N3CCOCC3)cc(=O)n2c1\"]}"
+    },
+    {
+        "id": "1939c705-4834-4de5-8a35-fc3abe658c0d",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: COC(=O)c1nccnc1-c1ccccn1\nReagents: c1ccc(P(c2ccccc2)(c2ccccc2)[Pd](P(c2ccccc2)(c2ccccc2)c2ccccc2)(P(c2ccccc2)(c2ccccc2)c2ccccc2)P(c2ccccc2)(c2ccccc2)c2ccccc2)cc1.Cc1ccccc1\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "CCCC[Sn](CCCC)(CCCC)c1ccccn1COC(=O)c1nccnc1Cl",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Chloro Stille reaction\", \"reagents\": [\"c1ccc(P(c2ccccc2)(c2ccccc2)[Pd](P(c2ccccc2)(c2ccccc2)c2ccccc2)(P(c2ccccc2)(c2ccccc2)c2ccccc2)P(c2ccccc2)(c2ccccc2)c2ccccc2)cc1\", \"Cc1ccccc1\"], \"products\": [\"COC(=O)c1nccnc1-c1ccccn1\"]}"
+    },
+    {
+        "id": "36ff986e-9ff3-45d2-aa70-b4101f8b32c1",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: Cc1cc(C)cc(C(=O)N(NC(=O)c2ccc3c(c2C)O[C@@H](COC(=O)Nc2ccccc2)CO3)C(C)(C)C)c1.Cc1cc(C)cc(C(=O)N(NC(=O)c2ccc3c(c2C)OC(COC(=O)Nc2ccccc2)CO3)C(C)(C)C)c1\nReagents: CC#N.N#N\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "Cc1cc(C)cc(C(=O)N(NC(=O)c2ccc3c(c2C)OC(CO)CO3)C(C)(C)C)c1O=C=Nc1ccccc1",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Isocyanate + alcohol reaction\", \"reagents\": [\"CC#N\", \"N#N\"], \"products\": [\"Cc1cc(C)cc(C(=O)N(NC(=O)c2ccc3c(c2C)O[C@@H](COC(=O)Nc2ccccc2)CO3)C(C)(C)C)c1\", \"Cc1cc(C)cc(C(=O)N(NC(=O)c2ccc3c(c2C)OC(COC(=O)Nc2ccccc2)CO3)C(C)(C)C)c1\"]}"
+    },
+    {
+        "id": "fbdd16f2-f7b4-4a61-99c2-de9e544a5b2c",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: Cc1cc2c(s1)C(=O)C(C)C2C\nReagents: O.O=S(=O)(O)O.Clc1ccccc1\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "C/C=C(\\C)C(=O)c1ccc(C)s1",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Nazarov cyclization\", \"reagents\": [\"O\", \"O=S(=O)(O)O\", \"Clc1ccccc1\"], \"products\": [\"Cc1cc2c(s1)C(=O)C(C)C2C\"]}"
+    },
+    {
+        "id": "8027c032-3230-4402-960f-bd4b23417542",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: CC(C)(C)S(=O)Nc1cc(F)cc([N+](=O)[O-])c1\nReagents: CCOC(C)=O.c1ccncc1.ClCCl\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "Nc1cc(F)cc([N+](=O)[O-])c1CC(C)(C)S(=O)Cl",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Sulfinamide Schotten-Baumann\", \"reagents\": [\"CCOC(C)=O\", \"c1ccncc1\", \"ClCCl\"], \"products\": [\"CC(C)(C)S(=O)Nc1cc(F)cc([N+](=O)[O-])c1\"]}"
+    },
+    {
+        "id": "d78186c1-9dae-45e6-b32a-4b642aab84fe",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: C=Cc1ccc(-c2ccccc2)cc1\nReagents: c1ccc([B-](c2ccccc2)(c2ccccc2)c2ccccc2)cc1.CC(C)(C)[PH+](C(C)(C)C)C(C)(C)C.CC(=O)O[Pd]OC(C)=O.C1CCOC1.[NH4+].O.[Cl-]\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "C=Cc1ccc([Mg]Cl)cc1Brc1ccccc1",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Palladium Kumada coupling\", \"reagents\": [\"c1ccc([B-](c2ccccc2)(c2ccccc2)c2ccccc2)cc1\", \"CC(C)(C)[PH+](C(C)(C)C)C(C)(C)C\", \"CC(=O)O[Pd]OC(C)=O\", \"C1CCOC1\", \"[NH4+]\", \"O\", \"[Cl-]\"], \"products\": [\"C=Cc1ccc(-c2ccccc2)cc1\"]}"
+    },
+    {
+        "id": "8d6e6303-dbd4-4866-ac49-12ba518883ab",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: C=C(OCC)c1cc2nc(-c3ncc(-c4ccc(C5(C#N)CC5)cc4)cc3S(=O)(=O)CC)n(C)c2nn1\nReagents: Cl[Pd](Cl)(P(c1ccccc1)(c1ccccc1)c1ccccc1)P(c1ccccc1)(c1ccccc1)c1ccccc1.CN(C)C=O.[C-]#[O+].O\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "CCS(=O)(=O)c1cc(-c2ccc(C3(C#N)CC3)cc2)cnc1-c1nc2cc(Br)nnc2n1CC=C(OCC)[Sn](CCCC)(CCCC)CCCC",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Bromo Stille reaction\", \"reagents\": [\"Cl[Pd](Cl)(P(c1ccccc1)(c1ccccc1)c1ccccc1)P(c1ccccc1)(c1ccccc1)c1ccccc1\", \"CN(C)C=O\", \"[C-]#[O+]\", \"O\"], \"products\": [\"C=C(OCC)c1cc2nc(-c3ncc(-c4ccc(C5(C#N)CC5)cc4)cc3S(=O)(=O)CC)n(C)c2nn1\"]}"
+    },
+    {
+        "id": "3376b36c-3002-447a-a32a-dd5576c61c32",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: CC(C)(C)[S@](=O)N[C@H](C[N+](=O)[O-])c1cc(F)cc(Br)c1\nReagents: [Li]CCCC.C1CCOC1\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "CC(C)(C)[S@](=O)/N=C/c1cc(F)cc(Br)c1C[N+](=O)[O-]",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Aza-Henry reaction\", \"reagents\": [\"[Li]CCCC\", \"C1CCOC1\"], \"products\": [\"CC(C)(C)[S@](=O)N[C@H](C[N+](=O)[O-])c1cc(F)cc(Br)c1\"]}"
+    },
+    {
+        "id": "d025135b-a8a8-45b9-97c3-89119a65832a",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: COC(=O)NC(C)Cc1cccc(Cl)c1\nReagents: O=C(O[K])O[K].C1CCOC1\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "COC(=O)ClCC(N)Cc1cccc(Cl)c1",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Carbamate Schotten-Baumann\", \"reagents\": [\"O=C(O[K])O[K]\", \"C1CCOC1\"], \"products\": [\"COC(=O)NC(C)Cc1cccc(Cl)c1\"]}"
+    },
+    {
+        "id": "7f3c5112-4e44-448a-9520-57882c960c53",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: CCOC(=O)C(=[N+]=[N-])C(=O)C(C)C(C)(O)C(F)(F)F\nReagents: Cl[Ti](Cl)(Cl)Cl.ClCCl\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "C/C=C(\\O[Si](C)(C)C)C(=[N+]=[N-])C(=O)OCCCC(=O)C(F)(F)F",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Mukaiyama aldol addition\", \"reagents\": [\"Cl[Ti](Cl)(Cl)Cl\", \"ClCCl\"], \"products\": [\"CCOC(=O)C(=[N+]=[N-])C(=O)C(C)C(C)(O)C(F)(F)F\"]}"
+    },
+    {
+        "id": "ce550e0c-be96-4b92-b0a0-f90d3a113f48",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: C[Si](C)(C)CCOCn1c(=O)oc2c(Br)cccc21\nReagents: CN(C)C=O.O.[NaH]\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "O=c1[nH]c2cccc(Br)c2o1C[Si](C)(C)CCOCCl",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"N-SEM protection\", \"reagents\": [\"CN(C)C=O\", \"O\", \"[NaH]\"], \"products\": [\"C[Si](C)(C)CCOCn1c(=O)oc2c(Br)cccc21\"]}"
+    },
+    {
+        "id": "92288014-e181-499e-bbbd-ce8475b239ae",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: COC(=O)[C@@H]1CC(F)(CO)CN1C(=O)OC(C)(C)C\nReagents: CCCC[N+](CCCC)(CCCC)CCCC.C1CCOC1.O.[F-]\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "COC(=O)[C@@H]1CC(F)(CO[Si](C)(C)C(C)(C)C)CN1C(=O)OC(C)(C)C",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"O-TBS deprotection\", \"reagents\": [\"CCCC[N+](CCCC)(CCCC)CCCC\", \"C1CCOC1\", \"O\", \"[F-]\"], \"products\": [\"COC(=O)[C@@H]1CC(F)(CO)CN1C(=O)OC(C)(C)C\"]}"
+    },
+    {
+        "id": "bb6ab992-c02b-4b83-aa4b-c0e6a9657e53",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: O=C(S[C@H]1C[C@@H](CSc2nncs2)N(C(=O)OCc2ccc([N+](=O)[O-])cc2)C1)c1ccccc1\nReagents: c1ccc(P(c2ccccc2)c2ccccc2)cc1.CCOC(=O)N=NC(=O)OCC\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "O=C(OCc1ccc([N+](=O)[O-])cc1)N1C[C@H](O)C[C@H]1CSc1nncs1O=C(S)c1ccccc1",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Mitsunobu thioether synthesis\", \"reagents\": [\"c1ccc(P(c2ccccc2)c2ccccc2)cc1\", \"CCOC(=O)N=NC(=O)OCC\"], \"products\": [\"O=C(S[C@H]1C[C@@H](CSc2nncs2)N(C(=O)OCc2ccc([N+](=O)[O-])cc2)C1)c1ccccc1\"]}"
+    },
+    {
+        "id": "665e0b79-fbc5-4029-9b6a-33e1e32a8dfd",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: COC(=O)c1c(Br)ccc(N)c1C\nReagents: N#N\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "COC(=O)c1cccc(N)c1CO=C1CCC(=O)N1Br",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Bromination\", \"reagents\": [\"N#N\"], \"products\": [\"COC(=O)c1c(Br)ccc(N)c1C\"]}"
+    },
+    {
+        "id": "d46f3457-039a-4d50-b36e-723613bd84a0",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: O=C1Nc2ccccc2[C@]12C[C@H]2c1ccc2cn[nH]c2c1\nReagents: CN(C)C=O.[NaH]\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "[I-]C[S+](C)(C)=OO=C1Nc2ccccc2/C1=C\\c1ccc2cn[nH]c2c1",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Johnson-Corey-Chaykovsky cyclopropane synthesis\", \"reagents\": [\"CN(C)C=O\", \"[NaH]\"], \"products\": [\"O=C1Nc2ccccc2[C@]12C[C@H]2c1ccc2cn[nH]c2c1\"]}"
+    },
+    {
+        "id": "3b6eb9c7-2529-45bc-8181-67dc36d12535",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: COc1ccc2[se]c(C)[n+](C)c2c1.Cc1ccc(S(=O)(=O)[O-])cc1\nReagents: ClC(Cl)Cl\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "COS(=O)(=O)c1ccc(C)cc1COc1ccc2[se]c(C)nc2c1",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Menshutkin reaction\", \"reagents\": [\"ClC(Cl)Cl\"], \"products\": [\"COc1ccc2[se]c(C)[n+](C)c2c1\", \"Cc1ccc(S(=O)(=O)[O-])cc1\"]}"
+    },
+    {
+        "id": "733cdef6-0058-463a-8c72-6d144ff29305",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: O=Cc1cc(O)c(O)c(Cl)c1\nReagents: O.N#N.ClCCl.BrB(Br)Br\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "COc1cc(C=O)cc(Cl)c1O",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Methoxy to hydroxy\", \"reagents\": [\"O\", \"N#N\", \"ClCCl\", \"BrB(Br)Br\"], \"products\": [\"O=Cc1cc(O)c(O)c(Cl)c1\"]}"
+    },
+    {
+        "id": "0eceda5b-8e10-4c37-9267-98a08614ec7e",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: C=C(CO)CCC(F)(F)c1[nH]nc2c1CN(C(=O)OC(C)(C)C)CC2\nReagents: CCCC[N+](CCCC)(CCCC)CCCC.C1CCOC1.O.[F-]\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "C=C(CCC(F)(F)c1[nH]nc2c1CN(C(=O)OC(C)(C)C)CC2)CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"O-TBDPS deprotection\", \"reagents\": [\"CCCC[N+](CCCC)(CCCC)CCCC\", \"C1CCOC1\", \"O\", \"[F-]\"], \"products\": [\"C=C(CO)CCC(F)(F)c1[nH]nc2c1CN(C(=O)OC(C)(C)C)CC2\"]}"
+    },
+    {
+        "id": "35733417-7a59-4b78-bbc3-ab352958280a",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: C=CCCC[C@H](NC(=O)OC(C)(C)C)C(OC(C)=O)C(=O)NCC(=O)OC\nReagents: CCCCCC.CCOC(C)=O.ClCCl\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "C=CCCC[C@@H](C=O)NC(=O)OC(C)(C)C[C-]#[N+]CC(=O)OCCC(=O)O",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Passerini reaction\", \"reagents\": [\"CCCCCC\", \"CCOC(C)=O\", \"ClCCl\"], \"products\": [\"C=CCCC[C@H](NC(=O)OC(C)(C)C)C(OC(C)=O)C(=O)NCC(=O)OC\"]}"
+    },
+    {
+        "id": "bc342417-4c55-4273-9ce0-7b454fa16fb5",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: Cn1ncc(NC(=O)c2nc(C3CC3)cnc2Nc2cncnc2)c1C(=O)NC1CCNC1\nReagents: C1COCCO1.C1COCCO1.Cl\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "Cn1ncc(NC(=O)c2nc(C3CC3)cnc2Nc2cncnc2)c1C(=O)NC1CCN(C(=O)OC(C)(C)C)C1",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"N-Boc deprotection\", \"reagents\": [\"C1COCCO1\", \"C1COCCO1\", \"Cl\"], \"products\": [\"Cn1ncc(NC(=O)c2nc(C3CC3)cnc2Nc2cncnc2)c1C(=O)NC1CCNC1\"]}"
+    },
+    {
+        "id": "224f5786-9886-40a1-be49-0e46e2d8ac50",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: C=Cc1ccc2c(n1)C(CC)(CC)C(=O)N(COCC[Si](C)(C)C)C21COC1\nReagents: C1=CC([Fe]C2(P(c3ccccc3)c3ccccc3)C=CC=C2)(P(c2ccccc2)c2ccccc2)C=C1.O=C(O[K])O[K].C1COCCO1.Cl[Pd]Cl.O\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "CCC1(CC)C(=O)N(COCC[Si](C)(C)C)C2(COC2)c2ccc(Cl)nc21C=Cb1ob(C=C)ob(C=C)o1c1ccncc1",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Chloro Suzuki coupling\", \"reagents\": [\"C1=CC([Fe]C2(P(c3ccccc3)c3ccccc3)C=CC=C2)(P(c2ccccc2)c2ccccc2)C=C1\", \"O=C(O[K])O[K]\", \"C1COCCO1\", \"Cl[Pd]Cl\", \"O\"], \"products\": [\"C=Cc1ccc2c(n1)C(CC)(CC)C(=O)N(COCC[Si](C)(C)C)C21COC1\"]}"
+    },
+    {
+        "id": "f5c94355-a265-43cb-96f3-a84d7ab431b0",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: FC(F)(F)c1ccc(Br)c(OCCCOc2nnc(-c3nnn[nH]3)s2)c1\nReagents: CN(C)C=O.O[Na].[NH4+].[Cl-]\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "N#Cc1nnc(OCCCOc2cc(C(F)(F)F)ccc2Br)s1[N-]=[N+]=N[Na]",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Tetrazole synthesis\", \"reagents\": [\"CN(C)C=O\", \"O[Na]\", \"[NH4+]\", \"[Cl-]\"], \"products\": [\"FC(F)(F)c1ccc(Br)c(OCCCOc2nnc(-c3nnn[nH]3)s2)c1\"]}"
+    },
+    {
+        "id": "42642e96-4ebf-49e5-afa4-0ec687c37ff9",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: CCn1c(Br)nc2c1c(=O)n(CCCO)c(=O)n2C\nReagents: CN(C)C=O.O=C(O[K])O[K]\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "Cn1c(=O)n(CCCO)c(=O)c2[nH]c(Br)nc21CCI",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Iodo N-alkylation\", \"reagents\": [\"CN(C)C=O\", \"O=C(O[K])O[K]\"], \"products\": [\"CCn1c(Br)nc2c1c(=O)n(CCCO)c(=O)n2C\"]}"
+    },
+    {
+        "id": "4b0d8c50-2cf2-4cd0-9864-9ad86b4c231f",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: Cc1cc(-c2ccc(OCCCN3CCCCC3)cc2)nn(C)c1=O\nReagents: Cc1cc(-c2ccc(OCCCCl)cc2)nn(C)c1=O.COc1ccc(-c2cc(C)c(=O)[nH]n2)cc1.ClCCCBr\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "Cc1cc(-c2ccc(OCCCCl)cc2)nn(C)c1=OC1CCNCC1",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Chloro N-alkylation\", \"reagents\": [\"Cc1cc(-c2ccc(OCCCCl)cc2)nn(C)c1=O\", \"COc1ccc(-c2cc(C)c(=O)[nH]n2)cc1\", \"ClCCCBr\"], \"products\": [\"Cc1cc(-c2ccc(OCCCN3CCCCC3)cc2)nn(C)c1=O\"]}"
+    },
+    {
+        "id": "4b1e8027-0117-4435-9911-aca361cb47d4",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: CC(C)(C)OC(=O)NN1C(=O)C(CC(=O)C(C)(C)C)c2ccccc2-c2ccccc21\nReagents: O=C(O[Cs])O[Cs].CN(C)C=O.ClCCl\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "CC(C)(C)OC(=O)NN1C(=O)Cc2ccccc2-c2ccccc21CC(C)(C)C(=O)CCl",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Keto alpha-alkylation\", \"reagents\": [\"O=C(O[Cs])O[Cs]\", \"CN(C)C=O\", \"ClCCl\"], \"products\": [\"CC(C)(C)OC(=O)NN1C(=O)C(CC(=O)C(C)(C)C)c2ccccc2-c2ccccc21\"]}"
+    },
+    {
+        "id": "6f47740f-b404-4e7e-bbfd-de98caab22cf",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: CC(C)(C)OC(=O)N1CCc2nc(Nc3ccc(-c4cnco4)cc3)nc(NCc3ccccc3)c2C1\nReagents: C1COCCO1\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "CC(C)(C)OC(=O)N1CCc2nc(Nc3ccc(-c4cnco4)cc3)nc(OS(=O)(=O)C(F)(F)F)c2C1NCc1ccccc1",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Triflyloxy N-arylation\", \"reagents\": [\"C1COCCO1\"], \"products\": [\"CC(C)(C)OC(=O)N1CCc2nc(Nc3ccc(-c4cnco4)cc3)nc(NCc3ccccc3)c2C1\"]}"
+    },
+    {
+        "id": "ba15be80-9d37-4f8e-908f-63bf873174b1",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: O=C(NOCc1ccccc1)c1ccc(N(Cc2ccc(C3CCCCC3)cc2)C(=O)[C@H]2CCCN2S(=O)(=O)c2c(F)c(F)c(F)c(F)c2F)cc1OCc1ccccc1\nReagents: CN(C)C=O.N#N.C1CCOC1\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "ClNOCc1ccccc1O=C(Cl)c1ccc(N(Cc2ccc(C3CCCCC3)cc2)C(=O)[C@H]2CCCN2S(=O)(=O)c2c(F)c(F)c(F)c(F)c2F)cc1OCc1ccccc1",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Hydroxamic acid/ester Schotten-Baumann\", \"reagents\": [\"CN(C)C=O\", \"N#N\", \"C1CCOC1\"], \"products\": [\"O=C(NOCc1ccccc1)c1ccc(N(Cc2ccc(C3CCCCC3)cc2)C(=O)[C@H]2CCCN2S(=O)(=O)c2c(F)c(F)c(F)c(F)c2F)cc1OCc1ccccc1\"]}"
+    },
+    {
+        "id": "01c43aeb-088c-454a-a94c-ebb84ceff469",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: CC(C)(C)OC(=O)N1CCC[C@@H](n2nc(I)c3c(N)ncnc32)C1\nReagents: c1ccc(P(c2ccccc2)c2ccccc2)cc1.CC(C)OC(=O)/N=N/C(=O)OC(C)C.C1CCOC1\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "CC(C)(C)OC(=O)N1CCC[C@H](O)C1Nc1ncnc2[nH]nc(I)c12",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Mitsunobu amine reaction\", \"reagents\": [\"c1ccc(P(c2ccccc2)c2ccccc2)cc1\", \"CC(C)OC(=O)/N=N/C(=O)OC(C)C\", \"C1CCOC1\"], \"products\": [\"CC(C)(C)OC(=O)N1CCC[C@@H](n2nc(I)c3c(N)ncnc32)C1\"]}"
+    },
+    {
+        "id": "73cd7f64-8514-4b29-b110-cab4c221e455",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: O=C(Cc1ccccc1)NC(=S)c1ccc(Cl)cc1\nReagents: O.CC(C)=O.c1ccncc1\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "NC(=S)c1ccc(Cl)cc1O=C(Cl)Cc1ccccc1",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"N-Acyl thioamide Schotten-Baumann\", \"reagents\": [\"O\", \"CC(C)=O\", \"c1ccncc1\"], \"products\": [\"O=C(Cc1ccccc1)NC(=S)c1ccc(Cl)cc1\"]}"
+    },
+    {
+        "id": "31056161-7894-457c-904e-e870a68d5749",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: CNn1cc(C(=O)O)c(=O)c2cc3cc(F)c(N4CC(N)C4)cc3nc21\nReagents: O[K]\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "CCOC(=O)c1cn(N(C)C=O)c2nc3cc(N4CC(NC(C)=O)C4)c(F)cc3cc2c1=O",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"N-Ac deprotection\", \"reagents\": [\"O[K]\"], \"products\": [\"CNn1cc(C(=O)O)c(=O)c2cc3cc(F)c(N4CC(N)C4)cc3nc21\"]}"
+    },
+    {
+        "id": "fbb835a4-d973-4353-b266-6b6fbfc68dd4",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: C=CC[C@@H](NNC(=O)OCc1ccccc1)C(C)(C)C\nReagents: \n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "C=CC[Si@@]1(Cl)OC(c2ccccc2)[C@H](C)N1CCC(C)(C)/C=N/NC(=O)OCc1ccccc1",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Imine Hosomi-Sakurai reaction\", \"reagents\": [\"\"], \"products\": [\"C=CC[C@@H](NNC(=O)OCc1ccccc1)C(C)(C)C\"]}"
+    },
+    {
+        "id": "47b92d46-2b1d-4e49-b9f5-8df323a85f5f",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: CC(=O)Nc1ccccc1\nReagents: c1ccccc1\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "CC(=O)OC(C)=ONc1ccccc1",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Lumiere-Barbier method\", \"reagents\": [\"c1ccccc1\"], \"products\": [\"CC(=O)Nc1ccccc1\"]}"
+    },
+    {
+        "id": "11f0efb6-c433-4bed-ba16-7eae36b3472b",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: CC(=O)Nc1c[nH]c2c(C)cc(B3OC(C)(C)C(C)(C)O3)cc12\nReagents: C1=CC([Fe]C2(P(c3ccccc3)c3ccccc3)C=CC=C2)(P(c2ccccc2)c2ccccc2)C=C1.C1COCCO1.CC(=O)O[K].ClCCl.Cl[Pd]Cl\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "CC1(C)OB(B2OC(C)(C)C(C)(C)O2)OC1(C)CCC(=O)Nc1c[nH]c2c(C)cc(Br)cc12",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Bromo Miyaura boration\", \"reagents\": [\"C1=CC([Fe]C2(P(c3ccccc3)c3ccccc3)C=CC=C2)(P(c2ccccc2)c2ccccc2)C=C1\", \"C1COCCO1\", \"CC(=O)O[K]\", \"ClCCl\", \"Cl[Pd]Cl\"], \"products\": [\"CC(=O)Nc1c[nH]c2c(C)cc(B3OC(C)(C)C(C)(C)O3)cc12\"]}"
+    },
+    {
+        "id": "4f07270d-bd91-4cb9-aab7-ec10ce466465",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: CC(=O)Oc1ccc(CBr)cc1C(C)=O\nReagents: CC(C)(C#N)N=NC(C)(C)C#N.ClC(Cl)(Cl)Cl\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "CC(=O)Oc1ccc(C)cc1C(C)=OO=C1CCC(=O)N1Br",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Wohl-Ziegler bromination\", \"reagents\": [\"CC(C)(C#N)N=NC(C)(C)C#N\", \"ClC(Cl)(Cl)Cl\"], \"products\": [\"CC(=O)Oc1ccc(CBr)cc1C(C)=O\"]}"
+    },
+    {
+        "id": "799f901c-8be7-45b8-a53a-b84de0727040",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: CC(=O)Nc1nc2ccc(Br)cc2s1\nReagents: CN(C)c1ccncc1.CCN(CC)CC.C1CCOC1.O\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "Nc1nc2ccc(Br)cc2s1CC(=O)Cl",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"N-Acyl amidine Schotten-Baumann\", \"reagents\": [\"CN(C)c1ccncc1\", \"CCN(CC)CC\", \"C1CCOC1\", \"O\"], \"products\": [\"CC(=O)Nc1nc2ccc(Br)cc2s1\"]}"
+    },
+    {
+        "id": "2adb30d2-3d9f-4228-906e-eeef756dff64",
+        "query": "Given the product SMILES and reagents SMILES, your task is to predict the reactants SMILES using your experienced chemical Retrosynthesis knowledge.\n\nInput:\nProduct SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nReactants SMILES separated by '.'\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes only the reactants SMILES:\n\nQuestion:\nProducts: COC(C[C@@H]1[C@H](COC(C)=O)C1(C)C)OC\nReagents: O=S(O[Na])O[Na].ClCCl\n\nAnswer:\n{\n    \"Reactants\": ...\n}\n",
+        "gt": "COC(C[C@@H]1[C@H](CC(C)=O)C1(C)C)OCO=C(OO)c1cccc(Cl)c1",
+        "task": "reaction",
+        "subtask": "retro",
+        "meta": "{\"rxn_cls\": \"Baeyer-Villiger oxidation\", \"reagents\": [\"O=S(O[Na])O[Na]\", \"ClCCl\"], \"products\": [\"COC(C[C@@H]1[C@H](COC(C)=O)C1(C)C)OC\"]}"
+    }
+]

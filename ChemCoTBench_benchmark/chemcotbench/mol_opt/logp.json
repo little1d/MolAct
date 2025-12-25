@@ -1,0 +1,802 @@
+[
+    {
+        "id": "2429fba3-bf84-401a-8f6c-acf73c1561ec",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C1NC(Cc2ccc(O)cc2)C(=O)NC1CO.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"3-(hydroxymethyl)-6-[(4-hydroxyphenyl)methyl]piperazine-2,5-dione\", \"type\": \"small\"}"
+    },
+    {
+        "id": "d89d0d6c-1fbb-4d04-801f-fe48ba1baab7",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: NC(=O)c1cccc(O)c1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"3-hydroxybenzamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "52358dae-4e8c-4eb7-8b69-c321d1c29319",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: NC(=O)c1cc2c([nH]c3ccccc32)c(-c2cccs2)n1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"1-thiophen-2-yl-9H-pyrido[3,4-b]indole-3-carboxamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "da4e7062-76da-4538-970e-b77394d48d95",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CC(C)CNC(=O)c1cc([N+](=O)[O-])ccc1N1CCOCC1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"N-(2-methylpropyl)-2-morpholin-4-yl-5-nitrobenzamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "099e3f92-0004-46f3-9ed9-8ef1c15ebc85",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CC(C)(C)OC(=O)NC(CCC(=O)O)C(=O)NCc1ccccc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"5-(benzylamino)-4-[(2-methylpropan-2-yl)oxycarbonylamino]-5-oxopentanoic acid\", \"type\": \"small\"}"
+    },
+    {
+        "id": "1e13029d-05ca-4803-87c3-da6d86a1a61d",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Cn1c(SCC(=O)NCc2ccccc2)nc2ccccc21.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"N-benzyl-2-(1-methylbenzimidazol-2-yl)sulfanylacetamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "0b33117f-bbe5-4d9d-a6a1-877d652317c3",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C1CCC(N2C(=O)c3cccc(C#CCO)c3C2=O)C(=O)N1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"2-(2,6-dioxopiperidin-3-yl)-4-(3-hydroxyprop-1-ynyl)isoindole-1,3-dione\", \"type\": \"small\"}"
+    },
+    {
+        "id": "f2e21af4-a115-47af-89d4-995ca8581cb6",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: NCc1ccc(C(=O)Nc2cc(-c3ccccc3)ccc2O)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"4-(aminomethyl)-N-(2-hydroxy-5-phenylphenyl)benzamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "d4ea02b2-75b8-4005-95e0-8f82309b28d2",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Nc1nc(-c2ccccc2C(F)(F)F)cs1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"4-[2-(trifluoromethyl)phenyl]-1,3-thiazol-2-amine\", \"type\": \"small\"}"
+    },
+    {
+        "id": "9b6e9457-4bc0-42a3-83c7-1ab0bf03a9f2",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CCn1nnc(-c2sc(NC(=O)C3CC3)nc2-c2ccccc2)n1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"N-[5-(2-ethyltetrazol-5-yl)-4-phenyl-1,3-thiazol-2-yl]cyclopropanecarboxamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "35d84f6e-2d01-42c6-8fdb-ef7fe014df58",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: N=C(N)c1ccc(-c2c[nH]cn2)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"4-(1H-imidazol-5-yl)benzenecarboximidamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "115eea48-c9f5-489a-8f98-18860765fc19",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CN(CC(=O)Nc1ccc(F)cc1)C(=O)CSc1ncccn1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"N-(4-fluorophenyl)-2-[methyl-(2-pyrimidin-2-ylsulfanylacetyl)amino]acetamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "3f62f56f-f5e1-4d8c-a38e-7e9ea6ad0672",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CCCCNc1nc(N)c2nc(O)n(Cc3cnccn3)c2n1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"6-amino-2-(butylamino)-9-(pyrazin-2-ylmethyl)-7H-purin-8-one\", \"type\": \"small\"}"
+    },
+    {
+        "id": "c41f76a6-bc91-49b5-a248-71682f47d27a",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COC(=O)CNC(=O)C(c1ccccc1)N1CCC1=O.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"methyl 2-[[2-(2-oxoazetidin-1-yl)-2-phenylacetyl]amino]acetate\", \"type\": \"small\"}"
+    },
+    {
+        "id": "3a1e1a69-2636-4267-8f52-667a9e4230b7",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(Nc1ccc(N2CCOCC2)c([N+](=O)[O-])c1)c1ccco1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"N-(4-morpholin-4-yl-3-nitrophenyl)furan-2-carboxamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "8816a449-9717-4708-9f24-a8cacb2c6717",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CCOc1ccc(C#Cc2ccc(C(C)NC(=O)CCO)cc2)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"N-[1-[4-[2-(4-ethoxyphenyl)ethynyl]phenyl]ethyl]-3-hydroxypropanamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "895c00d3-7946-4df4-a410-b39fb9b8cf15",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CNCC1CCC(c2nnn3cnc4[nH]ccc4c23)CC1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"N-methyl-1-[4-(4,5,6,8,10-pentazatricyclo[7.3.0.02,6]dodeca-1(9),2,4,7,11-pentaen-3-yl)cyclohexyl]methanamine\", \"type\": \"small\"}"
+    },
+    {
+        "id": "6f0c1c6d-1ab6-4438-9db6-1c2a5d6fa890",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: c1ccc(CSc2nnc(-c3ccccc3)o2)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"2-benzylsulfanyl-5-phenyl-1,3,4-oxadiazole\", \"type\": \"small\"}"
+    },
+    {
+        "id": "2589fbdd-0fa2-4976-abcd-ab5224b160cf",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CC(=O)NCc1ccc(CN2CCN(c3cnccn3)CC2)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"N-[[4-[(4-pyrazin-2-ylpiperazin-1-yl)methyl]phenyl]methyl]acetamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "bab96fd1-c6c1-4ce3-817e-22abe0d15155",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COC(=O)c1cc(OC)c(OC)cc1NC(=O)c1cnccn1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"methyl 4,5-dimethoxy-2-(pyrazine-2-carbonylamino)benzoate\", \"type\": \"small\"}"
+    },
+    {
+        "id": "34ee52ff-f606-497d-8c42-f05371091574",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CCNC(=O)NC1CC(C)(C)Oc2ccc(F)cc21.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"1-ethyl-3-(6-fluoro-2,2-dimethyl-3,4-dihydrochromen-4-yl)urea\", \"type\": \"small\"}"
+    },
+    {
+        "id": "886e5286-fbb0-419a-8d6b-a9bda9dce57b",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: NC(=O)c1cccc2ncn(-c3ccccc3)c12.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"3-phenylbenzimidazole-4-carboxamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "58ac236a-76a8-476a-9764-2dd76f8a8a61",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: c1cc(CSc2nnc(-c3ccc4[nH]cnc4c3)o2)ccn1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"2-(3H-benzimidazol-5-yl)-5-(pyridin-4-ylmethylsulfanyl)-1,3,4-oxadiazole\", \"type\": \"small\"}"
+    },
+    {
+        "id": "096dec81-a8c1-4e45-ac45-cc5a19e1bdc6",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CC(=O)NCC1CN(c2cccc(N)c2)C(=O)O1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"N-[[3-(3-aminophenyl)-2-oxo-1,3-oxazolidin-5-yl]methyl]acetamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "414bd89e-f5bb-497a-9947-e4aec2b33426",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Cc1cc(Nc2nc(CCN)cn3c(-c4cn[nH]c4)cnc23)sn1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"N-[6-(2-aminoethyl)-3-(1H-pyrazol-4-yl)imidazo[1,2-a]pyrazin-8-yl]-3-methyl-1,2-thiazol-5-amine\", \"type\": \"small\"}"
+    },
+    {
+        "id": "f5b84df4-a46d-4e1f-a38b-0b395deb4ffa",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Cc1ccc(S(=O)(=O)N(C)c2ccc(N)cc2)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"N-(4-aminophenyl)-N,4-dimethylbenzenesulfonamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "9c36af76-2754-4d6e-bb54-1415d0f4c2ed",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: NC(=O)c1ccc(-n2nnnc2SCc2ccccc2)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"4-(5-benzylsulfanyltetrazol-1-yl)benzamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "6d7740b7-70ae-44fe-8371-a63b7760bc04",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(Nc1ccc2nccc(SC3(C(=O)O)CCC3)c2c1)C1CC1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"1-[6-(cyclopropanecarbonylamino)quinolin-4-yl]sulfanylcyclobutane-1-carboxylic acid\", \"type\": \"small\"}"
+    },
+    {
+        "id": "83e29f57-3bd8-4790-b1e7-10a1fd55ec2a",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(CN1CCCCCC1)N1c2ccccc2Sc2ccccc21.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"2-(azepan-1-yl)-1-phenothiazin-10-ylethanone\", \"type\": \"small\"}"
+    },
+    {
+        "id": "35298872-dbab-4c7c-983b-58d1d69e8c18",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Cc1nc(N2CCCCCC2)c2c(n1)[nH]c1ccc(O)cc12.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"4-(azepan-1-yl)-2-methyl-9H-pyrimido[4,5-b]indol-6-ol\", \"type\": \"small\"}"
+    },
+    {
+        "id": "970f8fec-c669-447b-8f1a-e5880480fcaa",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CC(Nc1cccc(CN2CCOC2=O)c1)C(=O)NC(N)=O.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"N-carbamoyl-2-[3-[(2-oxo-1,3-oxazolidin-3-yl)methyl]anilino]propanamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "148e6a1d-e786-4deb-9650-7dd4e90217a5",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(O)c1ccc2c(c1)nc(-c1nccs1)n2C1CCCCC1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"1-cyclohexyl-2-(1,3-thiazol-2-yl)benzimidazole-5-carboxylic acid\", \"type\": \"small\"}"
+    },
+    {
+        "id": "d370233d-a253-47a9-b29e-9a7f80d11444",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(Nc1ccc(N2CCOCC2)cc1)c1cc(Cl)ccc1O.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"5-chloro-2-hydroxy-N-(4-morpholin-4-ylphenyl)benzamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "e8300adf-e356-41ed-b299-259700e5486f",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: OCCN1CCN(Cc2cc(Cl)c3cccnc3c2O)CC1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"5-chloro-7-[[4-(2-hydroxyethyl)piperazin-1-yl]methyl]quinolin-8-ol\", \"type\": \"small\"}"
+    },
+    {
+        "id": "da406641-de50-481d-b084-332790eeb0d5",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COCC(C)NC(=O)c1cc2cc(OC)ccc2[nH]1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"5-methoxy-N-(1-methoxypropan-2-yl)-1H-indole-2-carboxamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "fe201ad4-0324-404b-9b47-98df928fa0e8",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: OCCN(CCO)CCCN1c2ccccc2Oc2ccccc21.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"2-[2-hydroxyethyl(3-phenoxazin-10-ylpropyl)amino]ethanol\", \"type\": \"small\"}"
+    },
+    {
+        "id": "61e2894c-3bed-4769-a15b-31aaccd807a1",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C1N(c2ccccc2)C(c2cccnc2)N2CCCN12.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"2-phenyl-1-pyridin-3-yl-1,5,6,7-tetrahydropyrazolo[1,2-a][1,2,4]triazol-3-one\", \"type\": \"small\"}"
+    },
+    {
+        "id": "0e1d069c-23d0-4bd2-b0b7-44a37e04945b",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(NCc1ccco1)C1CCCN(S(=O)(=O)c2c[nH]cn2)C1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"N-(furan-2-ylmethyl)-1-(1H-imidazol-5-ylsulfonyl)piperidine-3-carboxamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "9f48badf-5441-424b-92fb-82dfa99772bd",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Cc1ccc(-c2nc3ccccc3c(=O)n2CCN)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"3-(2-aminoethyl)-2-(4-methylphenyl)quinazolin-4-one\", \"type\": \"small\"}"
+    },
+    {
+        "id": "564b7b3a-b5e8-479c-b79e-f5beb4da94f0",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CSc1nc2c(cnn2-c2ccccc2)c(=O)n1N.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"5-amino-6-methylsulfanyl-1-phenylpyrazolo[3,4-d]pyrimidin-4-one\", \"type\": \"small\"}"
+    },
+    {
+        "id": "31eeaf05-0107-4c41-80b7-1063806fc9b5",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: NC(=O)COc1ccc(C(=O)NCC2(N3CCOCC3)CCCCC2)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"4-(2-amino-2-oxoethoxy)-N-[(1-morpholin-4-ylcyclohexyl)methyl]benzamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "9cfc7b74-db48-44db-91d6-62ea7626c9a6",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Nc1ccc(CNc2ncnc3c2ncn3C2OC(CO)C(O)C2O)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"2-[6-[(4-aminophenyl)methylamino]purin-9-yl]-5-(hydroxymethyl)oxolane-3,4-diol\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "80692664-cd60-4837-aa09-d533b072e487",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: N#Cc1ccccc1N1CCN(CCCNC(=O)c2ccncc2)CC1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"N-[3-[4-(2-cyanophenyl)piperazin-1-yl]propyl]pyridine-4-carboxamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "15dc8928-a35a-490d-83ec-ae77da70f1e8",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CC(=O)c1cc(-c2ccc(F)cc2)n(CC(=O)NC2CCC(C)CC2)c1C.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"2-[3-acetyl-5-(4-fluorophenyl)-2-methylpyrrol-1-yl]-N-(4-methylcyclohexyl)acetamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "ac806b55-35d8-4789-8db5-83b7b44c84a1",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CC1CCC(NC(=O)c2cc3cccnc3n(CCCCO)c2=O)CC1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"1-(4-hydroxybutyl)-N-(4-methylcyclohexyl)-2-oxo-1,8-naphthyridine-3-carboxamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "9f1283f9-2f07-4947-8aff-b322ebe1dad6",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CCC1CCCCN1S(=O)(=O)c1ccc(NC(=O)c2snnc2C)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"N-[4-(2-ethylpiperidin-1-yl)sulfonylphenyl]-4-methylthiadiazole-5-carboxamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "fe16374a-e595-4ea5-8ec8-6b8a2fe7cfea",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Cc1ccnc(NC(=S)N2CCN(c3cccc(C(F)(F)F)c3)CC2)c1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"N-(4-methylpyridin-2-yl)-4-[3-(trifluoromethyl)phenyl]piperazine-1-carbothioamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "866dabe5-ca70-42fb-b133-d6eaa91231da",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: OC1CCC(Nc2cc(-c3cccc(NC4CCNCC4)n3)c(Cl)cn2)CC1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"4-[[5-chloro-4-[6-(piperidin-4-ylamino)pyridin-2-yl]pyridin-2-yl]amino]cyclohexan-1-ol\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "55333515-7bd2-42d5-9816-ba6e6704d471",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Cc1ncc(-c2nc3cc(S(=O)(=O)N4CCCC4)ccc3n2C)cn1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"1-methyl-2-(2-methylpyrimidin-5-yl)-5-pyrrolidin-1-ylsulfonylbenzimidazole\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "1dc0af99-b7c6-4fc7-a9bd-e3c3dfc19405",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1ccc(C(CNC(=O)c2cccc([N+](=O)[O-])c2)N2CCOCC2)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"N-[2-(4-methoxyphenyl)-2-morpholin-4-ylethyl]-3-nitrobenzamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "8c422b84-634c-40b3-abe0-edfafa256586",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CCn1c(=O)ccc2cnc(Nc3ccc(N4CCN(C)CC4)cc3)nc21.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"8-ethyl-2-[4-(4-methylpiperazin-1-yl)anilino]pyrido[2,3-d]pyrimidin-7-one\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "bedea9be-23ff-439c-9c0a-be912db62f96",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CNC(=O)c1cccc(Nc2ncnc(N3CCN(c4cccc(C)n4)CC3)n2)c1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"N-methyl-3-[[4-[4-(6-methylpyridin-2-yl)piperazin-1-yl]-1,3,5-triazin-2-yl]amino]benzamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "0282c338-b584-4d6e-ad92-a4c92a284a2c",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(Nc1ccccc1C(=O)NC(Cc1ccccc1)C(=O)O)c1cnccn1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"3-phenyl-2-[[2-(pyrazine-2-carbonylamino)benzoyl]amino]propanoic acid\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "3516cf16-9b7f-4503-ae72-16cac116b3b8",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=S(=O)(NCC1CCCO1)c1ccc(S(=O)(=O)N2CCCC2)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"N-(oxolan-2-ylmethyl)-4-pyrrolidin-1-ylsulfonylbenzenesulfonamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "0572918a-8af9-4f77-b1dd-1a54848f8719",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CN(C)CCCNc1nc2cc(-c3cnn(C)c3)sc2c(=O)n1C.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"2-[3-(dimethylamino)propylamino]-3-methyl-6-(1-methylpyrazol-4-yl)thieno[3,2-d]pyrimidin-4-one\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "d5a8ee48-09f5-4b35-b856-4bb45efeb4bb",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1n[nH]c2cc(NC(=O)NC(C)c3ccccc3)nc(COCC(C)O)c12.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"1-[4-(2-hydroxypropoxymethyl)-3-methoxy-1H-pyrazolo[4,3-c]pyridin-6-yl]-3-(1-phenylethyl)urea\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "fc099a56-7c78-43f6-a292-bfeaffeb12d7",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COCCn1c(SCC(=O)Nc2cc(C)on2)nc2c(c1=O)SCC2.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"2-[[3-(2-methoxyethyl)-4-oxo-6,7-dihydrothieno[3,2-d]pyrimidin-2-yl]sulfanyl]-N-(5-methyl-1,2-oxazol-3-yl)acetamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "af802f29-6394-4761-beab-98487ecc0753",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: NS(=O)(=O)c1ccc(-c2cc3c(cc2Cc2ccccc2)OCO3)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"4-(6-benzyl-1,3-benzodioxol-5-yl)benzenesulfonamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "97df1f01-52ed-4923-a324-a5309058bc9f",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CCOCCCNC(=O)c1cnc2sc(N3CCCCCC3)nn2c1=O.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"2-(azepan-1-yl)-N-(3-ethoxypropyl)-5-oxo-[1,3,4]thiadiazolo[3,2-a]pyrimidine-6-carboxamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "94fea135-206f-4695-be85-228601d7447a",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(CSc1nnc(N2CCOCC2)s1)NCc1cccs1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"2-[(5-morpholin-4-yl-1,3,4-thiadiazol-2-yl)sulfanyl]-N-(thiophen-2-ylmethyl)acetamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "1a87d1bc-7f8a-484d-8f3f-07d5b3235c89",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CNC(=O)COC(=O)C1CCN(S(=O)(=O)c2ccc3c(c2)OCCO3)CC1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"[2-(methylamino)-2-oxoethyl] 1-(2,3-dihydro-1,4-benzodioxin-6-ylsulfonyl)piperidine-4-carboxylate\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "1202daf8-9819-4cf9-88e2-901a3efe592f",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CC(NC(=O)Nc1cc2[nH]nc(OC3CCNC3)c2cn1)c1ccccc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": null, \"type\": \"middle\"}"
+    },
+    {
+        "id": "ddd27c64-4577-4f3c-b9c9-89dcd8051c33",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Cc1cc(-c2n[nH]c3cc(NC(=O)NCC4CCCCO4)ncc23)ccn1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"1-[3-(2-methylpyridin-4-yl)-1H-pyrazolo[4,3-c]pyridin-6-yl]-3-(oxan-2-ylmethyl)urea\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "6ca9ee64-ca02-40a7-9123-d7fc1eae620a",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Nc1cnc(-c2ccc(-c3ccccc3S(=O)(=O)NCCCO)cc2F)cn1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"2-[4-(5-aminopyrazin-2-yl)-3-fluorophenyl]-N-(3-hydroxypropyl)benzenesulfonamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "dd7c713c-5391-4847-9307-e2fed90cae6c",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CC(C)N(C=O)C1CCC2C3CCC4N(C)C(=O)CCC4(C)C3CCC21C.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"N-(6,9a,11a-trimethyl-7-oxo-2,3,3a,3b,4,5,5a,8,9,9b,10,11-dodecahydro-1H-indeno[5,4-f]quinolin-1-yl)-N-propan-2-ylformamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "f21ae750-db13-415b-8de6-9332ee9e8cc6",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1ccc(-c2c[nH]c3ncc(-c4cncc(N)c4)cc23)cc1OC.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"5-[3-(3,4-dimethoxyphenyl)-1H-pyrrolo[2,3-b]pyridin-5-yl]pyridin-3-amine\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "825afba6-2694-47a1-b11e-e62783c676c8",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Cc1cc(C)c2c(n1)SCC(=O)N2CC(=O)NCCC1=CCCCC1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"N-[2-(cyclohexen-1-yl)ethyl]-2-(6,8-dimethyl-2-oxopyrido[2,3-b][1,4]thiazin-1-yl)acetamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "7dd65950-8de1-42ca-93fd-ee629887d694",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CS(=O)(=O)c1ccc(C=C2C=C(CC(=O)O)c3cc(F)ccc32)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"2-[6-fluoro-3-[(4-methylsulfonylphenyl)methylidene]inden-1-yl]acetic acid\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "fe2fd899-e14f-49c9-871d-eab28b782dcb",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COCCNC(=O)CN(c1cc(C(F)(F)F)ccc1Cl)S(C)(=O)=O.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"2-[2-chloro-N-methylsulfonyl-5-(trifluoromethyl)anilino]-N-(2-methoxyethyl)acetamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "3d65812c-fd6d-46cd-8aed-160f7e8be806",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Cc1cc(-c2n[nH]c3cc(NC(=O)NC(CN)c4ccccc4)ncc23)ccn1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"1-(2-amino-1-phenylethyl)-3-[3-(2-methylpyridin-4-yl)-1H-pyrazolo[4,3-c]pyridin-6-yl]urea\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "67b55556-b517-40e1-a1d6-0ddf1a156b80",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CC1=C(C(N)=O)C(c2ccc[nH]2)n2nc(SCc3ccccc3)nc2N1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"2-benzylsulfanyl-5-methyl-7-(1H-pyrrol-2-yl)-4,7-dihydro-[1,2,4]triazolo[1,5-a]pyrimidine-6-carboxamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "7cd7ae98-4582-4c33-84fc-75414a807609",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1ccc(NC(=O)Nc2ccc(C=CC(=O)NO)cc2)cc1OC.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"3-[4-[(3,4-dimethoxyphenyl)carbamoylamino]phenyl]-N-hydroxyprop-2-enamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "bfd19dff-d9f6-4c50-9c1e-c9fc5064bdc6",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Cc1cn(C2CC(n3cc(C(C)(C)C)nn3)C(CO)O2)c(=O)[nH]c1=O.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": null, \"type\": \"middle\"}"
+    },
+    {
+        "id": "1a2ebaa5-7e06-48be-891e-85f9c0dd0802",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Cc1onc(-c2ccccc2)c1COc1ccc(C(=O)NCC(O)CO)cn1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"N-(2,3-dihydroxypropyl)-6-[(5-methyl-3-phenyl-1,2-oxazol-4-yl)methoxy]pyridine-3-carboxamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "8f3c1dd5-d8aa-4b9a-9778-b39659833cc0",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CNc1nc(Nc2ccc(C(=O)N3CCOCC3)cc2OC)ncc1C#N.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"2-[2-methoxy-4-(morpholine-4-carbonyl)anilino]-4-(methylamino)pyrimidine-5-carbonitrile\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "559a60ea-0d79-42e4-80bb-d267e0ad6d9a",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CC(C)CNC(=O)C(=O)NCC(c1ccc2c(c1)OCO2)N1CCOCC1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"N'-[2-(1,3-benzodioxol-5-yl)-2-morpholin-4-ylethyl]-N-(2-methylpropyl)oxamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "8964dfd1-cdc3-41dd-bab0-a53ce294f1af",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Cc1ccccc1-c1nn(-c2ccc(N)cc2)cc1CNCCN1CCN(C)CC1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"4-[3-(2-methylphenyl)-4-[[2-(4-methylpiperazin-1-yl)ethylamino]methyl]pyrazol-1-yl]aniline\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "281877e2-55b4-4d35-94be-d9dfc8d04942",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CC(NC(=O)Nc1cc2[nH]nc(NC3CNC3)c2cn1)c1ccccc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"1-[3-(azetidin-3-ylamino)-1H-pyrazolo[4,3-c]pyridin-6-yl]-3-(1-phenylethyl)urea\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "9617488b-8ab4-419a-95bd-0022b50b6e52",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(NC1CCCC1)C(c1cccnc1)N(C(=O)c1csnn1)C1CCCC1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"N-cyclopentyl-N-[2-(cyclopentylamino)-2-oxo-1-pyridin-3-ylethyl]thiadiazole-4-carboxamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "e8c5661b-d275-4436-b3a9-92f19df0b5ad",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CCCCCC(=O)N1CC(O)C(n2cc(C3CC3)nn2)CC1c1ccc(C)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"1-[4-(4-cyclopropyltriazol-1-yl)-5-hydroxy-2-(4-methylphenyl)piperidin-1-yl]hexan-1-one\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "a911d5d0-7f38-412b-a3e1-b685983c2a2c",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: OC(CN1CCN(Cc2cccs2)CC1)(Cn1cncn1)c1ccc(F)cc1F.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"2-(2,4-difluorophenyl)-1-[4-(thiophen-2-ylmethyl)piperazin-1-yl]-3-(1,2,4-triazol-1-yl)propan-2-ol\", \"type\": \"large\"}"
+    },
+    {
+        "id": "2b744334-4e56-4e32-99a6-a2e534a34370",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CCC=CCOc1nc(C(F)(F)F)ccc1CNC(=O)C(C)c1ccc(NS(C)(=O)=O)c(F)c1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"2-[3-fluoro-4-(methanesulfonamido)phenyl]-N-[[2-pent-2-enoxy-6-(trifluoromethyl)pyridin-3-yl]methyl]propanamide\", \"type\": \"large\"}"
+    },
+    {
+        "id": "dfb56841-86d4-41e3-b532-9f9e233424e8",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: C=CC1(C)CC(OC(=O)CSc2nc(N)cc(OC)n2)C2(C)C(C)CCC3(CCC(=O)C32)C(C)C1O.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": null, \"type\": \"large\"}"
+    },
+    {
+        "id": "94b291a4-5710-48e3-b9c5-14a86ca0f936",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CCOc1cc(NC(=O)c2cccs2)c(OCC)cc1NC(=O)CCC(=O)NCCN1CCOCC1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"N'-[2,5-diethoxy-4-(thiophene-2-carbonylamino)phenyl]-N-(2-morpholin-4-ylethyl)butanediamide\", \"type\": \"large\"}"
+    },
+    {
+        "id": "00bc79ab-8064-4db7-822b-c6e69585dd9b",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Cc1ccccc1Cn1cc(CC(O)(Cn2cncn2)c2ccc(F)cc2F)nn1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"2-(2,4-difluorophenyl)-1-[1-[(2-methylphenyl)methyl]triazol-4-yl]-3-(1,2,4-triazol-1-yl)propan-2-ol\", \"type\": \"large\"}"
+    },
+    {
+        "id": "e0633d23-7ffd-4ba1-af2c-2ee7c9a8ec30",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(CSc1nc2ccccc2c(=O)n1Cc1ccccc1)NCc1ccco1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"2-(3-benzyl-4-oxoquinazolin-2-yl)sulfanyl-N-(furan-2-ylmethyl)acetamide\", \"type\": \"large\"}"
+    },
+    {
+        "id": "9fe6b7e8-2a7a-4527-83fa-c439e0dc3517",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CCc1cc(C(=O)Nc2cc(S(=O)(=O)N3CCOCC3)ccc2N2CCN(CC)CC2)sc1C.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"4-ethyl-N-[2-(4-ethylpiperazin-1-yl)-5-morpholin-4-ylsulfonylphenyl]-5-methylthiophene-2-carboxamide\", \"type\": \"large\"}"
+    },
+    {
+        "id": "8e974266-07e4-4e1f-9528-d58c7e79b5f5",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CC(C)(C)c1ccc(S(=O)(=O)Nc2ccc(Cl)c3c2C(=O)N(Cc2ccc[n+]([O-])c2)C3=O)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"4-tert-butyl-N-[7-chloro-2-[(1-oxidopyridin-1-ium-3-yl)methyl]-1,3-dioxoisoindol-4-yl]benzenesulfonamide\", \"type\": \"large\"}"
+    },
+    {
+        "id": "2cb64582-4559-4547-99d5-635131efc6a3",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(Nc1ccc(Oc2ncnc3[nH]ncc23)cc1)Nc1ccc(C(F)(F)F)cc1Cl.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"1-[2-chloro-4-(trifluoromethyl)phenyl]-3-[4-(1H-pyrazolo[3,4-d]pyrimidin-4-yloxy)phenyl]urea\", \"type\": \"large\"}"
+    },
+    {
+        "id": "11f5ba22-5355-4d09-997c-71ef419e2eba",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Cc1noc(C)c1S(=O)(=O)NC(=O)C1(C)CCN1C(=O)c1ccccc1CCc1ccccc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"N-[(3,5-dimethyl-1,2-oxazol-4-yl)sulfonyl]-2-methyl-1-[2-(2-phenylethyl)benzoyl]azetidine-2-carboxamide\", \"type\": \"large\"}"
+    },
+    {
+        "id": "ac510678-c1bf-4bbb-bf67-90db04f64e0f",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1ccc(CNC(=O)CN(C)S(=O)(=O)c2ccc3nc(C)sc3c2)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"N-[(4-methoxyphenyl)methyl]-2-[methyl-[(2-methyl-1,3-benzothiazol-6-yl)sulfonyl]amino]acetamide\", \"type\": \"large\"}"
+    },
+    {
+        "id": "8a82e685-e756-459c-be1c-e349cba4fdc8",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(CSc1oc(-c2ccc(F)cc2)nc1S(=O)(=O)c1ccccc1)NCC1CCCO1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"2-[[4-(benzenesulfonyl)-2-(4-fluorophenyl)-1,3-oxazol-5-yl]sulfanyl]-N-(oxolan-2-ylmethyl)acetamide\", \"type\": \"large\"}"
+    },
+    {
+        "id": "d0ec7b80-45d0-4efb-a9ae-ad05a2b4389a",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(COC(=O)c1ccc(O)cc1)Nc1cc(C(F)(F)F)ccc1N1CCOCC1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"[2-[2-morpholin-4-yl-5-(trifluoromethyl)anilino]-2-oxoethyl] 4-hydroxybenzoate\", \"type\": \"large\"}"
+    },
+    {
+        "id": "59c43f04-0961-4746-9463-1d7c5f826b65",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CC(=O)NC(C)c1ccc(OC2CCN(c3ccnc(N4CCOCC4)n3)C2)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": null, \"type\": \"large\"}"
+    },
+    {
+        "id": "be85053e-5e30-479e-956f-72cf62a167a5",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Nc1cnc(-c2ccn3c(-c4cccc(NC(=O)NCC(F)(F)F)c4)cnc3c2)nc1N.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"1-[3-[7-(4,5-diaminopyrimidin-2-yl)imidazo[1,2-a]pyridin-3-yl]phenyl]-3-(2,2,2-trifluoroethyl)urea\", \"type\": \"large\"}"
+    },
+    {
+        "id": "3921e6cb-d2c9-419c-b64d-44983d70170d",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Cc1cc(C(=O)N2CCC3(CC2)CN(C(=O)Nc2ccc(OC(F)(F)F)cc2)CCO3)no1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"9-(5-methyl-1,2-oxazole-3-carbonyl)-N-[4-(trifluoromethoxy)phenyl]-1-oxa-4,9-diazaspiro[5.5]undecane-4-carboxamide\", \"type\": \"large\"}"
+    },
+    {
+        "id": "94263374-9563-4038-b09b-500e4e0fdec4",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CC(C)(C)NC(=O)C(c1cccnc1)N(C(=O)c1ccco1)c1ccc(NS(C)(=O)=O)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"N-[2-(tert-butylamino)-2-oxo-1-pyridin-3-ylethyl]-N-[4-(methanesulfonamido)phenyl]furan-2-carboxamide\", \"type\": \"large\"}"
+    },
+    {
+        "id": "25a8959e-f8b3-4945-9e12-bc46c8552f2a",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COCCn1c(=S)[nH]c2cc(C(=O)NCCCN3CCOCC3)ccc2c1=O.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"3-(2-methoxyethyl)-N-(3-morpholin-4-ylpropyl)-4-oxo-2-sulfanylidene-1H-quinazoline-7-carboxamide\", \"type\": \"large\"}"
+    },
+    {
+        "id": "3db48a58-8311-4133-a6af-7ffdb117b363",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CC(C)Oc1ccc(Nc2ncc(C(=O)NC(C)C(=O)O)c(=O)n2Cc2ccc(Cl)cc2)cc1F.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": null, \"type\": \"large\"}"
+    },
+    {
+        "id": "9cc97045-b990-4b77-a569-a670f47ac931",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the LogP value while following a structured intermediate optimization process. LogP is a measure of a molecule's lipophilicity, which is its tendency to dissolve in a lipid (fatty) environment compared to water. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(CC(O)C(F)(F)F)NC1CCC(CCN2CCN(c3nccc4c3CCO4)CC2)CC1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "logp",
+        "meta": "{\"src_iupac\": \"N-[4-[2-[4-(2,3-dihydrofuro[3,2-c]pyridin-4-yl)piperazin-1-yl]ethyl]cyclohexyl]-4,4,4-trifluoro-3-hydroxybutanamide\", \"type\": \"large\"}"
+    }
+]

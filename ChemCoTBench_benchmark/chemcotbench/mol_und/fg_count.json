@@ -1,0 +1,802 @@
+[
+    {
+        "id": "d6227fe7-fe7c-4541-892b-b6271c9bbd60",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: CCC(CO)Oc1cc(NCc2ccccc2)c2ncn(C(C)C)c2c1, Fragment Name: side-chain hydroxyls.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[O;D1]\", \"fg_label\": \"-O\"}"
+    },
+    {
+        "id": "41b7c511-81e1-4625-baeb-3cabe0c5abcf",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: COc1cccc(Cl)c1-c1ccc(COC2COc3nc([N+](=O)[O-])cn3C2)cc1, Fragment Name: side-chain hydroxyls.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[O;D1]\", \"fg_label\": \"-O\"}"
+    },
+    {
+        "id": "df3b1419-39c5-43a8-930c-dbce1fd21860",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: COc1ccc(OCC(=O)Nc2ccc3c(c2)nc(CCNC(=O)c2ccco2)n3C)cc1, Fragment Name: side-chain aldehydes or ketones.",
+        "gt": 2,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*=[O;D1]\", \"fg_label\": \"=O\"}"
+    },
+    {
+        "id": "dd42f107-1292-4ceb-92a6-2a92848599d8",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: CCN1CCN(C2=C(NC(=O)c3ccccc3)C(=O)c3ccccc3C2=O)CC1, Fragment Name: side-chain aldehydes or ketones.",
+        "gt": 3,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*=[O;D1]\", \"fg_label\": \"=O\"}"
+    },
+    {
+        "id": "760e8604-8853-4f9d-b905-3c8fd8cb337a",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: CSc1c(CC(=O)Nc2ccc(F)cc2)n(Cc2ccccc2)c2ccccc12, Fragment Name: amide.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"[#6][C](=O)[NX3][#6]\", \"fg_label\": \"-C(=O)N\"}"
+    },
+    {
+        "id": "dff9ad90-f936-4aa0-a891-fd2b38cd6bb0",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: COc1cc2nc(N3CCN(C(=O)C(F)=Cc4ccccc4)CC3)nc(N)c2cc1OC, Fragment Name: amide.",
+        "gt": 2,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"[#6][C](=O)[NX3][#6]\", \"fg_label\": \"-C(=O)N\"}"
+    },
+    {
+        "id": "c612756f-8038-417b-94bd-d258d1262853",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: Cc1cc(=O)oc2cc(NC(=O)Cc3ccc(Br)cc3)ccc12, Fragment Name: halogens.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[#9,#17,#35,#53]\", \"fg_label\": \"-X\"}"
+    },
+    {
+        "id": "0bcc642d-73ee-48c7-a243-281c49a19e96",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: CCC(=O)NC1CCc2c(Cl)c(OC)c(OC)c(OC)c2-c2ccc(OC)c(=O)cc21, Fragment Name: halogens.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[#9,#17,#35,#53]\", \"fg_label\": \"-X\"}"
+    },
+    {
+        "id": "d17db0e9-a4df-40dd-94b0-663851ced940",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OCCNC(C)C, Fragment Name: methoxy.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[O;D2]-[C;D1;H3]\", \"fg_label\": \"-OMe\"}"
+    },
+    {
+        "id": "3faa2d19-6736-4eb1-8af1-4a025e30e02d",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: COCCNC1CCC(Nc2cc(-c3nc(NCC4CCOCC4)ccc3Cl)c(Cl)cn2)CC1, Fragment Name: methoxy.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[O;D2]-[C;D1;H3]\", \"fg_label\": \"-OMe\"}"
+    },
+    {
+        "id": "3a7462be-a685-4374-bf08-10c7868e0ef7",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: NC(=O)c1cccc2c(NCc3cccc(Nc4nccs4)c3)ncnc12, Fragment Name: primary amines.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[N;D1]\", \"fg_label\": \"-N\"}"
+    },
+    {
+        "id": "4291e112-0a81-48c5-ba4a-d51a89b4060b",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: Cc1cc(C#N)cc(C(=O)c2c(C(C)C)c(=O)[nH]c(=O)n2Cc2cc(N)nc(F)c2F)c1, Fragment Name: primary amines.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[N;D1]\", \"fg_label\": \"-N\"}"
+    },
+    {
+        "id": "678fd70e-20e7-4d01-b56b-89b71cd2b6d2",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: COc1cc2ncnc(Nc3ccc(C(F)(F)F)cc3)c2c(OC)c1OC, Fragment Name: trifluoromethyl.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[C;D4](F)(F)F\", \"fg_label\": \"-CF3\"}"
+    },
+    {
+        "id": "33e7e29e-d3ff-4cb4-ba84-7cbf7fd29dc3",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: O=C(Nc1ccnc(F)c1)c1ccc(-c2noc(C(F)(F)F)n2)cc1, Fragment Name: trifluoromethyl.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[C;D4](F)(F)F\", \"fg_label\": \"-CF3\"}"
+    },
+    {
+        "id": "515b90d3-853a-4bab-af7b-6360c71fcba7",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: CCOC(=O)C1(C(=O)NC(Cc2ccc(-c3ccccc3OC)cc2)C(=O)O)CCCO1, Fragment Name: ethoxy.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[O;D2]-[C;D2]-[C;D1;H3]\", \"fg_label\": \"-OEt\"}"
+    },
+    {
+        "id": "4fb6f499-8235-4f9e-9a41-aa529962fe7c",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: CCOC(=O)c1cc2cc(C3(Cc4ccccc4)CCNC3)ccc2[nH]1, Fragment Name: ethoxy.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[O;D2]-[C;D2]-[C;D1;H3]\", \"fg_label\": \"-OEt\"}"
+    },
+    {
+        "id": "5b101483-070b-4ce3-82fd-2712c10a9d32",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: COc1cc(N)c(Cl)cc1C(=O)OCCN1CCC(C(N)=O)CC1, Fragment Name: ester.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"[#6](=[#8])-[OX2]-[#6]\", \"fg_label\": \"-COOR\"}"
+    },
+    {
+        "id": "353f30c5-4aa7-494a-8bbb-087a67a7f6f3",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: CCOC(=O)c1c(S(=O)(=O)NCC(=O)Nc2cc(C)ccc2C)c(C)n(C)c1C, Fragment Name: ester.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"[#6](=[#8])-[OX2]-[#6]\", \"fg_label\": \"-COOR\"}"
+    },
+    {
+        "id": "00bda26e-73ed-4ded-a44c-f683d0859c30",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: CSc1nc(N)cc(-c2c(-c3ccc(F)cc3)ncn2CCCN2CCOCC2)n1, Fragment Name: methylthio.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[S;D2]-[C;D1;H3]\", \"fg_label\": \"-SCH3\"}"
+    },
+    {
+        "id": "1f1a0ffd-4804-47e9-98e7-87c1aa181b1f",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: CSc1ncc(C(=O)Nc2ccc(C)c(Cl)c2)c(-c2ccccc2)n1, Fragment Name: methylthio.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[S;D2]-[C;D1;H3]\", \"fg_label\": \"-SCH3\"}"
+    },
+    {
+        "id": "3fc114a3-ec81-4e4f-8ce4-5450f883f747",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: COC(=O)c1cccc(-c2cccc(OCC(O)CN3CCc4ccccc4C3)c2)c1, Fragment Name: carbonyl methyl ester.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-C(=O)[O;D2]-[C;D1;H3]\", \"fg_label\": \"-C(=O)OMe\"}"
+    },
+    {
+        "id": "0bc6acaf-7e0e-4e8b-92e5-f0f50a19f9d8",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: COC(=O)C1CCN(CCCN2CCN(c3ccc(F)cc3)CC2)CC1, Fragment Name: carbonyl methyl ester.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-C(=O)[O;D2]-[C;D1;H3]\", \"fg_label\": \"-C(=O)OMe\"}"
+    },
+    {
+        "id": "a62c7d19-4e3f-43e9-be5a-0bbd2d1897de",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: O=C(NC(Cc1ccccc1)c1nc2ccccc2[nH]1)c1cccc([N+](=O)[O-])c1, Fragment Name: nitro.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[N;D3](=[O;D1])[O;D1]\", \"fg_label\": \"-NO2\"}"
+    },
+    {
+        "id": "571648ff-7433-438a-b8a0-0eecc1dce0fe",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: O=C(Nc1ccc(S(=O)(=O)Nc2ccccn2)cc1)c1cccc([N+](=O)[O-])c1, Fragment Name: nitro.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[N;D3](=[O;D1])[O;D1]\", \"fg_label\": \"-NO2\"}"
+    },
+    {
+        "id": "e565b721-b05c-43f4-8ce3-1bf9957ecb0f",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: O=C(Nc1ccc2oc(Cc3ccccc3)nc2c1)c1ccc([N+](=O)[O-])cc1, Fragment Name: nitroso.",
+        "gt": 2,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[N;R0]=[O;D1]\", \"fg_label\": \"-N=O\"}"
+    },
+    {
+        "id": "c4c93cb9-8a4a-40ad-83b4-2daff88e35b8",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: CCOC(=O)C1CCCN(Cc2nc3ccc([N+](=O)[O-])cc3c(=O)n2-c2ccc(OC)cc2OC)C1, Fragment Name: nitroso.",
+        "gt": 2,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[N;R0]=[O;D1]\", \"fg_label\": \"-N=O\"}"
+    },
+    {
+        "id": "a13be8a9-d9f2-49a7-ad0a-d9421c134bec",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: Cc1c(Cc2cccc([N+](=O)[O-])c2)c(=O)oc2cc(OC(=O)N(C)C)ccc12, Fragment Name: oximes.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*=[N;R0]-[O;D1]\", \"fg_label\": \"=N-O\"}"
+    },
+    {
+        "id": "07715f55-de84-4795-84cc-a452d791faf1",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: COC(=O)C1=C(C)N=C(C)C(=C(O)OC)C1c1ccc(Cl)c([N+](=O)[O-])c1, Fragment Name: oximes.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*=[N;R0]-[O;D1]\", \"fg_label\": \"=N-O\"}"
+    },
+    {
+        "id": "0f78742d-fbfe-49fe-8e68-10a2539cfe45",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: CNCc1cc(C(=O)N2CCCN(C3CC3)CC2)ccc1Oc1ccccc1C#N, Fragment Name: cyano.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[C;D2]#[N;D1]\", \"fg_label\": \"-C#N\"}"
+    },
+    {
+        "id": "6d973e6f-74a9-4af4-8dae-02d239758a70",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: CN1CCN(Cc2ccc(C(=O)NN(c3nc(C#N)ncc3Br)C3CCC3)cc2)CC1, Fragment Name: cyano.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[C;D2]#[N;D1]\", \"fg_label\": \"-C#N\"}"
+    },
+    {
+        "id": "fb791a91-ab9c-415f-a751-511eabfd75bd",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: CCC(C(=O)NC(C#N)CC(N)=O)N(Cc1ccc(-c2cccc(F)c2F)cc1)S(C)(=O)=O, Fragment Name: nitriles.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*#[N;D1]\", \"fg_label\": \"#N\"}"
+    },
+    {
+        "id": "a39366a8-c9fd-4694-969e-280b0e734f1a",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: N#Cc1cc2cnc(NCc3ccccc3)nc2n(C2CCCC2)c1=O, Fragment Name: nitriles.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*#[N;D1]\", \"fg_label\": \"#N\"}"
+    },
+    {
+        "id": "5cf25bf2-4968-44a4-a316-914ae73df4cf",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: CCOc1ccccc1NS(=O)(=O)c1cc(-c2cnc(C3CC3)o2)ccc1C, Fragment Name: cyclopropyl.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[C;D3]1-[C;D2]-[C;D2]1\", \"fg_label\": \"-cPropyl\"}"
+    },
+    {
+        "id": "5540f365-3648-44e6-a1be-3094ca0c56fc",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: CC(C)N(c1ccc(C(C)(O)C(F)(F)F)cc1)S(=O)(=O)c1ccccc1C1CC1, Fragment Name: cyclopropyl.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[C;D3]1-[C;D2]-[C;D2]1\", \"fg_label\": \"-cPropyl\"}"
+    },
+    {
+        "id": "d8c2b8fc-47f3-4662-b8da-d042dfab20e8",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: NS(=O)(=O)c1ccc(Nc2nccc(-c3ccc(NC(=O)Cc4cccs4)cc3)n2)cc1, Fragment Name: primary sulfonamide.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[S;D4](=[O;D1])(=[O;D1])-[N;D1]\", \"fg_label\": \"-SO2NH2\"}"
+    },
+    {
+        "id": "1d89cc79-cbe3-4b0a-91d7-d05352c25935",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: NS(=O)(=O)c1ccc(NC(=O)CN2CCN(c3ccccc3)CC2)cc1, Fragment Name: primary sulfonamide.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[S;D4](=[O;D1])(=[O;D1])-[N;D1]\", \"fg_label\": \"-SO2NH2\"}"
+    },
+    {
+        "id": "5e7c3e48-de69-4c99-b665-bd2f79c6eda4",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: CC12CCN(C(=O)C3CCC(C(=O)O)CC3)C(Cc3c(O)cccc31)C2(C)C, Fragment Name: carboxylic acids.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-C(=O)[O;D1]\", \"fg_label\": \"-C(=O)O\"}"
+    },
+    {
+        "id": "bf8785d7-e500-4859-a4ae-47d16e2f30b2",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: O=C(Nc1ccccc1C(=O)NC(Cc1ccccc1)C(=O)O)c1cnccn1, Fragment Name: carboxylic acids.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-C(=O)[O;D1]\", \"fg_label\": \"-C(=O)O\"}"
+    },
+    {
+        "id": "55392f89-ae74-4a64-9c31-a49309353b04",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: CS(=O)(=O)Nc1ccc(-c2cnc3cccc(Nc4ncccc4Cl)c3c2)cc1, Fragment Name: methyl sulfonyl.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[S;D4](=O)(=O)-[C;D1;H3]\", \"fg_label\": \"-SO2CH3\"}"
+    },
+    {
+        "id": "ef546800-fbe2-488f-868a-a91d9de8e213",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: CC(CCn1ccc(-c2ccc(F)cc2)cc1=O)(C(=O)NO)S(C)(=O)=O, Fragment Name: methyl sulfonyl.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[S;D4](=O)(=O)-[C;D1;H3]\", \"fg_label\": \"-SO2CH3\"}"
+    },
+    {
+        "id": "50b8b245-98c6-4044-9a46-694d1acae906",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: CC(=O)NC(C)c1ccc(OC2CCN(c3nc(N(C)CC4CCOC4)ncc3Cl)C2)cc1, Fragment Name: methyl amide.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[N;D2]-[C;D3](=O)-[C;D1;H3]\", \"fg_label\": \"-NC(=O)CH3\"}"
+    },
+    {
+        "id": "0ee331e9-cd1f-48db-9e7b-4b9fbcab67d3",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: CC(=O)NC(C)c1ccc(OC2CCN(c3nc(N4CCCC4C)ncc3F)C2)cc1, Fragment Name: methyl amide.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[N;D2]-[C;D3](=O)-[C;D1;H3]\", \"fg_label\": \"-NC(=O)CH3\"}"
+    },
+    {
+        "id": "c3158a4f-28cc-4f72-bb85-690cbf908c62",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: C=CCOCCn1c(SC)nc(-c2ccc(F)cc2)c1-c1ccnc(NC(C)=O)c1, Fragment Name: terminal aldehyde.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-C(=O)-[C;D1]\", \"fg_label\": \"-C(=O)H\"}"
+    },
+    {
+        "id": "cbe4320c-02e0-4097-a520-be886ecffdb3",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: CCC1OC(C(C)=CC(C)C=CC2C(C)C2C=CC2OC(CC(C)=O)CC(O)C2O)CC=C1C, Fragment Name: terminal aldehyde.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-C(=O)-[C;D1]\", \"fg_label\": \"-C(=O)H\"}"
+    },
+    {
+        "id": "3eb7f4c4-c784-438b-8908-e7e9aaad138d",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: CC(=O)NC(C)c1ccc(OC2CCN(c3ccnc(N4CCCC(F)(F)C4)n3)C2)cc1, Fragment Name: carbonyl methyl.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-C(=O)-[C;D1;H3]\", \"fg_label\": \"-C(=O)CH3\"}"
+    },
+    {
+        "id": "47cfb9ef-c640-46a5-90a0-f9d096a1ea96",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: COC1CCCN(c2nccc(N3CCC(Oc4ccc(C(C)NC(C)=O)cc4)C3)n2)C1, Fragment Name: carbonyl methyl.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-C(=O)-[C;D1;H3]\", \"fg_label\": \"-C(=O)CH3\"}"
+    },
+    {
+        "id": "0d2fe45b-4069-4281-91f1-7d2be625ac9d",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: CNC(=O)C(NC(=O)C(CC(C)C)C(C(=O)NO)C1CCCC1)C(C)(C)C, Fragment Name: t-butyl.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[C;D4]([C;D1])([C;D1])-[C;D1]\", \"fg_label\": \"-tBu\"}"
+    },
+    {
+        "id": "f06ceb8c-1d63-45ba-9c6b-c01d34f69a2d",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: CC(C(=O)Nc1ncc(SCc2ncc(C(C)(C)C)o2)s1)c1ccccc1, Fragment Name: t-butyl.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[C;D4]([C;D1])([C;D1])-[C;D1]\", \"fg_label\": \"-tBu\"}"
+    },
+    {
+        "id": "30a8dfa8-06ac-4502-b6ae-ce3788230441",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: C#Cc1cc(Oc2cnc(NCC(C)O)nc2N)c(C(C)C)cc1OC, Fragment Name: acetylenes.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[C;D2]#[C;D1;H]\", \"fg_label\": \"-C#CH\"}"
+    },
+    {
+        "id": "88ed7327-7903-426c-a864-b0eeffa53b43",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: NS(=O)(=O)c1ccc(NC(=S)NC(=O)c2cccc([N+](=O)[O-])c2)cc1, Fragment Name: thiocarbonyls.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*=[S;D1]\", \"fg_label\": \"=S\"}"
+    },
+    {
+        "id": "7d5d34a9-3282-4616-9497-d97f16986c69",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: COc1ccc(NC(=S)N(CCN2CCOCC2)Cc2ccccc2F)cc1, Fragment Name: thiocarbonyls.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*=[S;D1]\", \"fg_label\": \"=S\"}"
+    },
+    {
+        "id": "6cdd65d9-386a-48f7-8184-3bf2aacabc41",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: CC(C(=O)NCc1ccc(C(F)(F)F)nc1OCc1ccc(F)cc1)c1ccc(NS(C)(=O)=O)c(F)c1, Fragment Name: methyl sulfonamide.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[N;D2]-[S;D4](=[O;D1])(=[O;D1])-[C;D1;H3]\", \"fg_label\": \"-NHSO2CH3\"}"
+    },
+    {
+        "id": "878d440f-f17b-4db0-829d-b18ee1d11e19",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: Cc1oc(-c2ccccc2)nc1CCNC(=O)c1ccc([S@@](C)=O)cc1, Fragment Name: methyl sulfinyl.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[S;D3](=O)-[C;D1]\", \"fg_label\": \"-SOCH3\"}"
+    },
+    {
+        "id": "4ab86fe3-b651-481e-a10c-ba5d6f38211a",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: C=CCn1c(SCc2nnc([S-])n2-c2ccccc2)nnc1-c1ccccc1, Fragment Name: thiols.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[S;D1]\", \"fg_label\": \"-S\"}"
+    },
+    {
+        "id": "44b934bf-e2dc-4680-80d8-a5b70c3e4973",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: C[C@@H]1CCC/C(=N/[NH+]=C(/[S-])NCc2ccccc2)C1, Fragment Name: thiols.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[S;D1]\", \"fg_label\": \"-S\"}"
+    },
+    {
+        "id": "4817560a-ba6b-49e8-9bb9-1b00398a121f",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: C[C@H](NC(=O)NCCC[S@](C)=O)c1ccc(Cl)s1, Fragment Name: methyl sulfinyl.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[S;D3](=O)-[C;D1]\", \"fg_label\": \"-SOCH3\"}"
+    },
+    {
+        "id": "7ffe5233-afa0-488c-b242-163ccd10c23b",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: O=C=NC(c1ccccc1)(c1ccccc1)c1ccccc1, Fragment Name: isocyanate.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[N;D2]=[C;D2]=[O;D1]\", \"fg_label\": \"-N=C=O\"}"
+    },
+    {
+        "id": "6410d3c7-4924-445f-8859-cf33f85e2c91",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: COS(=O)(=O)c1ccc(Cl)c2ccccc12, Fragment Name: methyl ester sulfonyl.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[S;D4](=O)(=O)-[O;D2]-[C;D1;H3]\", \"fg_label\": \"-SO3CH3\"}"
+    },
+    {
+        "id": "479e93f5-bf94-4da4-be22-f86fe4be5242",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: CCOc1cc(NC(=O)c2ccccc2)c(OCC)cc1[N+]#N, Fragment Name: diazo.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[N;D2]#[N;D1]\", \"fg_label\": \"-N#N\"}"
+    },
+    {
+        "id": "af3fb7c0-04b0-4ce2-bf68-0ea7b634daad",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: O=S(=O)([O-])c1ccc(Cl)c2cccnc12, Fragment Name: sulfonic acid.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[S;D4](=O)(=O)-[O;D1]\", \"fg_label\": \"-SO3H\"}"
+    },
+    {
+        "id": "e678dbe6-9161-4df3-a714-3a865a71057c",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: O=S1(=O)C[C@@H](Nc2ccccc2)[C@@H](S(=O)(=O)[O-])C1, Fragment Name: sulfonic acid.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[S;D4](=O)(=O)-[O;D1]\", \"fg_label\": \"-SO3H\"}"
+    },
+    {
+        "id": "d76c3938-e17d-44d3-af97-4dff382936b4",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: O=C(N=C=S)c1cccc(C(F)(F)F)c1F, Fragment Name: isothiocyanate.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[N;D2]=[C;D2]=[S;D1]\", \"fg_label\": \"-N=C=S\"}"
+    },
+    {
+        "id": "51541118-6636-44bc-bcd7-e189c5e8a3cc",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: N#[N+]c1[nH]nc2nnc(-c3ccccc3)c(-c3ccccc3)c12, Fragment Name: diazo.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[N;D2]#[N;D1]\", \"fg_label\": \"-N#N\"}"
+    },
+    {
+        "id": "8732e651-dd60-4b88-987f-aa4bc0e59b1a",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: O=C=Nc1ccc2c(c1)O[C@@H](F)C(F)(F)O2, Fragment Name: isocyanate.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[N;D2]=[C;D2]=[O;D1]\", \"fg_label\": \"-N=C=O\"}"
+    },
+    {
+        "id": "ab37c9dd-b103-4a91-acfb-9498f1f94056",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: CC1(C)[C@H]2CC[C@]1(C)C(=O)[C@@H]2N=C=S, Fragment Name: isothiocyanate.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[N;D2]=[C;D2]=[S;D1]\", \"fg_label\": \"-N=C=S\"}"
+    },
+    {
+        "id": "2305aece-1cb8-461b-afe1-0fd4d5d61022",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: CCCc1n[nH]c2c([O-])nc(-c3cc(S(=O)(=O)Cl)ccc3OCC)nc12, Fragment Name: sulfonyl chloride.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[S;D4](=O)(=O)-[Cl]\", \"fg_label\": \"-SO2Cl\"}"
+    },
+    {
+        "id": "54332db2-21b1-4f89-a1ca-e739d2cc2281",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: COS(=O)(=O)[C@@H]1C(=O)[C@]2(C)CC[C@H]1C2(C)C, Fragment Name: methyl ester sulfonyl.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[S;D4](=O)(=O)-[O;D2]-[C;D1;H3]\", \"fg_label\": \"-SO3CH3\"}"
+    },
+    {
+        "id": "d66641d5-da1d-42cf-a7ac-9f19cdabed9e",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: Cc1nn(C(C)C)cc1S(=O)(=O)Cl, Fragment Name: sulfonyl chloride.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[S;D4](=O)(=O)-[Cl]\", \"fg_label\": \"-SO2Cl\"}"
+    },
+    {
+        "id": "07442faa-8ed9-4135-a883-665e8520235b",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: N=Nc1ccccc1-c1ccc([N+](=O)[O-])cc1[N+](=O)[O-], Fragment Name: hydrazines.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[N;D2]=[N;D1]\", \"fg_label\": \"-N=N\"}"
+    },
+    {
+        "id": "f4947294-2682-4c7e-b285-574a21c81c6c",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: CCN1CCN(c2c(F)cc3c(=O)c(C(=O)O)cn(C4CC4)c3c2OC)CC1, Fragment Name: carboxylic acids.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-C(=O)[O;D1]\", \"fg_label\": \"-C(=O)O\"}"
+    },
+    {
+        "id": "182f05dc-d4e7-4ebd-ae1b-8a42a7ccc6c8",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: NS(=O)(=O)NCC1CCCc2cc(S(=O)(=O)c3cccc(F)c3)ccc21, Fragment Name: primary sulfonamide.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[S;D4](=[O;D1])(=[O;D1])-[N;D1]\", \"fg_label\": \"-SO2NH2\"}"
+    },
+    {
+        "id": "91b34984-e65a-4c08-b804-66e70f6a9394",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: O=C1c2ccccc2C(=O)N1CCOC(=S)Nc1ccc(F)cc1F, Fragment Name: thiocarbonyls.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*=[S;D1]\", \"fg_label\": \"=S\"}"
+    },
+    {
+        "id": "dadc3099-fc96-47bb-90d7-16560435b165",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: COc1c(N2CCCC(N)C2)c(F)c(N)c2c(=O)c(C(=O)O)cn(C3CC3)c12, Fragment Name: cyclopropyl.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[C;D3]1-[C;D2]-[C;D2]1\", \"fg_label\": \"-cPropyl\"}"
+    },
+    {
+        "id": "02dd0323-00e3-4209-aa4c-420ff3063cd2",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: COc1ccccc1-c1ccc(CC(NC(=O)Cn2cnnn2)C(=O)O)cc1, Fragment Name: methoxy.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[O;D2]-[C;D1;H3]\", \"fg_label\": \"-OMe\"}"
+    },
+    {
+        "id": "2fc0021a-98cd-4b8f-9b6d-9aa2be3b2b91",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: O=C(CCCCCCc1ccccc1)c1ncc(-c2cc([N+](=O)[O-])ccn2)o1, Fragment Name: oximes.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*=[N;R0]-[O;D1]\", \"fg_label\": \"=N-O\"}"
+    },
+    {
+        "id": "8e64cf44-fc52-4063-92a1-b406fd21ab77",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: Nc1cnc(-c2ccc(C3CCC3)c(OCC(O)CNc3cc(N)ncn3)c2F)cn1, Fragment Name: primary amines.",
+        "gt": 2,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[N;D1]\", \"fg_label\": \"-N\"}"
+    },
+    {
+        "id": "23e4d40f-7cad-41be-9e91-116589085838",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: N#CCC1(n2cc(C(N)=O)c(Nc3ccnc(F)c3)n2)CCC(NCc2ccc(O)cc2)CC1, Fragment Name: cyano.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[C;D2]#[N;D1]\", \"fg_label\": \"-C#N\"}"
+    },
+    {
+        "id": "ccd6cc37-f01e-402f-9ded-c3f7c94f730b",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: CCCCOC(=O)c1ccc(NC(=O)C2(c3cccs3)CCOCC2)cc1, Fragment Name: ester.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"[#6](=[#8])-[OX2]-[#6]\", \"fg_label\": \"-COOR\"}"
+    },
+    {
+        "id": "dc7ad5dd-18aa-4d0e-ad2a-b738b290fa06",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: CN1C2CCC1CC(Oc1ccc(C(F)(F)F)cc1)(c1ccccc1)C2, Fragment Name: trifluoromethyl.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[C;D4](F)(F)F\", \"fg_label\": \"-CF3\"}"
+    },
+    {
+        "id": "c2911ddb-120f-4439-b8d8-e2410a153f36",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: COCCCNC(=O)c1c(C)nn(-c2ccc(F)cc2)c1-n1cccc1, Fragment Name: amide.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"[#6][C](=O)[NX3][#6]\", \"fg_label\": \"-C(=O)N\"}"
+    },
+    {
+        "id": "31be6ba5-2dd0-4db0-9d8f-c26d8af05639",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: C=CCN1CCN(Cc2ccccc2)C(C(=O)Oc2c(OC)cccc2OC)C1, Fragment Name: side-chain aldehydes or ketones.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*=[O;D1]\", \"fg_label\": \"=O\"}"
+    },
+    {
+        "id": "607a41c1-34f1-46c0-828e-5b88c6bc5951",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: CN(C)S(=O)(=O)CCc1ccc(NC(=O)c2ncc(C#N)[nH]2)c(C2=CCCCC2)c1, Fragment Name: cyano.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[C;D2]#[N;D1]\", \"fg_label\": \"-C#N\"}"
+    },
+    {
+        "id": "96d0905b-84a1-4531-a937-8090d82be009",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: CC(NC(=O)Nc1cc2[nH]nc(S(C)(=O)=O)c2cn1)c1ccccc1, Fragment Name: methyl sulfonyl.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[S;D4](=O)(=O)-[C;D1;H3]\", \"fg_label\": \"-SO2CH3\"}"
+    },
+    {
+        "id": "32205dbf-0e75-4829-8441-68c7c17366f2",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: CNc1ncnc(-c2cccnc2Oc2cc(C(=O)Nc3cccc(C(F)(F)F)c3)ccc2C)n1, Fragment Name: side-chain aldehydes or ketones.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*=[O;D1]\", \"fg_label\": \"=O\"}"
+    },
+    {
+        "id": "494b5474-4f44-4857-b3a6-e0bcb9149659",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: CS(=O)(=O)c1ccc2nc(-c3ccc(Br)cc3)[nH]c2c1, Fragment Name: methyl sulfonyl.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[S;D4](=O)(=O)-[C;D1;H3]\", \"fg_label\": \"-SO2CH3\"}"
+    },
+    {
+        "id": "87c70087-900c-4477-a1e7-c265375a59dc",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: CC(=O)N1c2ccc(S(=O)(=O)N3CCC(C(=O)Nc4ncccc4C)CC3)cc2CC1C, Fragment Name: terminal aldehyde.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-C(=O)-[C;D1]\", \"fg_label\": \"-C(=O)H\"}"
+    },
+    {
+        "id": "44a90de6-5aab-45b1-a78a-b0c1772e1047",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: Cc1cc(O)cc(C)c1CC(N)C(=O)N1Cc2ccccc2CC1C(=O)Nc1nn[nH]n1, Fragment Name: primary amines.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[N;D1]\", \"fg_label\": \"-N\"}"
+    },
+    {
+        "id": "06d5ba8d-a9e0-4dde-880f-b2ccfbfc610c",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: CCCCCCNc1ncc2cc(-c3c(Cl)cccc3Cl)c(=O)n(C)c2n1, Fragment Name: halogens.",
+        "gt": 2,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[#9,#17,#35,#53]\", \"fg_label\": \"-X\"}"
+    },
+    {
+        "id": "04b22b3a-8466-48ed-b023-3aa8ad9663b1",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: CCOCn1oc(=O)c(-c2ccc(F)cc2)c1-c1ccnc(Oc2ccccc2O)n1, Fragment Name: ethoxy.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[O;D2]-[C;D2]-[C;D1;H3]\", \"fg_label\": \"-OEt\"}"
+    },
+    {
+        "id": "87f79930-36b2-4657-9128-8798f32ef9ff",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: COc1cc(N)c(Cl)cc1C(=O)NC1CCN(CC2CCN(C(=S)C(C)C)CC2)CC1OC, Fragment Name: thiocarbonyls.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*=[S;D1]\", \"fg_label\": \"=S\"}"
+    },
+    {
+        "id": "5b6c8ba3-d486-4647-b24c-d9b483e1ff34",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: CN(C)CCCn1c(N)c(-c2nc3ccccc3s2)c2nc(C#N)c(C#N)nc21, Fragment Name: nitriles.",
+        "gt": 2,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*#[N;D1]\", \"fg_label\": \"#N\"}"
+    },
+    {
+        "id": "d9bfb492-54ce-468a-aec6-9444c7854d8c",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: COC(=O)c1ccc(-c2ccc(C=C3SC(=O)NC3=O)o2)c(O)c1, Fragment Name: carbonyl methyl ester.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-C(=O)[O;D2]-[C;D1;H3]\", \"fg_label\": \"-C(=O)OMe\"}"
+    },
+    {
+        "id": "b71914c0-4cfb-4eff-b9bc-cb906d64de81",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: CC(=O)NC(C)Cc1ccc(C#Cc2ccc(OCc3cnco3)cc2)cc1, Fragment Name: methyl amide.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[N;D2]-[C;D3](=O)-[C;D1;H3]\", \"fg_label\": \"-NC(=O)CH3\"}"
+    },
+    {
+        "id": "6f820973-97fc-441a-8c60-ad1c6d52f8f8",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: COC(=O)c1cn(Cc2ccc3c(-c4ccc(F)cc4)cc(C(N)=O)nc3c2)cn1, Fragment Name: carbonyl methyl ester.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-C(=O)[O;D2]-[C;D1;H3]\", \"fg_label\": \"-C(=O)OMe\"}"
+    },
+    {
+        "id": "14a725e7-8893-428d-8b66-007b3874937b",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: CC(=O)Nc1ncc2cc(-c3c(Cl)cccc3Cl)c(=O)n(C)c2n1, Fragment Name: methyl amide.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[N;D2]-[C;D3](=O)-[C;D1;H3]\", \"fg_label\": \"-NC(=O)CH3\"}"
+    },
+    {
+        "id": "c56c6454-fcc5-4937-9c54-a74a99442cbb",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: COc1cc2ncnc(Nc3cccc(Br)c3)c2cc1OCCC(=O)NO, Fragment Name: side-chain hydroxyls.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[O;D1]\", \"fg_label\": \"-O\"}"
+    },
+    {
+        "id": "691a5448-e6ca-4b16-8666-caf563995dfa",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: N#Cc1ccc(Oc2ccc(NC(=O)CC(CC(=O)O)c3ccccc3)cc2)cc1, Fragment Name: carboxylic acids.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-C(=O)[O;D1]\", \"fg_label\": \"-C(=O)O\"}"
+    },
+    {
+        "id": "c572b12c-4812-433f-b8d8-853172b09c7e",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: CCCCOC(=O)CC1N=C(c2ccc(Cl)cc2)c2cc(OC)ccc2-n2c(C)nnc21, Fragment Name: methoxy.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[O;D2]-[C;D1;H3]\", \"fg_label\": \"-OMe\"}"
+    },
+    {
+        "id": "d11c34fb-011c-4ba2-8e5d-d1e72e2426b1",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: CSc1nc(-c2ccc(F)cc2)c(-c2ccnc(OCc3ccccc3)c2)[nH]1, Fragment Name: methylthio.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[S;D2]-[C;D1;H3]\", \"fg_label\": \"-SCH3\"}"
+    },
+    {
+        "id": "f0385e04-d6e1-4528-933f-deb7db3abab4",
+        "query": "You are a chemical assistent. Giving you an Input Molecule and a Fragment name, help me count the number of the fragment in the Molecule.\nYour response must be directly parsable JSON format:\n{\n    \"count\": \"Your Answer Number\"\n}\nInput Molecule: CCOC(=O)Nc1ncc(Oc2cc(I)c(OC)cc2C(C)C)c(N)n1, Fragment Name: ethoxy.",
+        "gt": 1,
+        "task": "mol_und",
+        "subtask": "fg_count",
+        "meta": "{\"fg_smarts\": \"*-[O;D2]-[C;D2]-[C;D1;H3]\", \"fg_label\": \"-OEt\"}"
+    }
+]

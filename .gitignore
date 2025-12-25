@@ -18,7 +18,6 @@ build/
 
 # 数据文件（已在 HF 上）
 data/
-outputs/
 checkpoints/
 logs/
 

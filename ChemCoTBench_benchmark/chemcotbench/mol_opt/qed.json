@@ -1,0 +1,802 @@
+[
+    {
+        "id": "9f1b0ee7-dc6a-4bbd-b694-32a3e61a489b",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Cn1ccnc1SCC(=O)Nc1cccc([N+](=O)[O-])c1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"2-(1-methylimidazol-2-yl)sulfanyl-N-(3-nitrophenyl)acetamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "c304ef8e-3c81-48b8-a9ed-0c09de9e8830",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(O)c1cn(COCCO)c2ccc([N+](=O)[O-])cc2c1=O.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"1-(2-hydroxyethoxymethyl)-6-nitro-4-oxoquinoline-3-carboxylic acid\", \"type\": \"small\"}"
+    },
+    {
+        "id": "8b9c7d6f-f8e9-4198-85ea-e81fc1ae889d",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CCOC(=O)c1cnc2ccnn2c1SCC.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"ethyl 7-ethylsulfanylpyrazolo[1,5-a]pyrimidine-6-carboxylate\", \"type\": \"small\"}"
+    },
+    {
+        "id": "e3a32b3a-a5db-4519-889a-c5e64e02e799",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: C=CCSc1cc(C)nc2c(-c3ccccc3)c(C)nn12.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"2,5-dimethyl-3-phenyl-7-prop-2-enylsulfanylpyrazolo[1,5-a]pyrimidine\", \"type\": \"small\"}"
+    },
+    {
+        "id": "0da48cb7-bb9a-45c8-aeec-b44cfe5b7d3b",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COCCSc1nnc(NC(=O)CSc2ccccc2)s1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"N-[5-(2-methoxyethylsulfanyl)-1,3,4-thiadiazol-2-yl]-2-phenylsulfanylacetamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "b84e99a5-2df6-4383-b24a-eb7a25a3026d",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C1NC(=O)C(=Cc2ccc(-c3cccc([N+](=O)[O-])c3)o2)S1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"5-[[5-(3-nitrophenyl)furan-2-yl]methylidene]-1,3-thiazolidine-2,4-dione\", \"type\": \"small\"}"
+    },
+    {
+        "id": "4b4d9106-3d67-462f-a282-ab72a445828c",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(CCCCCCC(=O)Nc1ccccc1)NO.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"N'-hydroxy-N-phenyloctanediamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "79af8fa1-3158-443d-8fc8-a18ecffd1197",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CON(C)C(NC(C)=O)C(=O)NCc1ccccc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"2-acetamido-N-benzyl-2-[methoxy(methyl)amino]acetamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "fdee867f-392a-4412-9a85-482bb5db970c",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(C=Cc1ccc(C(=O)c2ccc3ccccc3n2)cc1)NO.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": null, \"type\": \"small\"}"
+    },
+    {
+        "id": "02a07e55-a70d-4a4d-b51a-0afe4ff17828",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(O)CN1C(=O)SC(=Cc2cccc([N+](=O)[O-])c2)C1=O.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"2-[5-[(3-nitrophenyl)methylidene]-2,4-dioxo-1,3-thiazolidin-3-yl]acetic acid\", \"type\": \"small\"}"
+    },
+    {
+        "id": "0c1c88dc-3cdb-4efe-9ebe-30d7f9bd9ca3",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(CCCc1ccc(CCCCc2ccccc2)cc1)NO.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"N-hydroxy-4-[4-(4-phenylbutyl)phenyl]butanamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "679c932a-5ecc-454f-a658-951a45f99cee",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: C#CCCCC(=O)c1cc2c(c(C(C)(C)C)c1)OCC2.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"1-(7-tert-butyl-2,3-dihydro-1-benzofuran-5-yl)hex-5-yn-1-one\", \"type\": \"small\"}"
+    },
+    {
+        "id": "2af58bf1-2b61-4113-8f18-15fd5c67dc12",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CN(c1ccc(C=CC(=O)NO)cc1)S(=O)(=O)c1ccccc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"3-[4-[benzenesulfonyl(methyl)amino]phenyl]-N-hydroxyprop-2-enamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "d29be956-1f1e-407c-9ade-bbecd4a2b297",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(NC(=S)NCc1ccco1)c1ccc([N+](=O)[O-])cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"N-(furan-2-ylmethylcarbamothioyl)-4-nitrobenzamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "556ea671-3ccf-479d-b91d-9a362d89d7b6",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CSc1nccc(C#Cc2ccc(CC(C)NC(C)=O)cc2)n1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"N-[1-[4-[2-(2-methylsulfanylpyrimidin-4-yl)ethynyl]phenyl]propan-2-yl]acetamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "749b9f92-becc-4320-98f7-e02e65ee5efd",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1ccc(C(=O)Nc2cccc(OC(=O)c3ccco3)c2)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"[3-[(4-methoxybenzoyl)amino]phenyl] furan-2-carboxylate\", \"type\": \"small\"}"
+    },
+    {
+        "id": "ebfad7c2-da00-4349-a317-c8375907b561",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CN(CC(=O)Nc1ccc(S(N)(=O)=O)cc1)C(=N)N.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"2-[carbamimidoyl(methyl)amino]-N-(4-sulfamoylphenyl)acetamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "7d9e3c46-783b-45a6-a044-a4875b95b1b5",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CCCCCCOc1ccc(C(=O)CCN2CCCCC2)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"1-(4-hexoxyphenyl)-3-piperidin-1-ylpropan-1-one\", \"type\": \"small\"}"
+    },
+    {
+        "id": "ad3fff15-c134-48b5-ba6c-438c4472c17c",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CC(=O)NC(=Cc1ccc2c(c1)OCO2)C(=O)NCCCO.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"2-acetamido-3-(1,3-benzodioxol-5-yl)-N-(3-hydroxypropyl)prop-2-enamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "af7a412f-79ab-4fa3-8981-35bade3f1385",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CC(=O)NCC1CN(c2ccc(C(C)=NO)cc2)C(=O)O1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"N-[[3-[4-(N-hydroxy-C-methylcarbonimidoyl)phenyl]-2-oxo-1,3-oxazolidin-5-yl]methyl]acetamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "76a0914b-853c-4469-b892-ba80f22906b2",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CC(=NO)c1ccc(N2C(=O)C3CC=C(Cl)CC3C2=O)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"5-chloro-2-[4-(N-hydroxy-C-methylcarbonimidoyl)phenyl]-3a,4,7,7a-tetrahydroisoindole-1,3-dione\", \"type\": \"small\"}"
+    },
+    {
+        "id": "8ede7695-df07-4311-a523-bc0c2f594f9b",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CCSCCSc1nnc(-c2ccc([N+](=O)[O-])cc2)s1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"2-(2-ethylsulfanylethylsulfanyl)-5-(4-nitrophenyl)-1,3,4-thiadiazole\", \"type\": \"small\"}"
+    },
+    {
+        "id": "40dbfa3b-d466-4986-bcaa-001e176bafe0",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(O)C=Cc1cn(Cc2ccc([N+](=O)[O-])cc2)c2ccccc12.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"3-[1-[(4-nitrophenyl)methyl]indol-3-yl]prop-2-enoic acid\", \"type\": \"small\"}"
+    },
+    {
+        "id": "b52ddb12-8a70-4e75-a975-f01b7fda56af",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1ccc2c(CSCCBr)cc(=O)oc2c1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"4-(2-bromoethylsulfanylmethyl)-7-methoxychromen-2-one\", \"type\": \"small\"}"
+    },
+    {
+        "id": "9ec5c1d3-f5ba-4675-9d8c-2540eca4f8fc",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(OCc1cn(-c2ccc([N+](=O)[O-])cc2)nn1)C1CCCN1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": null, \"type\": \"small\"}"
+    },
+    {
+        "id": "e87f1708-a6f8-417e-8c2c-b29525adf78e",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1ccc(CCNC(=O)CSc2nncn2N)cc1OC.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"2-[(4-amino-1,2,4-triazol-3-yl)sulfanyl]-N-[2-(3,4-dimethoxyphenyl)ethyl]acetamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "fed60ea6-a467-41be-a03f-671a79dc4f5d",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: C#CCCCOc1ccc2c(C)cc(=O)oc2c1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"4-methyl-7-pent-4-ynoxychromen-2-one\", \"type\": \"small\"}"
+    },
+    {
+        "id": "4b47558f-a1b9-47ce-ab16-c4caec0019cb",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: C#CCOCC(Cn1cncn1)c1ccc(Cl)cc1Cl.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"1-[2-(2,4-dichlorophenyl)-3-prop-2-ynoxypropyl]-1,2,4-triazole\", \"type\": \"small\"}"
+    },
+    {
+        "id": "cf6276a0-e651-43c3-aff0-40ddaf44fc58",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CCc1ccc(OC(C)=O)c(C(=O)c2ccc(C)cc2)c1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"[4-ethyl-2-(4-methylbenzoyl)phenyl] acetate\", \"type\": \"small\"}"
+    },
+    {
+        "id": "326f3835-d5c1-4b40-9472-d60175f9e701",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Cn1c(=O)c2c(ncn2C)n(C)c1=O.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"1,3,7-trimethylpurine-2,6-dione\", \"type\": \"small\"}"
+    },
+    {
+        "id": "6efb0b10-c267-43f8-be54-11624a133ab1",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Nc1ccc(C=CC(=O)Nc2cccc(Cl)c2)cc1O.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"3-(4-amino-3-hydroxyphenyl)-N-(3-chlorophenyl)prop-2-enamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "348b8e36-72a2-47ff-9b85-4e626466e105",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Cc1cn(C2CC(NC(=O)CC(=O)O)C(CO)O2)c(=O)[nH]c1=O.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": null, \"type\": \"small\"}"
+    },
+    {
+        "id": "a65fce7d-b565-4523-ad08-837e0684de1f",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CC(N)C(NC(=O)c1ccc(C#Cc2ccccc2)cc1)C(=O)NO.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"N-[3-amino-1-(hydroxyamino)-1-oxobutan-2-yl]-4-(2-phenylethynyl)benzamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "747a9137-1943-4742-ab92-a0c1489afedd",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CN=C(NC#N)NCCn1nc(-c2ccccc2)ccc1=O.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"1-cyano-2-methyl-3-[2-(6-oxo-3-phenylpyridazin-1-yl)ethyl]guanidine\", \"type\": \"small\"}"
+    },
+    {
+        "id": "efe938e6-9f87-4c21-b35b-573e8c3cf20c",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CC(N)C(NC(=O)c1ccc(C#Cc2ccccc2)cc1)C(=O)NO.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"N-[3-amino-1-(hydroxyamino)-1-oxobutan-2-yl]-4-(2-phenylethynyl)benzamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "1dde9343-1ad0-4004-a637-ee60490c704e",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1nc(OCC(=N)NO)nc(N2CCOCC2)n1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"N'-hydroxy-2-[(4-methoxy-6-morpholin-4-yl-1,3,5-triazin-2-yl)oxy]ethanimidamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "0820054d-c0e5-44a5-84a5-c34d58c66f39",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Cc1nc(C#Cc2cnc(SC(C)(C)C)nc2)cs1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"4-[2-(2-tert-butylsulfanylpyrimidin-5-yl)ethynyl]-2-methyl-1,3-thiazole\", \"type\": \"small\"}"
+    },
+    {
+        "id": "ac237d15-7335-42d5-a00b-25fd764a01e8",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: C[N+]([O-])=Cc1ccc2c(c1)OCO2.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"1-(1,3-benzodioxol-5-yl)-N-methylmethanimine oxide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "c06ce427-d6b1-496c-8710-ab02cd56a4dc",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: NC(=NO)c1ccc(C=Cc2ccc(O)cc2)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": null, \"type\": \"small\"}"
+    },
+    {
+        "id": "38cda61a-7f82-4e12-a217-56017cc00c41",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Nc1ccccc1-c1cc(=O)c2ccc3ccccc3c2o1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"2-(2-aminophenyl)benzo[h]chromen-4-one\", \"type\": \"small\"}"
+    },
+    {
+        "id": "2000f752-1041-466a-8464-de3589ba2293",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: NS(=O)(=O)c1ccc(NC(=S)NC(=O)c2cccc([N+](=O)[O-])c2)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"3-nitro-N-[(4-sulfamoylphenyl)carbamothioyl]benzamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "e2f38ad8-bde7-411a-a45e-5b0acad525e3",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(Nc1ccccc1)N1CCN(Cc2ccc(C=Cc3ccccc3)cc2)CC1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"N-phenyl-4-[[4-(2-phenylethenyl)phenyl]methyl]piperazine-1-carboxamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "aef3b16f-bf62-4229-9bdb-ef84532a4216",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(NC(Cc1ccccc1)c1nc2ccccc2[nH]1)c1cccc([N+](=O)[O-])c1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"N-[1-(1H-benzimidazol-2-yl)-2-phenylethyl]-3-nitrobenzamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "a2a0a7f4-1df9-4aaf-a898-662f0e9aa9b0",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Cc1c(Cc2cccc([N+](=O)[O-])c2)c(=O)oc2cc(OC(=O)N(C)C)ccc12.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"[4-methyl-3-[(3-nitrophenyl)methyl]-2-oxochromen-7-yl] N,N-dimethylcarbamate\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "e77544db-e785-4ffa-98e2-35442ed2baae",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(COC(=O)c1ccccc1)Nc1ccc(Cl)cc1C(=O)c1ccccc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"[2-(2-benzoyl-4-chloroanilino)-2-oxoethyl] benzoate\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "a2bb314c-f3a8-46d3-8384-ebab2a7b9cfc",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Cn1cnc2cc(-c3ccc(C(=N)NO)cc3)nc(N3CCC(CO)C3)c2c1=O.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"N'-hydroxy-4-[5-[3-(hydroxymethyl)pyrrolidin-1-yl]-3-methyl-4-oxopyrido[4,3-d]pyrimidin-7-yl]benzenecarboximidamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "41f735e0-679c-47cb-9996-69c2419cfeb3",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COCCSc1nnc(NC(=O)CCS(=O)(=O)Cc2ccccc2)s1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"3-benzylsulfonyl-N-[5-(2-methoxyethylsulfanyl)-1,3,4-thiadiazol-2-yl]propanamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "ddc36d0c-0eed-4c1f-80f2-073f52ba76f7",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(CSc1ncccn1)Nc1ccc(S(=O)(=O)N2CCCCC2)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"N-(4-piperidin-1-ylsulfonylphenyl)-2-pyrimidin-2-ylsulfanylacetamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "c6f79415-8378-4ea6-bdce-99e1d8327247",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(Nc1ccc(S(=O)(=O)Nc2ccccn2)cc1)c1cccc([N+](=O)[O-])c1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"3-nitro-N-[4-(pyridin-2-ylsulfamoyl)phenyl]benzamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "fc9c4d6e-8368-4c5c-a50b-fdc43004d428",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CCC(=O)Oc1ccc(NC(=O)c2ccc(S(=O)(=O)N3CCCC3)cc2)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"[4-[(4-pyrrolidin-1-ylsulfonylbenzoyl)amino]phenyl] propanoate\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "7ed3b0aa-539c-476a-8851-27b004c75c6c",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(CCCC1CCN(S(=O)(=O)c2ccc3c(c2)CCO3)CC1)NO.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"4-[1-(2,3-dihydro-1-benzofuran-5-ylsulfonyl)piperidin-4-yl]-N-hydroxybutanamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "de71354d-efc7-40f7-81c6-cfeb556b4d59",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(CCCCCCc1ccccc1)c1ncc(-c2cc([N+](=O)[O-])ccn2)o1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"1-[5-(4-nitropyridin-2-yl)-1,3-oxazol-2-yl]-7-phenylheptan-1-one\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "ae3b0b06-d362-4f16-a222-ef66f1a2b2ab",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CCN1c2ncc(COc3cc[n+]([O-])cc3)cc2C(=O)N(C)c2cccnc21.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"2-ethyl-9-methyl-13-[(1-oxidopyridin-1-ium-4-yl)oxymethyl]-2,4,9,15-tetrazatricyclo[9.4.0.03,8]pentadeca-1(11),3(8),4,6,12,14-hexaen-10-one\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "e202d99c-8bcc-4bd0-a70d-54ad342609be",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1ccc(C(=O)Nc2ccccc2-c2nc3ncccc3[nH]2)cc1OC.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"N-[2-(1H-imidazo[4,5-b]pyridin-2-yl)phenyl]-3,4-dimethoxybenzamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "8c8e6d18-4ec7-4e29-8e4e-df27286807b0",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CN(C)CCCn1c(N)c(-c2nc3ccccc3s2)c2nc(C#N)c(C#N)nc21.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"6-amino-7-(1,3-benzothiazol-2-yl)-5-[3-(dimethylamino)propyl]pyrrolo[2,3-b]pyrazine-2,3-dicarbonitrile\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "eabe0049-681c-436e-b043-40bcde15c52d",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(NCC1CCCO1)C(=Cc1cccc([N+](=O)[O-])c1)NC(=O)c1ccccc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"N-[1-(3-nitrophenyl)-3-oxo-3-(oxolan-2-ylmethylamino)prop-1-en-2-yl]benzamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "be19f3a1-7434-49d1-862d-4d7fdda1ba61",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(C=Cc1ccc(CCNC(=O)c2ccc3c(c2)OCO3)cc1)NO.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": null, \"type\": \"middle\"}"
+    },
+    {
+        "id": "9dd7bffa-e6ea-48e4-8190-68e6b6016f8b",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CNC(=O)C(Cc1ccccc1)NC(=O)C(CC(C)C)C(C)(C)C(=O)NO.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"N-hydroxy-2,2-dimethyl-N'-[1-(methylamino)-1-oxo-3-phenylpropan-2-yl]-3-(2-methylpropyl)butanediamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "6760ab6a-b7e1-4c06-b5ae-c5c16c341469",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1cc(C=C(C#N)c2ccccn2)ccc1OCc1ccccc1Cl.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"3-[4-[(2-chlorophenyl)methoxy]-3-methoxyphenyl]-2-pyridin-2-ylprop-2-enenitrile\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "b8b45026-955d-48bc-8d0b-cb7af56845fd",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: C=CCn1c(=O)c2[nH]c(Cc3ccc(N)cc3)nc2n(CCCC)c1=O.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"8-[(4-aminophenyl)methyl]-3-butyl-1-prop-2-enyl-7H-purine-2,6-dione\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "5747b078-48b7-4e71-b8d8-4d4d517ce25d",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CCC1(CC)C(=O)N(COC(=O)c2ccccc2)C1S(=O)(=O)c1ccccc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"[2-(benzenesulfonyl)-3,3-diethyl-4-oxoazetidin-1-yl]methyl benzoate\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "26d4378d-6960-436e-9a83-0c80b4effd99",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Nc1ccc(-c2nnc(NC(=O)Nc3ccc(Cl)c(Cl)c3)s2)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"1-[5-(4-aminophenyl)-1,3,4-thiadiazol-2-yl]-3-(3,4-dichlorophenyl)urea\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "2a0e268d-14a1-4ece-ab18-dac8842e6e77",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1cc(N)c(C=Cc2cc(OC)c(OC)c(OC)c2)cc1[N+](=O)[O-].",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"5-methoxy-4-nitro-2-[2-(3,4,5-trimethoxyphenyl)ethenyl]aniline\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "0b13d918-a36d-4d15-9364-6debc561a806",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Cc1ccc(SCCC(=O)Nc2ccc(OCc3ccccc3)cc2)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"3-(4-methylphenyl)sulfanyl-N-(4-phenylmethoxyphenyl)propanamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "d887b942-213f-4e4b-8ec8-187b7dffbe79",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: C=CCNC(=O)NC(=O)CN1C(=O)NC(c2ccccc2)(c2ccccc2)C1=O.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"2-(2,5-dioxo-4,4-diphenylimidazolidin-1-yl)-N-(prop-2-enylcarbamoyl)acetamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "244f268f-691e-4903-af07-772e70ab86ae",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(CCCCCC(c1c[nH]c2ccccc12)c1c[nH]c2ccccc12)NO.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"N-hydroxy-7,7-bis(1H-indol-3-yl)heptanamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "5b540ad0-2611-4adf-bd32-c15c942336b5",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Cc1ccc(NC(=O)C(=Cc2ccc([N+](=O)[O-])cc2)NC(=O)c2ccccc2)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"N-[3-(4-methylanilino)-1-(4-nitrophenyl)-3-oxoprop-1-en-2-yl]benzamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "bf78cb33-e2c7-4e3f-936f-9fcca4efe863",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Cc1cc2c(c(=O)o1)C=C1CCC(C(C)CSc3ncccn3)CC1O2.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"3-methyl-7-(1-pyrimidin-2-ylsulfanylpropan-2-yl)-6,7,8,9-tetrahydro-5aH-pyrano[4,3-b]chromen-1-one\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "bdcd90a2-ae77-4be6-a544-6f3b329f1284",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C1CC(N2CCN(c3ccc([N+](=O)[O-])cc3)CC2)C(=O)N1c1ccccc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"3-[4-(4-nitrophenyl)piperazin-1-yl]-1-phenylpyrrolidine-2,5-dione\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "fde6be4e-096b-4e9b-9d38-498849894c9f",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1ccc(C=C(C)C(=O)c2cc(OC)c(OC)c(OC)c2)cc1[N+](=O)[O-].",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"3-(4-methoxy-3-nitrophenyl)-2-methyl-1-(3,4,5-trimethoxyphenyl)prop-2-en-1-one\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "d221bf94-26d7-4f35-87d7-f54bc7ee9d4e",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1ccc(Cl)cc1C(=O)NCCc1ccc(CCC(=O)NO)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"5-chloro-N-[2-[4-[3-(hydroxyamino)-3-oxopropyl]phenyl]ethyl]-2-methoxybenzamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "1d5455f9-aaf6-4863-a61c-95d47a156840",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(Oc1cc(O)c2c(c1)OC(c1ccc(O)cc1)CC2=O)c1cccs1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"[5-hydroxy-2-(4-hydroxyphenyl)-4-oxo-2,3-dihydrochromen-7-yl] thiophene-2-carboxylate\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "8f71128d-1a67-4a6d-b1d8-a77337355c57",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Nc1cnc(-c2ccc(-c3ccccc3CSc3ccncn3)cc2F)cn1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"5-[2-fluoro-4-[2-(pyrimidin-4-ylsulfanylmethyl)phenyl]phenyl]pyrazin-2-amine\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "81ccea52-1cbd-4ffc-b22c-da0f069dc64f",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CCOc1ccccc1NS(=O)(=O)c1cc(-c2cnc(C3CC3)o2)ccc1C.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"5-(2-cyclopropyl-1,3-oxazol-5-yl)-N-(2-ethoxyphenyl)-2-methylbenzenesulfonamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "30342e90-38a5-4b28-a3a6-5abf5ef23213",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1ccc(C(=O)Nc2ccc(-c3nc4ncccc4[nH]3)cc2)cc1OC.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"N-[4-(1H-imidazo[4,5-b]pyridin-2-yl)phenyl]-3,4-dimethoxybenzamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "7b790f96-2517-40a6-ac48-794db7f8931f",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(Nc1ccnc(F)c1)c1ccc(-c2noc(C(F)(F)F)n2)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"N-(2-fluoropyridin-4-yl)-4-[5-(trifluoromethyl)-1,2,4-oxadiazol-3-yl]benzamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "eee48d84-9dd3-4bef-aa00-89556690d5d3",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(CSc1cccc[n+]1[O-])Nc1ccccc1Oc1ccccc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"2-(1-oxidopyridin-1-ium-2-yl)sulfanyl-N-(2-phenoxyphenyl)acetamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "2b797c25-2cc4-4d21-827a-0a820fa799a9",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CCCCOC(=O)c1ccc(NC(=O)C2(c3cccs3)CCOCC2)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"butyl 4-[(4-thiophen-2-yloxane-4-carbonyl)amino]benzoate\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "af26d0af-bad4-4723-bda2-5f25f1ae7ed5",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COC(=O)C1=C(C)N=C(C)C(=C(O)OC)C1c1ccc(Cl)c([N+](=O)[O-])c1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"dimethyl 4-(4-chloro-3-nitrophenyl)-2,6-dimethyl-1,4-dihydropyridine-3,5-dicarboxylate\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "cef67333-9639-4325-8236-b1b7334693f4",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CC(NC(=O)Nc1cc2[nH]nc(NC(C)c3ccccn3)c2cn1)c1ccccc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"1-(1-phenylethyl)-3-[3-(1-pyridin-2-ylethylamino)-1H-pyrazolo[4,3-c]pyridin-6-yl]urea\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "087a8191-039a-431a-b549-a7d493e1ced0",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1ccc(NC(=O)COc2ccc(C(=O)Nc3cccc(F)c3)c3ccccc23)cc1OC.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"4-[2-(3,4-dimethoxyanilino)-2-oxoethoxy]-N-(3-fluorophenyl)naphthalene-1-carboxamide\", \"type\": \"large\"}"
+    },
+    {
+        "id": "b0abae8a-18b4-40dc-a4d6-7614a3d80bc5",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Cc1cc(O)cc(C)c1CC(N)C(=O)N1Cc2ccccc2CC1C(=O)Nc1nn[nH]n1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"2-[2-amino-3-(4-hydroxy-2,6-dimethylphenyl)propanoyl]-N-(2H-tetrazol-5-yl)-3,4-dihydro-1H-isoquinoline-3-carboxamide\", \"type\": \"large\"}"
+    },
+    {
+        "id": "1e7706a6-4be1-4b36-8560-adc3a809cf34",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CC(CCCNc1ccccc1)N(c1cc(Cl)ccc1CO)S(=O)(=O)c1ccc(Cl)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": null, \"type\": \"large\"}"
+    },
+    {
+        "id": "276a44f7-d3ab-47e2-b071-a75d69a465d5",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(CCl)Nc1ccc(N2CCN(CC(O)(Cn3cncn3)c3ccc(F)cc3F)CC2)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"2-chloro-N-[4-[4-[2-(2,4-difluorophenyl)-2-hydroxy-3-(1,2,4-triazol-1-yl)propyl]piperazin-1-yl]phenyl]acetamide\", \"type\": \"large\"}"
+    },
+    {
+        "id": "a08737bc-7f07-4b31-9b51-0a506649159c",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CC1=C(CC(=O)OCCCCO)c2cc(F)ccc2C1=Cc1ccc(S(C)(=O)=O)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": null, \"type\": \"large\"}"
+    },
+    {
+        "id": "62dd777b-00bd-4bbc-a6cb-6448138ef530",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Nc1cnc(-c2ccc(C3CCC3)c(OCC(O)CNc3cc(N)ncn3)c2F)cn1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"1-[3-(5-aminopyrazin-2-yl)-6-cyclobutyl-2-fluorophenoxy]-3-[(6-aminopyrimidin-4-yl)amino]propan-2-ol\", \"type\": \"large\"}"
+    },
+    {
+        "id": "2e19c409-8108-4f20-a301-1585e86944b2",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1cccc(C(=O)Nc2ccc(-c3ccc(S(=O)(=O)NC(C(=O)O)C(C)C)cc3)cc2)c1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"2-[[4-[4-[(3-methoxybenzoyl)amino]phenyl]phenyl]sulfonylamino]-3-methylbutanoic acid\", \"type\": \"large\"}"
+    },
+    {
+        "id": "78ffd02c-bd55-4672-bf6e-027b9967fe64",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: NS(=O)(=O)c1ccc(Nc2nccc(-c3ccc(NC(=O)Cc4cccs4)cc3)n2)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"N-[4-[2-(4-sulfamoylanilino)pyrimidin-4-yl]phenyl]-2-thiophen-2-ylacetamide\", \"type\": \"large\"}"
+    },
+    {
+        "id": "0b3adc23-d0cc-4e1b-bba8-87aeaca37f0c",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Cc1oc(=O)oc1COC(=O)C(C)(C)Oc1ccc(C(=O)c2ccc(Cl)cc2)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"(5-methyl-2-oxo-1,3-dioxol-4-yl)methyl 2-[4-(4-chlorobenzoyl)phenoxy]-2-methylpropanoate\", \"type\": \"large\"}"
+    },
+    {
+        "id": "110d9932-f484-4059-ad20-8192790110f7",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Cc1c(NC(=O)c2ccc(S(=O)(=O)Nc3ccccc3F)cc2)c(=O)n(-c2ccccc2)n1C.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"N-(1,5-dimethyl-3-oxo-2-phenylpyrazol-4-yl)-4-[(2-fluorophenyl)sulfamoyl]benzamide\", \"type\": \"large\"}"
+    },
+    {
+        "id": "a14296f7-6aa9-47ae-87b7-28454f827b83",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CN1CCN(c2cc3c(cc2F)c(=O)c(C(=O)O)cn3-c2cc([N+](=O)[O-])cn2C)CC1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"6-fluoro-1-(1-methyl-4-nitropyrrol-2-yl)-7-(4-methylpiperazin-1-yl)-4-oxoquinoline-3-carboxylic acid\", \"type\": \"large\"}"
+    },
+    {
+        "id": "4ee25bc0-d44c-429d-bf1d-f72e78993bdf",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(Nc1ccccc1C(=O)N1CCOCC1)c1ccc(CSc2ccccc2)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"N-[2-(morpholine-4-carbonyl)phenyl]-4-(phenylsulfanylmethyl)benzamide\", \"type\": \"large\"}"
+    },
+    {
+        "id": "5264de13-9100-4ecb-9444-a469b04dc522",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CN(C(=O)c1ccc(-c2nc(C3CCOCC3)cnc2N)cc1F)C(CO)c1ccccc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"4-[3-amino-6-(oxan-4-yl)pyrazin-2-yl]-2-fluoro-N-(2-hydroxy-1-phenylethyl)-N-methylbenzamide\", \"type\": \"large\"}"
+    },
+    {
+        "id": "79edaad0-d622-4ca7-96a1-4c7e4c60091a",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CC(Sc1ncccn1)C(=O)Nc1ncc(Cc2cccc3ccccc23)s1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"N-[5-(naphthalen-1-ylmethyl)-1,3-thiazol-2-yl]-2-pyrimidin-2-ylsulfanylpropanamide\", \"type\": \"large\"}"
+    },
+    {
+        "id": "48b3a4aa-d573-44f9-8fda-dfc4757a3aaa",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CCCCOC(=O)CC1N=C(c2ccc(Cl)cc2)c2cc(OC)ccc2-n2c(C)nnc21.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"butyl 2-[6-(4-chlorophenyl)-8-methoxy-1-methyl-4H-[1,2,4]triazolo[4,3-a][1,4]benzodiazepin-4-yl]acetate\", \"type\": \"large\"}"
+    },
+    {
+        "id": "8d4efb84-1a8c-4296-bb68-1763430318a4",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Cc1cc(C#N)cc(C(=O)c2c(C(C)C)c(=O)[nH]c(=O)n2Cc2cc(N)nc(F)c2F)c1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"3-[3-[(6-amino-2,3-difluoropyridin-4-yl)methyl]-2,6-dioxo-5-propan-2-ylpyrimidine-4-carbonyl]-5-methylbenzonitrile\", \"type\": \"large\"}"
+    },
+    {
+        "id": "570164c5-ce9f-485a-ab39-3018ada960ab",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(C=Cc1ccco1)NC(Cc1ccccc1)C(=O)NC(Cc1ccccc1)C(=O)O.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"2-[[2-[3-(furan-2-yl)prop-2-enoylamino]-3-phenylpropanoyl]amino]-3-phenylpropanoic acid\", \"type\": \"large\"}"
+    },
+    {
+        "id": "ef37724e-9ef2-4e11-9937-bdaed7cb9707",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CC(C)C(NS(=O)(=O)c1ccc(-c2ccc(COc3cccc(F)c3)cc2)cc1)C(=O)O.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"2-[[4-[4-[(3-fluorophenoxy)methyl]phenyl]phenyl]sulfonylamino]-3-methylbutanoic acid\", \"type\": \"large\"}"
+    },
+    {
+        "id": "78b2e4ed-41e8-484b-b113-b375f5d93667",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Cc1ccc(NC(=O)CN2C(=O)SC(=Cc3ccc(-c4ccc(Cl)c(C(=O)O)c4)o3)C2=O)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"2-chloro-5-[5-[[3-[2-(4-methylanilino)-2-oxoethyl]-2,4-dioxo-1,3-thiazolidin-5-ylidene]methyl]furan-2-yl]benzoic acid\", \"type\": \"large\"}"
+    },
+    {
+        "id": "391b0dbc-9afb-47aa-bbb7-105eb2923b5a",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the QED property (Drug-likeness) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CNC(=O)N(C)CC(O)CN1C2CCC1CC(NC(=O)c1cc3ccccc3n(C(C)C)c1=O)C2.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "qed",
+        "meta": "{\"src_iupac\": \"N-[8-[2-hydroxy-3-[methyl(methylcarbamoyl)amino]propyl]-8-azabicyclo[3.2.1]octan-3-yl]-2-oxo-1-propan-2-ylquinoline-3-carboxamide\", \"type\": \"large\"}"
+    }
+]

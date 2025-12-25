@@ -14,10 +14,9 @@ set -euo pipefail
 export NLTK_DATA=/mnt/shared-storage-user/yangzhuo/main/datasets/nltk_data
 mkdir -p "${NLTK_DATA}"
 
-BENCH_DIR="${1:-/mnt/shared-storage-user/yangzhuo/main/projects/agentrl/AgentFly/ChemCoTBench/baseline_and_eval}"
-# PRED_DIR="${2:-/mnt/shared-storage-user/yangzhuo/main/projects/agentrl/AgentFly/outputs/mol_edit_eval_bench_qwen2.5_7b}"
-PRED_DIR="${2:-/mnt/shared-storage-user/yangzhuo/main/projects/agentrl/AgentFly/outputs/mol_edit_eval_bench_7b_maxturn_16/}"
-OUT_DIR="${3:-/mnt/shared-storage-user/yangzhuo/main/projects/agentrl/AgentFly/outputs/chemcotbench_moledit_results_moledit_7b_maxturn_16}"
+BENCH_DIR="${1:-/mnt/shared-storage-user/yangzhuo/main/projects/MolAct/ChemCoTBench/baseline_and_eval}"
+PRED_DIR="${2:-/mnt/shared-storage-user/yangzhuo/main/projects/MolAct/outputs/mol_edit_eval_bench_7b_maxturn_16/}"
+OUT_DIR="${3:-/mnt/shared-storage-user/yangzhuo/main/projects/MolAct/outputs/chemcotbench_moledit_results_moledit_7b_maxturn_16}"
 
 mkdir -p "${OUT_DIR}"
 
@@ -32,7 +31,8 @@ echo "Pred dir      : ${PRED_DIR}"
 echo "Out dir       : ${OUT_DIR}"
 
 # Evaluate add/delete/sub separately
-for SUB in add delete sub; do
+# for SUB in add delete sub; do
+for SUB in add; do
   PRED_FILE="${PRED_DIR}/pred_${SUB}.json"
   OUT_FILE="${OUT_DIR}/eval_${SUB}.json"
 

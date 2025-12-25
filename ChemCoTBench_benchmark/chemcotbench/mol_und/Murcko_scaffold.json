@@ -1,0 +1,322 @@
+[
+    {
+        "id": "ecf1f0c5-7bcd-4a87-b788-701be9606b3a",
+        "query": "You are a chemistry expert performing Murcko scaffold extraction. Input: a molecule's SMILES string. Output: the Murcko scaffold in SMILES format.\nDefinition: The Murcko scaffold is obtained by removing all side chains, functional groups, and exocyclic modifications, leaving only the ring systems and connecting bonds.\nYour response must be directly parsable JSON format:\n{\n    \"Output Scaffold\": \"SMILES\"\n}\nInput Molecule: O=C(c1ccc(-c2ccccc2)cc1)N1CCN(c2ccccc2F)CC1.",
+        "gt": "O=C(c1ccc(-c2ccccc2)cc1)N1CCN(c2ccccc2)CC1",
+        "task": "mol_und",
+        "subtask": "Murcko_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "2dcd0fc9-c871-474f-889c-66af1da47a47",
+        "query": "You are a chemistry expert performing Murcko scaffold extraction. Input: a molecule's SMILES string. Output: the Murcko scaffold in SMILES format.\nDefinition: The Murcko scaffold is obtained by removing all side chains, functional groups, and exocyclic modifications, leaving only the ring systems and connecting bonds.\nYour response must be directly parsable JSON format:\n{\n    \"Output Scaffold\": \"SMILES\"\n}\nInput Molecule: Cc1ccc(-c2nnc(SCc3ccccc3)o2)c(O)c1.",
+        "gt": "c1ccc(CSc2nnc(-c3ccccc3)o2)cc1",
+        "task": "mol_und",
+        "subtask": "Murcko_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "13cc912b-c48f-412d-a04f-066a0f537455",
+        "query": "You are a chemistry expert performing Murcko scaffold extraction. Input: a molecule's SMILES string. Output: the Murcko scaffold in SMILES format.\nDefinition: The Murcko scaffold is obtained by removing all side chains, functional groups, and exocyclic modifications, leaving only the ring systems and connecting bonds.\nYour response must be directly parsable JSON format:\n{\n    \"Output Scaffold\": \"SMILES\"\n}\nInput Molecule: Cc1c(-c2ccc(O)cc2)n(Cc2ccc(O)cc2)c2ccc(O)cc12.",
+        "gt": "c1ccc(Cn2c(-c3ccccc3)cc3ccccc32)cc1",
+        "task": "mol_und",
+        "subtask": "Murcko_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "59f119d0-54e9-45fc-8437-68975db0274c",
+        "query": "You are a chemistry expert performing Murcko scaffold extraction. Input: a molecule's SMILES string. Output: the Murcko scaffold in SMILES format.\nDefinition: The Murcko scaffold is obtained by removing all side chains, functional groups, and exocyclic modifications, leaving only the ring systems and connecting bonds.\nYour response must be directly parsable JSON format:\n{\n    \"Output Scaffold\": \"SMILES\"\n}\nInput Molecule: CCC(C)(C)Nc1c(C#N)cnc2cnc(NCc3cccnc3)cc12.",
+        "gt": "c1cncc(CNc2cc3cccnc3cn2)c1",
+        "task": "mol_und",
+        "subtask": "Murcko_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "2f2f1303-658c-4761-9b78-560dba9e746a",
+        "query": "You are a chemistry expert performing Murcko scaffold extraction. Input: a molecule's SMILES string. Output: the Murcko scaffold in SMILES format.\nDefinition: The Murcko scaffold is obtained by removing all side chains, functional groups, and exocyclic modifications, leaving only the ring systems and connecting bonds.\nYour response must be directly parsable JSON format:\n{\n    \"Output Scaffold\": \"SMILES\"\n}\nInput Molecule: CCN(CC)S(=O)(=O)c1ccc(C(=O)NCCCn2ccnc2)cc1.",
+        "gt": "O=C(NCCCn1ccnc1)c1ccccc1",
+        "task": "mol_und",
+        "subtask": "Murcko_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "db6b56d7-eaa9-448f-9cb1-bc7c98909c52",
+        "query": "You are a chemistry expert performing Murcko scaffold extraction. Input: a molecule's SMILES string. Output: the Murcko scaffold in SMILES format.\nDefinition: The Murcko scaffold is obtained by removing all side chains, functional groups, and exocyclic modifications, leaving only the ring systems and connecting bonds.\nYour response must be directly parsable JSON format:\n{\n    \"Output Scaffold\": \"SMILES\"\n}\nInput Molecule: COc1cc2c(cc1OC)-c1cc(Nc3c(Cl)cccc3Cl)nc(=O)n1CC2.",
+        "gt": "O=c1nc(Nc2ccccc2)cc2n1CCc1ccccc1-2",
+        "task": "mol_und",
+        "subtask": "Murcko_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "d4793258-0f88-4caf-b43e-1fbd4cad8210",
+        "query": "You are a chemistry expert performing Murcko scaffold extraction. Input: a molecule's SMILES string. Output: the Murcko scaffold in SMILES format.\nDefinition: The Murcko scaffold is obtained by removing all side chains, functional groups, and exocyclic modifications, leaving only the ring systems and connecting bonds.\nYour response must be directly parsable JSON format:\n{\n    \"Output Scaffold\": \"SMILES\"\n}\nInput Molecule: CC12CCN(C(=O)C3CCC(C(=O)O)CC3)C(Cc3c(O)cccc31)C2(C)C.",
+        "gt": "O=C(C1CCCCC1)N1CCC2CC1Cc1ccccc12",
+        "task": "mol_und",
+        "subtask": "Murcko_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "940bea16-2a2f-4cf6-847f-d85df49e66f0",
+        "query": "You are a chemistry expert performing Murcko scaffold extraction. Input: a molecule's SMILES string. Output: the Murcko scaffold in SMILES format.\nDefinition: The Murcko scaffold is obtained by removing all side chains, functional groups, and exocyclic modifications, leaving only the ring systems and connecting bonds.\nYour response must be directly parsable JSON format:\n{\n    \"Output Scaffold\": \"SMILES\"\n}\nInput Molecule: CC(C)n1cnc2c(NCc3ccccc3)ncnc21.",
+        "gt": "c1ccc(CNc2ncnc3[nH]cnc23)cc1",
+        "task": "mol_und",
+        "subtask": "Murcko_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "903d1e81-4fa2-4bdd-89d2-87b3b0d4276e",
+        "query": "You are a chemistry expert performing Murcko scaffold extraction. Input: a molecule's SMILES string. Output: the Murcko scaffold in SMILES format.\nDefinition: The Murcko scaffold is obtained by removing all side chains, functional groups, and exocyclic modifications, leaving only the ring systems and connecting bonds.\nYour response must be directly parsable JSON format:\n{\n    \"Output Scaffold\": \"SMILES\"\n}\nInput Molecule: CCc1ncnc(-c2ccc(C(=O)N3CCN(CCN)CC3)c(Cl)c2)c1C#Cc1ccc(N)nc1.",
+        "gt": "O=C(c1ccc(-c2ncncc2C#Cc2cccnc2)cc1)N1CCNCC1",
+        "task": "mol_und",
+        "subtask": "Murcko_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "8220ec18-7fe0-449b-8e02-d7f02233c6d5",
+        "query": "You are a chemistry expert performing Murcko scaffold extraction. Input: a molecule's SMILES string. Output: the Murcko scaffold in SMILES format.\nDefinition: The Murcko scaffold is obtained by removing all side chains, functional groups, and exocyclic modifications, leaving only the ring systems and connecting bonds.\nYour response must be directly parsable JSON format:\n{\n    \"Output Scaffold\": \"SMILES\"\n}\nInput Molecule: COc1cc2nc(N3CCN(C(=O)C(F)=Cc4ccccc4)CC3)nc(N)c2cc1OC.",
+        "gt": "O=C(C=Cc1ccccc1)N1CCN(c2ncc3ccccc3n2)CC1",
+        "task": "mol_und",
+        "subtask": "Murcko_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "f112fa74-a3a9-426c-9fb5-5e1054d306dd",
+        "query": "You are a chemistry expert performing Murcko scaffold extraction. Input: a molecule's SMILES string. Output: the Murcko scaffold in SMILES format.\nDefinition: The Murcko scaffold is obtained by removing all side chains, functional groups, and exocyclic modifications, leaving only the ring systems and connecting bonds.\nYour response must be directly parsable JSON format:\n{\n    \"Output Scaffold\": \"SMILES\"\n}\nInput Molecule: Nc1c(C(=O)c2cccc(C(O)CO)c2)cnn1-c1ccc(F)cc1.",
+        "gt": "O=C(c1ccccc1)c1cnn(-c2ccccc2)c1",
+        "task": "mol_und",
+        "subtask": "Murcko_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "a265e98b-3d11-46a7-8b9e-8f24f830984a",
+        "query": "You are a chemistry expert performing Murcko scaffold extraction. Input: a molecule's SMILES string. Output: the Murcko scaffold in SMILES format.\nDefinition: The Murcko scaffold is obtained by removing all side chains, functional groups, and exocyclic modifications, leaving only the ring systems and connecting bonds.\nYour response must be directly parsable JSON format:\n{\n    \"Output Scaffold\": \"SMILES\"\n}\nInput Molecule: O=C(NCC1CCCO1)C(=Cc1cccc([N+](=O)[O-])c1)NC(=O)c1ccccc1.",
+        "gt": "O=C(NCC1CCCO1)C(=Cc1ccccc1)NC(=O)c1ccccc1",
+        "task": "mol_und",
+        "subtask": "Murcko_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "9babed78-ff47-4f84-ae2e-0a9ac2ece6bd",
+        "query": "You are a chemistry expert performing Murcko scaffold extraction. Input: a molecule's SMILES string. Output: the Murcko scaffold in SMILES format.\nDefinition: The Murcko scaffold is obtained by removing all side chains, functional groups, and exocyclic modifications, leaving only the ring systems and connecting bonds.\nYour response must be directly parsable JSON format:\n{\n    \"Output Scaffold\": \"SMILES\"\n}\nInput Molecule: C=Cc1ccc(C2CC3CCC(C2C(=O)OC)N3C)cc1.",
+        "gt": "c1ccc(C2CC3CCC(C2)N3)cc1",
+        "task": "mol_und",
+        "subtask": "Murcko_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "592888b8-45a3-4326-9ce3-4fad5da4b9d2",
+        "query": "You are a chemistry expert performing Murcko scaffold extraction. Input: a molecule's SMILES string. Output: the Murcko scaffold in SMILES format.\nDefinition: The Murcko scaffold is obtained by removing all side chains, functional groups, and exocyclic modifications, leaving only the ring systems and connecting bonds.\nYour response must be directly parsable JSON format:\n{\n    \"Output Scaffold\": \"SMILES\"\n}\nInput Molecule: CC(C)=Cc1ccc2cc(NC(=O)C3CC3)ncc2c1.",
+        "gt": "O=C(Nc1cc2ccccc2cn1)C1CC1",
+        "task": "mol_und",
+        "subtask": "Murcko_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "5da8f166-1daf-43e8-8f50-42f60ab07511",
+        "query": "You are a chemistry expert performing Murcko scaffold extraction. Input: a molecule's SMILES string. Output: the Murcko scaffold in SMILES format.\nDefinition: The Murcko scaffold is obtained by removing all side chains, functional groups, and exocyclic modifications, leaving only the ring systems and connecting bonds.\nYour response must be directly parsable JSON format:\n{\n    \"Output Scaffold\": \"SMILES\"\n}\nInput Molecule: CC(=O)NC(C)c1ccc(OC2CCN(c3nc(N4CCCC4C)ncc3F)C2)cc1.",
+        "gt": "c1ccc(OC2CCN(c3ccnc(N4CCCC4)n3)C2)cc1",
+        "task": "mol_und",
+        "subtask": "Murcko_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "ffb0f1a8-f8d3-4add-ab0b-3dab5ba828c1",
+        "query": "You are a chemistry expert performing Murcko scaffold extraction. Input: a molecule's SMILES string. Output: the Murcko scaffold in SMILES format.\nDefinition: The Murcko scaffold is obtained by removing all side chains, functional groups, and exocyclic modifications, leaving only the ring systems and connecting bonds.\nYour response must be directly parsable JSON format:\n{\n    \"Output Scaffold\": \"SMILES\"\n}\nInput Molecule: Cc1ccnc(Oc2ccccc2-c2ccc(-c3cnc(N)nc3)c(F)c2)n1.",
+        "gt": "c1cnc(Oc2ccccc2-c2ccc(-c3cncnc3)cc2)nc1",
+        "task": "mol_und",
+        "subtask": "Murcko_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "531ad0c7-760d-4742-b76e-1eda6f320549",
+        "query": "You are a chemistry expert performing Murcko scaffold extraction. Input: a molecule's SMILES string. Output: the Murcko scaffold in SMILES format.\nDefinition: The Murcko scaffold is obtained by removing all side chains, functional groups, and exocyclic modifications, leaving only the ring systems and connecting bonds.\nYour response must be directly parsable JSON format:\n{\n    \"Output Scaffold\": \"SMILES\"\n}\nInput Molecule: CCc1ccccc1NC(=O)Cn1nc(CC)n2c(cc3sccc32)c1=O.",
+        "gt": "O=C(Cn1ncn2c(cc3sccc32)c1=O)Nc1ccccc1",
+        "task": "mol_und",
+        "subtask": "Murcko_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "9a6bb142-b209-4e0a-a9a6-460fe83cadf8",
+        "query": "You are a chemistry expert performing Murcko scaffold extraction. Input: a molecule's SMILES string. Output: the Murcko scaffold in SMILES format.\nDefinition: The Murcko scaffold is obtained by removing all side chains, functional groups, and exocyclic modifications, leaving only the ring systems and connecting bonds.\nYour response must be directly parsable JSON format:\n{\n    \"Output Scaffold\": \"SMILES\"\n}\nInput Molecule: CC(NC(=O)Nc1cc2[nH]nc(NC(C)c3ccccn3)c2cn1)c1ccccc1.",
+        "gt": "O=C(NCc1ccccc1)Nc1cc2[nH]nc(NCc3ccccn3)c2cn1",
+        "task": "mol_und",
+        "subtask": "Murcko_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "5cd9f261-5c43-4fee-b9f4-add6cff4e419",
+        "query": "You are a chemistry expert performing Murcko scaffold extraction. Input: a molecule's SMILES string. Output: the Murcko scaffold in SMILES format.\nDefinition: The Murcko scaffold is obtained by removing all side chains, functional groups, and exocyclic modifications, leaving only the ring systems and connecting bonds.\nYour response must be directly parsable JSON format:\n{\n    \"Output Scaffold\": \"SMILES\"\n}\nInput Molecule: CC1CN(c2c(F)cc3c(=O)c(C(=O)O)cn(C4CC4)c3c2Cl)CCN1.",
+        "gt": "O=c1ccn(C2CC2)c2cc(N3CCNCC3)ccc12",
+        "task": "mol_und",
+        "subtask": "Murcko_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "4f1fb5a8-73b1-4d9a-8616-8e54b5b3e9ba",
+        "query": "You are a chemistry expert performing Murcko scaffold extraction. Input: a molecule's SMILES string. Output: the Murcko scaffold in SMILES format.\nDefinition: The Murcko scaffold is obtained by removing all side chains, functional groups, and exocyclic modifications, leaving only the ring systems and connecting bonds.\nYour response must be directly parsable JSON format:\n{\n    \"Output Scaffold\": \"SMILES\"\n}\nInput Molecule: CC(=O)NCC1CN(c2ccc(C(C)=NO)cc2)C(=O)O1.",
+        "gt": "O=C1OCCN1c1ccccc1",
+        "task": "mol_und",
+        "subtask": "Murcko_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "c7d67b5e-ebc3-4ec3-b334-0baf1b909918",
+        "query": "You are a chemistry expert performing Murcko scaffold extraction. Input: a molecule's SMILES string. Output: the Murcko scaffold in SMILES format.\nDefinition: The Murcko scaffold is obtained by removing all side chains, functional groups, and exocyclic modifications, leaving only the ring systems and connecting bonds.\nYour response must be directly parsable JSON format:\n{\n    \"Output Scaffold\": \"SMILES\"\n}\nInput Molecule: NC(=O)c1cncnc1Nc1cccc(C(F)(F)F)c1.",
+        "gt": "c1ccc(Nc2ccncn2)cc1",
+        "task": "mol_und",
+        "subtask": "Murcko_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "edfb0225-28b6-4422-ae4c-f0616ed048e6",
+        "query": "You are a chemistry expert performing Murcko scaffold extraction. Input: a molecule's SMILES string. Output: the Murcko scaffold in SMILES format.\nDefinition: The Murcko scaffold is obtained by removing all side chains, functional groups, and exocyclic modifications, leaving only the ring systems and connecting bonds.\nYour response must be directly parsable JSON format:\n{\n    \"Output Scaffold\": \"SMILES\"\n}\nInput Molecule: O=c1cc(-c2ccccc2)oc2cc(OCCNC3CCCCC3)cc(O)c12.",
+        "gt": "O=c1cc(-c2ccccc2)oc2cc(OCCNC3CCCCC3)ccc12",
+        "task": "mol_und",
+        "subtask": "Murcko_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "e34ec508-be8a-4e4a-8dfe-6d0a97ca80f4",
+        "query": "You are a chemistry expert performing Murcko scaffold extraction. Input: a molecule's SMILES string. Output: the Murcko scaffold in SMILES format.\nDefinition: The Murcko scaffold is obtained by removing all side chains, functional groups, and exocyclic modifications, leaving only the ring systems and connecting bonds.\nYour response must be directly parsable JSON format:\n{\n    \"Output Scaffold\": \"SMILES\"\n}\nInput Molecule: O=C(O)Cc1ccc2c(c1)C(O)(C(F)(F)F)c1ccccc1-2.",
+        "gt": "c1ccc2c(c1)Cc1ccccc1-2",
+        "task": "mol_und",
+        "subtask": "Murcko_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "fb59f58d-7405-4f68-901f-b6f4258c8599",
+        "query": "You are a chemistry expert performing Murcko scaffold extraction. Input: a molecule's SMILES string. Output: the Murcko scaffold in SMILES format.\nDefinition: The Murcko scaffold is obtained by removing all side chains, functional groups, and exocyclic modifications, leaving only the ring systems and connecting bonds.\nYour response must be directly parsable JSON format:\n{\n    \"Output Scaffold\": \"SMILES\"\n}\nInput Molecule: Cn1c(=O)c(Oc2ccc(F)cc2F)cc2cnc(N3CCCC(O)C3)nc21.",
+        "gt": "O=c1[nH]c2nc(N3CCCCC3)ncc2cc1Oc1ccccc1",
+        "task": "mol_und",
+        "subtask": "Murcko_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "79a464e8-6e99-4f32-93cc-209f67f9273a",
+        "query": "You are a chemistry expert performing Murcko scaffold extraction. Input: a molecule's SMILES string. Output: the Murcko scaffold in SMILES format.\nDefinition: The Murcko scaffold is obtained by removing all side chains, functional groups, and exocyclic modifications, leaving only the ring systems and connecting bonds.\nYour response must be directly parsable JSON format:\n{\n    \"Output Scaffold\": \"SMILES\"\n}\nInput Molecule: CC(NC(=O)Nc1cc2[nH]nc(S(C)(=O)=O)c2cn1)c1ccccc1.",
+        "gt": "O=C(NCc1ccccc1)Nc1cc2[nH]ncc2cn1",
+        "task": "mol_und",
+        "subtask": "Murcko_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "3dc71882-7dd2-4f02-91e8-0585ac8b7337",
+        "query": "You are a chemistry expert performing Murcko scaffold extraction. Input: a molecule's SMILES string. Output: the Murcko scaffold in SMILES format.\nDefinition: The Murcko scaffold is obtained by removing all side chains, functional groups, and exocyclic modifications, leaving only the ring systems and connecting bonds.\nYour response must be directly parsable JSON format:\n{\n    \"Output Scaffold\": \"SMILES\"\n}\nInput Molecule: O=C(CCCCCCC(=O)Nc1ccccc1)NO.",
+        "gt": "c1ccccc1",
+        "task": "mol_und",
+        "subtask": "Murcko_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "9670bca2-2b83-420a-9011-8f3aa85bcd09",
+        "query": "You are a chemistry expert performing Murcko scaffold extraction. Input: a molecule's SMILES string. Output: the Murcko scaffold in SMILES format.\nDefinition: The Murcko scaffold is obtained by removing all side chains, functional groups, and exocyclic modifications, leaving only the ring systems and connecting bonds.\nYour response must be directly parsable JSON format:\n{\n    \"Output Scaffold\": \"SMILES\"\n}\nInput Molecule: Cc1cc(C(N)=O)ccc1-n1c(CCC(=O)O)ccc1-c1ccc(-c2cnn(C)c2)cc1.",
+        "gt": "c1ccc(-n2cccc2-c2ccc(-c3cn[nH]c3)cc2)cc1",
+        "task": "mol_und",
+        "subtask": "Murcko_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "f47b6a37-3d72-4867-88bb-779691fa3924",
+        "query": "You are a chemistry expert performing Murcko scaffold extraction. Input: a molecule's SMILES string. Output: the Murcko scaffold in SMILES format.\nDefinition: The Murcko scaffold is obtained by removing all side chains, functional groups, and exocyclic modifications, leaving only the ring systems and connecting bonds.\nYour response must be directly parsable JSON format:\n{\n    \"Output Scaffold\": \"SMILES\"\n}\nInput Molecule: O=C(C=CNc1ccccc1C(=O)O)c1cccs1.",
+        "gt": "O=C(C=CNc1ccccc1)c1cccs1",
+        "task": "mol_und",
+        "subtask": "Murcko_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "50315ee2-003c-4a61-addd-70ca599ea0df",
+        "query": "You are a chemistry expert performing Murcko scaffold extraction. Input: a molecule's SMILES string. Output: the Murcko scaffold in SMILES format.\nDefinition: The Murcko scaffold is obtained by removing all side chains, functional groups, and exocyclic modifications, leaving only the ring systems and connecting bonds.\nYour response must be directly parsable JSON format:\n{\n    \"Output Scaffold\": \"SMILES\"\n}\nInput Molecule: N#Cc1cc2cnc(NCc3ccccc3)nc2n(C2CCCC2)c1=O.",
+        "gt": "O=c1ccc2cnc(NCc3ccccc3)nc2n1C1CCCC1",
+        "task": "mol_und",
+        "subtask": "Murcko_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "04277e70-ec4d-4ff2-a54e-db69194f84d9",
+        "query": "You are a chemistry expert performing Murcko scaffold extraction. Input: a molecule's SMILES string. Output: the Murcko scaffold in SMILES format.\nDefinition: The Murcko scaffold is obtained by removing all side chains, functional groups, and exocyclic modifications, leaving only the ring systems and connecting bonds.\nYour response must be directly parsable JSON format:\n{\n    \"Output Scaffold\": \"SMILES\"\n}\nInput Molecule: Cc1[nH]c2ccc(Cl)cc2c1-c1ccnc(N2CCCC2)n1.",
+        "gt": "c1ccc2c(-c3ccnc(N4CCCC4)n3)c[nH]c2c1",
+        "task": "mol_und",
+        "subtask": "Murcko_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "5ebde2d3-7f8b-47e6-891c-789de249faeb",
+        "query": "You are a chemistry expert performing Murcko scaffold extraction. Input: a molecule's SMILES string. Output: the Murcko scaffold in SMILES format.\nDefinition: The Murcko scaffold is obtained by removing all side chains, functional groups, and exocyclic modifications, leaving only the ring systems and connecting bonds.\nYour response must be directly parsable JSON format:\n{\n    \"Output Scaffold\": \"SMILES\"\n}\nInput Molecule: CN(Cc1ccco1)c1nc(-c2cccc(C#N)c2)nc2ccccc12.",
+        "gt": "c1ccc(-c2nc(NCc3ccco3)c3ccccc3n2)cc1",
+        "task": "mol_und",
+        "subtask": "Murcko_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "3c2e4264-2b8a-412e-9bc2-95c440ceb3f5",
+        "query": "You are a chemistry expert performing Murcko scaffold extraction. Input: a molecule's SMILES string. Output: the Murcko scaffold in SMILES format.\nDefinition: The Murcko scaffold is obtained by removing all side chains, functional groups, and exocyclic modifications, leaving only the ring systems and connecting bonds.\nYour response must be directly parsable JSON format:\n{\n    \"Output Scaffold\": \"SMILES\"\n}\nInput Molecule: COc1cc2c(cc1OC)C1CC(N)C(N3CC(C)CCC3=O)CN1CC2.",
+        "gt": "O=C1CCCCN1C1CCC2c3ccccc3CCN2C1",
+        "task": "mol_und",
+        "subtask": "Murcko_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "8bc64e24-1d73-4b8c-bfa3-880f8df0094e",
+        "query": "You are a chemistry expert performing Murcko scaffold extraction. Input: a molecule's SMILES string. Output: the Murcko scaffold in SMILES format.\nDefinition: The Murcko scaffold is obtained by removing all side chains, functional groups, and exocyclic modifications, leaving only the ring systems and connecting bonds.\nYour response must be directly parsable JSON format:\n{\n    \"Output Scaffold\": \"SMILES\"\n}\nInput Molecule: Cc1cc(=O)oc2cc(NC(=O)Cc3ccc(Br)cc3)ccc12.",
+        "gt": "O=C(Cc1ccccc1)Nc1ccc2ccc(=O)oc2c1",
+        "task": "mol_und",
+        "subtask": "Murcko_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "1f4f4188-06bd-45a6-a12d-c0fbbda8921a",
+        "query": "You are a chemistry expert performing Murcko scaffold extraction. Input: a molecule's SMILES string. Output: the Murcko scaffold in SMILES format.\nDefinition: The Murcko scaffold is obtained by removing all side chains, functional groups, and exocyclic modifications, leaving only the ring systems and connecting bonds.\nYour response must be directly parsable JSON format:\n{\n    \"Output Scaffold\": \"SMILES\"\n}\nInput Molecule: O=c1cc(-c2cccc(O)c2)oc2c1ccc1ccccc12.",
+        "gt": "O=c1cc(-c2ccccc2)oc2c1ccc1ccccc12",
+        "task": "mol_und",
+        "subtask": "Murcko_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "55f17485-44cb-46ba-800d-e34b0fff865e",
+        "query": "You are a chemistry expert performing Murcko scaffold extraction. Input: a molecule's SMILES string. Output: the Murcko scaffold in SMILES format.\nDefinition: The Murcko scaffold is obtained by removing all side chains, functional groups, and exocyclic modifications, leaving only the ring systems and connecting bonds.\nYour response must be directly parsable JSON format:\n{\n    \"Output Scaffold\": \"SMILES\"\n}\nInput Molecule: COc1ccc(C(=O)NC(C)c2nccs2)cc1OC1CCN(C(C)C)CC1.",
+        "gt": "O=C(NCc1nccs1)c1cccc(OC2CCNCC2)c1",
+        "task": "mol_und",
+        "subtask": "Murcko_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "0405bf11-cb41-4e04-ba61-81ccf33f3cc6",
+        "query": "You are a chemistry expert performing Murcko scaffold extraction. Input: a molecule's SMILES string. Output: the Murcko scaffold in SMILES format.\nDefinition: The Murcko scaffold is obtained by removing all side chains, functional groups, and exocyclic modifications, leaving only the ring systems and connecting bonds.\nYour response must be directly parsable JSON format:\n{\n    \"Output Scaffold\": \"SMILES\"\n}\nInput Molecule: O=C(c1ccccc1)N1CCCC(Nc2ccc(F)cc2)C1.",
+        "gt": "O=C(c1ccccc1)N1CCCC(Nc2ccccc2)C1",
+        "task": "mol_und",
+        "subtask": "Murcko_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "8af28488-7b91-4c3c-9a17-efa0d66bae17",
+        "query": "You are a chemistry expert performing Murcko scaffold extraction. Input: a molecule's SMILES string. Output: the Murcko scaffold in SMILES format.\nDefinition: The Murcko scaffold is obtained by removing all side chains, functional groups, and exocyclic modifications, leaving only the ring systems and connecting bonds.\nYour response must be directly parsable JSON format:\n{\n    \"Output Scaffold\": \"SMILES\"\n}\nInput Molecule: CCC1(CC)C(=O)N(COC(=O)c2ccccc2)C1S(=O)(=O)c1ccccc1.",
+        "gt": "O=C(OCN1C(=O)CC1S(=O)(=O)c1ccccc1)c1ccccc1",
+        "task": "mol_und",
+        "subtask": "Murcko_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "ecdde0c5-db9b-4b08-be34-36e2558a7ca7",
+        "query": "You are a chemistry expert performing Murcko scaffold extraction. Input: a molecule's SMILES string. Output: the Murcko scaffold in SMILES format.\nDefinition: The Murcko scaffold is obtained by removing all side chains, functional groups, and exocyclic modifications, leaving only the ring systems and connecting bonds.\nYour response must be directly parsable JSON format:\n{\n    \"Output Scaffold\": \"SMILES\"\n}\nInput Molecule: O=C(NC(=S)NCc1ccco1)c1ccc([N+](=O)[O-])cc1.",
+        "gt": "O=C(NC(=S)NCc1ccco1)c1ccccc1",
+        "task": "mol_und",
+        "subtask": "Murcko_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "1665d440-ddd2-4b55-a0b1-1e0a1c019399",
+        "query": "You are a chemistry expert performing Murcko scaffold extraction. Input: a molecule's SMILES string. Output: the Murcko scaffold in SMILES format.\nDefinition: The Murcko scaffold is obtained by removing all side chains, functional groups, and exocyclic modifications, leaving only the ring systems and connecting bonds.\nYour response must be directly parsable JSON format:\n{\n    \"Output Scaffold\": \"SMILES\"\n}\nInput Molecule: CC(C)C(=O)NC1CCN(Cc2ccccc2)CC1.",
+        "gt": "c1ccc(CN2CCCCC2)cc1",
+        "task": "mol_und",
+        "subtask": "Murcko_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "55e03036-8b06-4cea-a56f-88b6526fee70",
+        "query": "You are a chemistry expert performing Murcko scaffold extraction. Input: a molecule's SMILES string. Output: the Murcko scaffold in SMILES format.\nDefinition: The Murcko scaffold is obtained by removing all side chains, functional groups, and exocyclic modifications, leaving only the ring systems and connecting bonds.\nYour response must be directly parsable JSON format:\n{\n    \"Output Scaffold\": \"SMILES\"\n}\nInput Molecule: CCOC(=O)CC(NC(=O)C1CCCN1)C1OC2OC(C)(C)OC2C1OC.",
+        "gt": "O=C(NCC1CC2OCOC2O1)C1CCCN1",
+        "task": "mol_und",
+        "subtask": "Murcko_scaffold",
+        "meta": "{}"
+    }
+]

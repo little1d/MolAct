@@ -1,0 +1,722 @@
+[
+    {
+        "id": "d44e6fab-3fde-4e51-b096-9a5bc05e2d83",
+        "query": "Given the following reaction under the type of Acylation:\nCNc1cccnc1.O=C(O)c1cc(Cl)sc1Cl>>CN(C(=O)c1cc(Cl)sc1Cl)c1cccnc1,\ngive me the most recommended catalyst(s) for this reaction. Return the SMILES of the catalyst following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "CN(C)C=O",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Acylation\", \"query_target\": \"catalyst\", \"source\": \"US08609700B2\", \"corpus_id\": \"US08609700B2_0\"}"
+    },
+    {
+        "id": "5d1b5377-a6c5-4632-af0a-904575efc986",
+        "query": "Given the following reaction under the type of Acylation:\nCC(C)(C)OC(=O)N1CCC(C)(C(=O)O)CC1.Nc1cccc(-c2nnn[nH]2)c1>>CC(C)(C)OC(=O)N1CCC(C)(C(=O)Nc2cccc(-c3nnn[nH]3)c2)CC1,\ngive me the most recommended catalyst(s) for this reaction. Return the SMILES of the catalyst following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "CN(C)C=O",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Acylation\", \"query_target\": \"catalyst\", \"source\": \"US08193202B2\", \"corpus_id\": \"US08193202B2_26\"}"
+    },
+    {
+        "id": "0120052a-31f1-4cdd-9bcc-a7a44984a20d",
+        "query": "Given the following reaction under the type of Acylation:\nCC(C)(C)OC(=O)NCCN.O=C(O)c1cccnc1>>CC(C)(C)OC(=O)NCCNC(=O)c1cccnc1,\ngive me the most recommended catalyst(s) for this reaction. Return the SMILES of the catalyst following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "CN(C)C=O",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Acylation\", \"query_target\": \"catalyst\", \"source\": \"US08304552B2\", \"corpus_id\": \"US08304552B2_0\"}"
+    },
+    {
+        "id": "610f08af-4e9e-482a-a65e-498d3ea9b3b9",
+        "query": "Given the following reaction under the type of Acylation:\nCC(=O)OC(C)=O.C[C@]12C=CC(=O)C=C1CC[C@@H]1[C@@H]2CC[C@]2(C)C(=CCO)CC[C@@H]12>>CC(=O)OCC=C1CC[C@H]2[C@@H]3CCC4=CC(=O)C=C[C@]4(C)[C@H]3CC[C@]12C,\ngive me the most recommended solvent(s) for this reaction. Return the SMILES of the solvent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "ClCCl",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Acylation\", \"query_target\": \"solvent\", \"source\": \"US04370271\", \"corpus_id\": \"US04370271_0\"}"
+    },
+    {
+        "id": "83dc67bb-3b55-4a61-ab8c-62f951bd572c",
+        "query": "Given the following reaction under the type of Acylation:\nCc1cccc(-c2nc(N)sc2-c2ccnc(NCc3ccccc3)c2)c1.O=C(Cl)c1cccnc1>>Cc1cccc(-c2nc(NC(=O)c3cccnc3)sc2-c2ccnc(NCc3ccccc3)c2)c1,\ngive me the most recommended solvent(s) for this reaction. Return the SMILES of the solvent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "CC(=O)N(C)C",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Acylation\", \"query_target\": \"solvent\", \"source\": \"US07199124B2\", \"corpus_id\": \"US07199124B2_15\"}"
+    },
+    {
+        "id": "c50d99cc-8c17-4cc6-ad40-f370c051b1b0",
+        "query": "Given the following reaction under the type of Acylation:\nCCOC(=O)CNCc1c(OC)cccc1[N+](=O)[O-].O=C(Cl)c1ccc(Cl)cc1>>CCOC(=O)CN(Cc1c(N)cccc1OC)C(=O)c1ccc(Cl)cc1,\ngive me the most recommended solvent(s) for this reaction. Return the SMILES of the solvent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "CCOC(C)=O.ClCCl",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Acylation\", \"query_target\": \"solvent\", \"source\": \"US06825191B2\", \"corpus_id\": \"US06825191B2_60\"}"
+    },
+    {
+        "id": "1288bff6-acc7-4d2a-961d-ab34220a11e4",
+        "query": "Given the following reaction under the type of Acylation:\nCC(C)(C)OC(=O)OC(C)(C)C.CNC(=O)C(F)(C1CCc2c([nH]c3ccc(Cl)cc23)C1)S(=O)(=O)c1ccccc1>>CNC(=O)C(F)(C1CCc2c(n(C(=O)OC(C)(C)C)c3ccc(Cl)cc23)C1)S(=O)(=O)c1ccccc1,\ngive me the most recommended reagent(s) for this reaction. Return the SMILES of the reagent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "CCN(CC)CC",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Acylation\", \"query_target\": \"reagent\", \"source\": \"US07906546B2\", \"corpus_id\": \"US07906546B2_24\"}"
+    },
+    {
+        "id": "e91c9e44-df67-4d36-9c1e-6bc418760897",
+        "query": "Given the following reaction under the type of Acylation:\nCCC(Oc1cncc(Cl)c1)C(=O)O.C[SiH](C)OC(C#CC(C)(C)N)C(C)(C)C>>CCC(Oc1cncc(Cl)c1)C(=O)NC(C)(C)C#CC(O[SiH](C)C)C(C)(C)C,\ngive me the most recommended reagent(s) for this reaction. Return the SMILES of the reagent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "CCN=C=NCCCN(C)C.Cl",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Acylation\", \"query_target\": \"reagent\", \"source\": \"US07166621B2\", \"corpus_id\": \"US07166621B2_12\"}"
+    },
+    {
+        "id": "d59a7a6e-c26f-49e5-9ee7-3403fc6e2b3b",
+        "query": "Given the following reaction under the type of Acylation:\nCOc1ccc(Cn2nccc2N)cc1C.Cc1cccc(-n2nnnc2SCC(=O)O)c1C>>COc1ccc(Cn2nccc2NC(=O)CSc2nnnn2-c2cccc(C)c2C)cc1C,\ngive me the most recommended reagent(s) for this reaction. Return the SMILES of the reagent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "CCN=C=NCCCN(C)C.Cl",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Acylation\", \"query_target\": \"reagent\", \"source\": \"US20110086889A1\", \"corpus_id\": \"US20110086889A1_5\"}"
+    },
+    {
+        "id": "aacd3d1d-c761-4526-a0ab-6385870bf50e",
+        "query": "Given the following reaction under the type of Aromatic Heterocycle Formation:\nN#Cc1ncc(Br)cc1[N+](=O)[O-].NC(N)=O>>c1cnc2cncnc2c1,\ngive me the most recommended catalyst(s) for this reaction. Return the SMILES of the catalyst following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "[Ni]",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Aromatic Heterocycle Formation\", \"query_target\": \"catalyst\", \"source\": \"US08440662B2\", \"corpus_id\": \"US08440662B2_3\"}"
+    },
+    {
+        "id": "6d9de3e5-1aa8-45fa-a33f-46cc762dcf22",
+        "query": "Given the following reaction under the type of Aromatic Heterocycle Formation:\nC#CCCO.Oc1ccc(-c2c3c(nc4ccnn24)CCC3)cc1I>>OCCc1cc2cc(-c3c4c(nc5ccnn35)CCC4)ccc2o1,\ngive me the most recommended catalyst(s) for this reaction. Return the SMILES of the catalyst following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "[Cu]I",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Aromatic Heterocycle Formation\", \"query_target\": \"catalyst\", \"source\": \"US07319103B2\", \"corpus_id\": \"US07319103B2_16\"}"
+    },
+    {
+        "id": "1e3edf4a-577e-409f-a315-f9b8ba9dfa48",
+        "query": "Given the following reaction under the type of Aromatic Heterocycle Formation:\nNc1ccc2c(c1)OCO2.O=C(c1ccccc1)C(O)c1ccccc1>>c1ccc(-c2[nH]c3cc4c(cc3c2-c2ccccc2)OCO4)cc1,\ngive me the most recommended catalyst(s) for this reaction. Return the SMILES of the catalyst following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "Cc1ccc(S(=O)(=O)O)cc1",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Aromatic Heterocycle Formation\", \"query_target\": \"catalyst\", \"source\": \"US09242940B2\", \"corpus_id\": \"US09242940B2_10\"}"
+    },
+    {
+        "id": "9e2ee058-58a7-470d-abbc-b68d16be9fda",
+        "query": "Given the following reaction under the type of Aromatic Heterocycle Formation:\nCCOC(=O)Cc1nc(C)cs1.O=Cc1ccc(F)cc1O>>Cc1csc(-c2cc3ccc(F)cc3oc2=O)n1,\ngive me the most recommended solvent(s) for this reaction. Return the SMILES of the solvent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "CC#N",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Aromatic Heterocycle Formation\", \"query_target\": \"solvent\", \"source\": \"US20150119380A1\", \"corpus_id\": \"US20150119380A1_43\"}"
+    },
+    {
+        "id": "be8fd63e-f05b-46e8-b72a-8e9c98faeb92",
+        "query": "Given the following reaction under the type of Aromatic Heterocycle Formation:\nCC[C@H](NC(=O)OC(C)(C)C)C(=O)N(C(=O)c1c(Cl)cccc1[N+](=O)[O-])C1CC1>>CC[C@H](NC(=O)OC(C)(C)C)c1nc2cccc(Cl)c2c(=O)n1C1CC1,\ngive me the most recommended solvent(s) for this reaction. Return the SMILES of the solvent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "CC(=O)O",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Aromatic Heterocycle Formation\", \"query_target\": \"solvent\", \"source\": \"US20150087663A1\", \"corpus_id\": \"US20150087663A1_9\"}"
+    },
+    {
+        "id": "f01b3968-111c-4593-bdba-3bf426ad985b",
+        "query": "Given the following reaction under the type of Aromatic Heterocycle Formation:\nNN.O=C(Cc1ccccc1F)c1ncc(Cl)cc1Cl>>Fc1ccccc1Cc1n[nH]c2cc(Cl)cnc12,\ngive me the most recommended solvent(s) for this reaction. Return the SMILES of the solvent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "c1ccncc1",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Aromatic Heterocycle Formation\", \"query_target\": \"solvent\", \"source\": \"US08309551B2\", \"corpus_id\": \"US08309551B2_2\"}"
+    },
+    {
+        "id": "ab6441b2-e2ab-4c78-b165-1405264e5cfe",
+        "query": "Given the following reaction under the type of Aromatic Heterocycle Formation:\nCC(=O)N1C(=O)N(C(C)=O)C(Cl)C1Cl>>CC(=O)n1ccn(C(C)=O)c1=O,\ngive me the most recommended reagent(s) for this reaction. Return the SMILES of the reagent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "CN(C)C=O.O",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Aromatic Heterocycle Formation\", \"query_target\": \"reagent\", \"source\": \"US04238618\", \"corpus_id\": \"US04238618_0\"}"
+    },
+    {
+        "id": "dd816db9-8c7b-40b5-a219-33fa63bfa666",
+        "query": "Given the following reaction under the type of Aromatic Heterocycle Formation:\nCC(=O)Cc1ccccc1[N+](=O)[O-]>>Cc1cc2ccccc2[nH]1,\ngive me the most recommended reagent(s) for this reaction. Return the SMILES of the reagent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "CC(=O)[O-].[Na+]",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Aromatic Heterocycle Formation\", \"query_target\": \"reagent\", \"source\": \"US20070083053A1\", \"corpus_id\": \"US20070083053A1_1\"}"
+    },
+    {
+        "id": "576bc218-74bd-4caf-8a69-d0f544dbef13",
+        "query": "Given the following reaction under the type of Aromatic Heterocycle Formation:\nCOc1ccc2c(c1)C(=O)C(CC=O)C2.C[C@H](O)CN>>COc1ccc2c(c1)-c1c(ccn1C[C@H](C)O)C2,\ngive me the most recommended reagent(s) for this reaction. Return the SMILES of the reagent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "O",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Aromatic Heterocycle Formation\", \"query_target\": \"reagent\", \"source\": \"US05646173\", \"corpus_id\": \"US05646173_87\"}"
+    },
+    {
+        "id": "34c33732-8a4c-46f0-be67-17f3893353ba",
+        "query": "Given the following reaction under the type of C-C Coupling:\nCCCC[Sn](CCCC)(CCCC)c1nccs1.COc1cccc(OC)c1C1CCCC(=O)N1Cc1ccnc(Br)c1>>COc1cccc(OC)c1C1CCCC(=O)N1Cc1ccnc(-c2nccs2)c1,\ngive me the most recommended catalyst(s) for this reaction. Return the SMILES of the catalyst following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "Cl[Pd](Cl)([P](c1ccccc1)(c1ccccc1)c1ccccc1)[P](c1ccccc1)(c1ccccc1)c1ccccc1",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"C-C Coupling\", \"query_target\": \"catalyst\", \"source\": \"US09242970B2\", \"corpus_id\": \"US09242970B2_202\"}"
+    },
+    {
+        "id": "ff6fedc9-af95-4fc2-83be-2dee683ab4c2",
+        "query": "Given the following reaction under the type of C-C Coupling:\nCOc1ccc2oc(B(O)O)cc2c1.NC(=O)c1ccc(Br)nc1>>COc1ccc2oc(-c3ccc(C(N)=O)cn3)cc2c1,\ngive me the most recommended catalyst(s) for this reaction. Return the SMILES of the catalyst following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "Cl[Pd](Cl)([P](c1ccccc1)(c1ccccc1)c1ccccc1)[P](c1ccccc1)(c1ccccc1)c1ccccc1",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"C-C Coupling\", \"query_target\": \"catalyst\", \"source\": \"US07772256B2\", \"corpus_id\": \"US07772256B2_4\"}"
+    },
+    {
+        "id": "d2aacee0-b72c-4cb0-a0a1-117ec33f9cc8",
+        "query": "Given the following reaction under the type of C-C Coupling:\nC/C=C/B(O)O.COc1cc2c(cc1OCCCOc1cc3c(cc1OC)C(=O)N1C=C(OS(=O)(=O)C(F)(F)F)C[C@H]1C(=O)N3COCC[Si](C)(C)C)N(COCC[Si](C)(C)C)C(=O)[C@@H]1CC(/C=C/CNC(=O)OCC3c4ccccc4-c4ccccc43)=CN1C2=O>>C/C=C/C1=CN2C(=O)c3cc(OC)c(OCCCOc4cc5c(cc4OC)C(=O)N4C=C(/C=C/CNC(=O)OCC6c7ccccc7-c7ccccc76)C[C@H]4C(=O)N5COCC[Si](C)(C)C)cc3N(COCC[Si](C)(C)C)C(=O)[C@@H]2C1,\ngive me the most recommended catalyst(s) for this reaction. Return the SMILES of the catalyst following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "c1ccc([P](c2ccccc2)(c2ccccc2)[Pd]([P](c2ccccc2)(c2ccccc2)c2ccccc2)([P](c2ccccc2)(c2ccccc2)c2ccccc2)[P](c2ccccc2)(c2ccccc2)c2ccccc2)cc1",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"C-C Coupling\", \"query_target\": \"catalyst\", \"source\": \"US09399073B2\", \"corpus_id\": \"US09399073B2_2\"}"
+    },
+    {
+        "id": "40f218bc-2214-48b8-be72-af568f6ce937",
+        "query": "Given the following reaction under the type of C-C Coupling:\nCC(=O)N1c2ccc(B3OC(C)(C)C(C)(C)O3)cc2[C@H](NC(=O)OC(C)(C)C)C[C@@H]1C.COC(=O)c1ccc(Br)nc1>>COC(=O)c1ccc(-c2ccc3c(c2)[C@H](NC(=O)OC(C)(C)C)C[C@H](C)N3C(C)=O)nc1,\ngive me the most recommended solvent(s) for this reaction. Return the SMILES of the solvent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "CO",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"C-C Coupling\", \"query_target\": \"solvent\", \"source\": \"US08993554B2\", \"corpus_id\": \"US08993554B2_49\"}"
+    },
+    {
+        "id": "ae0b557d-1c83-48ed-8e1b-56a2f442fa86",
+        "query": "Given the following reaction under the type of C-C Coupling:\nCOc1ccc(-c2cc3c(I)cn(C(=O)OC(C)(C)C)c3nc2C2CC2)cc1N(C(=O)OC(C)(C)C)S(C)(=O)=O.Cc1nn(Cc2cccc(F)c2)c(C)c1B1OC(C)(C)C(C)(C)O1>>COc1ccc(-c2cc3c(-c4c(C)nn(Cc5cccc(F)c5)c4C)cn(C(=O)OC(C)(C)C)c3nc2C2CC2)cc1N(C(=O)OC(C)(C)C)S(C)(=O)=O,\ngive me the most recommended solvent(s) for this reaction. Return the SMILES of the solvent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "COCCOC.O",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"C-C Coupling\", \"query_target\": \"solvent\", \"source\": \"US09353107B2\", \"corpus_id\": \"US09353107B2_90\"}"
+    },
+    {
+        "id": "c36bc16c-2614-4346-8f14-4ec8e38f7c74",
+        "query": "Given the following reaction under the type of C-C Coupling:\nC#Cc1ccccc1.Clc1ccc(Cl)nc1>>Clc1ccc(C#Cc2ccccc2)nc1,\ngive me the most recommended solvent(s) for this reaction. Return the SMILES of the solvent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "O",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"C-C Coupling\", \"query_target\": \"solvent\", \"source\": \"US06498166B1\", \"corpus_id\": \"US06498166B1_13\"}"
+    },
+    {
+        "id": "7cdda33e-ddea-4ba1-aca6-748c99db9ed8",
+        "query": "Given the following reaction under the type of C-C Coupling:\nC=CB1OC(C)(C)C(C)(C)O1.COC(=O)c1cccc(N(C)C2CCCC2)c1Br>>C=Cc1c(C(=O)OC)cccc1N(C)C1CCCC1,\ngive me the most recommended reagent(s) for this reaction. Return the SMILES of the reagent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "O=C([O-])[O-].[Na+].[Na+]",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"C-C Coupling\", \"query_target\": \"reagent\", \"source\": \"US09376422B2\", \"corpus_id\": \"US09376422B2_127\"}"
+    },
+    {
+        "id": "b18cf4c1-2c62-4599-bb9c-09687dcfc4f4",
+        "query": "Given the following reaction under the type of C-C Coupling:\nC1CC2OC2C1.C=CCCCBr>>C=CCCC[C@@H]1CCC[C@H]1O,\ngive me the most recommended reagent(s) for this reaction. Return the SMILES of the reagent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "[Mg]",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"C-C Coupling\", \"query_target\": \"reagent\", \"source\": \"US08461107B2\", \"corpus_id\": \"US08461107B2_2\"}"
+    },
+    {
+        "id": "23875f12-890e-4b8d-87fa-1a32445ccaa3",
+        "query": "Given the following reaction under the type of C-C Coupling:\nCN(C)CCCOc1ccc(B2OC(C)(C)C(C)(C)O2)cn1.CO[C@@H]1C[C@H](n2c(=O)n(C)c3cnc4ccc(Br)cc4c32)C1>>CO[C@@H]1C[C@H](n2c(=O)n(C)c3cnc4ccc(-c5ccc(OCCCN(C)C)nc5)cc4c32)C1,\ngive me the most recommended reagent(s) for this reaction. Return the SMILES of the reagent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "O=C([O-])[O-].[Cs+].[Cs+]",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"C-C Coupling\", \"query_target\": \"reagent\", \"source\": \"US09428503B2\", \"corpus_id\": \"US09428503B2_16\"}"
+    },
+    {
+        "id": "daff5020-6eb8-4c9c-a154-000d0c687dff",
+        "query": "Given the following reaction under the type of Deprotection:\nCC(C)S(=O)(=O)NCC(C)(O)c1ccc(OCc2ccccc2)cc1>>CC(C)S(=O)(=O)NCC(C)(O)c1ccc(O)cc1,\ngive me the most recommended catalyst(s) for this reaction. Return the SMILES of the catalyst following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "[Pd]",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Deprotection\", \"query_target\": \"catalyst\", \"source\": \"US07034045B1\", \"corpus_id\": \"US07034045B1_26\"}"
+    },
+    {
+        "id": "78f185f6-f82c-4220-abb1-f197a9b26fdb",
+        "query": "Given the following reaction under the type of Deprotection:\nO=C(Cc1ccc(Cl)c(Cl)c1)N1CCN(Cc2ccccc2)C2CCCC(N3CCCC3)C21>>O=C(Cc1ccc(Cl)c(Cl)c1)N1CCNC2CCCC(N3CCCC3)C21,\ngive me the most recommended catalyst(s) for this reaction. Return the SMILES of the catalyst following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "[Pd]",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Deprotection\", \"query_target\": \"catalyst\", \"source\": \"US08309725B2\", \"corpus_id\": \"US08309725B2_3\"}"
+    },
+    {
+        "id": "ae9cd250-0ed0-41fe-997c-a94c644e0ae6",
+        "query": "Given the following reaction under the type of Deprotection:\nCCOC(=O)C1CCN(CCn2cccc(-c3ccc(C(=O)OCc4ccccc4)cc3)c2=O)CC1>>CCOC(=O)C1CCN(CCn2cccc(-c3ccc(C(=O)O)cc3)c2=O)CC1,\ngive me the most recommended catalyst(s) for this reaction. Return the SMILES of the catalyst following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "[Pd]",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Deprotection\", \"query_target\": \"catalyst\", \"source\": \"US08022208B2\", \"corpus_id\": \"US08022208B2_8\"}"
+    },
+    {
+        "id": "17076565-3284-4f36-b2ba-c3e0e94f988d",
+        "query": "Given the following reaction under the type of Deprotection:\nCC(Cc1ccc(N2CC(=O)NS2(=O)=O)c(OCc2ccccc2)c1)C(=O)c1ccccc1>>CC(Cc1ccc(N2CC(=O)NS2(=O)=O)c(O)c1)C(=O)c1ccccc1,\ngive me the most recommended solvent(s) for this reaction. Return the SMILES of the solvent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "CCO.O",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Deprotection\", \"query_target\": \"solvent\", \"source\": \"US08084448B2\", \"corpus_id\": \"US08084448B2_192\"}"
+    },
+    {
+        "id": "1e6d8075-f2fa-4421-b06c-cb2f0345356b",
+        "query": "Given the following reaction under the type of Deprotection:\nCC(C)(C)OC(=O)N[C@@H]1CN(Cc2ccccc2)CC[C@H]1F>>CC(C)(C)OC(=O)N[C@@H]1CNCC[C@H]1F,\ngive me the most recommended solvent(s) for this reaction. Return the SMILES of the solvent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "CO",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Deprotection\", \"query_target\": \"solvent\", \"source\": \"US08178131B2\", \"corpus_id\": \"US08178131B2_32\"}"
+    },
+    {
+        "id": "83d6be9c-7cee-4738-9d52-ff6ebc56c636",
+        "query": "Given the following reaction under the type of Deprotection:\nOC[C@@]12CO[C@@](c3ccc(Cl)c(Cc4ccc(OCCOCc5ccccc5)cc4)c3)(O1)[C@H](O)[C@@H](O)[C@@H]2O>>OCCOc1ccc(Cc2cc([C@]34OC[C@](CO)(O3)[C@@H](O)[C@H](O)[C@H]4O)ccc2Cl)cc1,\ngive me the most recommended solvent(s) for this reaction. Return the SMILES of the solvent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "C1CCOC1.CCO",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Deprotection\", \"query_target\": \"solvent\", \"source\": \"US08669380B2\", \"corpus_id\": \"US08669380B2_11\"}"
+    },
+    {
+        "id": "f572d160-af0f-4f06-8829-21a4d4ccdde6",
+        "query": "Given the following reaction under the type of Deprotection:\nNC(=O)c1nn(C2CCN(Cc3ccccc3)CC2)c2c1CCc1cnc(NC3CCCC3)nc1-2>>NC(=O)c1nn(C2CCNCC2)c2c1CCc1cnc(NC3CCCC3)nc1-2,\ngive me the most recommended reagent(s) for this reaction. Return the SMILES of the reagent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "CCOCC",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Deprotection\", \"query_target\": \"reagent\", \"source\": \"US07482354B2\", \"corpus_id\": \"US07482354B2_29\"}"
+    },
+    {
+        "id": "d539397c-5d41-4d5d-8bf9-0cb220e382d3",
+        "query": "Given the following reaction under the type of Deprotection:\nCC(C)(CCn1cnc(-c2ccccc2)c1)NC[C@H](O)c1ccc(OCc2ccccc2)c(NS(=O)(=O)c2cccc3c2NCCC3)c1>>CC(C)(CCn1cnc(-c2ccccc2)c1)NC[C@H](O)c1ccc(O)c(NS(=O)(=O)c2cccc3c2NCCC3)c1,\ngive me the most recommended reagent(s) for this reaction. Return the SMILES of the reagent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "[H][H]",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Deprotection\", \"query_target\": \"reagent\", \"source\": \"US07214698B2\", \"corpus_id\": \"US07214698B2_7\"}"
+    },
+    {
+        "id": "106d8d73-e548-4124-97bb-c83ff1d6e90a",
+        "query": "Given the following reaction under the type of Deprotection:\nCc1nc2ccc(N3CC4CN(Cc5ccccc5)CC4C3)nn2c1-c1ccnc(N)c1>>Cc1nc2ccc(N3CC4CNCC4C3)nn2c1-c1ccnc(N)c1,\ngive me the most recommended reagent(s) for this reaction. Return the SMILES of the reagent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "O=C[O-].[NH4+]",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Deprotection\", \"query_target\": \"reagent\", \"source\": \"US20110312934A1\", \"corpus_id\": \"US20110312934A1_1\"}"
+    },
+    {
+        "id": "a593d190-0103-43f8-b5d3-0de533e8300f",
+        "query": "Given the following reaction under the type of Functional Group Addition:\nC=CC[C@@]1(C)C[C@H](c2cccc(Cl)c2)[C@@H](c2ccc(Cl)cc2)N(C(CC)CC)C1=O.CC(C)=O.O=[Os](=O)(=O)=O>>CCC(CC)N1C(=O)[C@@](C)(CC(O)CO)C[C@H](c2cccc(Cl)c2)[C@H]1c1ccc(Cl)cc1,\ngive me the most recommended catalyst(s) for this reaction. Return the SMILES of the catalyst following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "O=[Os](=O)(=O)=O",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Functional Group Addition\", \"query_target\": \"catalyst\", \"source\": \"US08569341B2\", \"corpus_id\": \"US08569341B2_85\"}"
+    },
+    {
+        "id": "b45907f3-4c17-4d89-a7cf-3deeee93da9f",
+        "query": "Given the following reaction under the type of Functional Group Addition:\nCC(C)(C)OC(=O)OC(=O)OC(C)(C)C.Cc1cc(Br)cc(C)c1Oc1nc(Nc2ccc(C#N)cc2)nc(/C=C/N(C)C)c1[N+](=O)[O-]>>Cc1cc(Br)cc(C)c1Oc1nc(N(C(=O)OC(C)(C)C)c2ccc(C#N)cc2)nc(/C=C/N(C)C)c1[N+](=O)[O-],\ngive me the most recommended catalyst(s) for this reaction. Return the SMILES of the catalyst following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "CN(C)c1ccncc1",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Functional Group Addition\", \"query_target\": \"catalyst\", \"source\": \"US08207178B2\", \"corpus_id\": \"US08207178B2_2\"}"
+    },
+    {
+        "id": "ef8f78ef-66e2-48e0-bc05-36fd4435b12d",
+        "query": "Given the following reaction under the type of Functional Group Addition:\nN#Cc1cccc(N)c1.O=[N+]([O-])c1c(OS(=O)(=O)C(F)(F)F)ccc2c1CCCC2>>N#Cc1cccc(Nc2ccc3c(c2[N+](=O)[O-])CCCC3)c1,\ngive me the most recommended catalyst(s) for this reaction. Return the SMILES of the catalyst following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "c1ccc([P](c2ccccc2)(c2ccccc2)[Pd]([P](c2ccccc2)(c2ccccc2)c2ccccc2)([P](c2ccccc2)(c2ccccc2)c2ccccc2)[P](c2ccccc2)(c2ccccc2)c2ccccc2)cc1",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Functional Group Addition\", \"query_target\": \"catalyst\", \"source\": \"US08962613B2\", \"corpus_id\": \"US08962613B2_0\"}"
+    },
+    {
+        "id": "a1a6ca72-96cc-4bbb-96cb-730719077277",
+        "query": "Given the following reaction under the type of Functional Group Addition:\nCc1c(C)c(OCc2ccccc2)c(C(CCCCCC(=O)OCc2ccccc2)c2ccc(F)cc2)c(C)c1C=O.O=[Ag]>>Cc1c(C)c(C(=O)O)c(C)c(C(CCCCC(Cc2ccccc2)C(=O)O)c2ccc(F)cc2)c1OCc1ccccc1,\ngive me the most recommended solvent(s) for this reaction. Return the SMILES of the solvent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "C1COCCO1",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Functional Group Addition\", \"query_target\": \"solvent\", \"source\": \"US05162571\", \"corpus_id\": \"US05162571_22\"}"
+    },
+    {
+        "id": "b430b2ef-ef3b-49b8-9970-c1abaf0af721",
+        "query": "Given the following reaction under the type of Functional Group Addition:\nCC(ON=C1c2cc([N+](=O)[O-])cc([N+](=O)[O-])c2-c2c1ccc([N+](=O)[O-])c2[N+](=O)[O-])C(=O)O.Cc1ncc([N+](=O)[O-])n1CCO>>CCOC(=O)C(C)ON=C1c2cc([N+](=O)[O-])cc([N+](=O)[O-])c2-c2c1cc([N+](=O)[O-])cc2[N+](=O)[O-].Cc1ncc([N+](=O)[O-])[nH]1,\ngive me the most recommended solvent(s) for this reaction. Return the SMILES of the solvent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "C1CCOC1",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Functional Group Addition\", \"query_target\": \"solvent\", \"source\": \"US06423707B1\", \"corpus_id\": \"US06423707B1_8\"}"
+    },
+    {
+        "id": "731ba6cf-5f96-49a9-aa89-0365bb753dbc",
+        "query": "Given the following reaction under the type of Functional Group Addition:\nCC(C)(C)OC(=O)OC(C)(C)C.Nc1n[nH]c2ccc([N+](=O)[O-])cc12>>CC(C)(C)OC(=O)Nc1n[nH]c2ccc([N+](=O)[O-])cc12,\ngive me the most recommended solvent(s) for this reaction. Return the SMILES of the solvent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "C1CCOC1",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Functional Group Addition\", \"query_target\": \"solvent\", \"source\": \"US09051310B2\", \"corpus_id\": \"US09051310B2_23\"}"
+    },
+    {
+        "id": "605f3861-dfa9-419d-97c6-112cfc197196",
+        "query": "Given the following reaction under the type of Functional Group Addition:\nCC(C)(C)OC(=O)OC(=O)OC(C)(C)C.Nc1cc([N+](=O)[O-])cc(C(F)(F)F)c1>>CC(C)(C)OC(=O)Nc1cc([N+](=O)[O-])cc(C(F)(F)F)c1,\ngive me the most recommended reagent(s) for this reaction. Return the SMILES of the reagent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "CCN(CC)CC",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Functional Group Addition\", \"query_target\": \"reagent\", \"source\": \"US20130165440A1\", \"corpus_id\": \"US20130165440A1_41\"}"
+    },
+    {
+        "id": "728686ca-44cb-47e7-b5a6-2e67e1aea0db",
+        "query": "Given the following reaction under the type of Functional Group Addition:\nCC(C)(C)OC(=O)OC(=O)OC(C)(C)C.CN1C(=O)[C@@H]2COC[C@]2(c2cc([N+](=O)[O-])ccc2F)N=C1N>>CN1C(=O)[C@@H]2COC[C@]2(c2cc([N+](=O)[O-])ccc2F)N=C1NC(=O)OC(C)(C)C,\ngive me the most recommended reagent(s) for this reaction. Return the SMILES of the reagent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "CCN(CC)CC",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Functional Group Addition\", \"query_target\": \"reagent\", \"source\": \"US09139594B2\", \"corpus_id\": \"US09139594B2_9\"}"
+    },
+    {
+        "id": "08cb3c97-43e0-4df8-9149-2e863e5227cc",
+        "query": "Given the following reaction under the type of Functional Group Addition:\nCC(C)(C)OC(=O)N[C@H]1C[C@H](F)CN(C(=O)OCc2ccccc2)C1.O=[N+]([O-])c1cnccc1Cl>>CC(C)(C)OC(=O)N[C@H]1C[C@H](F)CN(c2ccncc2[N+](=O)[O-])C1,\ngive me the most recommended reagent(s) for this reaction. Return the SMILES of the reagent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "CCN(C(C)C)C(C)C.CO",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Functional Group Addition\", \"query_target\": \"reagent\", \"source\": \"US08168794B2\", \"corpus_id\": \"US08168794B2_23\"}"
+    },
+    {
+        "id": "da3c2c5a-44dc-4819-8ae4-e85ab765481a",
+        "query": "Given the following reaction under the type of Functional Group Interconversion:\nO=C1OCc2c1c(Cl)nc1ccccc21>>O=C1OCc2c1cnc1ccccc21,\ngive me the most recommended catalyst(s) for this reaction. Return the SMILES of the catalyst following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "[Pd]",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Functional Group Interconversion\", \"query_target\": \"catalyst\", \"source\": \"US05243049\", \"corpus_id\": \"US05243049_3\"}"
+    },
+    {
+        "id": "96094472-a81f-48e5-b7a6-36a8b98d582b",
+        "query": "Given the following reaction under the type of Functional Group Interconversion:\nCB1OB(C)OB(C)O1.CCOC(=O)N1C[C@@H]2OCc3c(C)cc(OS(=O)(=O)C(F)(F)F)cc3[C@@H]2C1>>CCOC(=O)N1C[C@@H]2OCc3c(C)cc(C)cc3[C@@H]2C1,\ngive me the most recommended catalyst(s) for this reaction. Return the SMILES of the catalyst following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "c1ccc([P](c2ccccc2)(c2ccccc2)[Pd]([P](c2ccccc2)(c2ccccc2)c2ccccc2)([P](c2ccccc2)(c2ccccc2)c2ccccc2)[P](c2ccccc2)(c2ccccc2)c2ccccc2)cc1",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Functional Group Interconversion\", \"query_target\": \"catalyst\", \"source\": \"US20100210680A1\", \"corpus_id\": \"US20100210680A1_48\"}"
+    },
+    {
+        "id": "24f98110-0de4-4fea-967c-e49502326aeb",
+        "query": "Given the following reaction under the type of Functional Group Interconversion:\nCc1cc(C(=O)O)c(Cl)nn1>>Cc1cc(C(=O)O)cnn1,\ngive me the most recommended catalyst(s) for this reaction. Return the SMILES of the catalyst following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "[Pd]",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Functional Group Interconversion\", \"query_target\": \"catalyst\", \"source\": \"US08012998B2\", \"corpus_id\": \"US08012998B2_60\"}"
+    },
+    {
+        "id": "4364be16-dbae-461b-bfee-46b5dbbdf971",
+        "query": "Given the following reaction under the type of Functional Group Interconversion:\nCCOC(=O)Cl.Nc1cc(NCc2ccc(F)cc2)c(F)cc1[N+](=O)[O-]>>CCOC(=O)Nc1cc(F)c(NCc2ccc(F)cc2)cc1N,\ngive me the most recommended solvent(s) for this reaction. Return the SMILES of the solvent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "CO",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Functional Group Interconversion\", \"query_target\": \"solvent\", \"source\": \"US08916133B2\", \"corpus_id\": \"US08916133B2_6\"}"
+    },
+    {
+        "id": "0fccf3d3-4940-4892-bba0-3ba165355aa3",
+        "query": "Given the following reaction under the type of Functional Group Interconversion:\nCOc1cc(CC(OC(Cc2ccc([N+](=O)[O-])c(OC)c2)c2ccccc2)c2ccccc2)ccc1[N+](=O)[O-]>>COc1cc(COCc2ccccc2)ccc1N,\ngive me the most recommended solvent(s) for this reaction. Return the SMILES of the solvent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "CO",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Functional Group Interconversion\", \"query_target\": \"solvent\", \"source\": \"US07067506B2\", \"corpus_id\": \"US07067506B2_70\"}"
+    },
+    {
+        "id": "f635de64-c0a2-4efa-9caf-8e3be0d4481e",
+        "query": "Given the following reaction under the type of Functional Group Interconversion:\nCC1=C(C#N)[C@@H](c2ccc(C#N)cc2N)NC(=O)N1c1cccc(C(F)(F)F)c1.Cl[Cu].O=S=O>>CC1=C(C#N)[C@@H](c2ccc(C#N)cc2S(=O)(=O)Cl)NC(=O)N1c1cccc(C(F)(F)F)c1,\ngive me the most recommended solvent(s) for this reaction. Return the SMILES of the solvent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "CC(=O)O.O",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Functional Group Interconversion\", \"query_target\": \"solvent\", \"source\": \"US08691817B2\", \"corpus_id\": \"US08691817B2_8\"}"
+    },
+    {
+        "id": "235437c7-a6c5-4c2f-889e-1d7bfbe68f8f",
+        "query": "Given the following reaction under the type of Functional Group Interconversion:\nCS(=O)(=O)CCCOc1cc(Br)c[n+]([O-])c1>>CS(=O)(=O)CCCOc1cncc(Br)c1,\ngive me the most recommended reagent(s) for this reaction. Return the SMILES of the reagent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "[Cl-].[NH4+]",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Functional Group Interconversion\", \"query_target\": \"reagent\", \"source\": \"US09181272B2\", \"corpus_id\": \"US09181272B2_87\"}"
+    },
+    {
+        "id": "e7d02aaf-5fc7-48e4-8457-e15a5519e5e9",
+        "query": "Given the following reaction under the type of Functional Group Interconversion:\nCOC(=O)c1ccc2c(c1)CCC(Oc1ccnc(Cl)c1)C2>>COC(=O)c1ccc2c(c1)CCC(Oc1ccncc1)C2,\ngive me the most recommended reagent(s) for this reaction. Return the SMILES of the reagent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "[H][H]",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Functional Group Interconversion\", \"query_target\": \"reagent\", \"source\": \"US20120015943A1\", \"corpus_id\": \"US20120015943A1_15\"}"
+    },
+    {
+        "id": "14ebeed3-f51d-4bd5-a77e-82816d9ffbc9",
+        "query": "Given the following reaction under the type of Functional Group Interconversion:\nCB1OB(C)OB(C)O1.COC(=O)c1cc(Br)cc2[nH]ccc12>>COC(=O)c1cc(C)cc2[nH]ccc12,\ngive me the most recommended reagent(s) for this reaction. Return the SMILES of the reagent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "CN(C)C=O.O=C([O-])[O-].[Na+].[Na+]",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Functional Group Interconversion\", \"query_target\": \"reagent\", \"source\": \"US09150556B2\", \"corpus_id\": \"US09150556B2_200\"}"
+    },
+    {
+        "id": "119a8762-ae24-4d75-8949-1f19dc9f6796",
+        "query": "Given the following reaction under the type of Heteroatom Alkylation and Arylation:\nCCCCc1nc2cc(-c3ccccc3)c(C=O)nc2n1Cc1ccc(-c2ccccc2-c2nnnn2C(C)OCC)cc1.OCCO>>CCCCc1nc2cc(-c3ccccc3)c(C3OCCO3)nc2n1Cc1ccc(-c2ccccc2-c2nnn[nH]2)cc1,\ngive me the most recommended catalyst(s) for this reaction. Return the SMILES of the catalyst following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "Cc1ccc(S(=O)(=O)O)cc1",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Heteroatom Alkylation and Arylation\", \"query_target\": \"catalyst\", \"source\": \"US05849753\", \"corpus_id\": \"US05849753_8\"}"
+    },
+    {
+        "id": "fc83664c-188b-4cca-b71c-1077ee8202b6",
+        "query": "Given the following reaction under the type of Heteroatom Alkylation and Arylation:\nCC(=CBr)c1ccccn1.Cc1ccc2[nH]c3c(c2c1)CN(C)CC3>>C/C(=C\\n1c2c(c3cc(C)ccc31)CN(C)CC2)c1ccccn1,\ngive me the most recommended catalyst(s) for this reaction. Return the SMILES of the catalyst following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "[Cu]I",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Heteroatom Alkylation and Arylation\", \"query_target\": \"catalyst\", \"source\": \"US08906925B2\", \"corpus_id\": \"US08906925B2_146\"}"
+    },
+    {
+        "id": "2cef9882-7ec5-408e-ad67-5dc387418543",
+        "query": "Given the following reaction under the type of Heteroatom Alkylation and Arylation:\nCC1CNC(=O)N1c1ccc2ncsc2c1.Cc1ccncc1I>>Cc1ccncc1N1CC(C)N(c2ccc3ncsc3c2)C1=O,\ngive me the most recommended catalyst(s) for this reaction. Return the SMILES of the catalyst following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "I[Cu]I",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Heteroatom Alkylation and Arylation\", \"query_target\": \"catalyst\", \"source\": \"US08263635B2\", \"corpus_id\": \"US08263635B2_198\"}"
+    },
+    {
+        "id": "b768d2e7-d9a5-4a5c-9a7c-84937584936d",
+        "query": "Given the following reaction under the type of Heteroatom Alkylation and Arylation:\nCN1CCC(c2ccc(N)cc2)CC1.COc1ccc(Cn2cc3c(n2)c(Cl)nc2ccc(OC)cc23)cc1>>COc1ccc2nc(Nc3ccc(C4CCN(C)CC4)cc3)c3n[nH]cc3c2c1,\ngive me the most recommended solvent(s) for this reaction. Return the SMILES of the solvent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "CO",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Heteroatom Alkylation and Arylation\", \"query_target\": \"solvent\", \"source\": \"US20120329785A1\", \"corpus_id\": \"US20120329785A1_102\"}"
+    },
+    {
+        "id": "691bd604-684c-4628-a23b-9e9094c834a9",
+        "query": "Given the following reaction under the type of Heteroatom Alkylation and Arylation:\nCC(=O)N1CCN(c2ccc(N)cc2)CC1.COc1ccc(Cn2cc3c(n2)c(Cl)nc2ccc(OC)cc23)cc1>>COc1ccc2nc(Nc3ccc(N4CCN(C(C)=O)CC4)cc3)c3n[nH]cc3c2c1,\ngive me the most recommended solvent(s) for this reaction. Return the SMILES of the solvent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "CO",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Heteroatom Alkylation and Arylation\", \"query_target\": \"solvent\", \"source\": \"US20120329785A1\", \"corpus_id\": \"US20120329785A1_162\"}"
+    },
+    {
+        "id": "c8834292-4517-4f95-9c0e-895761d4d681",
+        "query": "Given the following reaction under the type of Heteroatom Alkylation and Arylation:\nC=C(c1ccc(NC(=O)c2cccc(I)c2C(=O)NC(C)C)c(C)c1)C(F)(F)F.ON=CC(F)(F)F>>Cc1cc(C2(C(F)(F)F)CC(C(F)(F)F)=NO2)ccc1NC(=O)c1cccc(I)c1C(=O)NC(C)C,\ngive me the most recommended solvent(s) for this reaction. Return the SMILES of the solvent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "COCCOC",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Heteroatom Alkylation and Arylation\", \"query_target\": \"solvent\", \"source\": \"US20050250822A1\", \"corpus_id\": \"US20050250822A1_11\"}"
+    },
+    {
+        "id": "f0baaf1e-e20c-4290-94f9-2ef132bc5e8a",
+        "query": "Given the following reaction under the type of Heteroatom Alkylation and Arylation:\nCOc1ccc(Cn2cc3c(n2)c(Cl)nc2ccc(OC)cc23)cc1.Nc1ccc(N2CCN(CC3CC3)CC2)cc1>>COc1ccc2nc(Nc3ccc(N4CCN(CC5CC5)CC4)cc3)c3n[nH]cc3c2c1,\ngive me the most recommended reagent(s) for this reaction. Return the SMILES of the reagent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "Cl",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Heteroatom Alkylation and Arylation\", \"query_target\": \"reagent\", \"source\": \"US20120329785A1\", \"corpus_id\": \"US20120329785A1_267\"}"
+    },
+    {
+        "id": "d2bc2b4e-ce38-4fe1-9416-315b541a6494",
+        "query": "Given the following reaction under the type of Heteroatom Alkylation and Arylation:\nCN1CCN(c2ccc(N)cc2)CC1.COc1ccc(Cn2cc3nc(-c4ncco4)nc(Cl)c3n2)cc1>>CN1CCN(c2ccc(Nc3nc(-c4ncco4)nc4cn[nH]c34)cc2)CC1,\ngive me the most recommended reagent(s) for this reaction. Return the SMILES of the reagent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "Cl",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Heteroatom Alkylation and Arylation\", \"query_target\": \"reagent\", \"source\": \"US20120329780A1\", \"corpus_id\": \"US20120329780A1_201\"}"
+    },
+    {
+        "id": "aeb8db10-84cc-4c04-87f4-87eb384fd24e",
+        "query": "Given the following reaction under the type of Heteroatom Alkylation and Arylation:\nCC1(C)NC(=O)c2ccc(Cl)cc21.Ic1cncc(I)c1>>CC1(C)c2cc(Cl)ccc2C(=O)N1c1cncc(I)c1,\ngive me the most recommended reagent(s) for this reaction. Return the SMILES of the reagent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "N[C@@H]1CCCC[C@H]1N.O=P([O-])([O-])[O-].[K+].[K+].[K+]",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Heteroatom Alkylation and Arylation\", \"query_target\": \"reagent\", \"source\": \"US20160075686A1\", \"corpus_id\": \"US20160075686A1_27\"}"
+    },
+    {
+        "id": "b6c03fb9-a860-41b1-b25e-81d2bbb411fd",
+        "query": "Given the following reaction under the type of Oxidation:\nC=CCC(Cc1ccc(Br)c2ccccc12)C(=O)N1C(=O)OCC1Cc1ccccc1.O=[Os](=O)(=O)=O>>O=CCC(Cc1ccc(Br)c2ccccc12)C(=O)N1C(=O)OCC1Cc1ccccc1,\ngive me the most recommended catalyst(s) for this reaction. Return the SMILES of the catalyst following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "O=[Os](=O)(=O)=O",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Oxidation\", \"query_target\": \"catalyst\", \"source\": \"US20080214621A1\", \"corpus_id\": \"US20080214621A1_12\"}"
+    },
+    {
+        "id": "191efd4b-57a2-4732-ae77-ae8f609e9e60",
+        "query": "Given the following reaction under the type of Oxidation:\nC=Cc1ncc(Cl)cc1CF.O=[Os](=O)(=O)=O>>O=Cc1ncc(Cl)cc1CF,\ngive me the most recommended catalyst(s) for this reaction. Return the SMILES of the catalyst following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "O=[Os](=O)(=O)=O",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Oxidation\", \"query_target\": \"catalyst\", \"source\": \"US09085576B2\", \"corpus_id\": \"US09085576B2_83\"}"
+    },
+    {
+        "id": "ba2b7aa3-e48b-493c-9783-0627010ae9e0",
+        "query": "Given the following reaction under the type of Oxidation:\nC=CCC1(S(=O)(=O)Nc2c(Nc3ccc(I)cc3F)c(F)c(=O)n3c2CCC3)CC1.C[N+]1([O-])CCOCC1.O=[Os](=O)(=O)=O>>O=c1c(F)c(Nc2ccc(I)cc2F)c(NS(=O)(=O)C2(CC(O)CO)CC2)c2n1CCC2,\ngive me the most recommended catalyst(s) for this reaction. Return the SMILES of the catalyst following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "O=[Os](=O)(=O)=O",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Oxidation\", \"query_target\": \"catalyst\", \"source\": \"US20090275606A1\", \"corpus_id\": \"US20090275606A1_100\"}"
+    },
+    {
+        "id": "c274f5b1-3222-465a-81a4-afbc003004d0",
+        "query": "Given the following reaction under the type of Oxidation:\nCS(=O)(=O)CCn1cnc2c(F)c(Nc3ccc(Br)cc3Cl)c(CO)cc21>>CS(=O)(=O)CCn1cnc2c(F)c(Nc3ccc(Br)cc3Cl)c(C=O)cc21,\ngive me the most recommended solvent(s) for this reaction. Return the SMILES of the solvent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "C1CCOC1",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Oxidation\", \"query_target\": \"solvent\", \"source\": \"US07235537B2\", \"corpus_id\": \"US07235537B2_61\"}"
+    },
+    {
+        "id": "154c59fe-2f5d-40af-a238-740d883e98d1",
+        "query": "Given the following reaction under the type of Oxidation:\nN#Cc1ccc(Br)cn1.O=S(O[Na])c1ccccc1>>N#Cc1ccc(S(=O)(=O)c2ccccc2)cn1,\ngive me the most recommended solvent(s) for this reaction. Return the SMILES of the solvent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "CS(C)=O",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Oxidation\", \"query_target\": \"solvent\", \"source\": \"US20150175621A1\", \"corpus_id\": \"US20150175621A1_55\"}"
+    },
+    {
+        "id": "5e45322f-b2b2-46b6-bd6f-ec66317aaef3",
+        "query": "Given the following reaction under the type of Oxidation:\nC=CCn1c(=O)ccc2ccc(C#N)cc21.O=[Os](=O)(=O)=O>>N#Cc1ccc2ccc(=O)n(CC=O)c2c1,\ngive me the most recommended solvent(s) for this reaction. Return the SMILES of the solvent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "C1COCCO1.O",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Oxidation\", \"query_target\": \"solvent\", \"source\": \"US08071592B2\", \"corpus_id\": \"US08071592B2_40\"}"
+    },
+    {
+        "id": "261db31b-ae75-48a7-b841-6cb73727c89a",
+        "query": "Given the following reaction under the type of Oxidation:\nC=Cc1nc(C)ccc1-c1ncc(CC)o1.O=[Os](=O)(=O)=O>>CCc1cnc(-c2ccc(C)nc2C=O)o1,\ngive me the most recommended reagent(s) for this reaction. Return the SMILES of the reagent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "[Na+].[O-][I+3]([O-])([O-])[O-]",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Oxidation\", \"query_target\": \"reagent\", \"source\": \"US20100144760A1\", \"corpus_id\": \"US20100144760A1_48\"}"
+    },
+    {
+        "id": "c385539c-a860-4eb0-a5e8-895ac5a6cb3c",
+        "query": "Given the following reaction under the type of Oxidation:\nC=CC[C@@H]1CCC[C@H](O[Si](c2ccccc2)(c2ccccc2)C(C)(C)C)C1.O=[Os](=O)(=O)=O>>CC(C)(C)[Si](O[C@@H]1CCC[C@H](CC=O)C1)(c1ccccc1)c1ccccc1,\ngive me the most recommended reagent(s) for this reaction. Return the SMILES of the reagent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "[Na+].[O-][I+3]([O-])([O-])[O-]",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Oxidation\", \"query_target\": \"reagent\", \"source\": \"US07173151B2\", \"corpus_id\": \"US07173151B2_2\"}"
+    },
+    {
+        "id": "0d327fed-2d7d-4e14-8236-415ef1a81e32",
+        "query": "Given the following reaction under the type of Oxidation:\nC=C(C)[C@@H]1CC[C@]2(C(=O)N[C@@H]3C[C@H](C(=O)N4CCCCC4)C3(C)C)CC[C@]3(C)[C@H](CC[C@@H]4[C@@]5(C)CC[C@H](OC(=O)CC(C)(C)C(=O)O)C(C)(C)[C@@H]5CC[C@]43C)[C@@H]12.C[N+]1([O-])CCOCC1.O=[Os](=O)(=O)=O>>CC(C)(CC(=O)O[C@H]1CC[C@]2(C)[C@H]3CC[C@@H]4[C@H]5[C@H](C(C)(O)CO)CC[C@]5(C(=O)N[C@@H]5C[C@H](C(=O)N6CCCCC6)C5(C)C)CC[C@@]4(C)[C@]3(C)CC[C@H]2C1(C)C)C(=O)O,\ngive me the most recommended reagent(s) for this reaction. Return the SMILES of the reagent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "O",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Oxidation\", \"query_target\": \"reagent\", \"source\": \"US20150119373A1\", \"corpus_id\": \"US20150119373A1_34\"}"
+    },
+    {
+        "id": "00146f86-24d0-498d-8265-84912530a6e1",
+        "query": "Given the following reaction under the type of Protection:\nCC(C)C[C@H](CNC(=O)c1ccccc1)CC(=O)O.OCc1ccccc1>>CC(C)C[C@H](CNC(=O)c1ccccc1)CC(=O)OCc1ccccc1,\ngive me the most recommended catalyst(s) for this reaction. Return the SMILES of the catalyst following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "CN(C)c1ccncc1",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Protection\", \"query_target\": \"catalyst\", \"source\": \"US06703522B2\", \"corpus_id\": \"US06703522B2_1\"}"
+    },
+    {
+        "id": "f305b982-5fcb-445b-b1b0-17a96791c7a2",
+        "query": "Given the following reaction under the type of Protection:\nCC(C)(C)CO.O=C(O)c1ccnc(Cl)c1>>CC(C)(C)COC(=O)c1ccnc(Cl)c1,\ngive me the most recommended catalyst(s) for this reaction. Return the SMILES of the catalyst following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "CN(C)C=O",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Protection\", \"query_target\": \"catalyst\", \"source\": \"US08461164B2\", \"corpus_id\": \"US08461164B2_26\"}"
+    },
+    {
+        "id": "3ecc95ef-2260-4f95-957e-6d52503f0293",
+        "query": "Given the following reaction under the type of Protection:\nCC(C)c1cccc(C(C)C)c1O.O=C1OC(=O)c2ccccc21>>CC(C)c1cccc(C(C)C)c1OC(=O)c1ccccc1C(=O)O,\ngive me the most recommended catalyst(s) for this reaction. Return the SMILES of the catalyst following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "CN(C)c1ccncc1",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Protection\", \"query_target\": \"catalyst\", \"source\": \"US07230003B2\", \"corpus_id\": \"US07230003B2_0\"}"
+    },
+    {
+        "id": "ab40702d-430a-44c2-8a24-5ebc653152dc",
+        "query": "Given the following reaction under the type of Protection:\nC=CC(=O)OCCCCCCOc1ccc(OC(=O)c2ccc(C(=O)Oc3ccc(OCCCCCCOC(=O)C=C)cc3)c(C(=O)O)c2)cc1.CCCCCC[C@H](C)Oc1cc(N)c(-c2ccc(C(=O)Oc3ccc(CO)cc3)cc2)cc1[N+](=O)[O-]>>C=CC(=O)OCCCCCCOc1ccc(OC(=O)c2ccc(C(=O)Oc3ccc(OCCCCCCOC(=O)C=C)cc3)c(C(=O)OCc3ccc(OC(=O)c4ccc(-c5cc([N+](=O)[O-])c(O[C@@H](C)CCCCCC)cc5N)cc4)cc3)c2)cc1,\ngive me the most recommended solvent(s) for this reaction. Return the SMILES of the solvent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "ClCCl",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Protection\", \"query_target\": \"solvent\", \"source\": \"US05650534\", \"corpus_id\": \"US05650534_0\"}"
+    },
+    {
+        "id": "6a09e111-f47f-4839-82be-2cc0c46fe309",
+        "query": "Given the following reaction under the type of Protection:\nC#CC(=O)O.OCCCCCCCc1ccccc1>>C#CC(=O)OCCCCCCCc1ccccc1,\ngive me the most recommended solvent(s) for this reaction. Return the SMILES of the solvent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "O",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Protection\", \"query_target\": \"solvent\", \"source\": \"US05502242\", \"corpus_id\": \"US05502242_0\"}"
+    },
+    {
+        "id": "7cb9eb70-b8e3-43f6-91e2-eef9e0d75f94",
+        "query": "Given the following reaction under the type of Protection:\nCC(C)(C)OC(=O)OC(=O)OC(C)(C)C.CC1Cc2ccccc2N1NC(=O)c1ccc(Cl)c(S(N)(=O)=O)c1>>CC1Cc2ccccc2N1NC(=O)c1ccc(Cl)c(S(=O)(=O)NC(=O)OC(C)(C)C)c1,\ngive me the most recommended solvent(s) for this reaction. Return the SMILES of the solvent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "CCOC(C)=O.ClCCl",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Protection\", \"query_target\": \"solvent\", \"source\": \"US08288433B2\", \"corpus_id\": \"US08288433B2_0\"}"
+    },
+    {
+        "id": "0c31c118-60af-4200-b17c-287da96ca5a1",
+        "query": "Given the following reaction under the type of Protection:\nCC(C)(C)OC(=O)OC(=O)OC(C)(C)C.CC(C)(C)[Si](OC[C@H]1CCC(=O)N1)(c1ccccc1)c1ccccc1>>CC(C)(C)OC(=O)N1C(=O)CC[C@@H]1CO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C,\ngive me the most recommended reagent(s) for this reaction. Return the SMILES of the reagent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "Cl.[Cl-].[NH4+]",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Protection\", \"query_target\": \"reagent\", \"source\": \"US09181279B2\", \"corpus_id\": \"US09181279B2_19\"}"
+    },
+    {
+        "id": "4e4376c4-490b-4e39-9756-a001faf3de7f",
+        "query": "Given the following reaction under the type of Protection:\nCC(C)(C)OC(=O)OC(=O)OC(C)(C)C.Clc1cccc([C@@H]2CNCC[C@H]2c2ccccc2)c1>>CC(C)(C)OC(=O)N1CC[C@@H](c2ccccc2)[C@H](c2cccc(Cl)c2)C1,\ngive me the most recommended reagent(s) for this reaction. Return the SMILES of the reagent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "OC(=O)[O-].[Na+]",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Protection\", \"query_target\": \"reagent\", \"source\": \"US08063088B2\", \"corpus_id\": \"US08063088B2_37\"}"
+    },
+    {
+        "id": "5b4dfa3f-3ad0-4ed7-ba96-eac80f4eebd9",
+        "query": "Given the following reaction under the type of Protection:\nCC(Cc1ccc2c(c1)OC(CN)O2)N(C)C(=O)OC(C)(C)C.O=C(Cl)OCc1ccccc1>>CC(Cc1ccc2c(c1)OC(CNC(=O)OCc1ccccc1)O2)N(C)C(=O)OC(C)(C)C,\ngive me the most recommended reagent(s) for this reaction. Return the SMILES of the reagent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "CCN(C(C)C)C(C)C",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Protection\", \"query_target\": \"reagent\", \"source\": \"US07060847B2\", \"corpus_id\": \"US07060847B2_4\"}"
+    },
+    {
+        "id": "6b920fd4-c010-44b5-acc3-21e62449ffba",
+        "query": "Given the following reaction under the type of Reduction:\nCC(=O)SCC(Cc1ccccc1)C(=O)N[C@@H](C)C(=O)N1CCC[C@H]1C(=O)O>>C[C@H](NC(=O)C(CS)Cc1ccccc1)C(=O)N1CCC[C@H]1C(=O)O,\ngive me the most recommended catalyst(s) for this reaction. Return the SMILES of the catalyst following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "[Zn]",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Reduction\", \"query_target\": \"catalyst\", \"source\": \"US04801609\", \"corpus_id\": \"US04801609_10\"}"
+    },
+    {
+        "id": "77b884b8-88d5-4650-955a-2b9e92da1340",
+        "query": "Given the following reaction under the type of Reduction:\nCC(C)(C)OC(=O)NC1CCC(C(=O)Nc2cc(OCc3ccc(C(=N)NO)cc3)cc(OCc3ccc(C(=N)NO)cc3)c2)CC1>>CC(C)(C)OC(=O)NC1CCC(C(=O)Nc2cc(OCc3ccc(C(=N)N)cc3)cc(OCc3ccc(C(=N)N)cc3)c2)CC1,\ngive me the most recommended catalyst(s) for this reaction. Return the SMILES of the catalyst following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "[Zn]",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Reduction\", \"query_target\": \"catalyst\", \"source\": \"US08722930B2\", \"corpus_id\": \"US08722930B2_35\"}"
+    },
+    {
+        "id": "437b3be6-4fd7-414f-b454-4ff54f2279be",
+        "query": "Given the following reaction under the type of Reduction:\nCOC(=O)[C@]1(c2cccc(F)c2C)C=C(c2ccnn2C)CC1>>COC(=O)[C@@]1(c2cccc(F)c2C)CCC(c2ccnn2C)C1,\ngive me the most recommended catalyst(s) for this reaction. Return the SMILES of the catalyst following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "[Pd]",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Reduction\", \"query_target\": \"catalyst\", \"source\": \"US20160039745A1\", \"corpus_id\": \"US20160039745A1_48\"}"
+    },
+    {
+        "id": "d9b1ed35-7022-4a43-9dad-c18f95a4282a",
+        "query": "Given the following reaction under the type of Reduction:\nO=C(Nc1nnn[nH]1)c1cccc([N+](=O)[O-])c1>>Nc1cccc(C(=O)Nc2nnn[nH]2)c1,\ngive me the most recommended solvent(s) for this reaction. Return the SMILES of the solvent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "CCO",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Reduction\", \"query_target\": \"solvent\", \"source\": \"US05763437\", \"corpus_id\": \"US05763437_50\"}"
+    },
+    {
+        "id": "04e8f6f6-9380-4283-a8ee-eb02d85fb93c",
+        "query": "Given the following reaction under the type of Reduction:\nCC(C)Cn1c(CN=[N+]=[N-])nc2c(N)nc3ccccc3c21>>CC(C)Cn1c(CN)nc2c(N)nc3ccccc3c21,\ngive me the most recommended solvent(s) for this reaction. Return the SMILES of the solvent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "CCO",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Reduction\", \"query_target\": \"solvent\", \"source\": \"US05389640\", \"corpus_id\": \"US05389640_4\"}"
+    },
+    {
+        "id": "6ede09fd-df22-46e0-9b19-d043a0496a12",
+        "query": "Given the following reaction under the type of Reduction:\nCOc1ccc2c(c1)C(=CC#N)CCC2>>COc1ccc2c(c1)C(=CCN)CCC2,\ngive me the most recommended solvent(s) for this reaction. Return the SMILES of the solvent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "CCO",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Reduction\", \"query_target\": \"solvent\", \"source\": \"US06235789B1\", \"corpus_id\": \"US06235789B1_2\"}"
+    },
+    {
+        "id": "908f7adc-5c71-4ef0-8500-16a9dd84d854",
+        "query": "Given the following reaction under the type of Reduction:\nCCOC(=O)C[C@H](NC(=O)OCc1ccccc1)c1cccc([N+](=O)[O-])c1>>CCOC(=O)C[C@H](NC(=O)OCc1ccccc1)c1cccc(N)c1,\ngive me the most recommended reagent(s) for this reaction. Return the SMILES of the reagent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "CC(=O)O.OC(=O)[O-].[Na+]",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Reduction\", \"query_target\": \"reagent\", \"source\": \"US20090281139A1\", \"corpus_id\": \"US20090281139A1_44\"}"
+    },
+    {
+        "id": "14ae7e97-0e14-4698-abf7-1bb4319480f7",
+        "query": "Given the following reaction under the type of Reduction:\nN#Cc1ccc([N+](=O)[O-])c(Nc2ccc(F)cc2F)c1>>N#Cc1ccc(N)c(Nc2ccc(F)cc2F)c1,\ngive me the most recommended reagent(s) for this reaction. Return the SMILES of the reagent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "[Cl-].[NH4+]",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Reduction\", \"query_target\": \"reagent\", \"source\": \"US05034417\", \"corpus_id\": \"US05034417_26\"}"
+    },
+    {
+        "id": "1ef540ed-17cc-4abf-b107-42215ee93845",
+        "query": "Given the following reaction under the type of Reduction:\nCOC(=O)CS(=O)(=O)c1cc(C)ccc1[N+](=O)[O-]>>COC(=O)CS(=O)(=O)c1cc(C)ccc1N,\ngive me the most recommended reagent(s) for this reaction. Return the SMILES of the reagent following the JSON format:\n{\n    \"SMILES\": str\n}\n",
+        "gt": "[H][H]",
+        "task": "reaction",
+        "subtask": "rcr",
+        "meta": "{\"rxn_cls\": \"Reduction\", \"query_target\": \"reagent\", \"source\": \"US06559145B2\", \"corpus_id\": \"US06559145B2_36\"}"
+    }
+]

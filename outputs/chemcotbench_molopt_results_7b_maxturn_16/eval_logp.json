@@ -1,0 +1,20 @@
+{
+  "improvement": {
+    "mean": 0.8863449512974367,
+    "variance": 0.2188068345418921,
+    "min": 0.0,
+    "max": 1.855982848326294,
+    "success_rate": 0.92,
+    "best_rate": 0.82,
+    "valid_smiles_rate": 0.93,
+    "valid_score_rate": 0.93,
+    "valid_smiles_extract_rate": 0.97
+  },
+  "scaffold": {
+    "hard": 0.92,
+    "soft": 0.92
+  },
+  "total_predictions": 100,
+  "valid_predictions": 97,
+  "invalid_predictions": 3
+}

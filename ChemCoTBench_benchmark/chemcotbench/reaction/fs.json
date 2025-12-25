@@ -1,0 +1,802 @@
+[
+    {
+        "id": "eb8873bc-c65e-4236-85a8-e81be0d6bbe1",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: Cl.Cl.CC(C)(C)OC(=O)c1ccc(CC(=O)NCc2ccc(C(=O)Oc3ccc4cc(C(=N)N)ccc4c3)o2)cc1\nReagents: O.CC(=O)O\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"ClN=C(N)c1ccc2cc(OC(=O)c3ccc(CNC(=O)Cc4ccc(C(=O)O)cc4)o3)ccc2c1\", \"Byproduct(s)\": \"CC(C)(C)O\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"CO2H-tBu deprotection\", \"reactants\": [\"Cl\", \"Cl\", \"CC(C)(C)OC(=O)c1ccc(CC(=O)NCc2ccc(C(=O)Oc3ccc4cc(C(=N)N)ccc4c3)o2)cc1\"], \"reagents\": [\"O\", \"CC(=O)O\"], \"rxn_smiles\": \"Cl.Cl.CC(C)(C)OC(=O)c1ccc(CC(=O)NCc2ccc(C(=O)Oc3ccc4cc(C(=N)N)ccc4c3)o2)cc1>O.CC(=O)O>Cl.N=C(N)c1ccc2cc(OC(=O)c3ccc(CNC(=O)Cc4ccc(C(=O)O)cc4)o3)ccc2c1\"}"
+    },
+    {
+        "id": "b7c2333f-55af-4e0a-9397-a8ddba7fd136",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: COC(=O)C(OC)Oc1ccc2ccc(OS(=O)(=O)C(F)(F)F)cc2c1.C#C[Si](C)(C)C\nReagents: Cl[Pd](Cl)([P](c1ccccc1)(c1ccccc1)c1ccccc1)[P](c1ccccc1)(c1ccccc1)c1ccccc1.CCN(CC)CC.C1CCOC1.N#N.[Cu]I\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"COC(=O)C(OC)Oc1ccc2ccc(C#C[Si](C)(C)C)cc2c1\", \"Byproduct(s)\": \"COC(=O)C(OC)Oc1ccc2ccc(OS(=O)(=O)C(F)(F)C#C[Si](C)(C)C)cc2c1Cl[Cu]F[Cu]IO=S(=O)(O[Pd](Cl)P(c1ccccc1)(c1ccccc1)c1ccccc1)C(F)(F)Fc1ccc(P(c2ccccc2)c2ccccc2)cc1\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Triflyloxy Sonogashira coupling\", \"reactants\": [\"COC(=O)C(OC)Oc1ccc2ccc(OS(=O)(=O)C(F)(F)F)cc2c1\", \"C#C[Si](C)(C)C\"], \"reagents\": [\"Cl[Pd](Cl)([P](c1ccccc1)(c1ccccc1)c1ccccc1)[P](c1ccccc1)(c1ccccc1)c1ccccc1\", \"CCN(CC)CC\", \"C1CCOC1\", \"N#N\", \"[Cu]I\"], \"rxn_smiles\": \"COC(=O)C(OC)Oc1ccc2ccc(OS(=O)(=O)C(F)(F)F)cc2c1.C#C[Si](C)(C)C>Cl[Pd](Cl)([P](c1ccccc1)(c1ccccc1)c1ccccc1)[P](c1ccccc1)(c1ccccc1)c1ccccc1.CCN(CC)CC.C1CCOC1.N#N.[Cu]I>COC(=O)C(OC)Oc1ccc2ccc(C#C[Si](C)(C)C)cc2c1\"}"
+    },
+    {
+        "id": "82623c6e-d4f3-4b33-b390-f0cedfc88b33",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CCCC(C(=O)OC)C(c1ccccc1)c1ccc2c(cnn2-c2ccc(F)cc2)c1\nReagents: CO.CS(C)=O.O[Na]\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CCCC(C(=O)O)C(c1ccccc1)c1ccc2c(cnn2-c2ccc(F)cc2)c1\", \"Byproduct(s)\": \"CO[Na+]\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"CO2H-Me deprotection\", \"reactants\": [\"CCCC(C(=O)OC)C(c1ccccc1)c1ccc2c(cnn2-c2ccc(F)cc2)c1\"], \"reagents\": [\"CO\", \"CS(C)=O\", \"O[Na]\"], \"rxn_smiles\": \"CCCC(C(=O)OC)C(c1ccccc1)c1ccc2c(cnn2-c2ccc(F)cc2)c1>CO.CS(C)=O.O[Na]>CCCC(C(=O)O)C(c1ccccc1)c1ccc2c(cnn2-c2ccc(F)cc2)c1\"}"
+    },
+    {
+        "id": "89044557-088e-46a7-ac87-dfd0a3571f88",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CCC(C)CC(=O)Cl.CC(C)(C)[Mg]Cl\nReagents: CCCC(=O)C(C)(C)CC.CCOCC.Cl[Cu]\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CCC(C)CC(=O)C(C)(C)C\", \"Byproduct(s)\": \"[Cl-][Mg+]Cl\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Grignard + acid chloride ketone synthesis\", \"reactants\": [\"CCC(C)CC(=O)Cl\", \"CC(C)(C)[Mg]Cl\"], \"reagents\": [\"CCCC(=O)C(C)(C)CC\", \"CCOCC\", \"Cl[Cu]\"], \"rxn_smiles\": \"CCC(C)CC(=O)Cl.CC(C)(C)[Mg]Cl>CCCC(=O)C(C)(C)CC.CCOCC.Cl[Cu]>CCC(C)CC(=O)C(C)(C)C\"}"
+    },
+    {
+        "id": "6ec2d9d5-c625-48bb-a3cb-4b641043296b",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CC(Cl)C(=O)Cl.Fc1cccc(F)c1\nReagents: O.Cl.ClCCCl.Cl[Al](Cl)Cl\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CC(Cl)C(=O)c1ccc(F)cc1F\", \"Byproduct(s)\": \"CC(Cl)C(=O)c1c(F)cccc1FCC(Cl)C(=O)c1cc(F)cc(F)c1Cl\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Friedel-Crafts acylation\", \"reactants\": [\"CC(Cl)C(=O)Cl\", \"Fc1cccc(F)c1\"], \"reagents\": [\"O\", \"Cl\", \"ClCCCl\", \"Cl[Al](Cl)Cl\"], \"rxn_smiles\": \"CC(Cl)C(=O)Cl.Fc1cccc(F)c1>O.Cl.ClCCCl.Cl[Al](Cl)Cl>CC(Cl)C(=O)c1ccc(F)cc1F\"}"
+    },
+    {
+        "id": "2412a232-8ffe-4785-b9b3-72c5df366f64",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CCOC(=O)C(=O)C(F)(F)F.Cc1cc(Br)cc([Mg]Br)c1\nReagents: [Not known, ignore it]\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CCOC(=O)C(O)(c1cc(C)cc(Br)c1)C(F)(F)F\", \"Byproduct(s)\": \"Cc1c[c-]cc(Br)c1[Mg+]Br\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Bromo Grignard reaction\", \"reactants\": [\"CCOC(=O)C(=O)C(F)(F)F\", \"Cc1cc(Br)cc([Mg]Br)c1\"], \"reagents\": [], \"rxn_smiles\": \"CCOC(=O)C(=O)C(F)(F)F.Cc1cc(Br)cc([Mg]Br)c1>>CCOC(=O)C(O)(c1cc(C)cc(Br)c1)C(F)(F)F\"}"
+    },
+    {
+        "id": "90ef591b-6bfa-4d4b-8ca8-8f967b44ed3a",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: COc1cc2nc(N3CCN(C#N)CC3)nc(N)c2cc1OC.CO\nReagents: Nc1c(/N=N/c2ccc(-c3ccc(/N=N/c4cc(S(=O)(=O)O)c5ccccc5c4N)cc3)cc2)cc(S(=O)(=O)O)c2ccccc12.CCOCC.O[Na].Cl\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"COC(=N)N1CCN(c2nc(N)c3cc(OC)c(OC)cc3n2)CC1\", \"Byproduct(s)\": []}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Pinner reaction\", \"reactants\": [\"COc1cc2nc(N3CCN(C#N)CC3)nc(N)c2cc1OC\", \"CO\"], \"reagents\": [\"Nc1c(/N=N/c2ccc(-c3ccc(/N=N/c4cc(S(=O)(=O)O)c5ccccc5c4N)cc3)cc2)cc(S(=O)(=O)O)c2ccccc12\", \"CCOCC\", \"O[Na]\", \"Cl\"], \"rxn_smiles\": \"COc1cc2nc(N3CCN(C#N)CC3)nc(N)c2cc1OC.CO>Nc1c(/N=N/c2ccc(-c3ccc(/N=N/c4cc(S(=O)(=O)O)c5ccccc5c4N)cc3)cc2)cc(S(=O)(=O)O)c2ccccc12.CCOCC.O[Na].Cl>COC(=N)N1CCN(c2nc(N)c3cc(OC)c(OC)cc3n2)CC1\"}"
+    },
+    {
+        "id": "400e61f8-fb7e-4238-86b8-27556e256768",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CC(C)SCC1CN(C(=O)OC(C)(C)C)C1\nReagents: O=S(=O)(O[K])OO[K].O=S(=O)(O[K])OO[K].O=S(=O)(O)O[K].O=S(O[Na])O[Na].O=S(=O)(O)O\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CC(C)S(=O)(=O)CC1CN(C(=O)OC(C)(C)C)C1\", \"Byproduct(s)\": \"OS(=O)(=O)O[K]OS(=O)(=O)O[K][K+][K+]\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Sulfanyl to sulfonyl\", \"reactants\": [\"CC(C)SCC1CN(C(=O)OC(C)(C)C)C1\"], \"reagents\": [\"O=S(=O)(O[K])OO[K]\", \"O=S(=O)(O[K])OO[K]\", \"O=S(=O)(O)O[K]\", \"O=S(O[Na])O[Na]\", \"O=S(=O)(O)O\"], \"rxn_smiles\": \"CC(C)SCC1CN(C(=O)OC(C)(C)C)C1>O=S(=O)(O[K])OO[K].O=S(=O)(O[K])OO[K].O=S(=O)(O)O[K].O=S(O[Na])O[Na].O=S(=O)(O)O>CC(C)S(=O)(=O)CC1CN(C(=O)OC(C)(C)C)C1\"}"
+    },
+    {
+        "id": "dcbe4c04-0c36-4ae9-b43a-f055513e69b3",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: Oc1ccc(OCc2ccccc2)cc1.CC(C)C(=O)Cl\nReagents: c1ccncc1.c1ccncc1.CCOCC.O[K].O.Cl\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CC(C)C(=O)Oc1ccc(OCc2ccccc2)cc1\", \"Byproduct(s)\": \"[Cl-]\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Ester Schotten-Baumann\", \"reactants\": [\"Oc1ccc(OCc2ccccc2)cc1\", \"CC(C)C(=O)Cl\"], \"reagents\": [\"c1ccncc1\", \"c1ccncc1\", \"CCOCC\", \"O[K]\", \"O\", \"Cl\"], \"rxn_smiles\": \"Oc1ccc(OCc2ccccc2)cc1.CC(C)C(=O)Cl>c1ccncc1.c1ccncc1.CCOCC.O[K].O.Cl>CC(C)C(=O)Oc1ccc(OCc2ccccc2)cc1\"}"
+    },
+    {
+        "id": "c7d1ce70-f04b-4717-8ef0-c399574118a9",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CON(C)C(=O)Cc1ccc(Cl)cc1Cl.C[Mg]Br\nReagents: Cc1ccccc1.C1CCOC1.C1CCOC1\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CC(=O)Cc1ccc(Cl)cc1Cl\", \"Byproduct(s)\": \"CNOC[Mg+]Br\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Weinreb ketone synthesis\", \"reactants\": [\"CON(C)C(=O)Cc1ccc(Cl)cc1Cl\", \"C[Mg]Br\"], \"reagents\": [\"Cc1ccccc1\", \"C1CCOC1\", \"C1CCOC1\"], \"rxn_smiles\": \"CON(C)C(=O)Cc1ccc(Cl)cc1Cl.C[Mg]Br>Cc1ccccc1.C1CCOC1.C1CCOC1>CC(=O)Cc1ccc(Cl)cc1Cl\"}"
+    },
+    {
+        "id": "1e532b82-ed43-4363-b01c-75034b869d84",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: COC(=O)C=Cc1ccc(CN2CC(C)NC(C)C2)cc1.O=C=Nc1cccc(-n2cccc2)c1\nReagents: [Not known, ignore it]\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"COC(=O)C=Cc1ccc(CN2CC(C)N(C(=O)Nc3cccc(-n4cccc4)c3)C(C)C2)cc1\", \"Byproduct(s)\": []}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Isocyanate + amine urea coupling\", \"reactants\": [\"COC(=O)C=Cc1ccc(CN2CC(C)NC(C)C2)cc1\", \"O=C=Nc1cccc(-n2cccc2)c1\"], \"reagents\": [], \"rxn_smiles\": \"COC(=O)C=Cc1ccc(CN2CC(C)NC(C)C2)cc1.O=C=Nc1cccc(-n2cccc2)c1>>COC(=O)C=Cc1ccc(CN2CC(C)N(C(=O)Nc3cccc(-n4cccc4)c3)C(C)C2)cc1\"}"
+    },
+    {
+        "id": "0bc38ea8-a09a-46f1-b6d8-f7411813eb74",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CC(C)(C)OC(=O)n1c(-c2cc(S(=O)(=O)Cl)ccc2N2CCCC2)cc2ccccc21.CNCCN1CCOCC1\nReagents: ClCCl\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CN(CCN1CCOCC1)S(=O)(=O)c1ccc(N2CCCC2)c(-c2cc3ccccc3n2C(=O)OC(C)(C)C)c1\", \"Byproduct(s)\": \"[Cl-]\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Sulfonamide Schotten-Baumann\", \"reactants\": [\"CC(C)(C)OC(=O)n1c(-c2cc(S(=O)(=O)Cl)ccc2N2CCCC2)cc2ccccc21\", \"CNCCN1CCOCC1\"], \"reagents\": [\"ClCCl\"], \"rxn_smiles\": \"CC(C)(C)OC(=O)n1c(-c2cc(S(=O)(=O)Cl)ccc2N2CCCC2)cc2ccccc21.CNCCN1CCOCC1>ClCCl>CN(CCN1CCOCC1)S(=O)(=O)c1ccc(N2CCCC2)c(-c2cc3ccccc3n2C(=O)OC(C)(C)C)c1\"}"
+    },
+    {
+        "id": "3f5a16eb-bd97-4d3d-8dbf-46153380bec3",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CCOC(=O)CC(c1ccc(C)c(CO)c1)c1ccc2c(nnn2C)c1C.O=S1(=O)NCCOc2ccncc21\nReagents: O=C(N=NC(=O)N1CCCCC1)N1CCCCC1.CCCCP(CCCC)CCCC.C1CCOC1\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CCOC(=O)CC(c1ccc(C)c(CN2CCOc3ccncc3S2(=O)=O)c1)c1ccc2c(nnn2C)c1C\", \"Byproduct(s)\": \"CCCCP(=O)(CCCC)CCCCO=C(NNC(=O)N1CCCCC1)N1CCCCC1\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Mitsunobu sulfonamide reaction\", \"reactants\": [\"CCOC(=O)CC(c1ccc(C)c(CO)c1)c1ccc2c(nnn2C)c1C\", \"O=S1(=O)NCCOc2ccncc21\"], \"reagents\": [\"O=C(N=NC(=O)N1CCCCC1)N1CCCCC1\", \"CCCCP(CCCC)CCCC\", \"C1CCOC1\"], \"rxn_smiles\": \"CCOC(=O)CC(c1ccc(C)c(CO)c1)c1ccc2c(nnn2C)c1C.O=S1(=O)NCCOc2ccncc21>O=C(N=NC(=O)N1CCCCC1)N1CCCCC1.CCCCP(CCCC)CCCC.C1CCOC1>CCOC(=O)CC(c1ccc(C)c(CN2CCOc3ccncc3S2(=O)=O)c1)c1ccc2c(nnn2C)c1C\"}"
+    },
+    {
+        "id": "56813ede-c5ae-466b-bc9e-709418222107",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CC12CCC(c3c1[nH]n(-c1ccccc1F)c3=O)C2(C)C.CCCI\nReagents: [Not known, ignore it]\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CCCn1c2c(c(=O)n1-c1ccccc1F)C1CCC2(C)C1(C)C\", \"Byproduct(s)\": \"[I-]\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Iodo N-alkylation\", \"reactants\": [\"CC12CCC(c3c1[nH]n(-c1ccccc1F)c3=O)C2(C)C\", \"CCCI\"], \"reagents\": [], \"rxn_smiles\": \"CC12CCC(c3c1[nH]n(-c1ccccc1F)c3=O)C2(C)C.CCCI>>CCCn1c2c(c(=O)n1-c1ccccc1F)C1CCC2(C)C1(C)C\"}"
+    },
+    {
+        "id": "d2e4adb7-767c-4de8-8535-96874b6cf82b",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: Cc1ccc(C)c2c(C(C)C)cc(O)nc12.O=P(Cl)(Cl)Cl\nReagents: Cc1ccccc1\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"Cc1ccc(C)c2c(C(C)C)cc(Cl)nc12\", \"Byproduct(s)\": \"O=P(=O)Cl[Cl-]\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Hydroxy to chloro\", \"reactants\": [\"Cc1ccc(C)c2c(C(C)C)cc(O)nc12\", \"O=P(Cl)(Cl)Cl\"], \"reagents\": [\"Cc1ccccc1\"], \"rxn_smiles\": \"Cc1ccc(C)c2c(C(C)C)cc(O)nc12.O=P(Cl)(Cl)Cl>Cc1ccccc1>Cc1ccc(C)c2c(C(C)C)cc(Cl)nc12\"}"
+    },
+    {
+        "id": "4e6eaa62-87bd-4626-94c4-aa09407f2f86",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.O=C(C1CCC(O)c2nn(Cc3ccc(C(F)(F)F)nc3)c(=O)n21)N1CCC(F)C1\nReagents: [Not known, ignore it]\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"O=C1CCC(C(=O)N2CCC(F)C2)n2c1nn(Cc1ccc(C(F)(F)F)nc1)c2=O\", \"Byproduct(s)\": \"CC(=O)OCC(=O)OI1OC(=O)c2ccccc-21CC(=O)[O-]\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Ketone Dess-Martin oxidation\", \"reactants\": [\"CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21\", \"O=C(C1CCC(O)c2nn(Cc3ccc(C(F)(F)F)nc3)c(=O)n21)N1CCC(F)C1\"], \"reagents\": [], \"rxn_smiles\": \"CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21.O=C(C1CCC(O)c2nn(Cc3ccc(C(F)(F)F)nc3)c(=O)n21)N1CCC(F)C1>>O=C1CCC(C(=O)N2CCC(F)C2)n2c1nn(Cc1ccc(C(F)(F)F)nc1)c2=O\"}"
+    },
+    {
+        "id": "af69c48d-b5f7-41de-bed1-073fd1355124",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CC1(C)OB(B2OC(C)(C)C(C)(C)O2)OC1(C)C.COc1ncnc(OC)c1I\nReagents: C1=CC([Fe]C2(P(c3ccccc3)c3ccccc3)C=CC=C2)(P(c2ccccc2)c2ccccc2)C=C1.C1COCCO1.CC(=O)O[K].Cl[Pd]Cl\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"COc1ncnc(OC)c1B1OC(C)(C)C(C)(C)O1\", \"Byproduct(s)\": \"CC1(C)OB(Cl)OC1(C)CCC1(C)OB(I)OC1(C)CCl[Pd]I\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Iodo Miyaura boration\", \"reactants\": [\"CC1(C)OB(B2OC(C)(C)C(C)(C)O2)OC1(C)C\", \"COc1ncnc(OC)c1I\"], \"reagents\": [\"C1=CC([Fe]C2(P(c3ccccc3)c3ccccc3)C=CC=C2)(P(c2ccccc2)c2ccccc2)C=C1\", \"C1COCCO1\", \"CC(=O)O[K]\", \"Cl[Pd]Cl\"], \"rxn_smiles\": \"CC1(C)OB(B2OC(C)(C)C(C)(C)O2)OC1(C)C.COc1ncnc(OC)c1I>C1=CC([Fe]C2(P(c3ccccc3)c3ccccc3)C=CC=C2)(P(c2ccccc2)c2ccccc2)C=C1.C1COCCO1.CC(=O)O[K].Cl[Pd]Cl>COc1ncnc(OC)c1B1OC(C)(C)C(C)(C)O1\"}"
+    },
+    {
+        "id": "1e8e7704-fb07-41e1-95da-9adfa5c60a4a",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CC(C)(C)c1sc2ncnc(Cl)c2c1-c1ccc(Cl)c(Cl)c1.Oc1ccccc1OC(F)(F)F\nReagents: O=S(=O)(O)O[K].CN(C)C=O.[NaH]\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CC(C)(C)c1sc2ncnc(Oc3ccccc3OC(F)(F)F)c2c1-c1ccc(Cl)c(Cl)c1\", \"Byproduct(s)\": \"[Cl-]\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"SNAr ether synthesis\", \"reactants\": [\"CC(C)(C)c1sc2ncnc(Cl)c2c1-c1ccc(Cl)c(Cl)c1\", \"Oc1ccccc1OC(F)(F)F\"], \"reagents\": [\"O=S(=O)(O)O[K]\", \"CN(C)C=O\", \"[NaH]\"], \"rxn_smiles\": \"CC(C)(C)c1sc2ncnc(Cl)c2c1-c1ccc(Cl)c(Cl)c1.Oc1ccccc1OC(F)(F)F>O=S(=O)(O)O[K].CN(C)C=O.[NaH]>CC(C)(C)c1sc2ncnc(Oc3ccccc3OC(F)(F)F)c2c1-c1ccc(Cl)c(Cl)c1\"}"
+    },
+    {
+        "id": "27f0875e-967d-45f6-8147-75135b7236d6",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CCc1nc2ncc(C(F)(F)F)cn2c1C(=O)c1ccc(O)c(C(F)(F)F)c1.O=C1CCC(=O)N1Br\nReagents: CN(C)C=O\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CCc1nc2ncc(C(F)(F)F)cn2c1C(=O)c1cc(Br)c(O)c(C(F)(F)F)c1\", \"Byproduct(s)\": \"O=C1CCC(=O)N1\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Bromination\", \"reactants\": [\"CCc1nc2ncc(C(F)(F)F)cn2c1C(=O)c1ccc(O)c(C(F)(F)F)c1\", \"O=C1CCC(=O)N1Br\"], \"reagents\": [\"CN(C)C=O\"], \"rxn_smiles\": \"CCc1nc2ncc(C(F)(F)F)cn2c1C(=O)c1ccc(O)c(C(F)(F)F)c1.O=C1CCC(=O)N1Br>CN(C)C=O>CCc1nc2ncc(C(F)(F)F)cn2c1C(=O)c1cc(Br)c(O)c(C(F)(F)F)c1\"}"
+    },
+    {
+        "id": "0320be48-24b3-462e-a4f4-84ce7a69568e",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CCOC(=O)c1c(C)nc2c(OCc3c(F)ccc(OC)c3F)cc(C)cn12\nReagents: O.O[Na].C1COCCO1\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"COc1ccc(F)c(COc2cc(C)cn3c(C(=O)O)c(C)nc23)c1F\", \"Byproduct(s)\": \"CCO[Na+]\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"CO2H-Et deprotection\", \"reactants\": [\"CCOC(=O)c1c(C)nc2c(OCc3c(F)ccc(OC)c3F)cc(C)cn12\"], \"reagents\": [\"O\", \"O[Na]\", \"C1COCCO1\"], \"rxn_smiles\": \"CCOC(=O)c1c(C)nc2c(OCc3c(F)ccc(OC)c3F)cc(C)cn12>O.O[Na].C1COCCO1>COc1ccc(F)c(COc2cc(C)cn3c(C(=O)O)c(C)nc23)c1F\"}"
+    },
+    {
+        "id": "a7b37670-b2df-4120-8ce5-1f1305316464",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: Br.CC(Nc1nccc(-n2cnc3ccccc32)n1)C1CN(C(=O)Nc2cccc3ccccc23)CCN1C(=O)OCc1ccccc1\nReagents: [Not known, ignore it]\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CC(Nc1nccc(-n2cnc3ccccc32)n1)C1CN(C(=O)Nc2cccc3ccccc23)CCN1\", \"Byproduct(s)\": \"BrCc1ccccc1O=C=O\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"N-Cbz deprotection\", \"reactants\": [\"Br\", \"CC(Nc1nccc(-n2cnc3ccccc32)n1)C1CN(C(=O)Nc2cccc3ccccc23)CCN1C(=O)OCc1ccccc1\"], \"reagents\": [], \"rxn_smiles\": \"Br.CC(Nc1nccc(-n2cnc3ccccc32)n1)C1CN(C(=O)Nc2cccc3ccccc23)CCN1C(=O)OCc1ccccc1>>CC(Nc1nccc(-n2cnc3ccccc32)n1)C1CN(C(=O)Nc2cccc3ccccc23)CCN1\"}"
+    },
+    {
+        "id": "c087abdf-e456-4bf5-9893-28849fb2f591",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: O=[N+]([O-])c1ccccc1S(=O)(=O)N(Cc1ccc(CO)cc1)Cc1ccccn1.CS(=O)(=O)Cl\nReagents: CCN(CC)CC.O=C(O)O[Na].ClCCl\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CS(=O)(=O)OCc1ccc(CN(Cc2ccccn2)S(=O)(=O)c2ccccc2[N+](=O)[O-])cc1\", \"Byproduct(s)\": \"[Cl-]\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Sulfonic ester Schotten-Baumann\", \"reactants\": [\"O=[N+]([O-])c1ccccc1S(=O)(=O)N(Cc1ccc(CO)cc1)Cc1ccccn1\", \"CS(=O)(=O)Cl\"], \"reagents\": [\"CCN(CC)CC\", \"O=C(O)O[Na]\", \"ClCCl\"], \"rxn_smiles\": \"O=[N+]([O-])c1ccccc1S(=O)(=O)N(Cc1ccc(CO)cc1)Cc1ccccn1.CS(=O)(=O)Cl>CCN(CC)CC.O=C(O)O[Na].ClCCl>CS(=O)(=O)OCc1ccc(CN(Cc2ccccn2)S(=O)(=O)c2ccccc2[N+](=O)[O-])cc1\"}"
+    },
+    {
+        "id": "d6eb3244-772f-4a12-9d9d-75cdd9957008",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CCO.Cc1ccc2c(C(=O)O)cccc2n1\nReagents: O=S(=O)(O)O.ClCCl\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CCOC(=O)c1cccc2nc(C)ccc12\", \"Byproduct(s)\": \"O\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Fischer-Speier esterification\", \"reactants\": [\"CCO\", \"Cc1ccc2c(C(=O)O)cccc2n1\"], \"reagents\": [\"O=S(=O)(O)O\", \"ClCCl\"], \"rxn_smiles\": \"CCO.Cc1ccc2c(C(=O)O)cccc2n1>O=S(=O)(O)O.ClCCl>CCOC(=O)c1cccc2nc(C)ccc12\"}"
+    },
+    {
+        "id": "5858fd36-8cd3-4a92-928f-d91d6aba8653",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CC1(C)c2ccccc2-c2cc3c(cc21)[nH]c1ccc(-c2ccc4c(c2)c2cc5c(cc2n4-c2ccccc2)oc2ccccc25)cc13.Brc1ccccc1\nReagents: O=C(C=Cc1ccccc1)C=Cc1ccccc1.O=C(C=Cc1ccccc1)C=Cc1ccccc1.O=C(C=Cc1ccccc1)C=Cc1ccccc1.CC(C)(C)P(C(C)(C)C)C(C)(C)C.Cc1ccccc1C.CC(C)(C)O[Na].[Pd].[Pd]\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CC1(C)c2ccccc2-c2cc3c4cc(-c5ccc6c(c5)c5cc7c(cc5n6-c5ccccc5)oc5ccccc57)ccc4n(-c4ccccc4)c3cc21\", \"Byproduct(s)\": \"CC(C)(C)O[Br-][Na+]\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Bromo Buchwald-Hartwig amination\", \"reactants\": [\"CC1(C)c2ccccc2-c2cc3c(cc21)[nH]c1ccc(-c2ccc4c(c2)c2cc5c(cc2n4-c2ccccc2)oc2ccccc25)cc13\", \"Brc1ccccc1\"], \"reagents\": [\"O=C(C=Cc1ccccc1)C=Cc1ccccc1\", \"O=C(C=Cc1ccccc1)C=Cc1ccccc1\", \"O=C(C=Cc1ccccc1)C=Cc1ccccc1\", \"CC(C)(C)P(C(C)(C)C)C(C)(C)C\", \"Cc1ccccc1C\", \"CC(C)(C)O[Na]\", \"[Pd]\", \"[Pd]\"], \"rxn_smiles\": \"CC1(C)c2ccccc2-c2cc3c(cc21)[nH]c1ccc(-c2ccc4c(c2)c2cc5c(cc2n4-c2ccccc2)oc2ccccc25)cc13.Brc1ccccc1>O=C(C=Cc1ccccc1)C=Cc1ccccc1.O=C(C=Cc1ccccc1)C=Cc1ccccc1.O=C(C=Cc1ccccc1)C=Cc1ccccc1.CC(C)(C)P(C(C)(C)C)C(C)(C)C.Cc1ccccc1C.CC(C)(C)O[Na].[Pd].[Pd]>CC1(C)c2ccccc2-c2cc3c4cc(-c5ccc6c(c5)c5cc7c(cc5n6-c5ccccc5)oc5ccccc57)ccc4n(-c4ccccc4)c3cc21\"}"
+    },
+    {
+        "id": "0512496f-a508-4f93-908c-9462bbac8495",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: COc1c(O)ccc2c(=O)cc(-c3ccc(CCCCO)cc3)oc12.O=S(Br)Br\nReagents: CN(C)C=O.ClCCl\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"COc1c(O)ccc2c(=O)cc(-c3ccc(CCCCBr)cc3)oc12\", \"Byproduct(s)\": \"O=S([O-])Br\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Darzens bromination\", \"reactants\": [\"COc1c(O)ccc2c(=O)cc(-c3ccc(CCCCO)cc3)oc12\", \"O=S(Br)Br\"], \"reagents\": [\"CN(C)C=O\", \"ClCCl\"], \"rxn_smiles\": \"COc1c(O)ccc2c(=O)cc(-c3ccc(CCCCO)cc3)oc12.O=S(Br)Br>CN(C)C=O.ClCCl>COc1c(O)ccc2c(=O)cc(-c3ccc(CCCCBr)cc3)oc12\"}"
+    },
+    {
+        "id": "63cc6995-28e4-4a05-a055-7b56b9f8de38",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CN(C)CCCOc1cc(N)c(C#N)c(F)c1.O=C1CCC(=O)N1I\nReagents: CC(=O)O\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CN(C)CCCOc1cc(N)c(C#N)c(F)c1I\", \"Byproduct(s)\": \"O=C1CCC(=O)N1\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Iodination\", \"reactants\": [\"CN(C)CCCOc1cc(N)c(C#N)c(F)c1\", \"O=C1CCC(=O)N1I\"], \"reagents\": [\"CC(=O)O\"], \"rxn_smiles\": \"CN(C)CCCOc1cc(N)c(C#N)c(F)c1.O=C1CCC(=O)N1I>CC(=O)O>CN(C)CCCOc1cc(N)c(C#N)c(F)c1I\"}"
+    },
+    {
+        "id": "c9f8b0b8-27dd-48d2-97c3-94d2f8346911",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CO.CC(c1cc(C(=O)O)cc2c(=O)cc(N3CCOCC3)oc12)N(C)c1cc(F)cc(F)c1\nReagents: COC(=O)c1cc(C(C)Br)c2oc(N3CCOCC3)cc(=O)c2c1.CNc1cc(F)cc(F)c1.[K]I\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"COC(=O)c1cc(C(C)N(C)c2cc(F)cc(F)c2)c2oc(N3CCOCC3)cc(=O)c2c1\", \"Byproduct(s)\": \"O\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Methyl esterification\", \"reactants\": [\"CO\", \"CC(c1cc(C(=O)O)cc2c(=O)cc(N3CCOCC3)oc12)N(C)c1cc(F)cc(F)c1\"], \"reagents\": [\"COC(=O)c1cc(C(C)Br)c2oc(N3CCOCC3)cc(=O)c2c1\", \"CNc1cc(F)cc(F)c1\", \"[K]I\"], \"rxn_smiles\": \"CO.CC(c1cc(C(=O)O)cc2c(=O)cc(N3CCOCC3)oc12)N(C)c1cc(F)cc(F)c1>COC(=O)c1cc(C(C)Br)c2oc(N3CCOCC3)cc(=O)c2c1.CNc1cc(F)cc(F)c1.[K]I>COC(=O)c1cc(C(C)N(C)c2cc(F)cc(F)c2)c2oc(N3CCOCC3)cc(=O)c2c1\"}"
+    },
+    {
+        "id": "7133fe11-2e2c-47f1-b7db-acdcfb6fdd01",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: COC(=O)c1nc(I)c(NC(=O)OC(C)(C)C)s1.C#Cc1cn2ncnc2c(C)c1C\nReagents: c1ccc(P(c2ccccc2)c2ccccc2)cc1.CCN(C(C)C)C(C)C.Cc1ccccc1.[Cu]I\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"COC(=O)c1nc(C#Cc2cn3ncnc3c(C)c2C)c(NC(=O)OC(C)(C)C)s1\", \"Byproduct(s)\": \"Cl[Cu]Cl[Pd]II[Cu]I\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Iodo Sonogashira coupling\", \"reactants\": [\"COC(=O)c1nc(I)c(NC(=O)OC(C)(C)C)s1\", \"C#Cc1cn2ncnc2c(C)c1C\"], \"reagents\": [\"c1ccc(P(c2ccccc2)c2ccccc2)cc1\", \"CCN(C(C)C)C(C)C\", \"Cc1ccccc1\", \"[Cu]I\"], \"rxn_smiles\": \"COC(=O)c1nc(I)c(NC(=O)OC(C)(C)C)s1.C#Cc1cn2ncnc2c(C)c1C>c1ccc(P(c2ccccc2)c2ccccc2)cc1.CCN(C(C)C)C(C)C.Cc1ccccc1.[Cu]I>COC(=O)c1nc(C#Cc2cn3ncnc3c(C)c2C)c(NC(=O)OC(C)(C)C)s1\"}"
+    },
+    {
+        "id": "dc5a09e6-9994-43f3-81fe-30405d55d7a4",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CC(C)(Cc1ccccc1)C(=O)C=CI.[BH4-]\nReagents: [Not known, ignore it]\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CC(C)(Cc1ccccc1)C(O)C=CI\", \"Byproduct(s)\": \"B\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Ketone to alcohol reduction\", \"reactants\": [\"CC(C)(Cc1ccccc1)C(=O)C=CI\", \"[BH4-]\"], \"reagents\": [], \"rxn_smiles\": \"CC(C)(Cc1ccccc1)C(=O)C=CI.[BH4-]>>CC(C)(Cc1ccccc1)C(O)C=CI\"}"
+    },
+    {
+        "id": "4ed9a15e-97ca-4a13-80a8-2092149a7b3e",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CI.COC(=O)CC1NC(=O)c2cc(OCc3cccc(-c4ccc(Cl)cc4C)c3)ccc21\nReagents: [Not known, ignore it]\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"COC(=O)CC1c2ccc(OCc3cccc(-c4ccc(Cl)cc4C)c3)cc2C(=O)N1C\", \"Byproduct(s)\": \"[I-]\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Iodo N-methylation\", \"reactants\": [\"CI\", \"COC(=O)CC1NC(=O)c2cc(OCc3cccc(-c4ccc(Cl)cc4C)c3)ccc21\"], \"reagents\": [], \"rxn_smiles\": \"CI.COC(=O)CC1NC(=O)c2cc(OCc3cccc(-c4ccc(Cl)cc4C)c3)ccc21>>COC(=O)CC1c2ccc(OCc3cccc(-c4ccc(Cl)cc4C)c3)cc2C(=O)N1C\"}"
+    },
+    {
+        "id": "69fed1b2-9479-4945-b645-fa52d9ac6013",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: COc1ccc2c(Nc3c(Cl)cncc3Cl)cc(=O)n(CCO)c2c1OC1CCCC1\nReagents: CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"COc1ccc2c(Nc3c(Cl)cncc3Cl)cc(=O)n(CC=O)c2c1OC1CCCC1\", \"Byproduct(s)\": \"CC(=O)OCC(=O)OI1OC(=O)c2ccccc-21CC(=O)[O-]\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Aldehyde Dess-Martin oxidation\", \"reactants\": [\"COc1ccc2c(Nc3c(Cl)cncc3Cl)cc(=O)n(CCO)c2c1OC1CCCC1\"], \"reagents\": [\"CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21\"], \"rxn_smiles\": \"COc1ccc2c(Nc3c(Cl)cncc3Cl)cc(=O)n(CCO)c2c1OC1CCCC1>CC(=O)OI1(OC(C)=O)(OC(C)=O)OC(=O)c2ccccc21>COc1ccc2c(Nc3c(Cl)cncc3Cl)cc(=O)n(CC=O)c2c1OC1CCCC1\"}"
+    },
+    {
+        "id": "390e52cd-347a-4e3b-a739-67a1f978d307",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: COC(=O)C1CN(C(=O)OC(C)(C)C)CCC1=O.C1CNC1\nReagents: CC(=O)O[BH-](OC(C)=O)OC(C)=O.ClCCCl.O.[Na+]\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"COC(=O)C1CN(C(=O)OC(C)(C)C)CCC1N1CCC1\", \"Byproduct(s)\": \"CC(=O)OB(OC(C)=O)OC(C)=OO\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Ketone reductive amination\", \"reactants\": [\"COC(=O)C1CN(C(=O)OC(C)(C)C)CCC1=O\", \"C1CNC1\"], \"reagents\": [\"CC(=O)O[BH-](OC(C)=O)OC(C)=O\", \"ClCCCl\", \"O\", \"[Na+]\"], \"rxn_smiles\": \"COC(=O)C1CN(C(=O)OC(C)(C)C)CCC1=O.C1CNC1>CC(=O)O[BH-](OC(C)=O)OC(C)=O.ClCCCl.O.[Na+]>COC(=O)C1CN(C(=O)OC(C)(C)C)CCC1N1CCC1\"}"
+    },
+    {
+        "id": "41434eb7-c6a8-49a7-844a-9e807dd7e669",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CN1CC(=O)N(C)C(C)(Cc2ccccc2)C1=O.Clc1cccc(CBr)c1Cl\nReagents: O.CN(C)C=O.[NaH]\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CN1C(=O)C(C)(Cc2ccccc2)N(C)C(=O)C1Cc1cccc(Cl)c1Cl\", \"Byproduct(s)\": \"[Br-]\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Keto alpha-alkylation\", \"reactants\": [\"CN1CC(=O)N(C)C(C)(Cc2ccccc2)C1=O\", \"Clc1cccc(CBr)c1Cl\"], \"reagents\": [\"O\", \"CN(C)C=O\", \"[NaH]\"], \"rxn_smiles\": \"CN1CC(=O)N(C)C(C)(Cc2ccccc2)C1=O.Clc1cccc(CBr)c1Cl>O.CN(C)C=O.[NaH]>CN1C(=O)C(C)(Cc2ccccc2)N(C)C(=O)C1Cc1cccc(Cl)c1Cl\"}"
+    },
+    {
+        "id": "60df9049-1406-4c42-8765-d33dc0973ec7",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CCS(=O)(=O)c1ccc(-c2cc(OS(=O)(=O)C(F)(F)F)ccc2F)c(C#N)c1.CC1(C)OB(B2OC(C)(C)C(C)(C)O2)OC1(C)C\nReagents: C1COCCO1.CC(=O)O[K].N#N\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CCS(=O)(=O)c1ccc(-c2cc(B3OC(C)(C)C(C)(C)O3)ccc2F)c(C#N)c1\", \"Byproduct(s)\": \"CC1(C)OB(Cl)OC1(C)CCC1(C)OB(OS(=O)(=O)C(F)(F)F)OC1(C)CO=S(=O)(O[Pd]Cl)C(F)(F)F\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Triflyloxy Miyaura boration\", \"reactants\": [\"CCS(=O)(=O)c1ccc(-c2cc(OS(=O)(=O)C(F)(F)F)ccc2F)c(C#N)c1\", \"CC1(C)OB(B2OC(C)(C)C(C)(C)O2)OC1(C)C\"], \"reagents\": [\"C1COCCO1\", \"CC(=O)O[K]\", \"N#N\"], \"rxn_smiles\": \"CCS(=O)(=O)c1ccc(-c2cc(OS(=O)(=O)C(F)(F)F)ccc2F)c(C#N)c1.CC1(C)OB(B2OC(C)(C)C(C)(C)O2)OC1(C)C>C1COCCO1.CC(=O)O[K].N#N>CCS(=O)(=O)c1ccc(-c2cc(B3OC(C)(C)C(C)(C)O3)ccc2F)c(C#N)c1\"}"
+    },
+    {
+        "id": "89f8d176-18ab-4474-8feb-b19e83c735c5",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: Nc1c(C(=O)O)ccc(Br)c1F.O=C1CCC(=O)N1Cl\nReagents: CN(C)C=O\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"Nc1c(C(=O)O)cc(Cl)c(Br)c1F\", \"Byproduct(s)\": \"O=C1CCC(=O)N1\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Chlorination\", \"reactants\": [\"Nc1c(C(=O)O)ccc(Br)c1F\", \"O=C1CCC(=O)N1Cl\"], \"reagents\": [\"CN(C)C=O\"], \"rxn_smiles\": \"Nc1c(C(=O)O)ccc(Br)c1F.O=C1CCC(=O)N1Cl>CN(C)C=O>Nc1c(C(=O)O)cc(Cl)c(Br)c1F\"}"
+    },
+    {
+        "id": "4c07e8b1-9506-40ff-8c01-b6b21e781e7c",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CC1(C)OB(B2OC(C)(C)C(C)(C)O2)OC1(C)C.Cc1cc(-c2ccccc2)nc2cc(Cl)ccc12\nReagents: CCCc1cccc(CCC)c1-n1cc[n+](-c2c(CCC)cccc2CCC)c1.CC(=O)O[Pd]OC(C)=O.CC(=O)O[K].C1CCOC1.[Cl-]\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"Cc1cc(-c2ccccc2)nc2cc(B3OC(C)(C)C(C)(C)O3)ccc12\", \"Byproduct(s)\": \"CC1(C)OB(Cl)OC1(C)C\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Chloro Miyaura boration\", \"reactants\": [\"CC1(C)OB(B2OC(C)(C)C(C)(C)O2)OC1(C)C\", \"Cc1cc(-c2ccccc2)nc2cc(Cl)ccc12\"], \"reagents\": [\"CCCc1cccc(CCC)c1-n1cc[n+](-c2c(CCC)cccc2CCC)c1\", \"CC(=O)O[Pd]OC(C)=O\", \"CC(=O)O[K]\", \"C1CCOC1\", \"[Cl-]\"], \"rxn_smiles\": \"CC1(C)OB(B2OC(C)(C)C(C)(C)O2)OC1(C)C.Cc1cc(-c2ccccc2)nc2cc(Cl)ccc12>CCCc1cccc(CCC)c1-n1cc[n+](-c2c(CCC)cccc2CCC)c1.CC(=O)O[Pd]OC(C)=O.CC(=O)O[K].C1CCOC1.[Cl-]>Cc1cc(-c2ccccc2)nc2cc(B3OC(C)(C)C(C)(C)O3)ccc12\"}"
+    },
+    {
+        "id": "555ed2c5-5f76-498d-850b-ea4367747804",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CCCCCCCCCCOC(C)c1ccc(C(=O)OCCCC)cc1\nReagents: O[Na].C1CCOC1\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CCCCCCCCCCOC(C)c1ccc(C(=O)O)cc1\", \"Byproduct(s)\": \"CCCCO[Na+]\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Ester hydrolysis\", \"reactants\": [\"CCCCCCCCCCOC(C)c1ccc(C(=O)OCCCC)cc1\"], \"reagents\": [\"O[Na]\", \"C1CCOC1\"], \"rxn_smiles\": \"CCCCCCCCCCOC(C)c1ccc(C(=O)OCCCC)cc1>O[Na].C1CCOC1>CCCCCCCCCCOC(C)c1ccc(C(=O)O)cc1\"}"
+    },
+    {
+        "id": "9b09ceef-c862-4de8-9bb7-936a1a1f7f59",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CC(C)(C)S(=O)N1Cc2cc(C(N)=O)nc(-c3cccc(-c4cccnc4)c3)c2C1CCO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C.[F-]\nReagents: [Not known, ignore it]\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CC(C)(C)S(=O)N1Cc2cc(C(N)=O)nc(-c3cccc(-c4cccnc4)c3)c2C1CCO\", \"Byproduct(s)\": \"CC(C)(C)[Si](F)(c1ccccc1)c1ccccc1\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"O-TBDPS deprotection\", \"reactants\": [\"CC(C)(C)S(=O)N1Cc2cc(C(N)=O)nc(-c3cccc(-c4cccnc4)c3)c2C1CCO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C\", \"[F-]\"], \"reagents\": [], \"rxn_smiles\": \"CC(C)(C)S(=O)N1Cc2cc(C(N)=O)nc(-c3cccc(-c4cccnc4)c3)c2C1CCO[Si](c1ccccc1)(c1ccccc1)C(C)(C)C.[F-]>>CC(C)(C)S(=O)N1Cc2cc(C(N)=O)nc(-c3cccc(-c4cccnc4)c3)c2C1CCO\"}"
+    },
+    {
+        "id": "28722d10-950e-4f26-a0ea-31bdcf398aa0",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: COC(=O)C(=O)OC.CCCCCC[Mg]Br\nReagents: C1CCOC1\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CCCCCCC(=O)C(=O)OC\", \"Byproduct(s)\": \"C[O-][Mg+]Br\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Grignard ester substitution\", \"reactants\": [\"COC(=O)C(=O)OC\", \"CCCCCC[Mg]Br\"], \"reagents\": [\"C1CCOC1\"], \"rxn_smiles\": \"COC(=O)C(=O)OC.CCCCCC[Mg]Br>C1CCOC1>CCCCCCC(=O)C(=O)OC\"}"
+    },
+    {
+        "id": "7e6736e9-a6a9-47a3-b576-503b16882f78",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CC(C)C(O)(c1cccc(Br)c1)c1cn(C(c2ccccc2)(c2ccccc2)c2ccccc2)cn1.OB(O)c1ccsc1\nReagents: c1ccc([P](c2ccccc2)(c2ccccc2)[Pd]([P](c2ccccc2)(c2ccccc2)c2ccccc2)([P](c2ccccc2)(c2ccccc2)c2ccccc2)[P](c2ccccc2)(c2ccccc2)c2ccccc2)cc1.Cc1ccccc1.O=C(O[Na])O[Na].CCO.O\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CC(C)C(O)(c1cccc(-c2ccsc2)c1)c1cn(C(c2ccccc2)(c2ccccc2)c2ccccc2)cn1\", \"Byproduct(s)\": \"CCOB(O)OO=C(O[Na])OB(O)OOB(O)O[Br-][Na+]c1ccc(P(c2ccccc2)c2ccccc2)cc1c1ccc(P(c2ccccc2)c2ccccc2)cc1\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Bromo Suzuki coupling\", \"reactants\": [\"CC(C)C(O)(c1cccc(Br)c1)c1cn(C(c2ccccc2)(c2ccccc2)c2ccccc2)cn1\", \"OB(O)c1ccsc1\"], \"reagents\": [\"c1ccc([P](c2ccccc2)(c2ccccc2)[Pd]([P](c2ccccc2)(c2ccccc2)c2ccccc2)([P](c2ccccc2)(c2ccccc2)c2ccccc2)[P](c2ccccc2)(c2ccccc2)c2ccccc2)cc1\", \"Cc1ccccc1\", \"O=C(O[Na])O[Na]\", \"CCO\", \"O\"], \"rxn_smiles\": \"CC(C)C(O)(c1cccc(Br)c1)c1cn(C(c2ccccc2)(c2ccccc2)c2ccccc2)cn1.OB(O)c1ccsc1>c1ccc([P](c2ccccc2)(c2ccccc2)[Pd]([P](c2ccccc2)(c2ccccc2)c2ccccc2)([P](c2ccccc2)(c2ccccc2)c2ccccc2)[P](c2ccccc2)(c2ccccc2)c2ccccc2)cc1.Cc1ccccc1.O=C(O[Na])O[Na].CCO.O>CC(C)C(O)(c1cccc(-c2ccsc2)c1)c1cn(C(c2ccccc2)(c2ccccc2)c2ccccc2)cn1\"}"
+    },
+    {
+        "id": "56f1dd56-f56a-4b18-90f7-f0da6932e7de",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: O=c1c(I)c(OCc2ccc(F)cc2)ccn1Cc1cccc(F)c1.C[Sn](C)(C)C\nReagents: c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.CN(C)C=O.Cl[Pd]Cl.N#N.[Li]Cl\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"Cc1c(OCc2ccc(F)cc2)ccn(Cc2cccc(F)c2)c1=O\", \"Byproduct(s)\": \"C[Pd]ClC[Sn](C)(C)ClC[Sn](C)(C)ICl[Pd]I\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Iodo Stille reaction\", \"reactants\": [\"O=c1c(I)c(OCc2ccc(F)cc2)ccn1Cc1cccc(F)c1\", \"C[Sn](C)(C)C\"], \"reagents\": [\"c1ccc(P(c2ccccc2)c2ccccc2)cc1\", \"c1ccc(P(c2ccccc2)c2ccccc2)cc1\", \"CN(C)C=O\", \"Cl[Pd]Cl\", \"N#N\", \"[Li]Cl\"], \"rxn_smiles\": \"O=c1c(I)c(OCc2ccc(F)cc2)ccn1Cc1cccc(F)c1.C[Sn](C)(C)C>c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.CN(C)C=O.Cl[Pd]Cl.N#N.[Li]Cl>Cc1c(OCc2ccc(F)cc2)ccn(Cc2cccc(F)c2)c1=O\"}"
+    },
+    {
+        "id": "6310687e-d2fb-4087-9eaf-4168c6408e8c",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CCCCCc1ccc(Br)cc1.C#CC(C)(C)O\nReagents: Cl[Pd](Cl)([P](c1ccccc1)(c1ccccc1)c1ccccc1)[P](c1ccccc1)(c1ccccc1)c1ccccc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.CCN(CC)CC.[C-]#[O+].[Cu]I\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CCCCCc1ccc(C#CC(C)(C)O)cc1\", \"Byproduct(s)\": \"Cl[Cu]Cl[Pd](Br)P(c1ccccc1)(c1ccccc1)c1ccccc1I[Cu]Brc1ccc(P(c2ccccc2)c2ccccc2)cc1\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Bromo Sonogashira coupling\", \"reactants\": [\"CCCCCc1ccc(Br)cc1\", \"C#CC(C)(C)O\"], \"reagents\": [\"Cl[Pd](Cl)([P](c1ccccc1)(c1ccccc1)c1ccccc1)[P](c1ccccc1)(c1ccccc1)c1ccccc1\", \"c1ccc(P(c2ccccc2)c2ccccc2)cc1\", \"CCN(CC)CC\", \"[C-]#[O+]\", \"[Cu]I\"], \"rxn_smiles\": \"CCCCCc1ccc(Br)cc1.C#CC(C)(C)O>Cl[Pd](Cl)([P](c1ccccc1)(c1ccccc1)c1ccccc1)[P](c1ccccc1)(c1ccccc1)c1ccccc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.CCN(CC)CC.[C-]#[O+].[Cu]I>CCCCCc1ccc(C#CC(C)(C)O)cc1\"}"
+    },
+    {
+        "id": "263ec620-0fa4-433d-995d-36a10dd93ffe",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: O=c1c(OCc2ccccc2)cn(-c2ccc(N3CC(F)(F)C3)cc2F)nc1-c1ccnn1-c1ccccc1\nReagents: CO.CCOC(C)=O.[Pd].[H][H]\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"O=c1c(O)cn(-c2ccc(N3CC(F)(F)C3)cc2F)nc1-c1ccnn1-c1ccccc1\", \"Byproduct(s)\": \"CCCC(=O)OCC=OCCOCc1ccccc1O=c1ccn(-c2ccc(N3CC(F)(F)C3)cc2F)nc1-c1ccnn1-c1ccccc1OCc1ccccc1\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"O-Bn deprotection\", \"reactants\": [\"O=c1c(OCc2ccccc2)cn(-c2ccc(N3CC(F)(F)C3)cc2F)nc1-c1ccnn1-c1ccccc1\"], \"reagents\": [\"CO\", \"CCOC(C)=O\", \"[Pd]\", \"[H][H]\"], \"rxn_smiles\": \"O=c1c(OCc2ccccc2)cn(-c2ccc(N3CC(F)(F)C3)cc2F)nc1-c1ccnn1-c1ccccc1>CO.CCOC(C)=O.[Pd].[H][H]>O=c1c(O)cn(-c2ccc(N3CC(F)(F)C3)cc2F)nc1-c1ccnn1-c1ccccc1\"}"
+    },
+    {
+        "id": "5360a5bf-b1cd-4a75-8d1a-bbeb5495bccd",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CCOC(=O)Cc1cncnc1Cl.C#C[Si](CC)(CC)CC\nReagents: c1ccc(P(c2ccccc2)c2ccccc2)cc1.CCN(CC)CC.CN(C)C=O.N#N\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CCOC(=O)Cc1cncnc1C#C[Si](CC)(CC)CC\", \"Byproduct(s)\": \"Cl[Cu]IIc1ccc(P(c2ccccc2)c2ccccc2)cc1\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Chloro Sonogashira coupling\", \"reactants\": [\"CCOC(=O)Cc1cncnc1Cl\", \"C#C[Si](CC)(CC)CC\"], \"reagents\": [\"c1ccc(P(c2ccccc2)c2ccccc2)cc1\", \"CCN(CC)CC\", \"CN(C)C=O\", \"N#N\"], \"rxn_smiles\": \"CCOC(=O)Cc1cncnc1Cl.C#C[Si](CC)(CC)CC>c1ccc(P(c2ccccc2)c2ccccc2)cc1.CCN(CC)CC.CN(C)C=O.N#N>CCOC(=O)Cc1cncnc1C#C[Si](CC)(CC)CC\"}"
+    },
+    {
+        "id": "9df79d1c-9969-451d-941c-1ffabe844ee5",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CC(C)(O)C1CCNC1.CC(C)NC(=O)C1CCC(n2c(=NC(=O)c3ccc(F)cc3)[nH]c3ccc(CO)cc32)CC1.O=S(Cl)Cl\nReagents: [Not known, ignore it]\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CC(C)NC(=O)C1CCC(n2c(=NC(=O)c3ccc(F)cc3)[nH]c3ccc(CN4CCC(C(C)(C)O)C4)cc32)CC1\", \"Byproduct(s)\": \"O=S=O[Cl-][Cl-]\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Alcohol + amine condensation\", \"reactants\": [\"CC(C)(O)C1CCNC1\", \"CC(C)NC(=O)C1CCC(n2c(=NC(=O)c3ccc(F)cc3)[nH]c3ccc(CO)cc32)CC1\", \"O=S(Cl)Cl\"], \"reagents\": [], \"rxn_smiles\": \"CC(C)(O)C1CCNC1.CC(C)NC(=O)C1CCC(n2c(=NC(=O)c3ccc(F)cc3)[nH]c3ccc(CO)cc32)CC1.O=S(Cl)Cl>>CC(C)NC(=O)C1CCC(n2c(=NC(=O)c3ccc(F)cc3)[nH]c3ccc(CN4CCC(C(C)(C)O)C4)cc32)CC1\"}"
+    },
+    {
+        "id": "e3b8df7e-eb62-4a3f-8bba-ddf173fdb64c",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: C=CCOC(=O)NC(C(=O)NC(C)C(=O)Nc1ccc(COC(=O)N2c3cc(OCCCCCOc4cc5c(cc4OC)C(=O)N4C=C(c6ccc(OC)cc6)CC4CN5C(=O)OCC=C)c(OC)cc3C(=O)N3CC4(CC4)CC3C2O[Si](C)(C)C(C)(C)C)cc1)C(C)C.[F-]\nReagents: [Not known, ignore it]\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"C=CCOC(=O)NC(C(=O)NC(C)C(=O)Nc1ccc(COC(=O)N2c3cc(OCCCCCOc4cc5c(cc4OC)C(=O)N4C=C(c6ccc(OC)cc6)CC4CN5C(=O)OCC=C)c(OC)cc3C(=O)N3CC4(CC4)CC3C2O)cc1)C(C)C\", \"Byproduct(s)\": \"CC(C)(C)[Si](C)(C)F\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"O-TBS deprotection\", \"reactants\": [\"C=CCOC(=O)NC(C(=O)NC(C)C(=O)Nc1ccc(COC(=O)N2c3cc(OCCCCCOc4cc5c(cc4OC)C(=O)N4C=C(c6ccc(OC)cc6)CC4CN5C(=O)OCC=C)c(OC)cc3C(=O)N3CC4(CC4)CC3C2O[Si](C)(C)C(C)(C)C)cc1)C(C)C\", \"[F-]\"], \"reagents\": [], \"rxn_smiles\": \"C=CCOC(=O)NC(C(=O)NC(C)C(=O)Nc1ccc(COC(=O)N2c3cc(OCCCCCOc4cc5c(cc4OC)C(=O)N4C=C(c6ccc(OC)cc6)CC4CN5C(=O)OCC=C)c(OC)cc3C(=O)N3CC4(CC4)CC3C2O[Si](C)(C)C(C)(C)C)cc1)C(C)C.[F-]>>C=CCOC(=O)NC(C(=O)NC(C)C(=O)Nc1ccc(COC(=O)N2c3cc(OCCCCCOc4cc5c(cc4OC)C(=O)N4C=C(c6ccc(OC)cc6)CC4CN5C(=O)OCC=C)c(OC)cc3C(=O)N3CC4(CC4)CC3C2O)cc1)C(C)C\"}"
+    },
+    {
+        "id": "021d75e6-20e6-407f-8eed-65d2e9901470",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: Cc1onc(-c2ccccc2)c1-c1nnc2n1Cc1ccc(O)cc1-2.CC(C)(C)OC(=O)N1CCC(O)CC1\nReagents: c1ccc(P(c2ccccc2)c2ccccc2)cc1.CCOC(=O)N=NC(=O)OCC.O=C(O)C(F)(F)F.ClCCl.[C-]#[O+]\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"Cc1onc(-c2ccccc2)c1-c1nnc2n1Cc1ccc(OC3CCN(C(=O)OC(C)(C)C)CC3)cc1-2\", \"Byproduct(s)\": \"CCOC(=O)NNC(=O)OCCO=P(c1ccccc1)(c1ccccc1)c1ccccc1\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Mitsunobu aryl ether synthesis\", \"reactants\": [\"Cc1onc(-c2ccccc2)c1-c1nnc2n1Cc1ccc(O)cc1-2\", \"CC(C)(C)OC(=O)N1CCC(O)CC1\"], \"reagents\": [\"c1ccc(P(c2ccccc2)c2ccccc2)cc1\", \"CCOC(=O)N=NC(=O)OCC\", \"O=C(O)C(F)(F)F\", \"ClCCl\", \"[C-]#[O+]\"], \"rxn_smiles\": \"Cc1onc(-c2ccccc2)c1-c1nnc2n1Cc1ccc(O)cc1-2.CC(C)(C)OC(=O)N1CCC(O)CC1>c1ccc(P(c2ccccc2)c2ccccc2)cc1.CCOC(=O)N=NC(=O)OCC.O=C(O)C(F)(F)F.ClCCl.[C-]#[O+]>Cc1onc(-c2ccccc2)c1-c1nnc2n1Cc1ccc(OC3CCN(C(=O)OC(C)(C)C)CC3)cc1-2\"}"
+    },
+    {
+        "id": "caa1272e-199d-4b6b-8eba-82fd4bc84a3c",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: COc1ccc(-c2noc(C3CCN(C(=O)CN)CC3)n2)cc1OC.Clc1nccc2ccccc12\nReagents: c1ccc(P(c2ccccc2)c2ccc3ccccc3c2-c2c(P(c3ccccc3)c3ccccc3)ccc3ccccc23)cc1.CC(=O)O[Pd]OC(C)=O.Cc1ccccc1.O=C(O[Cs])O[Cs].N#N\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"COc1ccc(-c2noc(C3CCN(C(=O)CNc4nccc5ccccc45)CC3)n2)cc1OC\", \"Byproduct(s)\": \"CC(=O)OCC(=O)O[Pd]ClCC(=O)O[Pd]OC(=O)O[Cs]O=C(O)O[Cs][Cl-][Cs+]\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Chloro Buchwald-Hartwig amination\", \"reactants\": [\"COc1ccc(-c2noc(C3CCN(C(=O)CN)CC3)n2)cc1OC\", \"Clc1nccc2ccccc12\"], \"reagents\": [\"c1ccc(P(c2ccccc2)c2ccc3ccccc3c2-c2c(P(c3ccccc3)c3ccccc3)ccc3ccccc23)cc1\", \"CC(=O)O[Pd]OC(C)=O\", \"Cc1ccccc1\", \"O=C(O[Cs])O[Cs]\", \"N#N\"], \"rxn_smiles\": \"COc1ccc(-c2noc(C3CCN(C(=O)CN)CC3)n2)cc1OC.Clc1nccc2ccccc12>c1ccc(P(c2ccccc2)c2ccc3ccccc3c2-c2c(P(c3ccccc3)c3ccccc3)ccc3ccccc23)cc1.CC(=O)O[Pd]OC(C)=O.Cc1ccccc1.O=C(O[Cs])O[Cs].N#N>COc1ccc(-c2noc(C3CCN(C(=O)CNc4nccc5ccccc45)CC3)n2)cc1OC\"}"
+    },
+    {
+        "id": "1d6d7787-482b-4125-b19f-e8739eda3a21",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CCCC(C)(C)C(=O)O.CNOC\nReagents: Cl.CCN=C=NCCCN(C)C.CN1CCOCC1.On1nnc2ccccc21.ClCCl\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CCCC(C)(C)C(=O)N(C)OC\", \"Byproduct(s)\": \"[OH-]\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Weinreb amide synthesis\", \"reactants\": [\"CCCC(C)(C)C(=O)O\", \"CNOC\"], \"reagents\": [\"Cl\", \"CCN=C=NCCCN(C)C\", \"CN1CCOCC1\", \"On1nnc2ccccc21\", \"ClCCl\"], \"rxn_smiles\": \"CCCC(C)(C)C(=O)O.CNOC>Cl.CCN=C=NCCCN(C)C.CN1CCOCC1.On1nnc2ccccc21.ClCCl>CCCC(C)(C)C(=O)N(C)OC\"}"
+    },
+    {
+        "id": "42166527-e428-4aa8-8882-5d1b321b0dc6",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CC(C)(C)OC(=O)N1CCC(C=O)C1.C[Mg]I\nReagents: C1CCOC1.[C-]#[O+]\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CC(O)C1CCN(C(=O)OC(C)(C)C)C1\", \"Byproduct(s)\": \"[CH3-][Mg+]I\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Iodo Grignard reaction\", \"reactants\": [\"CC(C)(C)OC(=O)N1CCC(C=O)C1\", \"C[Mg]I\"], \"reagents\": [\"C1CCOC1\", \"[C-]#[O+]\"], \"rxn_smiles\": \"CC(C)(C)OC(=O)N1CCC(C=O)C1.C[Mg]I>C1CCOC1.[C-]#[O+]>CC(O)C1CCN(C(=O)OC(C)(C)C)C1\"}"
+    },
+    {
+        "id": "99b18e49-0197-441a-9301-51bcec398f6b",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CC1(C)OB(B2OC(C)(C)C(C)(C)O2)OC1(C)C.CSc1ccc(Br)cn1\nReagents: CC(=O)O[K].CS(C)=O.[Pd]\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CSc1ccc(B2OC(C)(C)C(C)(C)O2)cn1\", \"Byproduct(s)\": \"CC1(C)OB(Br)OC1(C)C\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Bromo Miyaura boration\", \"reactants\": [\"CC1(C)OB(B2OC(C)(C)C(C)(C)O2)OC1(C)C\", \"CSc1ccc(Br)cn1\"], \"reagents\": [\"CC(=O)O[K]\", \"CS(C)=O\", \"[Pd]\"], \"rxn_smiles\": \"CC1(C)OB(B2OC(C)(C)C(C)(C)O2)OC1(C)C.CSc1ccc(Br)cn1>CC(=O)O[K].CS(C)=O.[Pd]>CSc1ccc(B2OC(C)(C)C(C)(C)O2)cn1\"}"
+    },
+    {
+        "id": "75eba386-7f27-4e02-a779-fae3259cded0",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: C=C[Sn](CCCC)(CCCC)CCCC.CC(=O)CCC(=O)c1ccc(Br)cc1\nReagents: c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.Cc1ccccc1.F[Na].[Pd]\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"C=Cc1ccc(C(=O)CCC(C)=O)cc1\", \"Byproduct(s)\": \"C=C[Sn](Br)(CCCC)CCCCCCCC[Sn](Br)(CCCC)CCCCCCCCc1ccc(C(=O)CCC(C)=O)cc1\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Bromo Stille reaction\", \"reactants\": [\"C=C[Sn](CCCC)(CCCC)CCCC\", \"CC(=O)CCC(=O)c1ccc(Br)cc1\"], \"reagents\": [\"c1ccc(P(c2ccccc2)c2ccccc2)cc1\", \"c1ccc(P(c2ccccc2)c2ccccc2)cc1\", \"c1ccc(P(c2ccccc2)c2ccccc2)cc1\", \"c1ccc(P(c2ccccc2)c2ccccc2)cc1\", \"Cc1ccccc1\", \"F[Na]\", \"[Pd]\"], \"rxn_smiles\": \"C=C[Sn](CCCC)(CCCC)CCCC.CC(=O)CCC(=O)c1ccc(Br)cc1>c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.c1ccc(P(c2ccccc2)c2ccccc2)cc1.Cc1ccccc1.F[Na].[Pd]>C=Cc1ccc(C(=O)CCC(C)=O)cc1\"}"
+    },
+    {
+        "id": "89f6e54e-9101-4d60-b3e0-0d9bbf784668",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CC(C)(C)P([Pd]P(C(C)(C)C)(C(C)(C)C)C(C)(C)C)(C(C)(C)C)C(C)(C)C.Clc1ccc2c(c1)C1(c3ccccc3O2)C2CC3CC(C2)CC1C3.O=C(O[K])O[K].OB(O)c1ccc(N(c2ccc(-c3ccccc3)cc2)c2ccc3ccccc3c2)cc1\nReagents: [Not known, ignore it]\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"c1ccc(-c2ccc(N(c3ccc(-c4ccc5c(c4)C4(c6ccccc6O5)C5CC6CC(C5)CC4C6)cc3)c3ccc4ccccc4c3)cc2)cc1\", \"Byproduct(s)\": \"O=C(O[K])OB(O)O[Cl-][K+]\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Chloro Suzuki coupling\", \"reactants\": [\"CC(C)(C)P([Pd]P(C(C)(C)C)(C(C)(C)C)C(C)(C)C)(C(C)(C)C)C(C)(C)C\", \"Clc1ccc2c(c1)C1(c3ccccc3O2)C2CC3CC(C2)CC1C3\", \"O=C(O[K])O[K]\", \"OB(O)c1ccc(N(c2ccc(-c3ccccc3)cc2)c2ccc3ccccc3c2)cc1\"], \"reagents\": [], \"rxn_smiles\": \"CC(C)(C)P([Pd]P(C(C)(C)C)(C(C)(C)C)C(C)(C)C)(C(C)(C)C)C(C)(C)C.Clc1ccc2c(c1)C1(c3ccccc3O2)C2CC3CC(C2)CC1C3.O=C(O[K])O[K].OB(O)c1ccc(N(c2ccc(-c3ccccc3)cc2)c2ccc3ccccc3c2)cc1>>c1ccc(-c2ccc(N(c3ccc(-c4ccc5c(c4)C4(c6ccccc6O5)C5CC6CC(C5)CC4C6)cc3)c3ccc4ccccc4c3)cc2)cc1\"}"
+    },
+    {
+        "id": "67228c9c-fbe0-4f85-b711-ed286570dd72",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CN1C(=O)C(N)N=C(c2ccccc2)c2ccccc21.O=C(O)C(Cc1ccc(Cl)c(Cl)c1)c1ccccc1\nReagents: [Not known, ignore it]\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CN1C(=O)C(NC(=O)C(Cc2ccc(Cl)c(Cl)c2)c2ccccc2)N=C(c2ccccc2)c2ccccc21\", \"Byproduct(s)\": \"[OH-]\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Carboxylic acid + amine condensation\", \"reactants\": [\"CN1C(=O)C(N)N=C(c2ccccc2)c2ccccc21\", \"O=C(O)C(Cc1ccc(Cl)c(Cl)c1)c1ccccc1\"], \"reagents\": [], \"rxn_smiles\": \"CN1C(=O)C(N)N=C(c2ccccc2)c2ccccc21.O=C(O)C(Cc1ccc(Cl)c(Cl)c1)c1ccccc1>>CN1C(=O)C(NC(=O)C(Cc2ccc(Cl)c(Cl)c2)c2ccccc2)N=C(c2ccccc2)c2ccccc21\"}"
+    },
+    {
+        "id": "65dd43bc-dfee-4d07-854f-a4cb5b2416d1",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: COC(=O)CC(O)(CCCC(C)(C)O)C(=O)OC1C(OC)=CC23CCCN2CCc2cc4c(cc2C13)OCO4.O=S(Cl)Cl\nReagents: [Not known, ignore it]\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"COC(=O)CC(O)(CCCC(C)(C)Cl)C(=O)OC1C(OC)=CC23CCCN2CCc2cc4c(cc2C13)OCO4\", \"Byproduct(s)\": \"O=S([O-])Cl\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Darzens chlorination\", \"reactants\": [\"COC(=O)CC(O)(CCCC(C)(C)O)C(=O)OC1C(OC)=CC23CCCN2CCc2cc4c(cc2C13)OCO4\", \"O=S(Cl)Cl\"], \"reagents\": [], \"rxn_smiles\": \"COC(=O)CC(O)(CCCC(C)(C)O)C(=O)OC1C(OC)=CC23CCCN2CCc2cc4c(cc2C13)OCO4.O=S(Cl)Cl>>COC(=O)CC(O)(CCCC(C)(C)Cl)C(=O)OC1C(OC)=CC23CCCN2CCc2cc4c(cc2C13)OCO4\"}"
+    },
+    {
+        "id": "bbce9d5c-4da4-40a5-93ab-092999a379ab",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: COc1cccc([N+](=O)[O-])c1C.O=C1CCC(=O)N1Br\nReagents: CC(C)(C)OO\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"COc1cccc([N+](=O)[O-])c1CBr\", \"Byproduct(s)\": \"BrO=C1CCC(=O)[NH]1[BrH]\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Wohl-Ziegler bromination\", \"reactants\": [\"COc1cccc([N+](=O)[O-])c1C\", \"O=C1CCC(=O)N1Br\"], \"reagents\": [\"CC(C)(C)OO\"], \"rxn_smiles\": \"COc1cccc([N+](=O)[O-])c1C.O=C1CCC(=O)N1Br>CC(C)(C)OO>COc1cccc([N+](=O)[O-])c1CBr\"}"
+    },
+    {
+        "id": "60be7edd-e2ad-4633-b148-89073908c96d",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CCCCCCCCC=CCCCCCCCCOCC(COCCOCCOCCOCCO)OCCCCCCCCC=CCCCCCCCC.CCN=C=NCCCN(C)C.COCCN(CC(=O)OCCN(CC(=O)O)C(=O)OC(C)(C)C)C(=O)OC(C)(C)C\nReagents: [Not known, ignore it]\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CCCCCCCCC=CCCCCCCCCOCC(COCCOCCOCCOCCOC(=O)CN(CCOC(=O)CN(CCOC)C(=O)OC(C)(C)C)C(=O)OC(C)(C)C)OCCCCCCCCC=CCCCCCCCC\", \"Byproduct(s)\": \"CCNC(=O)NCCCN(C)C\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Esterification\", \"reactants\": [\"CCCCCCCCC=CCCCCCCCCOCC(COCCOCCOCCOCCO)OCCCCCCCCC=CCCCCCCCC\", \"CCN=C=NCCCN(C)C\", \"COCCN(CC(=O)OCCN(CC(=O)O)C(=O)OC(C)(C)C)C(=O)OC(C)(C)C\"], \"reagents\": [], \"rxn_smiles\": \"CCCCCCCCC=CCCCCCCCCOCC(COCCOCCOCCOCCO)OCCCCCCCCC=CCCCCCCCC.CCN=C=NCCCN(C)C.COCCN(CC(=O)OCCN(CC(=O)O)C(=O)OC(C)(C)C)C(=O)OC(C)(C)C>>CCCCCCCCC=CCCCCCCCCOCC(COCCOCCOCCOCCOC(=O)CN(CCOC(=O)CN(CCOC)C(=O)OC(C)(C)C)C(=O)OC(C)(C)C)OCCCCCCCCC=CCCCCCCCC\"}"
+    },
+    {
+        "id": "7694bee5-b0a2-42e6-9b87-31cc010b9764",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CC(O)C(=O)OCc1ccccc1.CCOC(=O)N=NC(=O)OCC.CN(C(=O)OC(C)(C)C)C(C(=O)O)C(C)(C)C.c1ccc(P(c2ccccc2)c2ccccc2)cc1\nReagents: [Not known, ignore it]\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CC(OC(=O)C(N(C)C(=O)OC(C)(C)C)C(C)(C)C)C(=O)OCc1ccccc1\", \"Byproduct(s)\": \"CCOC(=O)NNC(=O)OCCO=P(c1ccccc1)(c1ccccc1)c1ccccc1\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Mitsunobu ester synthesis\", \"reactants\": [\"CC(O)C(=O)OCc1ccccc1\", \"CCOC(=O)N=NC(=O)OCC\", \"CN(C(=O)OC(C)(C)C)C(C(=O)O)C(C)(C)C\", \"c1ccc(P(c2ccccc2)c2ccccc2)cc1\"], \"reagents\": [], \"rxn_smiles\": \"CC(O)C(=O)OCc1ccccc1.CCOC(=O)N=NC(=O)OCC.CN(C(=O)OC(C)(C)C)C(C(=O)O)C(C)(C)C.c1ccc(P(c2ccccc2)c2ccccc2)cc1>>CC(OC(=O)C(N(C)C(=O)OC(C)(C)C)C(C)(C)C)C(=O)OCc1ccccc1\"}"
+    },
+    {
+        "id": "46084a50-be21-4776-b57e-9cc21e3aec28",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: Fc1ccc(Br)cc1\nReagents: [Mg]\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"Fc1ccc([Mg]Br)cc1\", \"Byproduct(s)\": []}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Bromo Grignard preparation\", \"reactants\": [\"Fc1ccc(Br)cc1\"], \"reagents\": [\"[Mg]\"], \"rxn_smiles\": \"Fc1ccc(Br)cc1>[Mg]>Fc1ccc([Mg]Br)cc1\"}"
+    },
+    {
+        "id": "b289a732-5356-4535-9779-bfbebf543279",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: COCOc1cc(O[Si](C(C)C)(C(C)C)C(C)C)ccc1-c1cc2cnn(C3CC(C)(C)NC(C)(C)C3)c2nn1\nReagents: CCCC[N+](CCCC)(CCCC)CCCC.C1CCOC1.[F-]\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"COCOc1cc(O)ccc1-c1cc2cnn(C3CC(C)(C)NC(C)(C)C3)c2nn1\", \"Byproduct(s)\": \"CC(C)[Si](F)(C(C)C)C(C)C\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"O-TIPS deprotection\", \"reactants\": [\"COCOc1cc(O[Si](C(C)C)(C(C)C)C(C)C)ccc1-c1cc2cnn(C3CC(C)(C)NC(C)(C)C3)c2nn1\"], \"reagents\": [\"CCCC[N+](CCCC)(CCCC)CCCC\", \"C1CCOC1\", \"[F-]\"], \"rxn_smiles\": \"COCOc1cc(O[Si](C(C)C)(C(C)C)C(C)C)ccc1-c1cc2cnn(C3CC(C)(C)NC(C)(C)C3)c2nn1>CCCC[N+](CCCC)(CCCC)CCCC.C1CCOC1.[F-]>COCOc1cc(O)ccc1-c1cc2cnn(C3CC(C)(C)NC(C)(C)C3)c2nn1\"}"
+    },
+    {
+        "id": "2b494f94-5f10-42ca-97c9-41727f0753f2",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: O=C(Cl)OCc1ccccc1.OCC1Cc2ccccc2CN1\nReagents: [Not known, ignore it]\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"O=C(OCc1ccccc1)N1Cc2ccccc2CC1CO\", \"Byproduct(s)\": \"[Cl-]\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"N-Cbz protection\", \"reactants\": [\"O=C(Cl)OCc1ccccc1\", \"OCC1Cc2ccccc2CN1\"], \"reagents\": [], \"rxn_smiles\": \"O=C(Cl)OCc1ccccc1.OCC1Cc2ccccc2CN1>>O=C(OCc1ccccc1)N1Cc2ccccc2CC1CO\"}"
+    },
+    {
+        "id": "0430b305-3248-4c9d-a944-21ceb46e2f58",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: C=CC(=O)NC1CCN(S(=O)(=O)c2ccc([N+](=O)[O-])cc2)CC1\nReagents: [NH4+].O.[Cl-].CCO.[Fe]\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"C=CC(=O)NC1CCN(S(=O)(=O)c2ccc(N)cc2)CC1\", \"Byproduct(s)\": \"OO[Fe+2]\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Bechamp reduction\", \"reactants\": [\"C=CC(=O)NC1CCN(S(=O)(=O)c2ccc([N+](=O)[O-])cc2)CC1\"], \"reagents\": [\"[NH4+]\", \"O\", \"[Cl-]\", \"CCO\", \"[Fe]\"], \"rxn_smiles\": \"C=CC(=O)NC1CCN(S(=O)(=O)c2ccc([N+](=O)[O-])cc2)CC1>[NH4+].O.[Cl-].CCO.[Fe]>C=CC(=O)NC1CCN(S(=O)(=O)c2ccc(N)cc2)CC1\"}"
+    },
+    {
+        "id": "d89774c9-e8c7-4227-80fa-23bbca929209",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: COC(=O)C(C)(CCBr)c1ccc(Cl)c(Cl)c1.CC(=O)N(C)C1CCNCC1\nReagents: [Not known, ignore it]\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"COC(=O)C(C)(CCN1CCC(N(C)C(C)=O)CC1)c1ccc(Cl)c(Cl)c1\", \"Byproduct(s)\": \"[Br-]\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Bromo N-alkylation\", \"reactants\": [\"COC(=O)C(C)(CCBr)c1ccc(Cl)c(Cl)c1\", \"CC(=O)N(C)C1CCNCC1\"], \"reagents\": [\"\"], \"rxn_smiles\": \"COC(=O)C(C)(CCBr)c1ccc(Cl)c(Cl)c1.CC(=O)N(C)C1CCNCC1>>COC(=O)C(C)(CCN1CCC(N(C)C(C)=O)CC1)c1ccc(Cl)c(Cl)c1\"}"
+    },
+    {
+        "id": "04b137af-2eba-451c-b8a3-4f32491e721e",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: COC(=O)C(Cc1ccc(OC)c(CO)c1)C(=O)OC.O=C=Nc1ccc(F)cc1F\nReagents: [Not known, ignore it]\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"COC(=O)C(Cc1ccc(OC)c(COC(=O)Nc2ccc(F)cc2F)c1)C(=O)OC\", \"Byproduct(s)\": []}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Isocyanate + alcohol reaction\", \"reactants\": [\"COC(=O)C(Cc1ccc(OC)c(CO)c1)C(=O)OC\", \"O=C=Nc1ccc(F)cc1F\"], \"reagents\": [\"\"], \"rxn_smiles\": \"COC(=O)C(Cc1ccc(OC)c(CO)c1)C(=O)OC.O=C=Nc1ccc(F)cc1F>>COC(=O)C(Cc1ccc(OC)c(COC(=O)Nc2ccc(F)cc2F)c1)C(=O)OC\"}"
+    },
+    {
+        "id": "f41a69d8-9cde-41f7-9745-48abfac1db2f",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. If no reagents information provided, just give one potential product. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CNC(=O)c1cc(C(=O)Oc2c(Cl)cc(Cl)cc2Cl)cn(Cc2ccccc2)c1=O.CCCN\nReagents: CN(C)c1ccncc1.CCN(CC)CC.C1CCOC1.N#N\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CCCNC(=O)c1cc(C(=O)NC)c(=O)n(Cc2ccccc2)c1\", \"Byproduct(s)\": \"[O-]c1c(Cl)cc(Cl)cc1Cl\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Carboxylic ester + amine reaction\", \"reactants\": [\"CNC(=O)c1cc(C(=O)Oc2c(Cl)cc(Cl)cc2Cl)cn(Cc2ccccc2)c1=O\", \"CCCN\"], \"reagents\": [\"CN(C)c1ccncc1\", \"CCN(CC)CC\", \"C1CCOC1\", \"N#N\"], \"rxn_smiles\": \"CNC(=O)c1cc(C(=O)Oc2c(Cl)cc(Cl)cc2Cl)cn(Cc2ccccc2)c1=O.CCCN>CN(C)c1ccncc1.CCN(CC)CC.C1CCOC1.N#N>CCCNC(=O)c1cc(C(=O)NC)c(=O)n(Cc2ccccc2)c1\"}"
+    },
+    {
+        "id": "7cab6318-b49f-4fad-902a-ab97cc997509",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CCOC(=O)N=NC(=O)OCC.O=C1NC(=O)c2ccccc21.OC1CC2CCC1C2.c1ccc(P(c2ccccc2)c2ccccc2)cc1\nReagents: [Not known, ignore it]\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"O=C1c2ccccc2C(=O)N1C1CC2CCC1C2\", \"Byproduct(s)\": \"CCOC(=O)NNC(=O)OCCO=P(c1ccccc1)(c1ccccc1)c1ccccc1\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Mitsunobu imide reaction\", \"reactants\": [\"CCOC(=O)N=NC(=O)OCC\", \"O=C1NC(=O)c2ccccc21\", \"OC1CC2CCC1C2\", \"c1ccc(P(c2ccccc2)c2ccccc2)cc1\"], \"reagents\": [], \"rxn_smiles\": \"CCOC(=O)N=NC(=O)OCC.O=C1NC(=O)c2ccccc21.OC1CC2CCC1C2.c1ccc(P(c2ccccc2)c2ccccc2)cc1>>O=C1c2ccccc2C(=O)N1C1CC2CCC1C2\"}"
+    },
+    {
+        "id": "799bcbba-330e-4b7a-88ac-78272d6460cb",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: Cc1cc(OCC(=O)O)cc(C)c1Cc1ccc(O)c(C(C)C)c1.CO.N\nReagents: O=S(=O)(O)O.ClCCl.CO.CO.O[Na]\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"Cc1cc(OCC(N)=O)cc(C)c1Cc1ccc(O)c(C(C)C)c1\", \"Byproduct(s)\": \"[OH-]\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Carboxy to carbamoyl\", \"reactants\": [\"Cc1cc(OCC(=O)O)cc(C)c1Cc1ccc(O)c(C(C)C)c1\", \"CO\", \"N\"], \"reagents\": [\"O=S(=O)(O)O\", \"ClCCl\", \"CO\", \"CO\", \"O[Na]\"], \"rxn_smiles\": \"Cc1cc(OCC(=O)O)cc(C)c1Cc1ccc(O)c(C(C)C)c1.CO.N>O=S(=O)(O)O.ClCCl.CO.CO.O[Na]>Cc1cc(OCC(N)=O)cc(C)c1Cc1ccc(O)c(C(C)C)c1\"}"
+    },
+    {
+        "id": "dcee01e7-1c25-403d-bb67-5dd580b7d8d2",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CC(C)=O.COc1ccc(C=O)cc1\nReagents: O=[Zn]\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"COc1ccc(C=CC(C)=O)cc1\", \"Byproduct(s)\": \"[OH-]\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Claisen-Schmidt condensation\", \"reactants\": [\"CC(C)=O\", \"COc1ccc(C=O)cc1\"], \"reagents\": [\"O=[Zn]\"], \"rxn_smiles\": \"CC(C)=O.COc1ccc(C=O)cc1>O=[Zn]>COc1ccc(C=CC(C)=O)cc1\"}"
+    },
+    {
+        "id": "18abb836-8ab8-47e7-8c9a-24f5d67746ba",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: Nc1ccc2c(c1)C(=O)N(C1CCC(=O)NC1=O)C2=O.O=C(Cl)COCCOCCOCCCl\nReagents: C1CCOC1\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"O=C1CCC(N2C(=O)c3ccc(NC(=O)COCCOCCOCCCl)cc3C2=O)C(=O)N1\", \"Byproduct(s)\": \"[Cl-]\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Amide Schotten-Baumann\", \"reactants\": [\"Nc1ccc2c(c1)C(=O)N(C1CCC(=O)NC1=O)C2=O\", \"O=C(Cl)COCCOCCOCCCl\"], \"reagents\": [\"C1CCOC1\"], \"rxn_smiles\": \"Nc1ccc2c(c1)C(=O)N(C1CCC(=O)NC1=O)C2=O.O=C(Cl)COCCOCCOCCCl>C1CCOC1>O=C1CCC(N2C(=O)c3ccc(NC(=O)COCCOCCOCCCl)cc3C2=O)C(=O)N1\"}"
+    },
+    {
+        "id": "7edcf216-50b0-4a3e-99d6-f15c392151a4",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: Cc1ccc(-n2nc(C(C)(C)C)cc2N)cc1.O=C(Cl)OCC(Cl)(Cl)Cl\nReagents: c1ccncc1.O\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"Cc1ccc(-n2nc(C(C)(C)C)cc2NC(=O)OCC(Cl)(Cl)Cl)cc1\", \"Byproduct(s)\": \"[Cl-]\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Carbamate Schotten-Baumann\", \"reactants\": [\"Cc1ccc(-n2nc(C(C)(C)C)cc2N)cc1\", \"O=C(Cl)OCC(Cl)(Cl)Cl\"], \"reagents\": [\"c1ccncc1\", \"O\"], \"rxn_smiles\": \"Cc1ccc(-n2nc(C(C)(C)C)cc2N)cc1.O=C(Cl)OCC(Cl)(Cl)Cl>c1ccncc1.O>Cc1ccc(-n2nc(C(C)(C)C)cc2NC(=O)OCC(Cl)(Cl)Cl)cc1\"}"
+    },
+    {
+        "id": "5a5e758f-b9a2-4003-ad4a-33fbb974691c",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: C=C(OCC)[Sn](CCCC)(CCCC)CCCC.Cc1nc(N)cc(-c2cc(Cl)cnc2F)n1\nReagents: CC(C)c1cc(C(C)C)c(-c2ccccc2P(C2CCCCC2)C2CCCCC2)c(C(C)C)c1.CC(=O)O[Pd]OC(C)=O.C1COCCO1.CN(C)C=O.F[Cs]\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"C=C(OCC)c1cnc(F)c(-c2cc(N)nc(C)n2)c1\", \"Byproduct(s)\": \"C=C(OCC)[Sn](Cl)(CCCC)CCCCCCCC[Sn](Cl)(CCCC)CCCCCCCCc1cnc(F)c(-c2cc(N)nc(C)n2)c1\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Chloro Stille reaction\", \"reactants\": [\"C=C(OCC)[Sn](CCCC)(CCCC)CCCC\", \"Cc1nc(N)cc(-c2cc(Cl)cnc2F)n1\"], \"reagents\": [\"CC(C)c1cc(C(C)C)c(-c2ccccc2P(C2CCCCC2)C2CCCCC2)c(C(C)C)c1\", \"CC(=O)O[Pd]OC(C)=O\", \"C1COCCO1\", \"CN(C)C=O\", \"F[Cs]\"], \"rxn_smiles\": \"C=C(OCC)[Sn](CCCC)(CCCC)CCCC.Cc1nc(N)cc(-c2cc(Cl)cnc2F)n1>CC(C)c1cc(C(C)C)c(-c2ccccc2P(C2CCCCC2)C2CCCCC2)c(C(C)C)c1.CC(=O)O[Pd]OC(C)=O.C1COCCO1.CN(C)C=O.F[Cs]>C=C(OCC)c1cnc(F)c(-c2cc(N)nc(C)n2)c1\"}"
+    },
+    {
+        "id": "c791acce-0bc8-48d4-85f9-b73872966f64",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CS(=O)(=O)OCc1ncc(-c2ccc(F)cc2)o1.N#Cc1ccc(NCC(F)(F)F)cc1C(F)(F)F\nReagents: O=C(O[Cs])O[Cs]\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"N#Cc1ccc(N(Cc2ncc(-c3ccc(F)cc3)o2)CC(F)(F)F)cc1C(F)(F)F\", \"Byproduct(s)\": \"CS(=O)(=O)[O-]\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Mesyloxy N-alkylation\", \"reactants\": [\"CS(=O)(=O)OCc1ncc(-c2ccc(F)cc2)o1\", \"N#Cc1ccc(NCC(F)(F)F)cc1C(F)(F)F\"], \"reagents\": [\"O=C(O[Cs])O[Cs]\"], \"rxn_smiles\": \"CS(=O)(=O)OCc1ncc(-c2ccc(F)cc2)o1.N#Cc1ccc(NCC(F)(F)F)cc1C(F)(F)F>O=C(O[Cs])O[Cs]>N#Cc1ccc(N(Cc2ncc(-c3ccc(F)cc3)o2)CC(F)(F)F)cc1C(F)(F)F\"}"
+    },
+    {
+        "id": "f80d4680-74b4-43b4-8e98-e39079f78581",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: COc1cccc2c1Sc1ccccc1CC2\nReagents: O.Cl.c1ccncc1\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"Oc1cccc2c1Sc1ccccc1CC2\", \"Byproduct(s)\": \"CCl\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Methoxy to hydroxy\", \"reactants\": [\"COc1cccc2c1Sc1ccccc1CC2\"], \"reagents\": [\"O\", \"Cl\", \"c1ccncc1\"], \"rxn_smiles\": \"COc1cccc2c1Sc1ccccc1CC2>O.Cl.c1ccncc1>Oc1cccc2c1Sc1ccccc1CC2\"}"
+    },
+    {
+        "id": "5654bec4-4193-438a-80d2-b744e6230693",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CC(=O)Nc1ccc(C=O)cc1.N#CCC#N\nReagents: CCO.C1CCNCC1\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CC(=O)Nc1ccc(C=C(C#N)C#N)cc1\", \"Byproduct(s)\": \"[OH-]\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Knoevenagel condensation\", \"reactants\": [\"CC(=O)Nc1ccc(C=O)cc1\", \"N#CCC#N\"], \"reagents\": [\"CCO\", \"C1CCNCC1\"], \"rxn_smiles\": \"CC(=O)Nc1ccc(C=O)cc1.N#CCC#N>CCO.C1CCNCC1>CC(=O)Nc1ccc(C=C(C#N)C#N)cc1\"}"
+    },
+    {
+        "id": "0011efd9-adb1-4af2-b5c2-3a6e44a6b944",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: COC(=O)C(C)(C)C(c1nc(Cl)cs1)c1[nH]c(-c2ccccc2)c2c(=O)n(C)c(=O)n(C)c12\nReagents: [Na+].CO.[Li]Cl.[BH4-]\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"Cn1c(=O)c2c(-c3ccccc3)[nH]c(C(c3nc(Cl)cs3)C(C)(C)CO)c2n(C)c1=O\", \"Byproduct(s)\": \"BCO\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Ester to alcohol reduction\", \"reactants\": [\"COC(=O)C(C)(C)C(c1nc(Cl)cs1)c1[nH]c(-c2ccccc2)c2c(=O)n(C)c(=O)n(C)c12\"], \"reagents\": [\"[Na+]\", \"CO\", \"[Li]Cl\", \"[BH4-]\"], \"rxn_smiles\": \"COC(=O)C(C)(C)C(c1nc(Cl)cs1)c1[nH]c(-c2ccccc2)c2c(=O)n(C)c(=O)n(C)c12>[Na+].CO.[Li]Cl.[BH4-]>Cn1c(=O)c2c(-c3ccccc3)[nH]c(C(c3nc(Cl)cs3)C(C)(C)CO)c2n(C)c1=O\"}"
+    },
+    {
+        "id": "23d8a889-61fd-476c-bd99-be75fc781382",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CCCCCC[P+](c1ccccc1)(c1ccccc1)c1ccccc1.COC(=O)CCCCCCC=O\nReagents: [Not known, ignore it]\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CCCCCC=CCCCCCCC(=O)OC\", \"Byproduct(s)\": \"O=P(c1ccccc1)(c1ccccc1)c1ccccc1\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Wittig olefination\", \"reactants\": [\"CCCCCC[P+](c1ccccc1)(c1ccccc1)c1ccccc1\", \"COC(=O)CCCCCCC=O\"], \"reagents\": [], \"rxn_smiles\": \"CCCCCC[P+](c1ccccc1)(c1ccccc1)c1ccccc1.COC(=O)CCCCCCC=O>>CCCCCC=CCCCCCCC(=O)OC\"}"
+    },
+    {
+        "id": "459bffd3-ea14-42df-b1b7-eb919f067ad4",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: C(=NC1CCCCC1)=NC1CCCCC1.CCCCCCCCCCCCCCCCCC(=O)OCC(CCCC(=O)O)COC(=O)C(NC(c1ccccc1)(c1ccccc1)c1ccccc1)C(C)C.Nc1nc2c(ncn2C2CC(F)C(CO)O2)c(=O)[nH]1\nReagents: [Not known, ignore it]\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CCCCCCCCCCCCCCCCCC(=O)OCC(CCCC(=O)OCC1OC(n2cnc3c(=O)[nH]c(N)nc32)CC1F)COC(=O)C(NC(c1ccccc1)(c1ccccc1)c1ccccc1)C(C)C\", \"Byproduct(s)\": \"O=C(NC1CCCCC1)NC1CCCCC1\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Steglich esterification\", \"reactants\": [\"C(=NC1CCCCC1)=NC1CCCCC1\", \"CCCCCCCCCCCCCCCCCC(=O)OCC(CCCC(=O)O)COC(=O)C(NC(c1ccccc1)(c1ccccc1)c1ccccc1)C(C)C\", \"Nc1nc2c(ncn2C2CC(F)C(CO)O2)c(=O)[nH]1\"], \"reagents\": [], \"rxn_smiles\": \"C(=NC1CCCCC1)=NC1CCCCC1.CCCCCCCCCCCCCCCCCC(=O)OCC(CCCC(=O)O)COC(=O)C(NC(c1ccccc1)(c1ccccc1)c1ccccc1)C(C)C.Nc1nc2c(ncn2C2CC(F)C(CO)O2)c(=O)[nH]1>>CCCCCCCCCCCCCCCCCC(=O)OCC(CCCC(=O)OCC1OC(n2cnc3c(=O)[nH]c(N)nc32)CC1F)COC(=O)C(NC(c1ccccc1)(c1ccccc1)c1ccccc1)C(C)C\"}"
+    },
+    {
+        "id": "8a9d3bc1-3b9e-4f54-b3fb-e649bae58604",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: Cc1c(NC(=O)c2ccc(OCC3CCCO3)cc2)ccc2cc(C=O)cnc12.NCC1CC1\nReagents: CC(=O)O[BH-](OC(C)=O)OC(C)=O.CN1CCCC1=O.CC(=O)O.O[Na].O.[Na+]\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"Cc1c(NC(=O)c2ccc(OCC3CCCO3)cc2)ccc2cc(CNCC3CC3)cnc12\", \"Byproduct(s)\": \"CC(=O)OB(OC(C)=O)OC(C)=OO\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Aldehyde reductive amination\", \"reactants\": [\"Cc1c(NC(=O)c2ccc(OCC3CCCO3)cc2)ccc2cc(C=O)cnc12\", \"NCC1CC1\"], \"reagents\": [\"CC(=O)O[BH-](OC(C)=O)OC(C)=O\", \"CN1CCCC1=O\", \"CC(=O)O\", \"O[Na]\", \"O\", \"[Na+]\"], \"rxn_smiles\": \"Cc1c(NC(=O)c2ccc(OCC3CCCO3)cc2)ccc2cc(C=O)cnc12.NCC1CC1>CC(=O)O[BH-](OC(C)=O)OC(C)=O.CN1CCCC1=O.CC(=O)O.O[Na].O.[Na+]>Cc1c(NC(=O)c2ccc(OCC3CCCO3)cc2)ccc2cc(CNCC3CC3)cnc12\"}"
+    },
+    {
+        "id": "f5c5e7d1-cbe2-424f-be8e-e223a8ec2261",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. If no reagents information provided, just give one potential product. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CC(Nc1nccc(N2C(=O)OCC2C(C)C)n1)c1ccc(CCl)cc1.c1cn2c(n1)CNCC2\nReagents: [Not known, ignore it]\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CC(Nc1nccc(N2C(=O)OCC2C(C)C)n1)c1ccc(CN2CCn3ccnc3C2)cc1\", \"Byproduct(s)\": \"[Cl-]\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Chloro N-alkylation\", \"reactants\": [\"CC(Nc1nccc(N2C(=O)OCC2C(C)C)n1)c1ccc(CCl)cc1\", \"c1cn2c(n1)CNCC2\"], \"reagents\": [], \"rxn_smiles\": \"CC(Nc1nccc(N2C(=O)OCC2C(C)C)n1)c1ccc(CCl)cc1.c1cn2c(n1)CNCC2>>CC(Nc1nccc(N2C(=O)OCC2C(C)C)n1)c1ccc(CN2CCn3ccnc3C2)cc1\"}"
+    },
+    {
+        "id": "64df7f4a-105d-431c-9ebe-e9198b7d5f17",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: C[Mg]Cl.O=C1CCCc2c1[nH]c1cc(Cl)c(Cl)cc21\nReagents: C1CCOC1\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CC1(O)CCCc2c1[nH]c1cc(Cl)c(Cl)cc21\", \"Byproduct(s)\": \"[Mg+]Cl\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Chloro Grignard reaction\", \"reactants\": [\"C[Mg]Cl\", \"O=C1CCCc2c1[nH]c1cc(Cl)c(Cl)cc21\"], \"reagents\": [\"C1CCOC1\"], \"rxn_smiles\": \"C[Mg]Cl.O=C1CCCc2c1[nH]c1cc(Cl)c(Cl)cc21>C1CCOC1>CC1(O)CCCc2c1[nH]c1cc(Cl)c(Cl)cc21\"}"
+    },
+    {
+        "id": "2b5b6f08-090f-4ee7-9dad-c0feaf01e072",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: COC(=O)c1nn(-c2c(Cl)cc(C(F)(F)F)cc2Cl)c(O)c1SC(F)(F)F.CCOS(=O)(=O)OCC\nReagents: C1COCCO1.[NaH]\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CCOc1c(SC(F)(F)F)c(C(=O)OC)nn1-c1c(Cl)cc(C(F)(F)F)cc1Cl\", \"Byproduct(s)\": \"CCOS(=O)(=O)O[Cl-][Cl-][H]C(Cl)(Cl)[OH]S(=O)(=O)OCC[H]C(Cl)[OH]S(=O)(=O)OCC\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Williamson ether synthesis\", \"reactants\": [\"COC(=O)c1nn(-c2c(Cl)cc(C(F)(F)F)cc2Cl)c(O)c1SC(F)(F)F\", \"CCOS(=O)(=O)OCC\"], \"reagents\": [\"C1COCCO1\", \"[NaH]\"], \"rxn_smiles\": \"COC(=O)c1nn(-c2c(Cl)cc(C(F)(F)F)cc2Cl)c(O)c1SC(F)(F)F.CCOS(=O)(=O)OCC>C1COCCO1.[NaH]>CCOc1c(SC(F)(F)F)c(C(=O)OC)nn1-c1c(Cl)cc(C(F)(F)F)cc1Cl\"}"
+    },
+    {
+        "id": "f97eafcf-d6ca-461e-9d98-00c8f1a1ddd0",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CN1CCCC1COc1nc2c(c(N3CCN(C(=O)OCc4ccccc4)CC3CC#N)n1)CCNC2.Ic1cccc2ccccc12.Nc1ccccc1-c1[c-]cccc1.O=C(O[Cs])O[Cs].[Pd]\nReagents: [Not known, ignore it]\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CN1CCCC1COc1nc2c(c(N3CCN(C(=O)OCc4ccccc4)CC3CC#N)n1)CCN(c1cccc3ccccc13)C2\", \"Byproduct(s)\": \"O=C(O)O[Cs][Cs+][I-][c-]1ccccc1-c1ccccc1Nc1cccc2ccccc12\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Iodo Buchwald-Hartwig amination\", \"reactants\": [\"CN1CCCC1COc1nc2c(c(N3CCN(C(=O)OCc4ccccc4)CC3CC#N)n1)CCNC2\", \"Ic1cccc2ccccc12\", \"Nc1ccccc1-c1[c-]cccc1\", \"O=C(O[Cs])O[Cs]\", \"[Pd]\"], \"reagents\": [], \"rxn_smiles\": \"CN1CCCC1COc1nc2c(c(N3CCN(C(=O)OCc4ccccc4)CC3CC#N)n1)CCNC2.Ic1cccc2ccccc12.Nc1ccccc1-c1[c-]cccc1.O=C(O[Cs])O[Cs].[Pd]>>CN1CCCC1COc1nc2c(c(N3CCN(C(=O)OCc4ccccc4)CC3CC#N)n1)CCN(c1cccc3ccccc13)C2\"}"
+    },
+    {
+        "id": "7be5a3dc-cbef-49ef-904d-092a70fe6da1",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: Ic1cc(-n2c3ccccc3c3ccccc32)cc2c1Oc1ccccc1[Si]2(c1ccccc1)c1ccccc1.CC1(C)c2ccccc2Oc2c(B(O)O)cccc21\nReagents: c1ccc([P](c2ccccc2)(c2ccccc2)[Pd]([P](c2ccccc2)(c2ccccc2)c2ccccc2)([P](c2ccccc2)(c2ccccc2)c2ccccc2)[P](c2ccccc2)(c2ccccc2)c2ccccc2)cc1.Cc1ccccc1.O=C(O[K])O[K].CCO.O\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CC1(C)c2ccccc2Oc2c(-c3cc(-n4c5ccccc5c5ccccc54)cc4c3Oc3ccccc3[Si]4(c3ccccc3)c3ccccc3)cccc21\", \"Byproduct(s)\": \"CCOB(O)OO=C(O[K])OB(O)OOB(O)O[I-][K+]c1ccc(P(c2ccccc2)c2ccccc2)cc1c1ccc(P(c2ccccc2)c2ccccc2)cc1\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Iodo Suzuki coupling\", \"reactants\": [\"Ic1cc(-n2c3ccccc3c3ccccc32)cc2c1Oc1ccccc1[Si]2(c1ccccc1)c1ccccc1\", \"CC1(C)c2ccccc2Oc2c(B(O)O)cccc21\"], \"reagents\": [\"c1ccc([P](c2ccccc2)(c2ccccc2)[Pd]([P](c2ccccc2)(c2ccccc2)c2ccccc2)([P](c2ccccc2)(c2ccccc2)c2ccccc2)[P](c2ccccc2)(c2ccccc2)c2ccccc2)cc1\", \"Cc1ccccc1\", \"O=C(O[K])O[K]\", \"CCO\", \"O\"], \"rxn_smiles\": \"Ic1cc(-n2c3ccccc3c3ccccc32)cc2c1Oc1ccccc1[Si]2(c1ccccc1)c1ccccc1.CC1(C)c2ccccc2Oc2c(B(O)O)cccc21>c1ccc([P](c2ccccc2)(c2ccccc2)[Pd]([P](c2ccccc2)(c2ccccc2)c2ccccc2)([P](c2ccccc2)(c2ccccc2)c2ccccc2)[P](c2ccccc2)(c2ccccc2)c2ccccc2)cc1.Cc1ccccc1.O=C(O[K])O[K].CCO.O>CC1(C)c2ccccc2Oc2c(-c3cc(-n4c5ccccc5c5ccccc54)cc4c3Oc3ccccc3[Si]4(c3ccccc3)c3ccccc3)cccc21\"}"
+    },
+    {
+        "id": "2ea977ba-59ba-46d1-8228-d05d4365a248",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CC(C)(C)OC(=O)OC(=O)OC(C)(C)C.NCCN\nReagents: ClCCl\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CC(C)(C)OC(=O)NCCN\", \"Byproduct(s)\": \"CC(C)(C)OO=C=O\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"N-Boc protection\", \"reactants\": [\"CC(C)(C)OC(=O)OC(=O)OC(C)(C)C\", \"NCCN\"], \"reagents\": [\"ClCCl\"], \"rxn_smiles\": \"CC(C)(C)OC(=O)OC(=O)OC(C)(C)C.NCCN>ClCCl>CC(C)(C)OC(=O)NCCN\"}"
+    },
+    {
+        "id": "8d01ac0f-27e5-45c0-816a-0071200fa6cb",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CC(C)(C)OC(=O)N1C2CC(Oc3ccc(-c4ccc(-n5ccc(F)n5)c5ncsc45)nn3)CC1C(F)(F)C2\nReagents: CO\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"Fc1ccn(-c2ccc(-c3ccc(OC4CC5CC(F)(F)C(C4)N5)nn3)c3scnc23)n1\", \"Byproduct(s)\": \"C[C+](C)CO=C=O\"}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"N-Boc deprotection\", \"reactants\": [\"CC(C)(C)OC(=O)N1C2CC(Oc3ccc(-c4ccc(-n5ccc(F)n5)c5ncsc45)nn3)CC1C(F)(F)C2\"], \"reagents\": [\"CO\"], \"rxn_smiles\": \"CC(C)(C)OC(=O)N1C2CC(Oc3ccc(-c4ccc(-n5ccc(F)n5)c5ncsc45)nn3)CC1C(F)(F)C2>CO>Fc1ccn(-c2ccc(-c3ccc(OC4CC5CC(F)(F)C(C4)N5)nn3)c3scnc23)n1\"}"
+    },
+    {
+        "id": "58d006ae-06c3-450c-adb2-fd10f3db46ef",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CN(C)c1ccc(C=Cc2ccc(S(=O)(=O)CCCO)cc2)cc1.O=S(=O)(CCCOC1CCCOC1)c1ccc(C=Cc2ccc3c(c2)OCCO3)cc1\nReagents: [Not known, ignore it]\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"O=S(=O)(CCCO)c1ccc(C=Cc2ccc3c(c2)OCCO3)cc1\", \"Byproduct(s)\": []}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Olefin metathesis\", \"reactants\": [\"CN(C)c1ccc(C=Cc2ccc(S(=O)(=O)CCCO)cc2)cc1\", \"O=S(=O)(CCCOC1CCCOC1)c1ccc(C=Cc2ccc3c(c2)OCCO3)cc1\"], \"reagents\": [\"\"], \"rxn_smiles\": \"CN(C)c1ccc(C=Cc2ccc(S(=O)(=O)CCCO)cc2)cc1.O=S(=O)(CCCOC1CCCOC1)c1ccc(C=Cc2ccc3c(c2)OCCO3)cc1>>O=S(=O)(CCCO)c1ccc(C=Cc2ccc3c(c2)OCCO3)cc1\"}"
+    },
+    {
+        "id": "4ed25560-7c84-43d7-85c7-3749812fea84",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CC(C)(C)NS(=O)(=O)c1ccc(C#N)o1\nReagents: O=C(O)C(F)(F)F\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CC(C)(C)NC(=O)c1ccc(S(N)(=O)=O)o1\", \"Byproduct(s)\": []}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Ritter reaction\", \"reactants\": [\"CC(C)(C)NS(=O)(=O)c1ccc(C#N)o1\"], \"reagents\": [\"O=C(O)C(F)(F)F\"], \"rxn_smiles\": \"CC(C)(C)NS(=O)(=O)c1ccc(C#N)o1>O=C(O)C(F)(F)F>CC(C)(C)NC(=O)c1ccc(S(N)(=O)=O)o1\"}"
+    },
+    {
+        "id": "02169ac5-9d42-475c-971b-c9644964129d",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CC(C)(C)OC(=O)N[C@H](C=O)CC1CCC1.[C-]#[N+]C1CC1.CC(=O)O\nReagents: CCOC(C)=O.ClCCl\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CC(=O)OC(C(=O)NC1CC1)[C@H](CC1CCC1)NC(=O)OC(C)(C)C\", \"Byproduct(s)\": []}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Passerini reaction\", \"reactants\": [\"CC(C)(C)OC(=O)N[C@H](C=O)CC1CCC1\", \"[C-]#[N+]C1CC1\", \"CC(=O)O\"], \"reagents\": [\"CCOC(C)=O\", \"ClCCl\"], \"rxn_smiles\": \"CC(C)(C)OC(=O)N[C@H](C=O)CC1CCC1.[C-]#[N+]C1CC1.CC(=O)O>CCOC(C)=O.ClCCl>CC(=O)OC(C(=O)NC1CC1)[C@H](CC1CCC1)NC(=O)OC(C)(C)C\"}"
+    },
+    {
+        "id": "838db635-3f91-4424-82c6-6b52d63f5b33",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CC(C)(C)OC(=O)COc1ccc(C(=O)O)cc1OCC(=O)OC(C)(C)C.NNC(=O)OCc1ccccc1\nReagents: CCN=C=NCCCN(C)C.On1nnc2ccccc21.CCN(C(C)C)C(C)C.CN(C)C=O.Cl\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CC(C)(C)OC(=O)COc1ccc(C(=O)NNC(=O)OCc2ccccc2)cc1OCC(=O)OC(C)(C)C\", \"Byproduct(s)\": []}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Carboxylic acid + hydrazine condensation\", \"reactants\": [\"CC(C)(C)OC(=O)COc1ccc(C(=O)O)cc1OCC(=O)OC(C)(C)C\", \"NNC(=O)OCc1ccccc1\"], \"reagents\": [\"CCN=C=NCCCN(C)C\", \"On1nnc2ccccc21\", \"CCN(C(C)C)C(C)C\", \"CN(C)C=O\", \"Cl\"], \"rxn_smiles\": \"CC(C)(C)OC(=O)COc1ccc(C(=O)O)cc1OCC(=O)OC(C)(C)C.NNC(=O)OCc1ccccc1>CCN=C=NCCCN(C)C.On1nnc2ccccc21.CCN(C(C)C)C(C)C.CN(C)C=O.Cl>CC(C)(C)OC(=O)COc1ccc(C(=O)NNC(=O)OCc2ccccc2)cc1OCC(=O)OC(C)(C)C\"}"
+    },
+    {
+        "id": "c42324c0-cd8a-4567-9ea9-bd0530a89418",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CCOC(=O)C(=O)CC(=O)CCN1C(=O)c2ccccc2C1=O.CCNN.O=C(O)C(=O)O.[Na]\nReagents: CCOCC.CC(=O)O\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CCOC(=O)c1cc(CCN2C(=O)c3ccccc3C2=O)n(CC)n1\", \"Byproduct(s)\": []}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Knorr pyrazole synthesis\", \"reactants\": [\"CCOC(=O)C(=O)CC(=O)CCN1C(=O)c2ccccc2C1=O\", \"CCNN\", \"O=C(O)C(=O)O\", \"[Na]\"], \"reagents\": [\"CCOCC\", \"CC(=O)O\"], \"rxn_smiles\": \"CCOC(=O)C(=O)CC(=O)CCN1C(=O)c2ccccc2C1=O.CCNN.O=C(O)C(=O)O.[Na]>CCOCC.CC(=O)O>CCOC(=O)c1cc(CCN2C(=O)c3ccccc3C2=O)n(CC)n1\"}"
+    },
+    {
+        "id": "dbdbbbc6-ab98-4170-b416-4d7d7e781be6",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: [C-]#[N+]C1CCCCC1.CC(=O)Cl.CC=O.Nc1ncccn1\nReagents: O=Cl(=O)(=O)O\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"[Cl-]CC(=O)[n+]1c(C)c(NC2CCCCC2)n2cccnc21\", \"Byproduct(s)\": []}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Ugi reaction\", \"reactants\": [\"[C-]#[N+]C1CCCCC1\", \"CC(=O)Cl\", \"CC=O\", \"Nc1ncccn1\"], \"reagents\": [\"O=Cl(=O)(=O)O\"], \"rxn_smiles\": \"[C-]#[N+]C1CCCCC1.CC(=O)Cl.CC=O.Nc1ncccn1>O=Cl(=O)(=O)O>[Cl-].CC(=O)[n+]1c(C)c(NC2CCCCC2)n2cccnc21\"}"
+    },
+    {
+        "id": "e612e05e-77cd-440c-bde0-44e7d27e7b21",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CC(C)(C)OC(=O)N1C[C@H](Sc2ccc(Cl)cn2)[C@@](O)(CN=[N+]=[N-])C1\nReagents: C1CCOC1.CP(C)C.[C-]#[O+].O\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CC(C)(C)OC(=O)N1C[C@H](Sc2ccc(Cl)cn2)[C@@](O)(CN)C1\", \"Byproduct(s)\": []}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Staudinger reduction\", \"reactants\": [\"CC(C)(C)OC(=O)N1C[C@H](Sc2ccc(Cl)cn2)[C@@](O)(CN=[N+]=[N-])C1\"], \"reagents\": [\"C1CCOC1\", \"CP(C)C\", \"[C-]#[O+]\", \"O\"], \"rxn_smiles\": \"CC(C)(C)OC(=O)N1C[C@H](Sc2ccc(Cl)cn2)[C@@](O)(CN=[N+]=[N-])C1>C1CCOC1.CP(C)C.[C-]#[O+].O>CC(C)(C)OC(=O)N1C[C@H](Sc2ccc(Cl)cn2)[C@@](O)(CN)C1\"}"
+    },
+    {
+        "id": "1a5bbf12-1c69-433b-b056-e8b4c4f15a07",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: COC(=O)C(O)(c1cccc(Cl)c1)c1cccc(Cl)c1.CN1[C@@H]2CC=C[C@@]1(O)CC2\nReagents: O.CC#N.[Na]\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CN1[C@@H]2CC=C[C@@]1(OC(=O)C(O)(c1cccc(Cl)c1)c1cccc(Cl)c1)CC2\", \"Byproduct(s)\": []}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Transesterification\", \"reactants\": [\"COC(=O)C(O)(c1cccc(Cl)c1)c1cccc(Cl)c1\", \"CN1[C@@H]2CC=C[C@@]1(O)CC2\"], \"reagents\": [\"O\", \"CC#N\", \"[Na]\"], \"rxn_smiles\": \"COC(=O)C(O)(c1cccc(Cl)c1)c1cccc(Cl)c1.CN1[C@@H]2CC=C[C@@]1(O)CC2>O.CC#N.[Na]>CN1[C@@H]2CC=C[C@@]1(OC(=O)C(O)(c1cccc(Cl)c1)c1cccc(Cl)c1)CC2\"}"
+    },
+    {
+        "id": "337aed0c-a484-4f77-b811-8b49b24c58e0",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CCOC(=O)C(=O)c1ccccc1.C=CC[Si](C)(C)C\nReagents: Cl[Sn](Cl)(Cl)Cl.ClCCl\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"C=CCC(O)(C(=O)OCC)c1ccccc1\", \"Byproduct(s)\": []}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Ketone Hosomi-Sakurai reaction\", \"reactants\": [\"CCOC(=O)C(=O)c1ccccc1\", \"C=CC[Si](C)(C)C\"], \"reagents\": [\"Cl[Sn](Cl)(Cl)Cl\", \"ClCCl\"], \"rxn_smiles\": \"CCOC(=O)C(=O)c1ccccc1.C=CC[Si](C)(C)C>Cl[Sn](Cl)(Cl)Cl.ClCCl>C=CCC(O)(C(=O)OCC)c1ccccc1\"}"
+    },
+    {
+        "id": "42c13ad4-398c-458a-b659-9b864ed3ae69",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: C=O.COC(=O)c1ccc2c(c1)CNC2\nReagents: O=CO\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"COC(=O)c1ccc2c(c1)CN(C)C2\", \"Byproduct(s)\": []}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Eschweiler-Clarke methylation\", \"reactants\": [\"C=O\", \"COC(=O)c1ccc2c(c1)CNC2\"], \"reagents\": [\"O=CO\"], \"rxn_smiles\": \"C=O.COC(=O)c1ccc2c(c1)CNC2>O=CO>COC(=O)c1ccc2c(c1)CN(C)C2\"}"
+    },
+    {
+        "id": "128f4dd8-7cde-4426-adb5-55d178aa92d2",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: COc1cccc(C2(c3ccc(O)cc3)CCCN(Cc3ccccc3)C2)c1.O=S(=O)(OS(=O)(=O)C(F)(F)F)C(F)(F)F\nReagents: c1ccncc1.O=C(O)O[Na].ClCCl.O\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"COc1cccc(C2(c3ccc(OS(=O)(=O)C(F)(F)F)cc3)CCCN(Cc3ccccc3)C2)c1\", \"Byproduct(s)\": []}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Hydroxy to triflyloxy\", \"reactants\": [\"COc1cccc(C2(c3ccc(O)cc3)CCCN(Cc3ccccc3)C2)c1\", \"O=S(=O)(OS(=O)(=O)C(F)(F)F)C(F)(F)F\"], \"reagents\": [\"c1ccncc1\", \"O=C(O)O[Na]\", \"ClCCl\", \"O\"], \"rxn_smiles\": \"COc1cccc(C2(c3ccc(O)cc3)CCCN(Cc3ccccc3)C2)c1.O=S(=O)(OS(=O)(=O)C(F)(F)F)C(F)(F)F>c1ccncc1.O=C(O)O[Na].ClCCl.O>COc1cccc(C2(c3ccc(OS(=O)(=O)C(F)(F)F)cc3)CCCN(Cc3ccccc3)C2)c1\"}"
+    },
+    {
+        "id": "3d97cd09-1df4-4f0d-8d4a-2b2864bda925",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: O.C=CC#N.C=C(C)C\nReagents: COC.O=S(=O)(O)O.Oc1ccc(O)cc1\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"C=CC(=O)NC(C)(C)C\", \"Byproduct(s)\": []}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Alkene Ritter reaction\", \"reactants\": [\"O\", \"C=CC#N\", \"C=C(C)C\"], \"reagents\": [\"COC\", \"O=S(=O)(O)O\", \"Oc1ccc(O)cc1\"], \"rxn_smiles\": \"O.C=CC#N.C=C(C)C>COC.O=S(=O)(O)O.Oc1ccc(O)cc1>C=CC(=O)NC(C)(C)C\"}"
+    },
+    {
+        "id": "388b29bb-7b35-469b-9383-66f59363534e",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CC(C)(C)OC(=O)N1C[C@H]2CC(OS(=O)(=O)C(F)(F)F)=C[C@H]2C1.CC1(C)OB(c2ccc(Oc3ncccn3)cc2)OC1(C)C\nReagents: c1ccc(P(c2ccccc2)(c2ccccc2)[Pd](P(c2ccccc2)(c2ccccc2)c2ccccc2)(P(c2ccccc2)(c2ccccc2)c2ccccc2)P(c2ccccc2)(c2ccccc2)c2ccccc2)cc1.O=C(O[Na])O[Na].C1COCCO1.O\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CC(C)(C)OC(=O)N1C[C@H]2CC(c3ccc(Oc4ncccn4)cc3)=C[C@H]2C1\", \"Byproduct(s)\": []}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Triflyloxy Suzuki coupling\", \"reactants\": [\"CC(C)(C)OC(=O)N1C[C@H]2CC(OS(=O)(=O)C(F)(F)F)=C[C@H]2C1\", \"CC1(C)OB(c2ccc(Oc3ncccn3)cc2)OC1(C)C\"], \"reagents\": [\"c1ccc(P(c2ccccc2)(c2ccccc2)[Pd](P(c2ccccc2)(c2ccccc2)c2ccccc2)(P(c2ccccc2)(c2ccccc2)c2ccccc2)P(c2ccccc2)(c2ccccc2)c2ccccc2)cc1\", \"O=C(O[Na])O[Na]\", \"C1COCCO1\", \"O\"], \"rxn_smiles\": \"CC(C)(C)OC(=O)N1C[C@H]2CC(OS(=O)(=O)C(F)(F)F)=C[C@H]2C1.CC1(C)OB(c2ccc(Oc3ncccn3)cc2)OC1(C)C>c1ccc(P(c2ccccc2)(c2ccccc2)[Pd](P(c2ccccc2)(c2ccccc2)c2ccccc2)(P(c2ccccc2)(c2ccccc2)c2ccccc2)P(c2ccccc2)(c2ccccc2)c2ccccc2)cc1.O=C(O[Na])O[Na].C1COCCO1.O>CC(C)(C)OC(=O)N1C[C@H]2CC(c3ccc(Oc4ncccn4)cc3)=C[C@H]2C1\"}"
+    },
+    {
+        "id": "d1df14a2-2e1e-443d-9b87-58cc2e078f84",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CCCSC(SCCC)=C(C#N)C#N.C1CCNC1\nReagents: CCCSC(=C(C#N)C#N)N1CCOCC1.CCO\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"CCCSC(=C(C#N)C#N)N1CCCC1\", \"Byproduct(s)\": []}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Sulfide + amine reaction\", \"reactants\": [\"CCCSC(SCCC)=C(C#N)C#N\", \"C1CCNC1\"], \"reagents\": [\"CCCSC(=C(C#N)C#N)N1CCOCC1\", \"CCO\"], \"rxn_smiles\": \"CCCSC(SCCC)=C(C#N)C#N.C1CCNC1>CCCSC(=C(C#N)C#N)N1CCOCC1.CCO>CCCSC(=C(C#N)C#N)N1CCCC1\"}"
+    },
+    {
+        "id": "4bb828a2-5bc3-4e6f-97ce-c25d4fe09391",
+        "query": "Given the reactants SMILES and reagents SMILES, your task is to predict the main product SMILES using your experienced chemical Reaction Prediction knowledge.\n\nInput:\nReactants SMILES separated by '.'\nReagents SMILES separated by '.'\n\nOutput:\nMain product SMILES\n[Optional: Byproduct SMILES separated by '.']\n\nThe output SMILES must be valid and chemically reasonable. Do not provide any additional information beyond the requested SMILES strings. The answer should be a json format that includes the main product SMILES and byproduct SMILES if any:\n\nQuestion:\nReactants: CC(=NNC(N)=S)C(=O)O\nReagents: O.O=C(O[Na])O[Na]\n\nAnswer:\n{\n    \"Major Product\": ...\n    \"Byproduct(s)\": ...\n}\n",
+        "gt": "{\"Major Product\": \"Cc1n[nH]c(=S)[nH]c1=O\", \"Byproduct(s)\": []}",
+        "task": "reaction",
+        "subtask": "fs",
+        "meta": "{\"rxn_cls\": \"Carboxylic acid + thioamide condensation\", \"reactants\": [\"CC(=NNC(N)=S)C(=O)O\"], \"reagents\": [\"O\", \"O=C(O[Na])O[Na]\"], \"rxn_smiles\": \"CC(=NNC(N)=S)C(=O)O>O.O=C(O[Na])O[Na]>Cc1n[nH]c(=S)[nH]c1=O\"}"
+    }
+]

@@ -1,0 +1,482 @@
+[
+    {
+        "id": "7b1bdf0a-bc8c-40ef-9326-018e2ddeb7f6",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: CC(C)n1cnc2c(NCc3ccc(-c4ccccc4)cc3)nc(N(CCO)CCO)nc21, Ring System Structure: c1ccc(-c2ccccc2)cc1",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "047b03b0-99a6-4e5c-8429-08ef6d6f4479",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: Cc1ccc(C(=NO)NCCN2CCOCC2)c(Oc2cccc(F)c2)n1, Ring System Structure: C1COCCN1",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "cee6381f-50e8-4d01-835c-a721bf68acad",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: COc1cc2ncnc(Nc3cc(Cl)ccc3Cl)c2cc1OCCCCCC(=O)NO, Ring System Structure: c1ccc2ncncc2c1",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "4216418e-8b3c-49a6-bd2e-a875d615835e",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: NC(=O)OC(CCN1CCN(c2ccc([N+](=O)[O-])cc2)CC1)c1ccccc1, Ring System Structure: c1ccc(N2CCNCC2)cc1",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "2152eac5-a4d1-4235-a648-cb2aab7b13db",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: CNC(=O)C(NC(=O)C(CC(C)C)C(C(=O)NO)C1CCCC1)C(C)(C)C, Ring System Structure: C1CCCC1",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "dd4454e5-e0db-4984-8089-f6655b3bbc72",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: CC(C(=O)NCc1ccc(C(F)(F)F)nc1OCc1ccc(F)cc1)c1ccc(NS(C)(=O)=O)c(F)c1, Ring System Structure: c1ccccc1",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "a8ce114b-f19f-460e-adf3-97da69ccda00",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: CCOC(=O)c1cnc2ccnn2c1SCC, Ring System Structure: c1cnc2ccnn2c1",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "15b2da5c-0af5-4d68-9273-74dacac7f873",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: CCC(=O)NCCCCN1CCN(c2ccccc2OC)CC1, Ring System Structure: c1ccc(N2CCNCC2)cc1",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "cc2ab381-ac34-4089-82d5-1e0a4e7be858",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: CN1C(=O)C(Cc2ccc(-c3ccccc3[N+](=O)[O-])cc2)NC(=O)c2cc(Cl)ccc21, Ring System Structure: c1ccc(-c2ccccc2)cc1",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "44c1575c-06e0-47f2-8003-06737fbd464d",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: CCC(O)COc1n[nH]c2cc(NC(=O)NC(C)c3ccccc3)ncc12, Ring System Structure: c1cc2[nH]ncc2cn1",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "cf7c2a5d-30df-4e1f-b695-db7873ca5db8",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: Cc1ccc(-c2csc3ncnc(NCCCC(=O)O)c23)cc1C, Ring System Structure: c1ccc(-c2csc3ncncc23)cc1",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "36ff4c5c-1738-4b5c-8d1f-7f6147313896",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: Cc1c(NC(=O)c2ccc(S(=O)(=O)Nc3ccccc3F)cc2)c(=O)n(-c2ccccc2)n1C, Ring System Structure: c1ccc(-n2cccn2)cc1",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "e64d5c02-1925-43d0-8fb7-c9ac881e3118",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: CC(NC(=O)Nc1cc2[nH]nc(OC(F)F)c2cn1)c1ccccc1, Ring System Structure: c1cc2[nH]ncc2cn1",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "411b7756-dd7c-4afe-9cdc-2efabdaf6fe7",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: CN(C)C1CCN(CCc2c(COc3ccccc3CO)sc3ccccc23)CC1, Ring System Structure: c1ccc2sccc2c1",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "990de018-edf3-4e56-86f0-567ec216ced5",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: O=c1cnc2cnc(OCc3ccccc3)nc2n1Cc1ccc(F)cc1, Ring System Structure: c1cnc2ncncc2n1",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "74447611-84fb-44ba-bb7b-8c98e1e1b901",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: FC(F)(F)c1ccccc1-c1nccc(NCc2ccccc2)n1, Ring System Structure: c1ccc(-c2ncccn2)cc1",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "0d0cec95-2ffc-433c-a2b4-88d9dc085785",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: O=C(c1ccc(Br)o1)N1CCc2ccccc21, Ring System Structure: c1ccc2c(c1)CCN2",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "2766cbcc-051c-47ec-aa8e-f499abbd7b9b",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: C=CCNC(=O)NC(=O)CN1C(=O)NC(c2ccccc2)(c2ccccc2)C1=O, Ring System Structure: c1ccc(C2(c3ccccc3)CNCN2)cc1",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "74afed27-efb9-4ae4-b142-b3b4b262e650",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: O=C(O)CSc1nonc1-c1ccccc1, Ring System Structure: c1ccc(-c2cnon2)cc1",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "82efb0cf-8dca-4736-9115-c6e06f77c0f7",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: CC1CCCCN1CCC(CCN(C(C)C)C(C)C)(C(N)=O)c1ccccc1F, Ring System Structure: C1CCNCC1",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "5f56a971-d2f7-43d3-8e03-7f3b14a9e0c3",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: CC(C(=O)N1CCN(c2cccc(C(F)(F)F)c2)CC1)N1C(=O)CC(C)(C)C1=O, Ring System Structure: c1ccc(N2CCNCC2)cc1",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "dcf46352-8ed6-4e80-a81e-584002541f56",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: O=C(CCCCCCc1ccccc1)c1ncc(-c2cc([N+](=O)[O-])ccn2)o1, Ring System Structure: c1ccc(-c2cnco2)nc1",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "96ffd0c7-5ba5-4dad-bf39-9dcd157ad097",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: CN1CCN(CC(=O)Nc2ccc(Sc3ccc(Cl)cc3)cc2)CC1, Ring System Structure: C1CNCCN1",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "628bb094-4bc3-4a18-acd9-08719a0e9c90",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: CC(c1nc(C2CC2)no1)N1CCN(Cc2cccc(F)c2F)CC1, Ring System Structure: c1nc(C2CC2)no1",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "89fe94d4-560c-4751-9305-79315e74f605",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: COc1cc2ncnc(Nc3ccc(C(F)(F)F)cc3)c2c(OC)c1OC, Ring System Structure: c1ccc2ncncc2c1",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "fd5e7abf-9eb3-4836-8f2a-4e7bc187af55",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: c1ccc(Nc2ccc(Oc3nccnc3C3CCOC3)cc2)nc1, Ring System Structure: c1cnc(C2CCOC2)cn1",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "708c3d29-2e17-4dc8-8db4-d5b0cb329bdc",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: O=C(OCc1ccccc1)C1COC(c2cccc(F)c2)=N1, Ring System Structure: c1ccc(C2=NCCO2)cc1",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "7912f8c1-a4d8-4274-b7b9-cbb6eda4d0ee",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: Oc1ccc(Nc2ncnc3scc(-c4ccccc4)c23)cc1, Ring System Structure: c1ccc(-c2csc3ncncc23)cc1",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "b8ca4f64-a7c5-4845-bff2-0c6144f24ed6",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: O=S(=O)(NCCCCCO)c1ccc(-c2ccc(O)cc2)cc1, Ring System Structure: c1ccc(-c2ccccc2)cc1",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "e2c5192f-a892-4d92-9553-e63b63983cc1",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: CCC(C(=O)NC(C#N)CC(N)=O)N(Cc1ccc(-c2cccc(F)c2F)cc1)S(C)(=O)=O, Ring System Structure: c1ccc(-c2ccccc2)cc1",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "d6a90548-861a-4f19-a853-d93916b4077c",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: CC(NC(=O)Nc1cc2[nH]nc(CNCC(F)F)c2cn1)c1ccccc1, Ring System Structure: c1cc2[nH]ncc2cn1",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "86b6cee9-0e9d-4b4f-9fb5-ab0c06f6e643",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: O=C(Nc1ccccc1C(=O)NC(Cc1ccccc1)C(=O)O)c1cnccn1, Ring System Structure: c1ccccc1",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "0ffb004c-f93f-48de-ac4a-5913f9fa4afe",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: Fc1ccc(-c2nc[nH]c2-c2ccncc2)cc1, Ring System Structure: c1ccc(-c2nc[nH]c2-c2ccncc2)cc1",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "bd8f191c-b9e5-4f25-b787-1300b27e25cd",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: CC1C2Cc3ccc(N)cc3C1(C)CCN2, Ring System Structure: c1ccc2c(c1)CC1CC2CCN1",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "89a95c50-f69f-43ad-a558-3fabfb46b96e",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: COc1cccc(CN2CCC(NC(=O)CNC(=O)c3cccc(C(F)(F)F)c3)C2)c1, Ring System Structure: c1ccccc1",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "4db40464-cda7-4156-8b09-ab8cd0aeffc1",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: CC1CC(C)CN(S(=O)(=O)c2ccc(C(=O)NCc3ccco3)cc2)C1, Ring System Structure: C1CCNCC1",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "bcd6b51f-0fe2-4767-a068-5aa784479831",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: CC(=O)Nc1ncc2cc(-c3c(Cl)cccc3Cl)c(=O)n(C)c2n1, Ring System Structure: c1ccc(-c2cnc3ncncc3c2)cc1",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "12094338-b7fc-4db1-a554-9aa6e199c956",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: CON=C(CCN1CCN(c2ccccn2)CC1)c1ccccc1, Ring System Structure: c1ccc(N2CCNCC2)nc1",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "2fc0a86e-525a-44d3-be08-907a7ad1cb59",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: O=C(CCCC1CCN(S(=O)(=O)c2ccc3c(c2)CCO3)CC1)NO, Ring System Structure: c1ccc2c(c1)CCO2",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "f09c9b0e-9dfc-445b-a9f4-b27e4005b98e",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: c1cc(Nc2ccon2)nc(Nc2ccc(N3CCOCC3)cc2)n1, Ring System Structure: c1ccc(N2CCOCC2)cc1",
+        "gt": "Yes",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "88dba209-576c-49e5-9591-8591059a4205",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: N#CCC1(n2cc(C(N)=O)c(Nc3ccccc3)n2)CCN(C(=O)c2cccc(Cl)c2)CC1, Ring System Structure: C1=C(n2cccn2)CCNC1",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "6b4fc853-5ecb-4cd4-8a99-1322b340a4c9",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: Fc1cccc(CNc2cccc(-c3cc(NCCC4CCCNC4)ncc3Cl)n2)c1, Ring System Structure: c1ccc(-c2ccccn2)cc1",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "d23723ca-1131-456d-b7f3-ebc16aebf642",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: O=C(Nc1ccc(N2CCOCC2)cc1)c1cc(Cl)ccc1O, Ring System Structure: c1cncc(N2CCOCC2)c1",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "a6f56205-66ab-4504-b2c3-efc07a8f31ca",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: CC1=C(CC(=O)OCCCCO)c2cc(F)ccc2C1=Cc1ccc(S(C)(=O)=O)cc1, Ring System Structure: C1=[SH]Cc2ccccc21",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "5b98fe45-68dd-4a07-863c-81e0a5ab6680",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: CC(C)c1ccccc1OCCN1CCC(NS(=O)(=O)c2ccccc2)CC1, Ring System Structure: C1=NCCCC1",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "2e4a9017-22c4-4a00-925d-4acd9148475c",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: Fc1ccccc1C1CCN(Cc2nc(CC3CC3)no2)C1, Ring System Structure: C1=C(c2ccccc2)CCN1",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "3bc30258-6cef-4abc-ab6f-66ca4c15d83a",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: Cc1cccc2[nH]c(-c3ccccn3)nc12, Ring System Structure: C1=C=c2[nH]c(-c3ccccn3)nc2=CC=1",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "fde8e5b6-cee1-4fcd-9230-57414d18b0e2",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: O=C(NC1CCCC1)C(c1cccnc1)N(C(=O)c1csnn1)C1CCCC1, Ring System Structure: C1=C=NC=CC=1",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "ff769a06-0bce-4347-83a1-acc4e0c42863",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: O=C(O)c1ccccc1Nc1ccnc(N2CCCCC2)n1, Ring System Structure: C1=CCN(c2ncccn2)CC1",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "bce4bd24-229d-4928-9735-cb1b5cbc87ec",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: COc1cc(N)c(Cl)cc1C(=O)OCCN1CCC(C(N)=O)CC1, Ring System Structure: C1=CNCCC1",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "743f60d8-1523-4a87-bd68-9f13766cb444",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: Cc1c(F)ccc(C(=O)Nc2cc(C(=O)O)ccc2N2CCN(C)CC2)c1Cl, Ring System Structure: C1=CN(c2ccccc2)CCN1",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "ddc8a97d-fb84-4eb5-af10-8da81949b5ce",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: C#Cc1cc(Oc2cnc(NCC(C)O)nc2N)c(C(C)C)cc1OC, Ring System Structure: C1=C=CC=CC=1",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "426f20cd-c3c9-4e6c-9d3c-5792d477ef84",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: N=C(N)c1ccc(-c2c[nH]cn2)cc1, Ring System Structure: c1cncc(-c2c[nH]cn2)c1",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "cc60963b-bc3b-4788-8a98-6772eaca74bd",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: O=C(Nc1ccc(S(=O)(=O)Nc2ccccn2)cc1)c1cccc([N+](=O)[O-])c1, Ring System Structure: C1=C=CC=CC=1",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "197df741-dee3-44bd-9908-114b8c8abd73",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: CCc1ccc(OC(C)=O)c(C(=O)c2ccc(C)cc2)c1, Ring System Structure: C1=C=CC=CC=1",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "edf92a68-27b6-4aad-8757-30a3947d8ec4",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: Cc1ccc(-c2nc3ccccc3c(=O)n2CCN)cc1, Ring System Structure: C1=C=C(c2ncc3ccccc3n2)C=CC=1",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "1fb4cc63-10ed-4c41-ba85-d4b986af0082",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: Cc1ccc(NC(=O)CCC(=O)N2CCN(S(=O)(=O)c3ccc(C)cc3)CC2)cc1, Ring System Structure: C1CNNCN1",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "e3b65ad9-8679-43c5-bcd3-5add06b8f0d3",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: NC(=O)c1cncnc1Nc1cccc(C(F)(F)F)c1, Ring System Structure: c1ccncc1",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "6742ea74-226e-4778-a65d-0656086b03e1",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: CC(C)=Cc1ccc2cc(NC(=O)C3CC3)ncc2c1, Ring System Structure: C1=C=c2ccncc2=CC=1",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    },
+    {
+        "id": "0007ff31-2602-4609-8ec6-11a9bb874fa9",
+        "query": "You are a chemical assistent. Please Determine whether the ring_system_scaffold is in the Molecule. Input: a molecule's SMILES string, a Ring System Scaffold. Output: yes / no.\nDefinition: The ring system scaffold consists of one or more cyclic (ring-shaped) molecular structures.\nYour response must be directly parsable JSON format:\n{\n    \"output\": \"Yes / No\"\n}\nInput Molecule: CN1CCN(c2ncnc3ccc(-c4ccccc4Cl)cc23)CC1, Ring System Structure: C1=C=CC(c2ccc3ncnc(N4CCNCC4)c3c2)=CC=1",
+        "gt": "No",
+        "task": "mol_und",
+        "subtask": "ring_system_scaffold",
+        "meta": "{}"
+    }
+]

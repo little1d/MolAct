@@ -15,13 +15,10 @@ set -euo pipefail
 export NLTK_DATA=/mnt/shared-storage-user/yangzhuo/main/datasets/nltk_data
 mkdir -p "${NLTK_DATA}"
 
-# Set TDC cache path for oracle tools
-export TDC_CACHE_PATH="/mnt/shared-storage-user/yangzhuo/main/projects/agentrl/AgentFly/verl/oracle"
-export PYTDC_CACHE="$TDC_CACHE_PATH"
-
-BENCH_DIR="${1:-/mnt/shared-storage-user/yangzhuo/main/projects/agentrl/AgentFly/ChemCoTBench/baseline_and_eval}"
-PRED_DIR="${2:-/mnt/shared-storage-user/yangzhuo/main/projects/agentrl/AgentFly/outputs/mol_opt_eval_bench_qwen2.5_3b_ablation}"
-OUT_DIR="${3:-/mnt/shared-storage-user/yangzhuo/main/projects/agentrl/AgentFly/outputs/chemcotbench_molopt_results_qwen2.5_3b_ablation_maxturn_16}"
+# 注意这里的 BENCH_DIR是 ChemCoTBench的baseline_and_eval 目录，和inference的BENCH_DIR不同
+BENCH_DIR="${1:-/mnt/shared-storage-user/yangzhuo/main/projects/MolAct/ChemCoTBench/baseline_and_eval}"
+PRED_DIR="${2:-/mnt/shared-storage-user/yangzhuo/main/projects/MolAct/outputs/mol_opt_eval_bench_7b_maxturn_16/}"
+OUT_DIR="${3:-/mnt/shared-storage-user/yangzhuo/main/projects/MolAct/outputs/chemcotbench_molopt_results_7b_maxturn_16}"
 
 mkdir -p "${OUT_DIR}"
 
@@ -37,7 +34,8 @@ echo "Out dir       : ${OUT_DIR}"
 echo "Python        : ${PYTHON_CMD}"
 
 # Evaluate each subtask separately
-for SUBTASK in logp drd jnk gsk qed solubility; do
+# for SUBTASK in logp drd jnk gsk qed solubility; do
+for SUBTASK in logp; do
   PRED_FILE="${PRED_DIR}/pred_${SUBTASK}.json"
   OUT_FILE="${OUT_DIR}/eval_${SUBTASK}.json"
 

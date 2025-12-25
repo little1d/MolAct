@@ -1,0 +1,802 @@
+[
+    {
+        "id": "ff1979c7-f9e0-42c6-beba-c348d41c910a",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CCc1nc(CN(C)C2CCN(CCn3cc(C#N)cn3)C2)no1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"1-[2-[3-[(5-ethyl-1,2,4-oxadiazol-3-yl)methyl-methylamino]pyrrolidin-1-yl]ethyl]pyrazole-4-carbonitrile\", \"type\": \"small\"}"
+    },
+    {
+        "id": "1581aae0-01d7-4d95-8f2f-b400833471d8",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CC(Cc1c[nH]c2ccccc12)NCC(O)c1cccc(Cl)c1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"1-(3-chlorophenyl)-2-[1-(1H-indol-3-yl)propan-2-ylamino]ethanol\", \"type\": \"small\"}"
+    },
+    {
+        "id": "e2aa8d5f-772a-451e-8698-3286efb80afe",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CN1CCCN(CCn2ccc3ccc(C(N)=O)cc32)CC1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"1-[2-(4-methyl-1,4-diazepan-1-yl)ethyl]indole-6-carboxamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "129f875b-09b2-4f3f-a669-a96f941b3c54",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CC(C)(C)C(=O)N1c2ccccc2CCc2ccccc21.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"1-(5,6-dihydrobenzo[b][1]benzazepin-11-yl)-2,2-dimethylpropan-1-one\", \"type\": \"small\"}"
+    },
+    {
+        "id": "e6486664-fcce-407c-b591-fac7a80222a0",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CCN(CC)CCNc1n[n+]([O-])c2cc3c(cc2[n+]1[O-])CCC3.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"N-(1,4-dioxido-7,8-dihydro-6H-cyclopenta[g][1,2,4]benzotriazine-1,4-diium-3-yl)-N',N'-diethylethane-1,2-diamine\", \"type\": \"small\"}"
+    },
+    {
+        "id": "f62a0602-69d0-4f7a-82b8-74bd320a3394",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CCC(=O)N(c1ccc(Cl)c(Cl)c1)C1CCCC1N.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"N-(2-aminocyclopentyl)-N-(3,4-dichlorophenyl)propanamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "df2d1d1d-8560-41c1-9c92-14e030ea15b6",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1cc2c(cc1OC)CC(N1CCOCC1)C2.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"4-(5,6-dimethoxy-2,3-dihydro-1H-inden-2-yl)morpholine\", \"type\": \"small\"}"
+    },
+    {
+        "id": "933d82d4-0204-4135-a865-2d79d6e723dc",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CN1CC=C(c2c[nH]c3ccc(-c4ccccc4)cc23)CC1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"3-(1-methyl-3,6-dihydro-2H-pyridin-4-yl)-5-phenyl-1H-indole\", \"type\": \"small\"}"
+    },
+    {
+        "id": "2537adbc-2996-445e-a0ad-a0c836c28e7c",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CON=C(CCN1CCN(c2ccccn2)CC1)c1ccccc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"N-methoxy-1-phenyl-3-(4-pyridin-2-ylpiperazin-1-yl)propan-1-imine\", \"type\": \"small\"}"
+    },
+    {
+        "id": "843d6cef-a345-448f-b74b-072a01a11992",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C1CC(CN2CCN(Cc3ccccc3)CC2)Oc2ccccc21.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"2-[(4-benzylpiperazin-1-yl)methyl]-2,3-dihydrochromen-4-one\", \"type\": \"small\"}"
+    },
+    {
+        "id": "3e5e8ab5-e4a9-4321-bba1-f8e2ddfd22e0",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1ccccc1NC(=O)CN1CCN(Cc2ccccc2)CC1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"2-(4-benzylpiperazin-1-yl)-N-(2-methoxyphenyl)acetamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "1c45fde4-655e-46b3-89f5-9fb5d4a1eb60",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CCC(=O)NCCCCN1CCN(c2ccccc2OC)CC1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"N-[4-[4-(2-methoxyphenyl)piperazin-1-yl]butyl]propanamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "d952b2b8-9fe0-4539-af3f-d73aff2cf17b",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: N#CCCNCCCN1CCCCC1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"3-(3-piperidin-1-ylpropylamino)propanenitrile\", \"type\": \"small\"}"
+    },
+    {
+        "id": "1cddda5d-56e4-474f-abd0-88c6d8de775e",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CCN1CCN(c2cccc(Cl)c2)CC1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"1-(3-chlorophenyl)-4-ethylpiperazine\", \"type\": \"small\"}"
+    },
+    {
+        "id": "c33000b7-83f3-4d2c-b756-526880fa1178",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(CCc1ccc2c(ccn2S(=O)(=O)c2ccccc2)c1)NO.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"3-[1-(benzenesulfonyl)indol-5-yl]-N-hydroxypropanamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "a8f7f00c-27ca-41d5-9640-3030b3bd7ecf",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Brc1ccc(OCC2CCN(CC3CC3)CC2)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"4-[(4-bromophenoxy)methyl]-1-(cyclopropylmethyl)piperidine\", \"type\": \"small\"}"
+    },
+    {
+        "id": "490cadfa-e9ff-4a65-9c5f-1d024c30fa4b",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CCCc1c(C(=O)Nc2cc(O)ccc2C)cnn1-c1ccccc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"N-(5-hydroxy-2-methylphenyl)-1-phenyl-5-propylpyrazole-4-carboxamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "e70130f5-a9b4-4df7-9a84-f916c95c5898",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CN(C)CCc1c[nH]c2ccc(-n3cnnc3)cc12.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"N,N-dimethyl-2-[5-(1,2,4-triazol-4-yl)-1H-indol-3-yl]ethanamine\", \"type\": \"small\"}"
+    },
+    {
+        "id": "66de32ff-e1e7-475d-bd07-51ddc3db01b4",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(O)C(O)Cc1c[nH]c2ccc(O)cc12.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"2-hydroxy-3-(5-hydroxy-1H-indol-3-yl)propanoic acid\", \"type\": \"small\"}"
+    },
+    {
+        "id": "0c922767-2441-47c4-b53f-823743228370",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(O)CCCC1C2CCCN3CCCC(CN1CCO)C23.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"4-[7-(2-hydroxyethyl)-1,7-diazatricyclo[7.3.1.05,13]tridecan-6-yl]butanoic acid\", \"type\": \"small\"}"
+    },
+    {
+        "id": "97daf1cc-db87-4d85-a9b2-7275db29cdaa",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CCOc1ccccc1-c1nc(CN2CCN(C)CC2)co1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"2-(2-ethoxyphenyl)-4-[(4-methylpiperazin-1-yl)methyl]-1,3-oxazole\", \"type\": \"small\"}"
+    },
+    {
+        "id": "03787022-355b-4db0-8f5e-82086875a5c1",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CN1CCc2cccc3c2C1Cc1cccc(O)c1-3.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"6-methyl-5,6,6a,7-tetrahydro-4H-dibenzo[de,g]quinolin-11-ol\", \"type\": \"small\"}"
+    },
+    {
+        "id": "008be455-ec18-4958-a7c0-eba293e4d3b1",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CC(=O)N1N=C(c2cc(F)ccc2F)CC1c1ccccc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"1-[5-(2,5-difluorophenyl)-3-phenyl-3,4-dihydropyrazol-2-yl]ethanone\", \"type\": \"small\"}"
+    },
+    {
+        "id": "4a445b4f-4a29-4f6b-b321-5d089ba6e4ef",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: NCCCCc1c[nH]c2ccc(F)cc12.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"4-(5-fluoro-1H-indol-3-yl)butan-1-amine\", \"type\": \"small\"}"
+    },
+    {
+        "id": "cce0fc30-03e4-480b-b137-5a2d60d468fb",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(NC1CCNCC1)c1ccc2ccccc2c1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"N-piperidin-4-ylnaphthalene-2-carboxamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "ae0eb09f-9b24-4792-98f7-af6a54151ab3",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CC1C2Cc3ccc(O)cc3C1(C)CCN2CC(=O)O.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"2-(4-hydroxy-1,13-dimethyl-10-azatricyclo[7.3.1.02,7]trideca-2(7),3,5-trien-10-yl)acetic acid\", \"type\": \"small\"}"
+    },
+    {
+        "id": "c2e2776a-437b-44fa-a0e1-03852e30ae75",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: c1cncc(NC2c3ccccc3OCc3ncccc32)c1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"N-pyridin-3-yl-5,11-dihydro-[1]benzoxepino[3,4-b]pyridin-11-amine\", \"type\": \"small\"}"
+    },
+    {
+        "id": "9ede9635-9411-496c-bf51-4e7ed0fbae7a",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: OC(CN1C2CCC1CC(c1ccccc1)C2)c1ccccc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"1-phenyl-2-(3-phenyl-8-azabicyclo[3.2.1]octan-8-yl)ethanol\", \"type\": \"small\"}"
+    },
+    {
+        "id": "19afef4a-f12b-456c-b4a8-0f7d576ec750",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CC1C2Cc3ccc(N)cc3C1(C)CCN2.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"1,13-dimethyl-10-azatricyclo[7.3.1.02,7]trideca-2(7),3,5-trien-4-amine\", \"type\": \"small\"}"
+    },
+    {
+        "id": "fd55f91f-932e-45d3-bb69-b7c745ae6210",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CC(O)CN1CCN(c2cccc(Cl)c2Cl)CC1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": null, \"type\": \"small\"}"
+    },
+    {
+        "id": "baacf34d-a8f2-42d5-95ce-95533fecf58f",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CCN(CC)CCNC(=O)c1cc(Cl)c(N)cc1O.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"4-amino-5-chloro-N-[2-(diethylamino)ethyl]-2-hydroxybenzamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "94b89110-933c-4c2c-989d-f19e476b41d6",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1cc(N)c(Cl)cc1C(=O)NC1CCNCC1OC.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"4-amino-5-chloro-2-methoxy-N-(3-methoxypiperidin-4-yl)benzamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "35537f04-fc2c-473f-95e8-d2f3ce12f5d2",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(CCc1ccccc1)c1ccccc1O.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"1-(2-hydroxyphenyl)-3-phenylpropan-1-one\", \"type\": \"small\"}"
+    },
+    {
+        "id": "01881eca-b286-419a-9c48-ce24e0c4325d",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CN(CC=Cc1ccccc1)Cc1ccc(C2CCCN(C)C2)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": null, \"type\": \"small\"}"
+    },
+    {
+        "id": "a5ddbcad-0b94-42ed-8c6f-a655c6d6c91d",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Fc1ccccc1C1CCN(Cc2nc(CC3CC3)no2)C1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"3-(cyclopropylmethyl)-5-[[3-(2-fluorophenyl)pyrrolidin-1-yl]methyl]-1,2,4-oxadiazole\", \"type\": \"small\"}"
+    },
+    {
+        "id": "ac7c01d8-e6f2-4713-998b-cb6824439ae1",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CCn1c(=O)cc(N2CCN(Cc3ccccc3)CC2)[nH]c1=O.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"6-(4-benzylpiperazin-1-yl)-3-ethyl-1H-pyrimidine-2,4-dione\", \"type\": \"small\"}"
+    },
+    {
+        "id": "d1c3bfb3-9802-4fd2-ac73-b9ba43bc7aa0",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: c1cc(OCCCN2CCCCC2)ccc1CN1CCCCC1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"1-[3-[4-(piperidin-1-ylmethyl)phenoxy]propyl]piperidine\", \"type\": \"small\"}"
+    },
+    {
+        "id": "56269b84-065b-4ddb-97c2-f63ff62896f1",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(Cc1ccccc1)NC1CCN(Cc2ccccc2)CC1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"N-(1-benzylpiperidin-4-yl)-2-phenylacetamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "b5d46248-373d-4211-85c4-0797499ba3f5",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CC(C)C(=O)NC1CCN(Cc2ccccc2)CC1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"N-(1-benzylpiperidin-4-yl)-2-methylpropanamide\", \"type\": \"small\"}"
+    },
+    {
+        "id": "e692ddaf-faf4-4219-8adc-efc81c26ca94",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CN1CCN(c2cc(-c3cccnc3)nc(N)n2)CC1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"4-(4-methylpiperazin-1-yl)-6-pyridin-3-ylpyrimidin-2-amine\", \"type\": \"small\"}"
+    },
+    {
+        "id": "baf31242-fc64-4733-8196-043cc213ef6b",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(CN1CCN(CCc2ccccc2)CC1)C(O)(c1ccccc1)C1CCC1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"1-cyclobutyl-1-hydroxy-1-phenyl-3-[4-(2-phenylethyl)piperazin-1-yl]propan-2-one\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "eb9d0515-7126-4861-b30d-122512e045bf",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: OC(COc1ccc(-n2cncn2)cc1)CN1CCc2ccccc2C1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"1-(3,4-dihydro-1H-isoquinolin-2-yl)-3-[4-(1,2,4-triazol-1-yl)phenoxy]propan-2-ol\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "70751df9-1fb8-4d21-8eb5-6d0553601723",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1ccc(CN2CCC(C(=O)Nc3cc(Cl)c(N)cc3OC)CC2)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"N-(4-amino-5-chloro-2-methoxyphenyl)-1-[(4-methoxyphenyl)methyl]piperidine-4-carboxamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "21a3fe12-1139-44c2-bdcd-ad12f8ab9814",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CN1C2CCC1CC(Oc1ccc(C(F)(F)F)cc1)(c1ccccc1)C2.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"8-methyl-3-phenyl-3-[4-(trifluoromethyl)phenoxy]-8-azabicyclo[3.2.1]octane\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "52fa186d-e90d-40a8-8d7f-d45a1362a191",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(c1ccc(-c2ccccc2)cc1)N1CCN(c2ccccc2F)CC1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"[4-(2-fluorophenyl)piperazin-1-yl]-(4-phenylphenyl)methanone\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "1380da4c-9498-4801-a330-15849faab471",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CC(C)c1ccccc1OCCN1CCC(NS(=O)(=O)c2ccccc2)CC1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"N-[1-[2-(2-propan-2-ylphenoxy)ethyl]piperidin-4-yl]benzenesulfonamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "51e51d81-03d5-4e55-9717-6f6092f6afb8",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CCN1CCN(C2=C(NC(=O)c3ccccc3)C(=O)c3ccccc3C2=O)CC1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"N-[3-(4-ethylpiperazin-1-yl)-1,4-dioxonaphthalen-2-yl]benzamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "62e4e364-933f-4894-8611-68ffcd5e3ac7",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CCC(CNC(=O)c1ccccc1Br)N1CCc2ccccc2C1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"2-bromo-N-[2-(3,4-dihydro-1H-isoquinolin-2-yl)butyl]benzamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "2c140f5f-1319-4e6c-bd1d-a392aabef653",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CCOC(=O)c1cc2cc(C3(Cc4ccccc4)CCNC3)ccc2[nH]1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"ethyl 5-(3-benzylpyrrolidin-3-yl)-1H-indole-2-carboxylate\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "4fe5bda1-d1ca-4fd8-be54-903a872f2255",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CN1CCN(CC(=O)Nc2ccc(Sc3ccc(Cl)cc3)cc2)CC1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"N-[4-(4-chlorophenyl)sulfanylphenyl]-2-(4-methylpiperazin-1-yl)acetamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "8677ba97-8651-42a0-a11f-0c123ad4c45e",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CN1C2CCC1CC(Oc1ccc(C(F)(F)F)cc1)(c1ccccc1)C2.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"8-methyl-3-phenyl-3-[4-(trifluoromethyl)phenoxy]-8-azabicyclo[3.2.1]octane\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "e896b649-e71a-428c-b025-405525286542",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Cc1nc(-c2ccccc2)c(C(=O)N2CCN(c3c(C)cccc3C)CC2)o1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"[4-(2,6-dimethylphenyl)piperazin-1-yl]-(2-methyl-4-phenyl-1,3-oxazol-5-yl)methanone\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "4fb7230b-97f8-4c4e-b503-6a5a8fbb73b1",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1ccc(CC2NCCc3c2[nH]c2ccc(SC)cc32)cc1OC.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"1-[(3,4-dimethoxyphenyl)methyl]-6-methylsulfanyl-2,3,4,9-tetrahydro-1H-pyrido[3,4-b]indole\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "dcb094d5-4536-4a8d-9a10-41010559af2a",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=c1cc(-c2ccccc2)oc2cc(OCCN3CCOCC3)cc(O)c12.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"5-hydroxy-7-(2-morpholin-4-ylethoxy)-2-phenylchromen-4-one\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "eac87f9a-2d46-4d75-a195-9690bdaff87d",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COC(=O)C1CCN(CCCN2CCN(c3ccc(F)cc3)CC2)CC1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"methyl 1-[3-[4-(4-fluorophenyl)piperazin-1-yl]propyl]piperidine-4-carboxylate\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "b8374645-4eee-4d48-a153-445a9ea5a991",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CCN(CC)CCCNC1c2cc(OC)ccc2OCc2ncccc21.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"N',N'-diethyl-N-(9-methoxy-5,11-dihydro-[1]benzoxepino[3,4-b]pyridin-11-yl)propane-1,3-diamine\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "fdad3614-8861-4f62-b763-47cba9868116",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1cc2c(cc1OC)C1CC(N)C(N3CCC(C)CC3=O)CN1CC2.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"1-(2-amino-9,10-dimethoxy-2,3,4,6,7,11b-hexahydro-1H-benzo[a]quinolizin-3-yl)-4-methylpiperidin-2-one\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "d5f76514-cd16-463c-a688-beab379153ac",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: C=CCN1CCN(Cc2ccccc2)C(C(=O)Oc2c(OC)cccc2OC)C1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"(2,6-dimethoxyphenyl) 1-benzyl-4-prop-2-enylpiperazine-2-carboxylate\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "c50be3fc-73fb-46b4-b293-9874d500b814",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OCCNC(C)C.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"N-(3-chloro-4-fluorophenyl)-7-methoxy-6-[2-(propan-2-ylamino)ethoxy]quinazolin-4-amine\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "c7e3f27c-fbab-49ea-a73a-a9e211fa57c3",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Cc1onc(-c2ccccc2)c1C(=O)N1CCN(c2ccc([N+](=O)[O-])cc2)CC1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"(5-methyl-3-phenyl-1,2-oxazol-4-yl)-[4-(4-nitrophenyl)piperazin-1-yl]methanone\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "d278cdf1-23e0-43e4-84f3-a356a6e5e333",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1cc(N)c(Cl)cc1C(=O)OCCN1CCC(C(N)=O)CC1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"2-(4-carbamoylpiperidin-1-yl)ethyl 4-amino-5-chloro-2-methoxybenzoate\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "faff6c35-50d8-48d3-9c6f-6ef2a6ea39dc",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=c1cc(-c2ccccc2)oc2cc(OCCNC3CCCCC3)cc(O)c12.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"7-[2-(cyclohexylamino)ethoxy]-5-hydroxy-2-phenylchromen-4-one\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "2df5b7fe-dea9-4337-9880-8d15060b14a2",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1ccc(C(=O)NC(C)c2nccs2)cc1OC1CCN(C(C)C)CC1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"4-methoxy-3-(1-propan-2-ylpiperidin-4-yl)oxy-N-[1-(1,3-thiazol-2-yl)ethyl]benzamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "0e45850d-a517-4701-b2e7-d423cf236916",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Cc1c(-c2ccc(O)cc2)n(Cc2ccc(O)cc2)c2ccc(O)cc12.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"2-(4-hydroxyphenyl)-1-[(4-hydroxyphenyl)methyl]-3-methylindol-5-ol\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "10fb5b96-e64f-4efc-b7c5-ff7a5780390e",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CN(C)c1cccc2c(S(=O)(=O)Nc3ccc(C#N)nn3)cccc12.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"N-(6-cyanopyridazin-3-yl)-5-(dimethylamino)naphthalene-1-sulfonamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "00bcf795-74d1-4adb-bda7-b67346cc1724",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CN1CCN(CC(=O)N(C)c2ccc(Sc3ccccc3)cc2)CC1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"N-methyl-2-(4-methylpiperazin-1-yl)-N-(4-phenylsulfanylphenyl)acetamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "6ab3066c-f423-46b3-b4bf-74bded7ae2a4",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COC(=O)c1cn(Cc2ccc3c(-c4ccc(F)cc4)cc(C(N)=O)nc3c2)cn1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"methyl 1-[[2-carbamoyl-4-(4-fluorophenyl)quinolin-7-yl]methyl]imidazole-4-carboxylate\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "5786230a-0adf-4dda-ba68-aa4a2f8a1e07",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1cccc(CNC(=O)c2nc3cccc(-c4ccccc4)c3c(=O)[nH]2)c1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"N-[(3-methoxyphenyl)methyl]-4-oxo-5-phenyl-3H-quinazoline-2-carboxamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "c7d4e67e-615b-4c2b-8bb1-541200641f5e",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CNCc1cc(C(=O)N2CCCN(C3CC3)CC2)ccc1Oc1ccccc1C#N.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"2-[4-(4-cyclopropyl-1,4-diazepane-1-carbonyl)-2-(methylaminomethyl)phenoxy]benzonitrile\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "24068b4e-757c-4319-8a14-b45a96ced65c",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CCS(=O)(=O)N(C)C(C)c1cncc(-c2cnc3c(c2)CCCN3C(N)=O)c1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": null, \"type\": \"middle\"}"
+    },
+    {
+        "id": "f2638a30-58f8-4721-81b7-9fa2f450b134",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1cccc(C(O)c2nc(-c3cccc(C(F)(F)F)c3)c[nH]2)c1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"(3-methoxyphenyl)-[5-[3-(trifluoromethyl)phenyl]-1H-imidazol-2-yl]methanol\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "74ccfbc2-e272-4b08-8b73-1bcfde50a035",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1cc2c(cc1OC)C1CC(N)C(N3CC(C)CCC3=O)CN1CC2.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"1-(2-amino-9,10-dimethoxy-2,3,4,6,7,11b-hexahydro-1H-benzo[a]quinolizin-3-yl)-5-methylpiperidin-2-one\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "b9a920c0-0722-4e56-b4b0-ad9784e5b33d",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: c1ccc(CNc2ccnc(NC3CCN(Cc4ccccc4)CC3)n2)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"4-N-benzyl-2-N-(1-benzylpiperidin-4-yl)pyrimidine-2,4-diamine\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "ee453308-c03c-4deb-9c2b-22f58cb79a83",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COC(=O)C1C(c2ccc(C#CCCCCO)cc2)CC2CCC1N2C.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"methyl 3-[4-(6-hydroxyhex-1-ynyl)phenyl]-8-methyl-8-azabicyclo[3.2.1]octane-2-carboxylate\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "d4bf638a-9902-4549-8ed3-2706c2efb5d0",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: OC(CN1C=COC=C1)c1cc(-c2ccc(F)cc2)nc2cc(F)ccc12.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"1-[7-fluoro-2-(4-fluorophenyl)quinolin-4-yl]-2-(1,4-oxazin-4-yl)ethanol\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "d0dcdb37-2e06-407f-b45d-00aa65ebfd2d",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1ccccc1N1CCN(CCCCNC(=O)C2CC3CCCC3C2)CC1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"N-[4-[4-(2-methoxyphenyl)piperazin-1-yl]butyl]-1,2,3,3a,4,5,6,6a-octahydropentalene-2-carboxamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "087df77e-5ac3-4aa8-a782-acce10314e1b",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CN1CCN(CCOc2cc(O)c3c(=O)cc(-c4ccccc4)oc3c2)CC1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"5-hydroxy-7-[2-(4-methylpiperazin-1-yl)ethoxy]-2-phenylchromen-4-one\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "6eb3d732-8406-454f-b62f-baf8214aadda",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(Nc1nc2ccccc2n1Cc1ccc(Cl)cc1)c1ccco1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"N-[1-[(4-chlorophenyl)methyl]benzimidazol-2-yl]furan-2-carboxamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "2a373a0b-0cf3-4e09-9192-c532d943d782",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1ccc2[nH]cc(CCNC(=O)CI)c2c1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"2-iodo-N-[2-(5-methoxy-1H-indol-3-yl)ethyl]acetamide\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "246b8f76-af25-428d-9a3d-b997c60aab5b",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: NS(=O)(=O)NCC1CCCc2cc(S(=O)(=O)c3cccc(F)c3)ccc21.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"6-(3-fluorophenyl)sulfonyl-1-[(sulfamoylamino)methyl]-1,2,3,4-tetrahydronaphthalene\", \"type\": \"middle\"}"
+    },
+    {
+        "id": "506843d7-3b07-4783-800a-d273eaeb4ba5",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(CCN1CCN(CCOC(c2ccccc2)c2ccccc2)CC1)c1ccco1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"3-[4-(2-benzhydryloxyethyl)piperazin-1-yl]-1-(furan-2-yl)propan-1-one\", \"type\": \"large\"}"
+    },
+    {
+        "id": "6f9f8c4b-1d9c-482e-b0a2-77c45e1c3c8f",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CC(C)C1CC(=O)N(c2ccccc2C(=O)OCC2CCCN(CCCc3ccccc3)C2)C1=O.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"[1-(3-phenylpropyl)piperidin-3-yl]methyl 2-(2,5-dioxo-3-propan-2-ylpyrrolidin-1-yl)benzoate\", \"type\": \"large\"}"
+    },
+    {
+        "id": "d6a9d18c-22b3-49a2-9fde-52199de5c991",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CN(C)S(=O)(=O)CCc1ccc(NC(=O)c2ncc(C#N)[nH]2)c(C2=CCCCC2)c1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"5-cyano-N-[2-(cyclohexen-1-yl)-4-[2-(dimethylsulfamoyl)ethyl]phenyl]-1H-imidazole-2-carboxamide\", \"type\": \"large\"}"
+    },
+    {
+        "id": "f76e4f22-51eb-4e29-8c32-872a25c08222",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CN(C)C1CCN(CCc2c(COc3ccccc3CO)sc3ccccc23)CC1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"[2-[[3-[2-[4-(dimethylamino)piperidin-1-yl]ethyl]-1-benzothiophen-2-yl]methoxy]phenyl]methanol\", \"type\": \"large\"}"
+    },
+    {
+        "id": "8f4c027f-6c37-4e47-ad40-ae31a03c0d63",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: FC(F)(F)c1ccc(N2CCC(NC(c3ccc(Cl)cc3)c3cccnc3)CC2)nc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"N-[(4-chlorophenyl)-pyridin-3-ylmethyl]-1-[5-(trifluoromethyl)pyridin-2-yl]piperidin-4-amine\", \"type\": \"large\"}"
+    },
+    {
+        "id": "d9d085e3-24ca-4a94-920e-612af826c8da",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1ccc(N(C)CCCN2CCc3cc(OC)c(OC)cc3CC2=O)cc1OC.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"3-[3-(3,4-dimethoxy-N-methylanilino)propyl]-7,8-dimethoxy-2,5-dihydro-1H-3-benzazepin-4-one\", \"type\": \"large\"}"
+    },
+    {
+        "id": "87f7f247-b5e9-44bc-834c-34598caa5044",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CC(=O)N1CCc2ccc(C(=O)CCCN3CCN(Cc4ccccc4)CC3)cc2CC1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"1-(3-acetyl-1,2,4,5-tetrahydro-3-benzazepin-7-yl)-4-(4-benzylpiperazin-1-yl)butan-1-one\", \"type\": \"large\"}"
+    },
+    {
+        "id": "ab704f47-e756-4a7f-b92a-5f5698dd12d9",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: Fc1cccc(CNc2cccc(-c3cc(NCCC4CCCNC4)ncc3Cl)n2)c1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"5-chloro-4-[6-[(3-fluorophenyl)methylamino]pyridin-2-yl]-N-(2-piperidin-3-ylethyl)pyridin-2-amine\", \"type\": \"large\"}"
+    },
+    {
+        "id": "f82f4bed-9126-4dbf-9c5a-07da464589cc",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CC(=O)c1ccc(N2CCN(CC(O)(Cn3cncn3)c3ccc(F)cc3F)CC2)cc1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"1-[4-[4-[2-(2,4-difluorophenyl)-2-hydroxy-3-(1,2,4-triazol-1-yl)propyl]piperazin-1-yl]phenyl]ethanone\", \"type\": \"large\"}"
+    },
+    {
+        "id": "6f9070ef-535f-423c-b2ed-6acec19009df",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1cc(N)c(Cl)cc1C(=O)OCCN1CCC(NC(=O)CC2CCCCC2)CC1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"2-[4-[(2-cyclohexylacetyl)amino]piperidin-1-yl]ethyl 4-amino-5-chloro-2-methoxybenzoate\", \"type\": \"large\"}"
+    },
+    {
+        "id": "e47ed175-f9b3-47d2-8338-ecc96f776f73",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CC1CCCCN1CCC(CCN(C(C)C)C(C)C)(C(N)=O)c1ccccc1F.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"2-[2-[di(propan-2-yl)amino]ethyl]-2-(2-fluorophenyl)-4-(2-methylpiperidin-1-yl)butanamide\", \"type\": \"large\"}"
+    },
+    {
+        "id": "04d8e7fd-193a-4024-9987-db0506afb68d",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COC(=O)c1cccc(-c2cccc(OCC(O)CN3CCc4ccccc4C3)c2)c1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"methyl 3-[3-[3-(3,4-dihydro-1H-isoquinolin-2-yl)-2-hydroxypropoxy]phenyl]benzoate\", \"type\": \"large\"}"
+    },
+    {
+        "id": "4785ee57-3b35-44a1-9efc-5fcd1307c251",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CS(=O)(=O)c1cccc(C(=O)NCc2cccc(-c3cccc(CN4CCNCC4)c3)c2)c1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"3-methylsulfonyl-N-[[3-[3-(piperazin-1-ylmethyl)phenyl]phenyl]methyl]benzamide\", \"type\": \"large\"}"
+    },
+    {
+        "id": "2384c500-6e18-468b-ac8c-e34f75835aa8",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1cc(N)c(Cl)cc1C(=O)NC1CCN(CC2CCN(C(=S)C(C)C)CC2)CC1OC.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"4-amino-5-chloro-2-methoxy-N-[3-methoxy-1-[[1-(2-methylpropanethioyl)piperidin-4-yl]methyl]piperidin-4-yl]benzamide\", \"type\": \"large\"}"
+    },
+    {
+        "id": "bf0f5197-be87-4a5f-ba8f-b55bf9986bac",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: COc1cc2nc(N(C)CC3CCCCC3)nc(NC3CCN(C)CC3)c2cc1OC.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"2-N-(cyclohexylmethyl)-6,7-dimethoxy-2-N-methyl-4-N-(1-methylpiperidin-4-yl)quinazoline-2,4-diamine\", \"type\": \"large\"}"
+    },
+    {
+        "id": "eaf5aaf1-64be-4c5b-91f5-c5e013a57ac3",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CCS(=O)(=O)NC1CCC(Nc2cc(-c3cccc(NCc4cccc(F)c4)n3)c(Cl)cn2)CC1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"N-[4-[[5-chloro-4-[6-[(3-fluorophenyl)methylamino]pyridin-2-yl]pyridin-2-yl]amino]cyclohexyl]ethanesulfonamide\", \"type\": \"large\"}"
+    },
+    {
+        "id": "39687786-666e-4e4d-84d0-7b693a24338c",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CC(C)c1ccccc1OCCN1CCC(N(CC2CC2)S(=O)(=O)c2cnn(C)c2)CC1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"N-(cyclopropylmethyl)-1-methyl-N-[1-[2-(2-propan-2-ylphenoxy)ethyl]piperidin-4-yl]pyrazole-4-sulfonamide\", \"type\": \"large\"}"
+    },
+    {
+        "id": "48ac2db4-d9b3-45e4-bd5a-421b87d9b978",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CCc1cc(OC)cc2nc(-c3cccnc3N3CCC(C(=O)O)CC3)oc(=O)c12.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"1-[3-(5-ethyl-7-methoxy-4-oxo-3,1-benzoxazin-2-yl)pyridin-2-yl]piperidine-4-carboxylic acid\", \"type\": \"large\"}"
+    },
+    {
+        "id": "7f36f8d9-c2e1-48f2-82c4-d3652790235e",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: O=C(NCCCN1CCOCC1)c1ccc2c(=O)n(Cc3ccc(Cl)cc3)c(=O)[nH]c2c1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"3-[(4-chlorophenyl)methyl]-N-(3-morpholin-4-ylpropyl)-2,4-dioxo-1H-quinazoline-7-carboxamide\", \"type\": \"large\"}"
+    },
+    {
+        "id": "c069a57f-6521-4aac-8a3a-89bcb88508cb",
+        "query": "You are a chemical assistent, Optimize the Source Molecule to improve the DRD2 property (Dopamine D2 Receptor Activity) while following a structured intermediate optimization process. \nYour response must be directly parsable JSON format:\n{\n    \"Final Target Molecule\": \"SMILES\",\n}\n\nSource Molecule: CN(CC(F)(F)F)C(=O)c1ccc2cc(Oc3ccc(C(F)(F)F)cn3)ccc2n1.",
+        "gt": "",
+        "task": "mol_opt",
+        "subtask": "drd",
+        "meta": "{\"src_iupac\": \"N-methyl-N-(2,2,2-trifluoroethyl)-6-[5-(trifluoromethyl)pyridin-2-yl]oxyquinoline-2-carboxamide\", \"type\": \"large\"}"
+    }
+]

@@ -5,20 +5,20 @@ set -euo pipefail
 
 
 MODEL_DIR=${1:-/mnt/shared-storage-user/yangzhuo/main/projects/agentrl/AgentFly/verl/checkpoints/AgentRL/moledit-7b/}
-# MODEL_DIR=${1:-/mnt/shared-storage-user/yangzhuo/main/model/Qwen2.5-7B-Instruct}
-BENCH_DIR=${2:-/mnt/shared-storage-user/yangzhuo/main/projects/agentrl/AgentFly/ChemCoTBench_benchmark/chemcotbench/mol_edit}
-OUT_DIR=${3:-/mnt/shared-storage-user/yangzhuo/main/projects/agentrl/AgentFly/outputs/mol_edit_eval_bench_7b_maxturn_16/}
+BENCH_DIR=${2:-/mnt/shared-storage-user/yangzhuo/main/projects/MolAct/ChemCoTBench_benchmark/chemcotbench/mol_edit}
+OUT_DIR=${3:-/mnt/shared-storage-user/yangzhuo/main/projects/MolAct/outputs/mol_edit_eval_bench_7b_maxturn_16/}
 MAX_NEW=${MAX_NEW_TOKENS:-2048}
 TEMP=${TEMP:-0.7}
 TOP_P=${TOP_P:-0.95}
 
 mkdir -p "$OUT_DIR"
 
-# Use async_verl backend by default to match training setup
-# If you encounter issues, try: BACKEND=transformers (simpler, slower, no multiprocessing issues)
-BACKEND=${BACKEND:-async_verl}
+# Use transformers backend by default for inference (no verl required)
+# If you encounter issues, you can try: BACKEND=async_verl (requires verl environment)
+BACKEND=${BACKEND:-transformers}
 
-for split in add delete sub; do
+# for split in add delete sub; do
+for split in add; do
   python scripts/run_mol_edit_agent.py \
     --model_path "$MODEL_DIR" \
     --input_file "$BENCH_DIR/${split}.json" \
