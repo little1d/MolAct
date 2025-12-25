@@ -65,7 +65,9 @@ bash scripts/1\ run_mol_edit_inference.sh \
     [MODEL_DIR] [BENCH_DIR] [OUT_DIR]
 ```
 
-The script will process all subtasks (add, delete, sub) automatically.
+**Recommended approach**: Instead of passing parameters via command line, you can directly edit the script file `scripts/1 run_mol_edit_inference.sh` to modify the default paths (MODEL_DIR, BENCH_DIR, OUT_DIR) and other parameters (MAX_NEW_TOKENS, TEMP, TOP_P, BACKEND). This is more convenient and recommended.
+
+The script will process all subtasks (add, delete, sub) automatically and generate JSON result files in the `outputs/` directory. Each result file contains the model's reasoning trajectory (thought process, tool calls, and observations) along with the final predictions, which can be used for subsequent evaluation.
 
 #### Molecular Optimization (MolOpt)
 
@@ -76,13 +78,24 @@ bash scripts/3\ run_mol_opt_inference.sh \
     [MODEL_DIR] [BENCH_DIR] [OUT_DIR]
 ```
 
-The script will process all subtasks (logp, drd, jnk, gsk, qed, solubility) automatically.
+**Recommended approach**: Instead of passing parameters via command line, you can directly edit the script file `scripts/3 run_mol_opt_inference.sh` to modify the default paths (MODEL_DIR, BENCH_DIR, OUT_DIR) and other parameters (MAX_NEW_TOKENS, TEMP, TOP_P). This is more convenient and recommended.
+
+The script will process all subtasks (logp, drd, jnk, gsk, qed, solubility) automatically and generate JSON result files in the `outputs/` directory. Each result file contains the model's reasoning trajectory (thought process, tool calls, and observations) along with the final predictions, which can be used for subsequent evaluation.
 
 **Note**: When running inference scripts from the root directory, the TDC library will automatically download oracle files to the `oracle/` directory.
 
 ### Evaluation
 
-Evaluate results on ChemCoTBench using the provided scripts:
+Evaluate results on ChemCoTBench using the provided scripts. The evaluation uses the [ChemCoTBench](https://github.com/IDEA-XL/ChemCoTBench) evaluation framework.
+
+**Recommended approach**: Instead of passing parameters via command line, directly edit the script files to modify the default paths:
+- `scripts/2 eval_mol_edit_chemcotbench.sh` for molecular editing tasks
+- `scripts/4 eval_mol_opt_chemcotbench.sh` for molecular optimization tasks
+
+The scripts accept three parameters:
+- `BENCH_DIR`: Path to ChemCoTBench `baseline_and_eval` directory (contains evaluation scripts)
+- `PRED_DIR`: Directory containing prediction JSON files generated from the inference step above
+- `OUT_DIR`: Output directory for evaluation results
 
 ```bash
 # For molecular editing tasks
@@ -95,6 +108,8 @@ bash scripts/4\ eval_mol_opt_chemcotbench.sh \
 ```
 
 The scripts will automatically evaluate all subtasks (add/delete/sub for editing, logp/drd/jnk/gsk/qed/solubility for optimization) and save results in the output directory.
+
+**Example results**: We provide example inference and evaluation results in the `outputs/` directory for reference. You can check these files to understand the expected output format.
 
 ## 🛠️ Tools
 
