@@ -146,7 +146,9 @@ The following shows an example of model training on molecular editing task using
 
 <div align="center">
 
-<video src="assets/demo.mp4" controls width="800"></video>
+
+https://github.com/user-attachments/assets/38012d4a-17bc-4065-a7fc-abf9864072af
+
 
 </div>
 
