@@ -48,3 +48,4 @@ ENV/
 *.bak
 *~
 
+/playground

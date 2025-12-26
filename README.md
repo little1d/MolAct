@@ -89,10 +89,12 @@ The script will process all subtasks (logp, drd, jnk, gsk, qed, solubility) auto
 Evaluate results on ChemCoTBench using the provided scripts. The evaluation uses the [ChemCoTBench](https://github.com/IDEA-XL/ChemCoTBench) evaluation framework.
 
 **Recommended approach**: Instead of passing parameters via command line, directly edit the script files to modify the default paths:
+
 - `scripts/2 eval_mol_edit_chemcotbench.sh` for molecular editing tasks
 - `scripts/4 eval_mol_opt_chemcotbench.sh` for molecular optimization tasks
 
 The scripts accept three parameters:
+
 - `BENCH_DIR`: Path to ChemCoTBench `baseline_and_eval` directory (contains evaluation scripts)
 - `PRED_DIR`: Directory containing prediction JSON files generated from the inference step above
 - `OUT_DIR`: Output directory for evaluation results
@@ -136,7 +138,7 @@ We evaluate on [ChemCoTBench](https://github.com/IDEA-XL/ChemCoTBench) for both 
 
 ![MolEdit Results](assets/moledit_results.png)
 
-![MolOpt Results](assets/molpot_results.png)
+![MolOpt Results](assets/molopt_results.png)
 
 </div>
 
@@ -146,9 +148,7 @@ The following shows an example of model training on molecular editing task using
 
 <div align="center">
 
-
-https://github.com/user-attachments/assets/38012d4a-17bc-4065-a7fc-abf9864072af
-
+<https://github.com/user-attachments/assets/38012d4a-17bc-4065-a7fc-abf9864072af>
 
 </div>
 
