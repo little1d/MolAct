@@ -23,7 +23,6 @@ logs/
 
 # 训练相关（不包含）
 verl/
-agentfly/rewards/
 
 # 其他
 .DS_Store
